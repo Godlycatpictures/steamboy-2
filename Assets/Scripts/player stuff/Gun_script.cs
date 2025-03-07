@@ -22,7 +22,10 @@ public class shootypewpew : MonoBehaviour
 
     void FixedUpdate()
     {
-        mousePosition = SceneCamera.ScreenToWorldPoint(Input.mousePosition);
+        if (SceneCamera != null)
+        {
+            mousePosition = SceneCamera.ScreenToWorldPoint(Input.mousePosition);
+        }
     }
 
     void ProcessInputs()
