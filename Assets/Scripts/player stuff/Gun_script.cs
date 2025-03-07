@@ -24,9 +24,11 @@ public class shootypewpew : MonoBehaviour
     {
         if (SceneCamera != null)
         {
-            mousePosition = SceneCamera.ScreenToWorldPoint(Input.mousePosition);
+            Vector2 screenMousePosition = Input.mousePosition;
+            mousePosition = SceneCamera.ScreenToWorldPoint(screenMousePosition);
         }
     }
+
 
     void ProcessInputs()
     {
