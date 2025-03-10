@@ -4,18 +4,21 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "SceneInfo", menuName = "Persistence")]
 public class SceneInfo : ScriptableObject {
 
-    public int health; //Mängden liv kvar
-    public int numOfHearts; //Max antal hjärtan
+    public int health; //Mï¿½ngden liv kvar
+    public int numOfHearts; //Max antal hjï¿½rtan
 
     public int currentCoins; //Antalet mone som spelaren har
 
     public float fireForce; //hastigheten av skottet
-    public float fireRate; //Ska bli mindre för att den ska skjuta snabbare
+    public float fireRate; //Ska bli mindre fï¿½r att den ska skjuta snabbare
 
     public int damageModifier = 1;
 
     public int randmap;
 
-    // Håller reda på vilka rum som har blivit rensade
+    public int xp = 0;
+    public int level = 1;
+
+    // Hï¿½ller reda pï¿½ vilka rum som har blivit rensade
     public List<bool> roomsCleared = new List<bool>();
 }
