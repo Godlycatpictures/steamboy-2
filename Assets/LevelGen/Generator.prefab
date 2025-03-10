@@ -46,7 +46,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dungeonLayouts:
   - {fileID: 11400000, guid: 2aa33b4225adf544eaeb0bc9ff3bccc5, type: 2}
-  - {fileID: 11400000, guid: 0e3e051ee013e0d44ad30711315c7076, type: 2}
   StartRooms:
   - {fileID: 365348716636797640, guid: c4b6ec3ccfd5f4348a63756cbc64f06a, type: 3}
   NormalRooms:
