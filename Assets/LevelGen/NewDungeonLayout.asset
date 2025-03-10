@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2ce38aeceaef0f47b4e1abaa7fdbbd8, type: 3}
+  m_Name: NewDungeonLayout
+  m_EditorClassIdentifier: 
+  dungeonName: Floor_1_1
+  rooms:
+  - id: 0
+    roomType: Start
+    connections: 01000000
+  - id: 1
+    roomType: Normal
+    connections: 0200000003000000
+  - id: 2
+    roomType: Normal
+    connections: 04000000
+  - id: 3
+    roomType: Reward
+    connections: 
+  - id: 4
+    roomType: Boss
+    connections: 
