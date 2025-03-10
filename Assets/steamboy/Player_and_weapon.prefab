@@ -94,6 +94,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7544799421912147814, guid: 3c1640a7066703e4fbaa95b4105f35be, type: 3}
+      propertyPath: sceneInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
+    - target: {fileID: 7544799421912147814, guid: 3c1640a7066703e4fbaa95b4105f35be, type: 3}
       propertyPath: bulletPrefab
       value: 
       objectReference: {fileID: 3034541605973710986, guid: 0513017eb02c4884cb288fafff46e9cd, type: 3}
@@ -135,8 +139,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 988147134487249163, guid: cdcdf2efe7b26e6449d96c62196cbbcf, type: 3}
+      propertyPath: dashingspeed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 988147134487249163, guid: cdcdf2efe7b26e6449d96c62196cbbcf, type: 3}
       propertyPath: timeBetweenFiring
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 988147134487249163, guid: cdcdf2efe7b26e6449d96c62196cbbcf, type: 3}
+      propertyPath: dashcooldownbeforeotheruse
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 5358293355626671999, guid: cdcdf2efe7b26e6449d96c62196cbbcf, type: 3}
       propertyPath: m_BodyType

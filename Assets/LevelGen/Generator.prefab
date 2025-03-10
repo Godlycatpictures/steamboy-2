@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7294335832489187649
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 935995106717129279}
+  - component: {fileID: 1699094998714976132}
+  m_Layer: 0
+  m_Name: Generator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &935995106717129279
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7294335832489187649}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.30355412, y: -0.56128764, z: 0.06386504}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1699094998714976132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7294335832489187649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d8fdfc0827666147b0f5902ea70d87f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dungeonLayouts:
+  - {fileID: 11400000, guid: 2aa33b4225adf544eaeb0bc9ff3bccc5, type: 2}
+  StartRooms:
+  - {fileID: 365348716636797640, guid: c4b6ec3ccfd5f4348a63756cbc64f06a, type: 3}
+  NormalRooms:
+  - {fileID: 6544012759024180810, guid: 9af77dc03e436ce44b53bca17d28f215, type: 3}
+  RewardRooms:
+  - {fileID: 4860827485233125017, guid: 775cf523ee1faa24599f18fdfd60a0ff, type: 3}
+  BossRooms:
+  - {fileID: 8875667149106476633, guid: aefdc3916d21d214087940724b97e7da, type: 3}
+  CorridorPrefab: {fileID: 8571051847176767372, guid: 43712d82361f6234bb3aafd462eeb1e8, type: 3}

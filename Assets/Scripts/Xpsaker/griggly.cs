@@ -1,0 +1,57 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class griggly : MonoBehaviour
+{
+    public int health = 1; // Enemy health
+    private xpChar xpCharacter; // Reference to xpChar script
+
+    void Start()
+    {
+        // Find the xpChar component in the scene
+        xpCharacter = FindObjectOfType<xpChar>();
+
+        // Ensure it's found
+        if (xpCharacter == null)
+        {
+            Debug.LogError("xpChar script not found in the scene!");
+        }
+    }
+
+ void OnTriggerEnter2D(Collider2D collision)
+{
+    Debug.Log("Something entered the trigger: " + collision.gameObject.name);
+
+    if (collision.CompareTag("Bullet")) // Check if it's a bullet
+    { 
+        Debug.Log("Enemy hit by bullet!");
+        TakeDamage();
+        Destroy(collision.gameObject); // Destroy the bullet
+    }
+}
+
+
+    void TakeDamage()
+    {
+        health--;
+
+        if (health <= 0)
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        Debug.Log("Enemy Destroyed!");
+        
+        // Grant XP before destroying the enemy
+        if (xpCharacter != null)
+        {
+            xpCharacter.AddXP(50); // Add XP when enemy dies
+        }
+
+        Destroy(gameObject); // Remove enemy from scene
+    }
+}
