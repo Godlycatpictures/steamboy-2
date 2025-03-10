@@ -1,0 +1,1468 @@
+fileFormatVersion: 2
+guid: 14fe33b41a5c19045a8c884773c809a4
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 32
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638771949832270512
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Cacti_Frame_0
+    originalName: 
+    pivot: {x: 0.5263158, y: -0.516129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 256
+      width: 19
+      height: 31
+    spriteID: 67f5288cccb86a249915cdf0f8b9f758
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 256}
+  - name: Cacti_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.44117647}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 357
+      width: 34
+      height: 34
+    spriteID: 29d16f95a882e994287741bc17f19bf1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 357}
+  - name: Cacti_Frame_2
+    originalName: 
+    pivot: {x: 0.47368422, y: -0.516129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 295
+      width: 19
+      height: 31
+    spriteID: 2ffe9b9c598068e44b39245abda4f246
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 295}
+  - name: Cacti_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.44117647}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 399
+      width: 34
+      height: 34
+    spriteID: 7442b98271736364b9988d4637515961
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 399}
+  - name: Cacti_Frame_4
+    originalName: 
+    pivot: {x: 0.47368422, y: -0.516129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 334
+      width: 19
+      height: 31
+    spriteID: a0202011f2d18d64aa08f58738cf58be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 334}
+  - name: Cacti_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.44117647}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 441
+      width: 34
+      height: 34
+    spriteID: 3688f0052c8455f4b86b2c5a3b5f098d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 441}
+  - name: Cacti_Frame_6
+    originalName: 
+    pivot: {x: 0.5263158, y: -0.516129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 373
+      width: 19
+      height: 31
+    spriteID: c961c957dbd7da640a821a873a48f6b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 373}
+  - name: Cacti_Frame_7
+    originalName: 
+    pivot: {x: 0.5263158, y: -0.516129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 412
+      width: 19
+      height: 31
+    spriteID: f685c2958e18bde41bc4944ccd09ae89
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 412}
+  - name: Cacti_Frame_8
+    originalName: 
+    pivot: {x: 0.5263158, y: -0.516129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 451
+      width: 19
+      height: 31
+    spriteID: e7f2ecc704058624e8af739c2edf831d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 451}
+  - name: Cacti_Frame_9
+    originalName: 
+    pivot: {x: 0.5263158, y: -0.516129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 74
+      width: 19
+      height: 31
+    spriteID: 60b39513373d40a45b3835fc3ffdf214
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 74}
+  - name: Cacti_Frame_10
+    originalName: 
+    pivot: {x: 0.5263158, y: -0.516129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 113
+      width: 19
+      height: 31
+    spriteID: 2514aca6559d49a4fb4c9cbc6c86c13b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 113}
+  - name: Cacti_Frame_11
+    originalName: 
+    pivot: {x: 0.5263158, y: -0.516129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 152
+      width: 19
+      height: 31
+    spriteID: 3546f9f5632f21e4db22724d842e8bf6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 152}
+  - name: Cacti_Frame_12
+    originalName: 
+    pivot: {x: 0.5263158, y: -0.516129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 191
+      width: 19
+      height: 31
+    spriteID: 141f5289c8c40294385fa2b2d87a6b86
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 191}
+  - name: Cacti_Frame_13
+    originalName: 
+    pivot: {x: 0.5263158, y: -0.516129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 230
+      width: 19
+      height: 31
+    spriteID: 780e012f6350fbb4bb55054fb506e475
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 230}
+  - name: Cacti_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: -0.44117647}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 4
+      width: 34
+      height: 34
+    spriteID: 7d82e5c0a0f15b148bee01b312d036c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 4}
+  - name: Cacti_Frame_15
+    originalName: 
+    pivot: {x: 0.47368422, y: -0.516129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 269
+      width: 19
+      height: 31
+    spriteID: 048fadb6f057d194892607d1039d88c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 269}
+  - name: Cacti_Frame_16
+    originalName: 
+    pivot: {x: 0.47368422, y: -0.516129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 308
+      width: 19
+      height: 31
+    spriteID: 5136c7e10ab5ebf46b0eba03d65bc556
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 308}
+  - name: Cacti_Frame_17
+    originalName: 
+    pivot: {x: 0.47368422, y: -0.516129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 347
+      width: 19
+      height: 31
+    spriteID: 3766287f7bd142142be3c85410facd10
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 347}
+  - name: Cacti_Frame_18
+    originalName: 
+    pivot: {x: 0.47368422, y: -0.516129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 386
+      width: 19
+      height: 31
+    spriteID: 80a33a685efbc0a44ba08623f6a40a82
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 386}
+  - name: Cacti_Frame_19
+    originalName: 
+    pivot: {x: 0.47368422, y: -0.516129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 425
+      width: 19
+      height: 31
+    spriteID: c6018ea234e68b54da85b4c6e718d555
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 425}
+  - name: Cacti_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: -0.44117647}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 46
+      width: 34
+      height: 34
+    spriteID: c9828d7e035a44d418275ef83cf0a27f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 46}
+  - name: Cacti_Frame_21
+    originalName: 
+    pivot: {x: 0.5263158, y: -0.516129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 464
+      width: 19
+      height: 31
+    spriteID: 62fac04dec5c6224d9a80ba03d62e17a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 464}
+  - name: Cacti_Frame_22
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.45714286}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 155
+      y: 82
+      width: 15
+      height: 35
+    spriteID: 9697b8c063c81714d9995affd27ccb32
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 155, y: 82}
+  - name: Cacti_Frame_23
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.45714286}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 155
+      y: 125
+      width: 15
+      height: 35
+    spriteID: 256040dc83bc75d4c9445b829cc0519b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 155, y: 125}
+  - name: Cacti_Frame_24
+    originalName: 
+    pivot: {x: 0.4871795, y: -0.5925926}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 4
+      width: 39
+      height: 27
+    spriteID: 00b6e217045d0954b9fb89a06b87a244
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 4}
+  - name: Cacti_Frame_25
+    originalName: 
+    pivot: {x: 0.47727275, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 277
+      width: 44
+      height: 32
+    spriteID: d1a42816a906eee418b678f439914552
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 277}
+  - name: Cacti_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: -0.516129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 199
+      width: 46
+      height: 31
+    spriteID: 252b8101438ddfe438bcc294199c6191
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 199}
+  - name: Cacti_Frame_27
+    originalName: 
+    pivot: {x: 0.48, y: -0.516129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 121
+      width: 50
+      height: 31
+    spriteID: 9e516c665077b474ba763ddb11990e47
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 121}
+  - name: Cacti_Frame_28
+    originalName: 
+    pivot: {x: 0.4814815, y: -0.516129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 54
+      height: 31
+    spriteID: d648253369466a147b600aaff6a57235
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Cacti_Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: -0.44117647}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 88
+      width: 34
+      height: 34
+    spriteID: 5cd71b76c4614054497672dc8ee628bd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 88}
+  - name: Cacti_Frame_30
+    originalName: 
+    pivot: {x: 0.47368422, y: -0.516129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 155
+      y: 4
+      width: 19
+      height: 31
+    spriteID: d46b8225400285f45a6494a55ac5db03
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 155, y: 4}
+  - name: Cacti_Frame_31
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.45714286}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 155
+      y: 168
+      width: 15
+      height: 35
+    spriteID: 560ae1061f8b2cf4ca71f2583ffe94be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 155, y: 168}
+  - name: Cacti_Frame_32
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.45714286}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 155
+      y: 211
+      width: 15
+      height: 35
+    spriteID: ff1a210cfc79b674690cb152227913eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 155, y: 211}
+  - name: Cacti_Frame_33
+    originalName: 
+    pivot: {x: 0.51282054, y: -0.5925926}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 39
+      width: 39
+      height: 27
+    spriteID: b9c54b23654b3f047b3f3d39c8b97f1e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 39}
+  - name: Cacti_Frame_34
+    originalName: 
+    pivot: {x: 0.5227273, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 317
+      width: 44
+      height: 32
+    spriteID: 4cf965eab1b3b604296aae19bec44fc4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 317}
+  - name: Cacti_Frame_35
+    originalName: 
+    pivot: {x: 0.5, y: -0.516129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 238
+      width: 46
+      height: 31
+    spriteID: bfdc106c6b1fe63448b3bceb2387ff75
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 238}
+  - name: Cacti_Frame_36
+    originalName: 
+    pivot: {x: 0.52, y: -0.516129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 160
+      width: 50
+      height: 31
+    spriteID: 493fb6e47eed20344b77099c21aed8d7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 160}
+  - name: Cacti_Frame_37
+    originalName: 
+    pivot: {x: 0.5185185, y: -0.516129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 43
+      width: 54
+      height: 31
+    spriteID: 86e503cea894a4b46a285dc779fe0bb4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 43}
+  - name: Cacti_Frame_38
+    originalName: 
+    pivot: {x: 0.47368422, y: -0.516129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 155
+      y: 43
+      width: 19
+      height: 31
+    spriteID: 44952251bbbe7064eb817962103ad1b1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 155, y: 43}
+  - name: Cacti_Frame_39
+    originalName: 
+    pivot: {x: 0.5185185, y: -0.516129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 82
+      width: 54
+      height: 31
+    spriteID: a0dd752cfe805bb4eb7bfe807a12fe1e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 82}
+  - name: Cacti_Frame_40
+    originalName: 
+    pivot: {x: 0.5, y: -0.44117647}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 130
+      width: 34
+      height: 34
+    spriteID: b791828c6b5095849bd89bb5ac0a4108
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 130}
+  - name: Cacti_Frame_41
+    originalName: 
+    pivot: {x: 0.65000004, y: -0.55172414}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 182
+      y: 4
+      width: 20
+      height: 29
+    spriteID: 5e5f01943cb5aa348adc69f699abcb9b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 182, y: 4}
+  - name: Cacti_Frame_42
+    originalName: 
+    pivot: {x: 0.5, y: -0.44117647}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 172
+      width: 34
+      height: 34
+    spriteID: 282e59e48dc694a46a867f09c50fb0fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 172}
+  - name: Cacti_Frame_43
+    originalName: 
+    pivot: {x: 0.35, y: -0.55172414}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 182
+      y: 41
+      width: 20
+      height: 29
+    spriteID: b8751562c464b9e46a205f8fa63769ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 182, y: 41}
+  - name: Cacti_Frame_44
+    originalName: 
+    pivot: {x: 0.5, y: -0.44117647}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 214
+      width: 34
+      height: 34
+    spriteID: 6bcd791d80de2fc488d2426a4d9956aa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 214}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -296337972
+    name: Cacti
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Cacti_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 16
+        width: 19
+        height: 31
+      spriteId: 67f5288cccb86a249915cdf0f8b9f758
+    - name: Cacti_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 15
+        y: 15
+        width: 34
+        height: 34
+      spriteId: 29d16f95a882e994287741bc17f19bf1
+    - name: Cacti_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 16
+        width: 19
+        height: 31
+      spriteId: 2ffe9b9c598068e44b39245abda4f246
+    - name: Cacti_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 15
+        y: 15
+        width: 34
+        height: 34
+      spriteId: 7442b98271736364b9988d4637515961
+    - name: Cacti_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 16
+        width: 19
+        height: 31
+      spriteId: a0202011f2d18d64aa08f58738cf58be
+    - name: Cacti_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 15
+        y: 15
+        width: 34
+        height: 34
+      spriteId: 3688f0052c8455f4b86b2c5a3b5f098d
+    - name: Cacti_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 16
+        width: 19
+        height: 31
+      spriteId: c961c957dbd7da640a821a873a48f6b7
+    - name: Cacti_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 16
+        width: 19
+        height: 31
+      spriteId: f685c2958e18bde41bc4944ccd09ae89
+    - name: Cacti_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 16
+        width: 19
+        height: 31
+      spriteId: e7f2ecc704058624e8af739c2edf831d
+    - name: Cacti_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 16
+        width: 19
+        height: 31
+      spriteId: 60b39513373d40a45b3835fc3ffdf214
+    - name: Cacti_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 16
+        width: 19
+        height: 31
+      spriteId: 2514aca6559d49a4fb4c9cbc6c86c13b
+    - name: Cacti_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 16
+        width: 19
+        height: 31
+      spriteId: 3546f9f5632f21e4db22724d842e8bf6
+    - name: Cacti_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 16
+        width: 19
+        height: 31
+      spriteId: 141f5289c8c40294385fa2b2d87a6b86
+    - name: Cacti_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 16
+        width: 19
+        height: 31
+      spriteId: 780e012f6350fbb4bb55054fb506e475
+    - name: Cacti_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 15
+        y: 15
+        width: 34
+        height: 34
+      spriteId: 7d82e5c0a0f15b148bee01b312d036c9
+    - name: Cacti_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 16
+        width: 19
+        height: 31
+      spriteId: 048fadb6f057d194892607d1039d88c3
+    - name: Cacti_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 16
+        width: 19
+        height: 31
+      spriteId: 5136c7e10ab5ebf46b0eba03d65bc556
+    - name: Cacti_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 16
+        width: 19
+        height: 31
+      spriteId: 3766287f7bd142142be3c85410facd10
+    - name: Cacti_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 16
+        width: 19
+        height: 31
+      spriteId: 80a33a685efbc0a44ba08623f6a40a82
+    - name: Cacti_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 16
+        width: 19
+        height: 31
+      spriteId: c6018ea234e68b54da85b4c6e718d555
+    - name: Cacti_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 15
+        y: 15
+        width: 34
+        height: 34
+      spriteId: c9828d7e035a44d418275ef83cf0a27f
+    - name: Cacti_Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 16
+        width: 19
+        height: 31
+      spriteId: 62fac04dec5c6224d9a80ba03d62e17a
+    - name: Cacti_Frame_22
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 24
+        y: 16
+        width: 15
+        height: 35
+      spriteId: 9697b8c063c81714d9995affd27ccb32
+    - name: Cacti_Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 24
+        y: 16
+        width: 15
+        height: 35
+      spriteId: 256040dc83bc75d4c9445b829cc0519b
+    - name: Cacti_Frame_24
+      frameIndex: 24
+      additiveSortOrder: 0
+      cellRect:
+        x: 13
+        y: 16
+        width: 39
+        height: 27
+      spriteId: 00b6e217045d0954b9fb89a06b87a244
+    - name: Cacti_Frame_25
+      frameIndex: 25
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 16
+        width: 44
+        height: 32
+      spriteId: d1a42816a906eee418b678f439914552
+    - name: Cacti_Frame_26
+      frameIndex: 26
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 16
+        width: 46
+        height: 31
+      spriteId: 252b8101438ddfe438bcc294199c6191
+    - name: Cacti_Frame_27
+      frameIndex: 27
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 16
+        width: 50
+        height: 31
+      spriteId: 9e516c665077b474ba763ddb11990e47
+    - name: Cacti_Frame_28
+      frameIndex: 28
+      additiveSortOrder: 0
+      cellRect:
+        x: 6
+        y: 16
+        width: 54
+        height: 31
+      spriteId: d648253369466a147b600aaff6a57235
+    - name: Cacti_Frame_29
+      frameIndex: 29
+      additiveSortOrder: 0
+      cellRect:
+        x: 15
+        y: 15
+        width: 34
+        height: 34
+      spriteId: 5cd71b76c4614054497672dc8ee628bd
+    - name: Cacti_Frame_30
+      frameIndex: 30
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 16
+        width: 19
+        height: 31
+      spriteId: d46b8225400285f45a6494a55ac5db03
+    - name: Cacti_Frame_31
+      frameIndex: 31
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 16
+        width: 15
+        height: 35
+      spriteId: 560ae1061f8b2cf4ca71f2583ffe94be
+    - name: Cacti_Frame_32
+      frameIndex: 32
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 16
+        width: 15
+        height: 35
+      spriteId: ff1a210cfc79b674690cb152227913eb
+    - name: Cacti_Frame_33
+      frameIndex: 33
+      additiveSortOrder: 0
+      cellRect:
+        x: 12
+        y: 16
+        width: 39
+        height: 27
+      spriteId: b9c54b23654b3f047b3f3d39c8b97f1e
+    - name: Cacti_Frame_34
+      frameIndex: 34
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 16
+        width: 44
+        height: 32
+      spriteId: 4cf965eab1b3b604296aae19bec44fc4
+    - name: Cacti_Frame_35
+      frameIndex: 35
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 16
+        width: 46
+        height: 31
+      spriteId: bfdc106c6b1fe63448b3bceb2387ff75
+    - name: Cacti_Frame_36
+      frameIndex: 36
+      additiveSortOrder: 0
+      cellRect:
+        x: 6
+        y: 16
+        width: 50
+        height: 31
+      spriteId: 493fb6e47eed20344b77099c21aed8d7
+    - name: Cacti_Frame_37
+      frameIndex: 37
+      additiveSortOrder: 0
+      cellRect:
+        x: 4
+        y: 16
+        width: 54
+        height: 31
+      spriteId: 86e503cea894a4b46a285dc779fe0bb4
+    - name: Cacti_Frame_38
+      frameIndex: 38
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 16
+        width: 19
+        height: 31
+      spriteId: 44952251bbbe7064eb817962103ad1b1
+    - name: Cacti_Frame_39
+      frameIndex: 39
+      additiveSortOrder: 0
+      cellRect:
+        x: 4
+        y: 16
+        width: 54
+        height: 31
+      spriteId: a0dd752cfe805bb4eb7bfe807a12fe1e
+    - name: Cacti_Frame_40
+      frameIndex: 40
+      additiveSortOrder: 0
+      cellRect:
+        x: 15
+        y: 15
+        width: 34
+        height: 34
+      spriteId: b791828c6b5095849bd89bb5ac0a4108
+    - name: Cacti_Frame_41
+      frameIndex: 41
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 20
+        height: 29
+      spriteId: 5e5f01943cb5aa348adc69f699abcb9b
+    - name: Cacti_Frame_42
+      frameIndex: 42
+      additiveSortOrder: 0
+      cellRect:
+        x: 15
+        y: 15
+        width: 34
+        height: 34
+      spriteId: 282e59e48dc694a46a867f09c50fb0fd
+    - name: Cacti_Frame_43
+      frameIndex: 43
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 16
+        width: 20
+        height: 29
+      spriteId: b8751562c464b9e46a205f8fa63769ef
+    - name: Cacti_Frame_44
+      frameIndex: 44
+      additiveSortOrder: 0
+      cellRect:
+        x: 15
+        y: 15
+        width: 34
+        height: 34
+      spriteId: 6bcd791d80de2fc488d2426a4d9956aa
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}
