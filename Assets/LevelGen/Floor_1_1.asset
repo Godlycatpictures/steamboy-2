@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d2ce38aeceaef0f47b4e1abaa7fdbbd8, type: 3}
-  m_Name: NewDungeonLayout
+  m_Name: Floor_1_1
   m_EditorClassIdentifier: 
   dungeonName: Floor_1_1
   rooms:

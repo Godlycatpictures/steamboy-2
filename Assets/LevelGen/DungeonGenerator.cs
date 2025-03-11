@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
-
+using needRoomData;
 public class DungeonGenerator : MonoBehaviour
 {
     public List<DungeonLayoutSO> dungeonLayouts; // List of predefined layouts
@@ -27,35 +27,24 @@ public class DungeonGenerator : MonoBehaviour
             Debug.Log($"Room {room.id}: {room.roomType}");
         }
 
-<<<<<<< Updated upstream
-        // 3. Spawn rooms
+        // spawn
         foreach (var room in rooms.Values)
         {
-            SpawnRoom(room);
+            SpawnRooms();
             Debug.Log($"Room {room.id} spawned");
         }
-=======
-        // spawna rummen
-        SpawnRooms(); 
-        Debug.Log("All rooms spawned");
->>>>>>> Stashed changes
 
         // korridorer
         ConnectRooms();
         Debug.Log("Rooms connected");
     }
 
-    void SpawnRoom(RoomData room)
+    void SpawnRooms()
     {
-        GameObject prefab = GetPrefabForRoomType(room.roomType);
-        if (prefab == null) return;
+        Queue<RoomData> queue = new Queue<RoomData>();
+        HashSet<int> visited = new HashSet<int>();
 
-<<<<<<< Updated upstream
-        Vector3 worldPosition = new Vector3(room.id * 10, 0, 0); // Simple layout for now
-        GameObject newRoom = Instantiate(prefab, worldPosition, Quaternion.identity);
-        spawnedRooms[room.id] = newRoom;
-=======
-        // börja från början
+        // Start placement from the first room (ID 0)
         if (rooms.ContainsKey(0))
         {
             rooms[0].Position = Vector2Int.zero;
@@ -63,7 +52,7 @@ public class DungeonGenerator : MonoBehaviour
             visited.Add(0);
         }
 
-        // en lite random layout
+        // Process rooms using BFS to ensure proper layout
         while (queue.Count > 0)
         {
             RoomData current = queue.Dequeue();
@@ -76,6 +65,7 @@ public class DungeonGenerator : MonoBehaviour
                     visited.Add(connection);
                     queue.Enqueue(rooms[connection]);
 
+                    // Assign a position based on the connection direction
                     Vector2Int offset = GetPlacementOffset(currentPosition, connection);
                     rooms[connection].Position = currentPosition + offset;
                 }
@@ -98,12 +88,13 @@ public class DungeonGenerator : MonoBehaviour
     }
 
 
+
     // Helper function to determine where to place connected rooms
     Vector2Int GetPlacementOffset(Vector2Int currentPosition, int connectionID)
     {
         if (connectionID % 2 == 0) return new Vector2Int(1, 0); // Right
         else return new Vector2Int(0, -1); // Down
->>>>>>> Stashed changes
+
     }
 
     void ConnectRooms()
