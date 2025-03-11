@@ -44,19 +44,17 @@ public class DungeonGenerator : MonoBehaviour
         Queue<RoomData> queue = new Queue<RoomData>();
         HashSet<int> visited = new HashSet<int>();
 
-        // Start placement from the first room (ID 0)
         if (rooms.ContainsKey(0))
         {
-            rooms[0].Position = Vector2Int.zero;
+            rooms[0].Position = Vector2.zero; // Start room at (0,0)
             queue.Enqueue(rooms[0]);
             visited.Add(0);
         }
 
-        // Process rooms using BFS to ensure proper layout
         while (queue.Count > 0)
         {
             RoomData current = queue.Dequeue();
-            Vector2Int currentPosition = current.Position;
+            Vector2 currentPosition = current.Position;
 
             foreach (int connection in current.connections)
             {
@@ -65,38 +63,69 @@ public class DungeonGenerator : MonoBehaviour
                     visited.Add(connection);
                     queue.Enqueue(rooms[connection]);
 
-                    // Assign a position based on the connection direction
-                    Vector2Int offset = GetPlacementOffset(currentPosition, connection);
+                    // Ensure rooms are spaced naturally without excessive gaps
+                    Vector2 offset = GetSmarterOffset(currentPosition, connection);
                     rooms[connection].Position = currentPosition + offset;
                 }
             }
         }
 
-        // Instantiate all rooms in their calculated positions (this part handles spawning)
+        ApplyRoomRepulsion(); // Adjust to avoid overlaps
+
+        // Instantiate rooms at final positions
         foreach (var room in rooms.Values)
         {
-            Vector3 worldPosition = new Vector3(room.Position.x * 10, room.Position.y * 10, 0);
+            if (spawnedRooms.ContainsKey(room.id)) continue; // Prevent duplicate spawning
+
+            Vector3 worldPosition = new Vector3(room.Position.x, room.Position.y, 0);
             GameObject prefab = GetPrefabForRoomType(room.roomType);
             if (prefab != null)
             {
-                if (!spawnedRooms.ContainsKey(room.id))  // Ensure no duplicates are spawned
-                {
-                    spawnedRooms[room.id] = Instantiate(prefab, worldPosition, Quaternion.identity);
-                }
+                spawnedRooms[room.id] = Instantiate(prefab, worldPosition, Quaternion.identity);
             }
         }
     }
 
-
-
-    // Helper function to determine where to place connected rooms
-    Vector2Int GetPlacementOffset(Vector2Int currentPosition, int connectionID)
+    // **Fix excessive distance issues**
+    Vector2 GetSmarterOffset(Vector2 currentPosition, int connectionID)
     {
-        if (connectionID % 2 == 0) return new Vector2Int(1, 0); // Right
-        else return new Vector2Int(0, -1); // Down
+        float angle = Random.Range(0f, Mathf.PI * 2); // Random direction
+        float minDistance = 6f; // Minimum spacing
+        float maxDistance = 10f; // Maximum spacing
+        float distance = Random.Range(minDistance, maxDistance);
 
+        return new Vector2(Mathf.Cos(angle), Mathf.Sin(angle)) * distance;
     }
 
+    // **Prevent rooms from overlapping while maintaining structure**
+    void ApplyRoomRepulsion()
+    {
+        float repulsionStrength = 1f; // Lowered strength for less drastic changes
+        bool changed = true;
+
+        while (changed)
+        {
+            changed = false;
+            foreach (var roomA in rooms.Values)
+            {
+                foreach (var roomB in rooms.Values)
+                {
+                    if (roomA == roomB) continue;
+
+                    Vector2 delta = roomA.Position - roomB.Position;
+                    float distance = delta.magnitude;
+
+                    if (distance < 5f) // Adjusted threshold
+                    {
+                        Vector2 push = delta.normalized * repulsionStrength;
+                        roomA.Position += push / 2;
+                        roomB.Position -= push / 2;
+                        changed = true;
+                    }
+                }
+            }
+        }
+    }
     void ConnectRooms()
     {
         foreach (var room in rooms.Values)

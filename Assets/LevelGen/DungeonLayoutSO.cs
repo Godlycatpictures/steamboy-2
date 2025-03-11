@@ -16,7 +16,7 @@ namespace needRoomData
         public int id;
         public string roomType; // "Start", "Normal", "Boss", etc.
         public List<int> connections;
-        public Vector2Int Position { get; set; }
+        public Vector2 Position { get; set; }
     }
 }
 
