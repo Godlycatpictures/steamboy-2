@@ -2,15 +2,15 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "SceneInfo", menuName = "Persistence")]
-public class SceneInfo : ScriptableObject {
+public class SceneInfo : ScriptableObject
+{
+    public int health; // Mängden liv kvar
+    public int numOfHearts; // Max antal hjärtan
 
-    public int health; //M�ngden liv kvar
-    public int numOfHearts; //Max antal hj�rtan
+    public int currentCoins; // Antalet mynt som spelaren har
 
-    public int currentCoins; //Antalet mone som spelaren har
-
-    public float fireForce; //hastigheten av skottet
-    public float fireRate; //Ska bli mindre f�r att den ska skjuta snabbare
+    public float fireForce; // Hastigheten av skottet
+    public float fireRate; // Ska bli mindre för att den ska skjuta snabbare
 
     public int damageModifier = 1;
 
@@ -19,10 +19,32 @@ public class SceneInfo : ScriptableObject {
     public int xp = 0;
     public int level = 1;
 
-    // H�ller reda p� vilka rum som har blivit rensade
+    // XP-krav för nästa nivå och multiplikator
+    public int xpToNextLevel = 100;
+    public float xpMultiplier = 1.5f;
+
+    // Håller reda på vilka rum som har blivit rensade
     public List<bool> roomsCleared = new List<bool>();
     public Dictionary<UpgradeType, int> upgrades = new Dictionary<UpgradeType, int>();
 
     // Sparar upplåsta prefabs som strings (namn)
     public List<string> unlockedPrefabs = new List<string>();
+
+    // Metod för att återställa alla variabler
+    public void ResetSceneInfo()
+    {
+        level = 1;
+        xp = 0;
+        xpToNextLevel = 100;  // Start XP för nästa nivå
+        upgrades.Clear();
+        unlockedPrefabs.Clear();
+    }
+
+    // Metod för att hantera level-up
+    public void LevelUp()
+    {
+        xp -= xpToNextLevel;  // Behåll överskotts-XP
+        level++;
+        xpToNextLevel = Mathf.RoundToInt(xpToNextLevel * xpMultiplier); // Öka XP-kravet
+    }
 }

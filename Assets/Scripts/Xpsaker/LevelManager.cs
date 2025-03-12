@@ -7,9 +7,6 @@ public class LevelManager : MonoBehaviour
 {
     public SceneInfo sceneInfo; // Rätt namn med stor bokstav
 
-    public int xpToNextLevel = 100;  // Startvärde för första leveln
-    public float xpMultiplier = 1.5f; // Ökning av XP-kravet per level
-
     public event Action<int> OnLevelUp;
 
     public void GainXP(int amount)
@@ -21,9 +18,10 @@ public class LevelManager : MonoBehaviour
         }
 
         sceneInfo.xp += amount;
-        Debug.Log($"Gained {amount} XP. Total XP: {sceneInfo.xp}/{xpToNextLevel}");
+        Debug.Log($"Gained {amount} XP. Total XP: {sceneInfo.xp}/{sceneInfo.xpToNextLevel}");
 
-        while (sceneInfo.xp >= xpToNextLevel)
+        // Kontrollera om spelaren har tillräckligt med XP för att levela upp
+        while (sceneInfo.xp >= sceneInfo.xpToNextLevel)
         {
             LevelUp();
         }
@@ -33,12 +31,19 @@ public class LevelManager : MonoBehaviour
     {
         if (sceneInfo == null) return; // Skydda mot null error
 
-        sceneInfo.xp -= xpToNextLevel;  // Behåll överskotts-XP
-        sceneInfo.level++;
-        xpToNextLevel = Mathf.RoundToInt(xpToNextLevel * xpMultiplier); // Öka XP-kravet
+        sceneInfo.LevelUp(); // Använd metoden i SceneInfo för att hantera level-up
 
-        Debug.Log($"Level Up! New Level: {sceneInfo.level}. XP required for next level: {xpToNextLevel}");
+        Debug.Log($"Level Up! New Level: {sceneInfo.level}. XP required for next level: {sceneInfo.xpToNextLevel}");
 
         OnLevelUp?.Invoke(sceneInfo.level); // Event som kan användas i UI eller effekter
     }
+
+    private void Start()
+    {
+        if (sceneInfo != null)
+        {
+            sceneInfo.ResetSceneInfo();  // Återställ all data när spelet startar
+        }
+    }
 }
+
