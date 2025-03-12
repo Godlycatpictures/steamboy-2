@@ -21,4 +21,8 @@ public class SceneInfo : ScriptableObject {
 
     // H�ller reda p� vilka rum som har blivit rensade
     public List<bool> roomsCleared = new List<bool>();
+    public Dictionary<UpgradeType, int> upgrades = new Dictionary<UpgradeType, int>();
+
+    // Sparar upplåsta prefabs som strings (namn)
+    public List<string> unlockedPrefabs = new List<string>();
 }
