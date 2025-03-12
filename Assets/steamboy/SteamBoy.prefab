@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 5358293355626671999}
   - component: {fileID: 8041546122366820935}
   - component: {fileID: 988147134487249163}
-  m_Layer: 0
-  m_Name: Steamboy
+  m_Layer: 7
+  m_Name: SteamBoy
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -189,6 +189,7 @@ MonoBehaviour:
   animator: {fileID: 1514137987617579657}
   movex: 0
   movey: 0
+  weapon: {fileID: 0}
   dashingspeed: 3
   dashtimetaken: 0.5
   dashcooldownbeforeotheruse: 0.5
@@ -204,7 +205,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2421269950608076688}
   - component: {fileID: 339013949583991243}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}

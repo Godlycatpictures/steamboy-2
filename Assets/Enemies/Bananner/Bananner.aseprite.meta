@@ -123,8 +123,8 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Bananner_Frame_0
     originalName: 
-    pivot: {x: 0.5, y: -0.22727273}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -143,8 +143,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 294}
   - name: Bananner_Frame_2
     originalName: 
-    pivot: {x: 0.5, y: -0.22727273}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -163,8 +163,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 346}
   - name: Bananner_Frame_3
     originalName: 
-    pivot: {x: 0.5, y: -0.23809524}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -183,8 +183,8 @@ ScriptedImporter:
     uvTransform: {x: 46, y: 4}
   - name: Bananner_Frame_4
     originalName: 
-    pivot: {x: 0.5, y: -0.25}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -203,8 +203,8 @@ ScriptedImporter:
     uvTransform: {x: 46, y: 104}
   - name: Bananner_Frame_5
     originalName: 
-    pivot: {x: 0.5, y: -0.2631579}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -223,8 +223,8 @@ ScriptedImporter:
     uvTransform: {x: 46, y: 152}
   - name: Bananner_Frame_6
     originalName: 
-    pivot: {x: 0.5, y: -0.2631579}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -243,8 +243,8 @@ ScriptedImporter:
     uvTransform: {x: 46, y: 198}
   - name: Bananner_Frame_7
     originalName: 
-    pivot: {x: 0.5, y: -0.2631579}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -263,8 +263,8 @@ ScriptedImporter:
     uvTransform: {x: 46, y: 244}
   - name: Bananner_Frame_8
     originalName: 
-    pivot: {x: 0.5, y: -0.2631579}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -283,8 +283,8 @@ ScriptedImporter:
     uvTransform: {x: 46, y: 290}
   - name: Bananner_Frame_9
     originalName: 
-    pivot: {x: 0.5, y: -0.2631579}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -303,8 +303,8 @@ ScriptedImporter:
     uvTransform: {x: 46, y: 336}
   - name: Bananner_Frame_10
     originalName: 
-    pivot: {x: 0.5, y: -0.2857143}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -323,8 +323,8 @@ ScriptedImporter:
     uvTransform: {x: 46, y: 428}
   - name: Bananner_Frame_11
     originalName: 
-    pivot: {x: 0.5, y: -0.13461539}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -343,8 +343,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 128}
   - name: Bananner_Frame_12
     originalName: 
-    pivot: {x: 0.5, y: -0.16666667}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -363,8 +363,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: Bananner_Frame_13
     originalName: 
-    pivot: {x: 0.5, y: -0.1851852}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -383,8 +383,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 66}
   - name: Bananner_Frame_17
     originalName: 
-    pivot: {x: 0.5, y: -0.45454547}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -403,8 +403,8 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 328}
   - name: Bananner_Frame_18
     originalName: 
-    pivot: {x: 0.5, y: -0.45454547}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -423,8 +423,8 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 358}
   - name: Bananner_Frame_19
     originalName: 
-    pivot: {x: 0.5, y: -0.3846154}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -443,8 +443,8 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 294}
   - name: Bananner_Frame_20
     originalName: 
-    pivot: {x: 0.5, y: -0.33333334}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -463,8 +463,8 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 256}
   - name: Bananner_Frame_21
     originalName: 
-    pivot: {x: 0.5, y: -0.29411766}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -483,8 +483,8 @@ ScriptedImporter:
     uvTransform: {x: 46, y: 471}
   - name: Bananner_Frame_22
     originalName: 
-    pivot: {x: 0.5, y: -0.2631579}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -503,8 +503,8 @@ ScriptedImporter:
     uvTransform: {x: 46, y: 382}
   - name: Bananner_Frame_23
     originalName: 
-    pivot: {x: 0.5, y: -0.23809524}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -523,8 +523,8 @@ ScriptedImporter:
     uvTransform: {x: 46, y: 54}
   - name: Bananner_Frame_25
     originalName: 
-    pivot: {x: 0.5, y: -0.22727273}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -543,8 +543,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 398}
   - name: Bananner_Frame_26
     originalName: 
-    pivot: {x: 0.5, y: -0.22727273}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -563,8 +563,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 450}
   - name: Bananner_Frame_28
     originalName: 
-    pivot: {x: 0.61764705, y: -0.22222222}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -583,8 +583,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 188}
   - name: Bananner_Frame_30
     originalName: 
-    pivot: {x: 0.38235295, y: -0.22222222}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -603,8 +603,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 241}
   - name: Bananner_Frame_32
     originalName: 
-    pivot: {x: 0.44827586, y: -2}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -623,8 +623,8 @@ ScriptedImporter:
     uvTransform: {x: 130, y: 246}
   - name: Bananner_Frame_33
     originalName: 
-    pivot: {x: 0.44827586, y: -2}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -643,8 +643,8 @@ ScriptedImporter:
     uvTransform: {x: 130, y: 267}
   - name: Bananner_Frame_34
     originalName: 
-    pivot: {x: 0.44827586, y: -1.7857144}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -663,8 +663,8 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 475}
   - name: Bananner_Frame_35
     originalName: 
-    pivot: {x: 0.44827586, y: -1.7857144}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -683,8 +683,8 @@ ScriptedImporter:
     uvTransform: {x: 130, y: 4}
   - name: Bananner_Frame_36
     originalName: 
-    pivot: {x: 0.44827586, y: -1.7857144}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -703,8 +703,8 @@ ScriptedImporter:
     uvTransform: {x: 130, y: 26}
   - name: Bananner_Frame_37
     originalName: 
-    pivot: {x: 0.44827586, y: -1.7857144}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -723,8 +723,8 @@ ScriptedImporter:
     uvTransform: {x: 130, y: 48}
   - name: Bananner_Frame_38
     originalName: 
-    pivot: {x: 0.44827586, y: -1.7857144}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -743,8 +743,8 @@ ScriptedImporter:
     uvTransform: {x: 130, y: 70}
   - name: Bananner_Frame_39
     originalName: 
-    pivot: {x: 0.44827586, y: -1.7857144}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -763,8 +763,8 @@ ScriptedImporter:
     uvTransform: {x: 130, y: 92}
   - name: Bananner_Frame_40
     originalName: 
-    pivot: {x: 0.44827586, y: -2}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -783,8 +783,8 @@ ScriptedImporter:
     uvTransform: {x: 130, y: 288}
   - name: Bananner_Frame_41
     originalName: 
-    pivot: {x: 0.44827586, y: -2}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -803,8 +803,8 @@ ScriptedImporter:
     uvTransform: {x: 130, y: 309}
   - name: Bananner_Frame_42
     originalName: 
-    pivot: {x: 0.44827586, y: -2}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -823,8 +823,8 @@ ScriptedImporter:
     uvTransform: {x: 130, y: 330}
   - name: Bananner_Frame_43
     originalName: 
-    pivot: {x: 0.44827586, y: -2}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -843,8 +843,8 @@ ScriptedImporter:
     uvTransform: {x: 130, y: 351}
   - name: Bananner_Frame_44
     originalName: 
-    pivot: {x: 0.44827586, y: -2}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -863,8 +863,8 @@ ScriptedImporter:
     uvTransform: {x: 130, y: 372}
   - name: Bananner_Frame_45
     originalName: 
-    pivot: {x: 0.44827586, y: -2}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -883,8 +883,8 @@ ScriptedImporter:
     uvTransform: {x: 130, y: 393}
   - name: Bananner_Frame_46
     originalName: 
-    pivot: {x: 0.44827586, y: -2}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -903,8 +903,8 @@ ScriptedImporter:
     uvTransform: {x: 130, y: 414}
   - name: Bananner_Frame_47
     originalName: 
-    pivot: {x: 0.44827586, y: -2}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -923,8 +923,8 @@ ScriptedImporter:
     uvTransform: {x: 130, y: 435}
   - name: Bananner_Frame_48
     originalName: 
-    pivot: {x: 0.44827586, y: -2}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -943,8 +943,8 @@ ScriptedImporter:
     uvTransform: {x: 130, y: 456}
   - name: Bananner_Frame_49
     originalName: 
-    pivot: {x: 0.44827586, y: -1.923077}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -963,8 +963,8 @@ ScriptedImporter:
     uvTransform: {x: 130, y: 477}
   - name: Bananner_Frame_50
     originalName: 
-    pivot: {x: 0.44827586, y: -1.923077}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -983,8 +983,8 @@ ScriptedImporter:
     uvTransform: {x: 167, y: 4}
   - name: Bananner_Frame_51
     originalName: 
-    pivot: {x: 0.44827586, y: -1.7857144}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1003,8 +1003,8 @@ ScriptedImporter:
     uvTransform: {x: 130, y: 114}
   - name: Bananner_Frame_52
     originalName: 
-    pivot: {x: 0.44827586, y: -1.7857144}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1023,8 +1023,8 @@ ScriptedImporter:
     uvTransform: {x: 130, y: 136}
   - name: Bananner_Frame_53
     originalName: 
-    pivot: {x: 0.44827586, y: -1.7857144}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1043,8 +1043,8 @@ ScriptedImporter:
     uvTransform: {x: 130, y: 158}
   - name: Bananner_Frame_54
     originalName: 
-    pivot: {x: 0.44827586, y: -1.7857144}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1063,8 +1063,8 @@ ScriptedImporter:
     uvTransform: {x: 130, y: 180}
   - name: Bananner_Frame_55
     originalName: 
-    pivot: {x: 0.44827586, y: -1.7857144}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1083,8 +1083,8 @@ ScriptedImporter:
     uvTransform: {x: 130, y: 202}
   - name: Bananner_Frame_56
     originalName: 
-    pivot: {x: 0.44827586, y: -1.7857144}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1103,8 +1103,8 @@ ScriptedImporter:
     uvTransform: {x: 130, y: 224}
   - name: Bananner_Frame_57
     originalName: 
-    pivot: {x: 0.44827586, y: -1.923077}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1123,8 +1123,8 @@ ScriptedImporter:
     uvTransform: {x: 167, y: 25}
   - name: Bananner_Frame_1
     originalName: 
-    pivot: {x: 0.5, y: -0.44117647}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1143,8 +1143,8 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 4}
   - name: Bananner_Frame_14
     originalName: 
-    pivot: {x: 0.5, y: -0.5}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1163,8 +1163,8 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 447}
   - name: Bananner_Frame_15
     originalName: 
-    pivot: {x: 0.5, y: -0.47619048}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1183,8 +1183,8 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 418}
   - name: Bananner_Frame_16
     originalName: 
-    pivot: {x: 0.5, y: -0.45454547}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1203,8 +1203,8 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 388}
   - name: Bananner_Frame_24
     originalName: 
-    pivot: {x: 0.5, y: -0.44117647}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1223,8 +1223,8 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 46}
   - name: Bananner_Frame_27
     originalName: 
-    pivot: {x: 0.5, y: -0.44117647}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1243,8 +1243,8 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 88}
   - name: Bananner_Frame_29
     originalName: 
-    pivot: {x: 0.5, y: -0.44117647}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1263,8 +1263,8 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 130}
   - name: Bananner_Frame_31
     originalName: 
-    pivot: {x: 0.5, y: -0.44117647}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1283,8 +1283,8 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 172}
   - name: Bananner_Frame_58
     originalName: 
-    pivot: {x: 0.5, y: -0.44117647}
-    alignment: 9
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
