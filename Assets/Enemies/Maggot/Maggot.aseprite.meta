@@ -123,8 +123,8 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Maggot_Frame_0
     originalName: 
-    pivot: {x: 0.45454547, y: -2.6666667}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -163,8 +163,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: Maggot_Frame_2
     originalName: 
-    pivot: {x: 0.54545456, y: -2.6666667}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -203,8 +203,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 46}
   - name: Maggot_Frame_4
     originalName: 
-    pivot: {x: 0.45454547, y: -2.6666667}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -223,8 +223,8 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 72}
   - name: Maggot_Frame_5
     originalName: 
-    pivot: {x: 0.4117647, y: -1.7777778}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -243,8 +243,8 @@ ScriptedImporter:
     uvTransform: {x: 122, y: 152}
   - name: Maggot_Frame_6
     originalName: 
-    pivot: {x: 0.42857146, y: -1.4545455}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -263,8 +263,8 @@ ScriptedImporter:
     uvTransform: {x: 122, y: 76}
   - name: Maggot_Frame_7
     originalName: 
-    pivot: {x: 0.45454547, y: -1.3333334}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -283,8 +283,8 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 86}
   - name: Maggot_Frame_8
     originalName: 
-    pivot: {x: 0.42857146, y: -1.4545455}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -303,8 +303,8 @@ ScriptedImporter:
     uvTransform: {x: 122, y: 95}
   - name: Maggot_Frame_9
     originalName: 
-    pivot: {x: 0.4117647, y: -1.7777778}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -323,8 +323,8 @@ ScriptedImporter:
     uvTransform: {x: 122, y: 169}
   - name: Maggot_Frame_10
     originalName: 
-    pivot: {x: 0.45454547, y: -2.6666667}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -343,8 +343,8 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 106}
   - name: Maggot_Frame_11
     originalName: 
-    pivot: {x: 0.4615385, y: -4}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -383,8 +383,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 88}
   - name: Maggot_Frame_13
     originalName: 
-    pivot: {x: 0.54545456, y: -2.6666667}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -403,8 +403,8 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 120}
   - name: Maggot_Frame_14
     originalName: 
-    pivot: {x: 0.5882353, y: -1.7777778}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -423,8 +423,8 @@ ScriptedImporter:
     uvTransform: {x: 122, y: 186}
   - name: Maggot_Frame_15
     originalName: 
-    pivot: {x: 0.5714286, y: -1.4545455}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -443,8 +443,8 @@ ScriptedImporter:
     uvTransform: {x: 122, y: 114}
   - name: Maggot_Frame_16
     originalName: 
-    pivot: {x: 0.54545456, y: -1.3333334}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -463,8 +463,8 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 134}
   - name: Maggot_Frame_17
     originalName: 
-    pivot: {x: 0.5714286, y: -1.4545455}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -483,8 +483,8 @@ ScriptedImporter:
     uvTransform: {x: 122, y: 133}
   - name: Maggot_Frame_18
     originalName: 
-    pivot: {x: 0.5882353, y: -1.7777778}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -503,8 +503,8 @@ ScriptedImporter:
     uvTransform: {x: 122, y: 203}
   - name: Maggot_Frame_19
     originalName: 
-    pivot: {x: 0.54545456, y: -2.6666667}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -523,8 +523,8 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 154}
   - name: Maggot_Frame_20
     originalName: 
-    pivot: {x: 0.53846157, y: -4}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -563,8 +563,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 130}
   - name: Maggot_Frame_22
     originalName: 
-    pivot: {x: 0.45454547, y: -2.6666667}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -583,8 +583,8 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 168}
   - name: Maggot_Frame_23
     originalName: 
-    pivot: {x: 0.4, y: -2.6666667}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -603,8 +603,8 @@ ScriptedImporter:
     uvTransform: {x: 162, y: 4}
   - name: Maggot_Frame_24
     originalName: 
-    pivot: {x: 0.4375, y: -1.7777778}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -623,8 +623,8 @@ ScriptedImporter:
     uvTransform: {x: 122, y: 220}
   - name: Maggot_Frame_25
     originalName: 
-    pivot: {x: 0.4166667, y: -1.3333334}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -643,8 +643,8 @@ ScriptedImporter:
     uvTransform: {x: 122, y: 237}
   - name: Maggot_Frame_26
     originalName: 
-    pivot: {x: 0.375, y: -1.0666667}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -663,8 +663,8 @@ ScriptedImporter:
     uvTransform: {x: 106, y: 231}
   - name: Maggot_Frame_27
     originalName: 
-    pivot: {x: 0.5714286, y: -1.0666667}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -683,8 +683,8 @@ ScriptedImporter:
     uvTransform: {x: 162, y: 127}
   - name: Maggot_Frame_28
     originalName: 
-    pivot: {x: 0.7, y: -1.2307693}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -703,8 +703,8 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 210}
   - name: Maggot_Frame_29
     originalName: 
-    pivot: {x: 0.75, y: -1.6}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -723,8 +723,8 @@ ScriptedImporter:
     uvTransform: {x: 162, y: 18}
   - name: Maggot_Frame_30
     originalName: 
-    pivot: {x: 0.75, y: -1.6}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -743,8 +743,8 @@ ScriptedImporter:
     uvTransform: {x: 162, y: 36}
   - name: Maggot_Frame_31
     originalName: 
-    pivot: {x: 0.33333334, y: -1.0666667}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -763,8 +763,8 @@ ScriptedImporter:
     uvTransform: {x: 46, y: 180}
   - name: Maggot_Frame_32
     originalName: 
-    pivot: {x: 0.26923078, y: -1.0666667}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -783,8 +783,8 @@ ScriptedImporter:
     uvTransform: {x: 46, y: 226}
   - name: Maggot_Frame_33
     originalName: 
-    pivot: {x: 0.31034482, y: -1.0666667}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -803,8 +803,8 @@ ScriptedImporter:
     uvTransform: {x: 46, y: 134}
   - name: Maggot_Frame_34
     originalName: 
-    pivot: {x: 0.32258064, y: -1.0666667}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -823,8 +823,8 @@ ScriptedImporter:
     uvTransform: {x: 46, y: 88}
   - name: Maggot_Frame_35
     originalName: 
-    pivot: {x: 0.3125, y: -1.4545455}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -863,8 +863,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 172}
   - name: Maggot_Frame_37
     originalName: 
-    pivot: {x: 0.54545456, y: -2.6666667}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -883,8 +883,8 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 182}
   - name: Maggot_Frame_38
     originalName: 
-    pivot: {x: 0.6, y: -2.6666667}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -903,8 +903,8 @@ ScriptedImporter:
     uvTransform: {x: 162, y: 54}
   - name: Maggot_Frame_39
     originalName: 
-    pivot: {x: 0.5625, y: -1.7777778}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -923,8 +923,8 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 27}
   - name: Maggot_Frame_40
     originalName: 
-    pivot: {x: 0.5833334, y: -1.3333334}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -943,8 +943,8 @@ ScriptedImporter:
     uvTransform: {x: 142, y: 237}
   - name: Maggot_Frame_41
     originalName: 
-    pivot: {x: 0.625, y: -1.0666667}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -963,8 +963,8 @@ ScriptedImporter:
     uvTransform: {x: 162, y: 68}
   - name: Maggot_Frame_42
     originalName: 
-    pivot: {x: 0.42857146, y: -1.0666667}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -983,8 +983,8 @@ ScriptedImporter:
     uvTransform: {x: 162, y: 150}
   - name: Maggot_Frame_43
     originalName: 
-    pivot: {x: 0.3, y: -1.2307693}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1003,8 +1003,8 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 231}
   - name: Maggot_Frame_44
     originalName: 
-    pivot: {x: 0.25, y: -1.6}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1023,8 +1023,8 @@ ScriptedImporter:
     uvTransform: {x: 162, y: 91}
   - name: Maggot_Frame_45
     originalName: 
-    pivot: {x: 0.25, y: -1.6}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1043,8 +1043,8 @@ ScriptedImporter:
     uvTransform: {x: 162, y: 109}
   - name: Maggot_Frame_46
     originalName: 
-    pivot: {x: 0.6666667, y: -1.0666667}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1063,8 +1063,8 @@ ScriptedImporter:
     uvTransform: {x: 46, y: 203}
   - name: Maggot_Frame_47
     originalName: 
-    pivot: {x: 0.7307693, y: -1.0666667}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1083,8 +1083,8 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 4}
   - name: Maggot_Frame_48
     originalName: 
-    pivot: {x: 0.6896552, y: -1.0666667}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1103,8 +1103,8 @@ ScriptedImporter:
     uvTransform: {x: 46, y: 157}
   - name: Maggot_Frame_49
     originalName: 
-    pivot: {x: 0.6774193, y: -1.0666667}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1123,8 +1123,8 @@ ScriptedImporter:
     uvTransform: {x: 46, y: 111}
   - name: Maggot_Frame_50
     originalName: 
-    pivot: {x: 0.6875, y: -1.4545455}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1143,8 +1143,8 @@ ScriptedImporter:
     uvTransform: {x: 122, y: 23}
   - name: Maggot_Frame_51
     originalName: 
-    pivot: {x: 0.54545456, y: -2.6666667}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1163,7 +1163,7 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 196}
   - name: Maggot_Frame_52
     originalName: 
-    pivot: {x: 0.5, y: -0.44117647}
+    pivot: {x: 0.5, y: -0.4411765}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1183,8 +1183,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 214}
   - name: Maggot_Frame_53
     originalName: 
-    pivot: {x: 0.6315789, y: -1.7777778}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1223,8 +1223,8 @@ ScriptedImporter:
     uvTransform: {x: 46, y: 4}
   - name: Maggot_Frame_55
     originalName: 
-    pivot: {x: 0.36842105, y: -1.7777778}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2

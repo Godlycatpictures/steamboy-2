@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1302183630761102645}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player_and_weapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,6 +90,10 @@ PrefabInstance:
       value: Weapon
       objectReference: {fileID: 0}
     - target: {fileID: 6530463282329264175, guid: 3c1640a7066703e4fbaa95b4105f35be, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6530463282329264175, guid: 3c1640a7066703e4fbaa95b4105f35be, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -101,6 +105,10 @@ PrefabInstance:
       propertyPath: bulletPrefab
       value: 
       objectReference: {fileID: 3034541605973710986, guid: 0513017eb02c4884cb288fafff46e9cd, type: 3}
+    - target: {fileID: 8358953103061975834, guid: 3c1640a7066703e4fbaa95b4105f35be, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -228,7 +236,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7472566844796184757, guid: cdcdf2efe7b26e6449d96c62196cbbcf, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8041546122366820935, guid: cdcdf2efe7b26e6449d96c62196cbbcf, type: 3}
       propertyPath: m_Size.x
@@ -248,7 +256,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9056413904560805790, guid: cdcdf2efe7b26e6449d96c62196cbbcf, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 2495878910961441313}
   - component: {fileID: 8004229030180488744}
   - component: {fileID: -8431468107537882929}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Maggot
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -147,7 +147,7 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.6}
+  m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.8, y: 0.3}
   m_Direction: 1
 --- !u!95 &8004229030180488744
@@ -183,3 +183,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 910703c597dbaf34a986b0ca8cfc8dd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xVelocity: 0
+  yVelocity: 0
+  lastKnownXVelocity: 1
+  attackCoolDown: 0
+  isMoving: 0
+  attacking: 0

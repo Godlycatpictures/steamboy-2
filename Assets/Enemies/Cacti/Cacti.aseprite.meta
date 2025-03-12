@@ -123,8 +123,8 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Cacti_Frame_0
     originalName: 
-    pivot: {x: 0.5263158, y: -0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -163,8 +163,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 318}
   - name: Cacti_Frame_2
     originalName: 
-    pivot: {x: 0.47368422, y: -0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -203,8 +203,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 360}
   - name: Cacti_Frame_4
     originalName: 
-    pivot: {x: 0.47368422, y: -0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -243,8 +243,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 402}
   - name: Cacti_Frame_6
     originalName: 
-    pivot: {x: 0.5263158, y: -0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -263,8 +263,8 @@ ScriptedImporter:
     uvTransform: {x: 66, y: 331}
   - name: Cacti_Frame_7
     originalName: 
-    pivot: {x: 0.5263158, y: -0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -283,8 +283,8 @@ ScriptedImporter:
     uvTransform: {x: 66, y: 370}
   - name: Cacti_Frame_8
     originalName: 
-    pivot: {x: 0.5263158, y: -0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -303,8 +303,8 @@ ScriptedImporter:
     uvTransform: {x: 66, y: 409}
   - name: Cacti_Frame_9
     originalName: 
-    pivot: {x: 0.5263158, y: -0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -323,8 +323,8 @@ ScriptedImporter:
     uvTransform: {x: 66, y: 448}
   - name: Cacti_Frame_10
     originalName: 
-    pivot: {x: 0.5263158, y: -0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -343,8 +343,8 @@ ScriptedImporter:
     uvTransform: {x: 108, y: 74}
   - name: Cacti_Frame_11
     originalName: 
-    pivot: {x: 0.5263158, y: -0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -363,8 +363,8 @@ ScriptedImporter:
     uvTransform: {x: 108, y: 113}
   - name: Cacti_Frame_12
     originalName: 
-    pivot: {x: 0.5263158, y: -0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -383,8 +383,8 @@ ScriptedImporter:
     uvTransform: {x: 108, y: 152}
   - name: Cacti_Frame_13
     originalName: 
-    pivot: {x: 0.5263158, y: -0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -423,8 +423,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 444}
   - name: Cacti_Frame_15
     originalName: 
-    pivot: {x: 0.47368422, y: -0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -443,8 +443,8 @@ ScriptedImporter:
     uvTransform: {x: 108, y: 230}
   - name: Cacti_Frame_16
     originalName: 
-    pivot: {x: 0.47368422, y: -0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -463,8 +463,8 @@ ScriptedImporter:
     uvTransform: {x: 108, y: 269}
   - name: Cacti_Frame_17
     originalName: 
-    pivot: {x: 0.47368422, y: -0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -483,8 +483,8 @@ ScriptedImporter:
     uvTransform: {x: 108, y: 308}
   - name: Cacti_Frame_18
     originalName: 
-    pivot: {x: 0.47368422, y: -0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -503,8 +503,8 @@ ScriptedImporter:
     uvTransform: {x: 108, y: 347}
   - name: Cacti_Frame_19
     originalName: 
-    pivot: {x: 0.47368422, y: -0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -543,8 +543,8 @@ ScriptedImporter:
     uvTransform: {x: 66, y: 4}
   - name: Cacti_Frame_21
     originalName: 
-    pivot: {x: 0.5263158, y: -0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -563,8 +563,8 @@ ScriptedImporter:
     uvTransform: {x: 108, y: 425}
   - name: Cacti_Frame_22
     originalName: 
-    pivot: {x: 0.53333336, y: -0.45714286}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -583,8 +583,8 @@ ScriptedImporter:
     uvTransform: {x: 155, y: 82}
   - name: Cacti_Frame_23
     originalName: 
-    pivot: {x: 0.53333336, y: -0.45714286}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -603,8 +603,8 @@ ScriptedImporter:
     uvTransform: {x: 155, y: 125}
   - name: Cacti_Frame_24
     originalName: 
-    pivot: {x: 0.4871795, y: -0.5925926}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -623,8 +623,8 @@ ScriptedImporter:
     uvTransform: {x: 108, y: 4}
   - name: Cacti_Frame_25
     originalName: 
-    pivot: {x: 0.47727275, y: -0.5}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -643,8 +643,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 238}
   - name: Cacti_Frame_26
     originalName: 
-    pivot: {x: 0.5, y: -0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -663,8 +663,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 160}
   - name: Cacti_Frame_27
     originalName: 
-    pivot: {x: 0.48, y: -0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -683,8 +683,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 82}
   - name: Cacti_Frame_28
     originalName: 
-    pivot: {x: 0.4814815, y: -0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -723,8 +723,8 @@ ScriptedImporter:
     uvTransform: {x: 66, y: 46}
   - name: Cacti_Frame_30
     originalName: 
-    pivot: {x: 0.47368422, y: -0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -743,8 +743,8 @@ ScriptedImporter:
     uvTransform: {x: 108, y: 464}
   - name: Cacti_Frame_31
     originalName: 
-    pivot: {x: 0.4666667, y: -0.45714286}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -763,8 +763,8 @@ ScriptedImporter:
     uvTransform: {x: 155, y: 168}
   - name: Cacti_Frame_32
     originalName: 
-    pivot: {x: 0.4666667, y: -0.45714286}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -783,8 +783,8 @@ ScriptedImporter:
     uvTransform: {x: 155, y: 211}
   - name: Cacti_Frame_33
     originalName: 
-    pivot: {x: 0.51282054, y: -0.5925926}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -803,8 +803,8 @@ ScriptedImporter:
     uvTransform: {x: 108, y: 39}
   - name: Cacti_Frame_34
     originalName: 
-    pivot: {x: 0.5227273, y: -0.5}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -823,8 +823,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 278}
   - name: Cacti_Frame_35
     originalName: 
-    pivot: {x: 0.5, y: -0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -843,8 +843,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 199}
   - name: Cacti_Frame_36
     originalName: 
-    pivot: {x: 0.52, y: -0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -863,8 +863,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 121}
   - name: Cacti_Frame_37
     originalName: 
-    pivot: {x: 0.5185185, y: -0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -883,8 +883,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 43}
   - name: Cacti_Frame_38
     originalName: 
-    pivot: {x: 0.47368422, y: -0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -903,8 +903,8 @@ ScriptedImporter:
     uvTransform: {x: 155, y: 4}
   - name: Cacti_Frame_39
     originalName: 
-    pivot: {x: 0.47368422, y: -0.516129}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -943,8 +943,8 @@ ScriptedImporter:
     uvTransform: {x: 66, y: 88}
   - name: Cacti_Frame_41
     originalName: 
-    pivot: {x: 0.65000004, y: -0.55172414}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -983,8 +983,8 @@ ScriptedImporter:
     uvTransform: {x: 66, y: 130}
   - name: Cacti_Frame_43
     originalName: 
-    pivot: {x: 0.35, y: -0.55172414}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
