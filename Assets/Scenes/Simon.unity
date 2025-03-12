@@ -515,6 +515,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bananner
       objectReference: {fileID: 0}
+    - target: {fileID: 6631798278925613764, guid: d13adfa5efd830e49b318de741945d9d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -540,6 +544,10 @@ PrefabInstance:
       propertyPath: attackRange
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -8431468107537882929, guid: 40f8169e618b64743b04cd84ed7f0743, type: 3}
+      propertyPath: attackPrefab
+      value: 
+      objectReference: {fileID: 3035658112984272958, guid: d453279f91c20f94b9e150a26685bc79, type: 3}
     - target: {fileID: 1808544135238947597, guid: 40f8169e618b64743b04cd84ed7f0743, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.8184052

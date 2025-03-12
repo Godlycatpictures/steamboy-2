@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MaggotAi : MonoBehaviour
+public class CactiAi : MonoBehaviour
 {
-    private float detectionRange = 3f;
+    private float detectionRange = 5f;
     private float attackRange = 1f;
-    private float speed = 0.5f;
+    private float speed = 1f;
     public float xVelocity;
     public float yVelocity;
     public float lastKnownXVelocity = 1f; // Default to facing right
@@ -78,7 +78,6 @@ public class MaggotAi : MonoBehaviour
         rb.velocity = Vector2.zero; // Stop movement while attacking
         attacking = true;
 
-        // Attack logic (e.g., play animation, deal damage, etc.)
 
         yield return new WaitForSeconds(1.2f); // Simulated attack duration
         /*Instantiate(attackPrefab, rb.position, Quaternion.identity); Ersätt detta med en attack när det finns*/

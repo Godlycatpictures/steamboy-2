@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MaggotAi : MonoBehaviour
+public class UrchinAi : MonoBehaviour
 {
     private float detectionRange = 3f;
     private float attackRange = 1f;
@@ -80,8 +80,11 @@ public class MaggotAi : MonoBehaviour
 
         // Attack logic (e.g., play animation, deal damage, etc.)
 
-        yield return new WaitForSeconds(1.2f); // Simulated attack duration
-        /*Instantiate(attackPrefab, rb.position, Quaternion.identity); Ersätt detta med en attack när det finns*/
+        yield return new WaitForSeconds(1f); // Simulated attack duration
+
+        //Instantiate(attackPrefab, rb.position, Quaternion.identity); Lägg till attack här
+
+        yield return new WaitForSeconds(0.5f); // Added time for padding
 
         attacking = false;
         attackCoolDown = 1.5f; // Reset cooldown
