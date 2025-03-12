@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6834937342759567466}
   - component: {fileID: 263386594182415179}
   - component: {fileID: 5340557700874866199}
+  - component: {fileID: -7191219128444716360}
   m_Layer: 0
   m_Name: Bananner
   m_TagString: Enemy
@@ -170,3 +171,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-7191219128444716360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6631798278925613764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b324c9657b899b46acd67d36a6c8fd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xVelocity: 0
+  yVelocity: 0
+  lastKnownXVelocity: 1
+  attackCoolDown: 0
+  isMoving: 0
+  attacking: 0
+  attackPrefab: {fileID: 3035658112984272958, guid: d453279f91c20f94b9e150a26685bc79, type: 3}

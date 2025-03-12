@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MaggotAi : MonoBehaviour
+public class BanannerAi : MonoBehaviour
 {
-    private float detectionRange = 3f;
-    private float attackRange = 1f;
-    private float speed = 0.5f;
+    private float detectionRange = 8f;
+    private float attackRange = 5f;
+    private float speed = 1f;
     public float xVelocity;
     public float yVelocity;
     public float lastKnownXVelocity = 1f; // Default to facing right
@@ -45,7 +45,7 @@ public class MaggotAi : MonoBehaviour
                 isMoving = true;
                 MoveTowards(player.position);
             }
-            else if (distanceToPlayer <= attackRange && attackCoolDown <= 0)
+            else if (distanceToPlayer <= attackRange && attackCoolDown <= 0 && !attacking) // Added check for !attacking
             {
                 isMoving = false;
                 StartCoroutine(Attack());
@@ -77,14 +77,14 @@ public class MaggotAi : MonoBehaviour
     {
         rb.velocity = Vector2.zero; // Stop movement while attacking
         attacking = true;
+        
+        yield return new WaitForSeconds(1f); // Simulated attack duration
 
-        // Attack logic (e.g., play animation, deal damage, etc.)
-
-        yield return new WaitForSeconds(1.2f); // Simulated attack duration
-        /*Instantiate(attackPrefab, rb.position, Quaternion.identity); Ersätt detta med en attack när det finns*/
+        Vector2 spawnPosition = transform.position + new Vector3(0, 1f, 0); // Spawn attack above enemy
+        Instantiate(attackPrefab, spawnPosition, Quaternion.identity);
 
         attacking = false;
-        attackCoolDown = 1.5f; // Reset cooldown
+        attackCoolDown = 5f; // Reset cooldown
     }
 
     private void FixedUpdate()
