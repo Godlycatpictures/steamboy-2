@@ -1,58 +1,38 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class UpgradeManager : MonoBehaviour
 {
-    public SceneInfo sceneInfo;
-
+    public SceneInfo sceneInfo; // Reference to SceneInfo for saving upgrades
+    public GameObject[] availablePrefabs; // List of prefabs to choose from
+    
     private void Start()
     {
         if (sceneInfo == null)
         {
-            Debug.LogError("SceneInfo är inte kopplad till UpgradeManager!");
-            return;
+            Debug.LogError("SceneInfo is not assigned!");
         }
-
-        ApplyUpgrades();
     }
 
-    public void AddUpgrade(UpgradeType upgradeType, int value)
+    // Ändrad metod: Tar nu emot GameObject istället för index
+    public void ChooseUpgrade(GameObject selectedPrefab)
     {
-        if (!sceneInfo.upgrades.ContainsKey(upgradeType))
-        {
-            sceneInfo.upgrades[upgradeType] = 0;
-        }
+        // Lägg till den valda prefaben direkt i unlockedPrefabs
+        sceneInfo.unlockedPrefabs.Add(selectedPrefab.name); // Spara namnet på prefaben istället
 
-        sceneInfo.upgrades[upgradeType] += value;
-        Debug.Log($"Uppgradering: {upgradeType} ökad med {value}. Ny nivå: {sceneInfo.upgrades[upgradeType]}");
-
-        ApplyUpgrades();
+        Debug.Log($"Added {selectedPrefab.name} to unlocked prefabs!");
     }
-
-    private int GetUpgradeValue(UpgradeType type)
-    {
-        return sceneInfo.upgrades.ContainsKey(type) ? sceneInfo.upgrades[type] : 0;
-    }
-
-    private void ApplyUpgrades()
-    {
-        sceneInfo.health += GetUpgradeValue(UpgradeType.Health);
-        sceneInfo.fireRate -= GetUpgradeValue(UpgradeType.FireRate) * 0.1f;
-        sceneInfo.damageModifier += GetUpgradeValue(UpgradeType.Damage);
-       
-
-        Debug.Log("Alla uppgraderingar har applicerats!");
-    }
-}
-
-
-public enum UpgradeType
+    public void ApplyUpgrades(GameObject player)
 {
-    Health,
-    FireRate,
-    Damage,
-    Speed,
-    AttachPrefab // Ny kategori för prefabs
+    foreach (string prefabName in sceneInfo.unlockedPrefabs)
+    {
+        GameObject prefab = Array.Find(availablePrefabs, p => p.name == prefabName);
+        if (prefab != null && player != null)
+        {
+            Instantiate(prefab, player.transform.position, Quaternion.identity);
+        }
+    }
 }
-
+}

@@ -25,18 +25,17 @@ public class SceneInfo : ScriptableObject
 
     // Håller reda på vilka rum som har blivit rensade
     public List<bool> roomsCleared = new List<bool>();
-    public Dictionary<UpgradeType, int> upgrades = new Dictionary<UpgradeType, int>();
 
-    // Sparar upplåsta prefabs som strings (namn)
-    public List<string> unlockedPrefabs = new List<string>();
 
-    // Metod för att återställa alla variabler
+    // Ändra från string till GameObject
+    public List<GameObject> unlockedPrefabs = new List<GameObject>();
+
+    // Metod för att tillämpa uppgraderingar på karaktären
     public void ResetSceneInfo()
     {
         level = 1;
         xp = 0;
         xpToNextLevel = 100;  // Start XP för nästa nivå
-        upgrades.Clear();
         unlockedPrefabs.Clear();
     }
 
@@ -48,3 +47,12 @@ public class SceneInfo : ScriptableObject
         xpToNextLevel = Mathf.RoundToInt(xpToNextLevel * xpMultiplier); // Öka XP-kravet
     }
 }
+
+  
+
+    
+
+
+
+
+    
