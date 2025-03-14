@@ -1,4 +1,4 @@
-using System.Collections;
+/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine; 
 using UnityEngine.UI;
@@ -24,4 +24,4 @@ public class UpgradeUI : MonoBehaviour
     {
         upgradeManager.ChooseUpgrade(selectedPrefab); // Skicka GameObject till UpgradeManager
     }
-}
+}*/

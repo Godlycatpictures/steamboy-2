@@ -1,4 +1,4 @@
-using System.Collections;
+/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
@@ -24,15 +24,15 @@ public class UpgradeManager : MonoBehaviour
 
         Debug.Log($"Added {selectedPrefab.name} to unlocked prefabs!");
     }
-    public void ApplyUpgrades(GameObject player)
+    public void ApplyUpgrades(GameObject Player)
 {
-    foreach (string prefabName in sceneInfo.unlockedPrefabs)
+    foreach (GameObject prefabName in sceneInfo.unlockedPrefabs)
     {
         GameObject prefab = Array.Find(availablePrefabs, p => p.name == prefabName);
-        if (prefab != null && player != null)
+        if (prefab != null && Player != null)
         {
-            Instantiate(prefab, player.transform.position, Quaternion.identity);
+            Instantiate(prefab, Player.transform.position, Quaternion.identity);
         }
     }
 }
-}
+}*/

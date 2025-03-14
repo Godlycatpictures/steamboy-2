@@ -6,7 +6,7 @@ using UnityEngine;
 public class LevelManager : MonoBehaviour
 {
     public SceneInfo sceneInfo; // Rätt namn med stor bokstav
-  public UpgradeManager upgradeManager; // Stor bokstav!
+  //public UpgradeManager upgradeManager; // Stor bokstav!
   public GameObject player;
 
 
@@ -40,7 +40,7 @@ public class LevelManager : MonoBehaviour
         Debug.Log($"Level Up! New Level: {sceneInfo.level}. XP required for next level: {sceneInfo.xpToNextLevel}");
 
         OnLevelUp?.Invoke(sceneInfo.level); // Event som kan användas i UI eller effekter
-        upgradeManager.ApplyUpgrades(); // Uppdatera spelarens uppgraderingar
+        //upgradeManager.ApplyUpgrades(); // Uppdatera spelarens uppgraderingar
     }
 
     private void Start()
