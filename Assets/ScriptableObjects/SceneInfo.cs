@@ -3,7 +3,13 @@ using UnityEngine;
 
 [CreateAssetMenu(fileName = "SceneInfo", menuName = "Persistence")]
 public class SceneInfo : ScriptableObject
+    
 {
+       
+  
+    public bool hasShieldUpgrade;
+    
+
     public int health; // Mängden liv kvar
     public int numOfHearts; // Max antal hjärtan
 
@@ -25,10 +31,10 @@ public class SceneInfo : ScriptableObject
 
     // Håller reda på vilka rum som har blivit rensade
     public List<bool> roomsCleared = new List<bool>();
+    
 
 
-    // Ändra från string till GameObject
-    public List<GameObject> unlockedPrefabs = new List<GameObject>();
+    
 
     // Metod för att tillämpa uppgraderingar på karaktären
     public void ResetSceneInfo()
@@ -36,17 +42,39 @@ public class SceneInfo : ScriptableObject
         level = 1;
         xp = 0;
         xpToNextLevel = 100;  // Start XP för nästa nivå
-        unlockedPrefabs.Clear();
-    }
 
-    // Metod för att hantera level-up
-    public void LevelUp()
+   
+    hasShieldUpgrade = false;
+      
+    }
+    public void UnlockUpgrade(string upgradeName)
+    {
+        switch (upgradeName)
+        {
+            
+           
+            case "ShieldUpgrade":
+                hasShieldUpgrade = true;
+                break;
+            default:
+                Debug.LogWarning($"Upgrade {upgradeName} not found!");
+                break;
+        }
+    }
+       public void LevelUp()
     {
         xp -= xpToNextLevel;  // Behåll överskotts-XP
         level++;
         xpToNextLevel = Mathf.RoundToInt(xpToNextLevel * xpMultiplier); // Öka XP-kravet
     }
 }
+    // Metod för att hantera level-up
+ 
+
+   
+
+
+
 
   
 

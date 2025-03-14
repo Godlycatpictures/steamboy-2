@@ -1,38 +1,38 @@
-/*using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using System;
+using UnityEngine;
 
 public class UpgradeManager : MonoBehaviour
 {
-    public SceneInfo sceneInfo; // Reference to SceneInfo for saving upgrades
-    public GameObject[] availablePrefabs; // List of prefabs to choose from
+      public GameObject upgradeCanvas;
+    public SceneInfo sceneInfo;
     
+    
+    public GameObject shieldUpgradeObject;
+
     private void Start()
     {
-        if (sceneInfo == null)
-        {
-            Debug.LogError("SceneInfo is not assigned!");
-        }
+        ApplyUpgrades();
     }
 
-    // Ändrad metod: Tar nu emot GameObject istället för index
-    public void ChooseUpgrade(GameObject selectedPrefab)
+    public void ApplyUpgrades()
     {
-        // Lägg till den valda prefaben direkt i unlockedPrefabs
-        sceneInfo.unlockedPrefabs.Add(selectedPrefab.name); // Spara namnet på prefaben istället
-
-        Debug.Log($"Added {selectedPrefab.name} to unlocked prefabs!");
+ 
+        
+        shieldUpgradeObject.SetActive(sceneInfo.hasShieldUpgrade);
     }
-    public void ApplyUpgrades(GameObject Player)
-{
-    foreach (GameObject prefabName in sceneInfo.unlockedPrefabs)
+
+    public void UnlockUpgrade(string upgradeName)
     {
-        GameObject prefab = Array.Find(availablePrefabs, p => p.name == prefabName);
-        if (prefab != null && Player != null)
-        {
-            Instantiate(prefab, Player.transform.position, Quaternion.identity);
-        }
+        sceneInfo.UnlockUpgrade(upgradeName);
+        ApplyUpgrades(); // Uppdatera uppgraderingar direkt
+    }
+     public void UnlockShieldUpgrade()
+    {
+        sceneInfo.hasShieldUpgrade = true;
+        ApplyUpgrades();
+        upgradeCanvas.SetActive(false); // Dölj menyn
+        Time.timeScale = 1f;
     }
 }
-}*/
