@@ -10,7 +10,9 @@ public class UpgradeManager : MonoBehaviour
     public GameObject shieldUpgradeObject;
     public GameObject bulletsizeUpgradeObject;
 
-    // Prefab för BulletSizeIncrease
+    public GameObject FireRateUpgradePrefab;
+
+
     public GameObject bulletSizeIncreasePrefab;
 
     private List<string> unlockedUpgrades = new List<string>();
@@ -25,11 +27,18 @@ public class UpgradeManager : MonoBehaviour
         // Uppdatera aktivering av objekt baserat på uppgraderingsstatus
         shieldUpgradeObject.SetActive(sceneInfo.hasShieldUpgrade);
         bulletsizeUpgradeObject.SetActive(sceneInfo.hasBulletsizeUpgrade);
+        FireRateUpgradePrefab.SetActive(sceneInfo.hasFireRateUpgrade);
 
         // Kontrollera om BulletSizeUpgrade är upplåst och applicera den
         if (sceneInfo.hasBulletsizeUpgrade)
         {
             ApplyBulletSizeUpgrade();
+        }
+
+        // Kontrollera om FireRateUpgrade är upplåst och applicera den
+        if (sceneInfo.hasFireRateUpgrade)
+        {
+            ApplyFireRateUpgrade();
         }
     }
 
@@ -76,7 +85,33 @@ public class UpgradeManager : MonoBehaviour
             Debug.LogWarning("BulletSizeIncrease prefab is not assigned!");
         }
     }
+   public void unlockFireRateUpgrade()
+{
+    // Kolla om fireRate kan minskas (t.ex. så att det inte blir negativt eller under ett visst minimum)
+    if (sceneInfo.fireRate > 0.1f) // Förhindra att fireRate blir för låg
+    {
+        sceneInfo.fireRate -= 0.1f;
+        PlayerPrefs.SetFloat("fireRate", sceneInfo.fireRate);  // Uppdatera PlayerPrefs
+    }
+    else
+    {
+        Debug.Log("Maximum fire rate upgrade reached.");
+    }
 
-    // 🟢 Bullet Duplication Logik 🟢
+    ApplyUpgrades(); // Applicera uppgraderingen i UI:t
+    upgradeCanvas.SetActive(false);
+    Time.timeScale = 1f; // Fortsätt spelet
+}
+  private void ApplyFireRateUpgrade()
+    {
+        if (FireRateUpgradePrefab != null)
+        {
+            Instantiate(FireRateUpgradePrefab);
+        }
+        else
+        {
+            Debug.LogWarning("FireRateUpgrade prefab is not assigned!");
+        }
+    }
   
 }

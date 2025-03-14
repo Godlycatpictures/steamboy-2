@@ -9,6 +9,7 @@ public class SceneInfo : ScriptableObject
   
     public bool hasShieldUpgrade;
     public bool hasBulletsizeUpgrade;
+    public bool hasFireRateUpgrade;
   
 
     public int health; // Mängden liv kvar
@@ -34,7 +35,6 @@ public class SceneInfo : ScriptableObject
     public List<bool> roomsCleared = new List<bool>();
     
 
-
     
 
     // Metod för att tillämpa uppgraderingar på karaktären
@@ -47,6 +47,8 @@ public class SceneInfo : ScriptableObject
    
     hasShieldUpgrade = false;
     hasBulletsizeUpgrade = false;
+    hasFireRateUpgrade = false;
+    fireRate = 0.5f;
     
     }
     public void UnlockUpgrade(string upgradeName)
@@ -58,6 +60,9 @@ public class SceneInfo : ScriptableObject
             break;
         case "BulletsizeUpgrade":
             hasBulletsizeUpgrade = true;
+            break;
+        case "FireRateUpgrade":
+            hasFireRateUpgrade = true;
             break;
         
            
