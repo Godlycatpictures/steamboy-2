@@ -6,42 +6,38 @@ public class Bullet : MonoBehaviour
 {
     public float life = 3;
     public GameObject impactEffect;
+    public GameObject bulletPrefab; // Prefab för att skapa nya kulor
+
     private UpgradeManager upgradeManager;
 
     void Awake()
     {
-        Destroy(gameObject, life);
-
-        // Hämta UpgradeManager från scenen
         upgradeManager = FindObjectOfType<UpgradeManager>();
 
-        // 🔹 Kolla om Bullet Duplication är aktiv innan vi duplicerar
         if (upgradeManager != null && upgradeManager.HasUpgrade("BulletDuplication"))
         {
             DuplicateBullet();
         }
-        else if (upgradeManager == null)
-        {
-            Debug.LogWarning("UpgradeManager not found in the scene!");
-        }
-    }
 
+        Destroy(gameObject, life);
+    }
+   
     void OnCollisionEnter2D(Collision2D collision)
     {
         Instantiate(impactEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 
-    void DuplicateBullet()
+    private void DuplicateBullet()
     {
-        // 🔹 Skapar en ny bullet men ser till att den inte duplicerar sig själv igen
-        GameObject duplicate = Instantiate(gameObject, transform.position, transform.rotation);
-        Bullet bulletScript = duplicate.GetComponent<Bullet>();
+        int duplicateCount = 2; 
+        float spreadAngle = 15f;
 
-        if (bulletScript != null)
+        for (int i = 0; i < duplicateCount; i++)
         {
-            // 🔴 Inaktivera duplication på den nya skottet för att undvika oändlig loop
-            Destroy(bulletScript);
+            GameObject newBullet = Instantiate(bulletPrefab, transform.position, transform.rotation);
+            float randomAngle = Random.Range(-spreadAngle, spreadAngle);
+            newBullet.transform.Rotate(0, 0, randomAngle);
         }
     }
 }
