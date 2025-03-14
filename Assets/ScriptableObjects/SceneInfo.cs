@@ -72,12 +72,17 @@ public class SceneInfo : ScriptableObject
     }
 }
 
-       public void LevelUp()
-    {
-        xp -= xpToNextLevel;  // Behåll överskotts-XP
-        level++;
-        xpToNextLevel = Mathf.RoundToInt(xpToNextLevel * xpMultiplier); // Öka XP-kravet
-    }
+ public void LevelUp()
+{
+    xp -= xpToNextLevel;
+    level++;
+
+    int baseXP = 100;  
+    float growthFactor = 1.2f;  
+    int linearFactor = 50;
+
+    xpToNextLevel = Mathf.RoundToInt(baseXP + (Mathf.Pow(level, 2) * growthFactor) + (level * linearFactor));
+}
 }
     // Metod för att hantera level-up
  
