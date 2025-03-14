@@ -32,7 +32,7 @@ public class UpgradeManager : MonoBehaviour
     {
         sceneInfo.hasShieldUpgrade = true;
         ApplyUpgrades();
-        upgradeCanvas.SetActive(false); // Dölj menyn
-        Time.timeScale = 1f;
+        upgradeCanvas.SetActive(false);
+        Time.timeScale = 1f; // Fortsätt spelet
     }
 }

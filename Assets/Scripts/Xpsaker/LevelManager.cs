@@ -9,7 +9,8 @@ public class LevelManager : MonoBehaviour
   //public UpgradeManager upgradeManager; // Stor bokstav!
   public GameObject player;
 
-    public GameObject upgradeCanvas;
+    public UpgradeUI upgradeUI;  // Lägg till detta i LevelManager
+
 
     public event Action<int> OnLevelUp;
 
@@ -41,8 +42,7 @@ public class LevelManager : MonoBehaviour
 
         OnLevelUp?.Invoke(sceneInfo.level); // Event som kan användas i UI eller effekter
         //upgradeManager.ApplyUpgrades(); // Uppdatera spelarens uppgraderingar
-         Time.timeScale = 0f; // Pausa spelet
-        upgradeCanvas.SetActive(true); // Visa uppgraderingsmenyn
+        upgradeUI.ShowUpgradeMenu();
     }
 
     private void Start()
