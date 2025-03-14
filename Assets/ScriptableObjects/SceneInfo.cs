@@ -9,6 +9,7 @@ public class SceneInfo : ScriptableObject
   
     public bool hasShieldUpgrade;
     public bool hasBulletsizeUpgrade;
+    public bool hasBulletDuplicationUpgrade;
 
     public int health; // Mängden liv kvar
     public int numOfHearts; // Max antal hjärtan
@@ -49,23 +50,24 @@ public class SceneInfo : ScriptableObject
     
     }
     public void UnlockUpgrade(string upgradeName)
+{
+    switch (upgradeName)
     {
-        switch (upgradeName)
-        {
-            
-           
-            case "ShieldUpgrade":
-                hasShieldUpgrade = true;
-                break;
-        
-            case "BulletsizeUpgrade":
-                hasBulletsizeUpgrade = true;
-                break;
-                default: 
-                Debug.LogWarning($"Upgrade {upgradeName} not found!");
-                break;
-        }
+        case "ShieldUpgrade":
+            hasShieldUpgrade = true;
+            break;
+        case "BulletsizeUpgrade":
+            hasBulletsizeUpgrade = true;
+            break;
+        case "BulletDuplication":
+            hasBulletDuplicationUpgrade = true;
+            break;
+        default: 
+            Debug.LogWarning($"Upgrade {upgradeName} not found!");
+            break;
     }
+}
+
        public void LevelUp()
     {
         xp -= xpToNextLevel;  // Behåll överskotts-XP
