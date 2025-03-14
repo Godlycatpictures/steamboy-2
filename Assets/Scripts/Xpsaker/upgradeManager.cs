@@ -78,15 +78,5 @@ public class UpgradeManager : MonoBehaviour
     }
 
     // 🟢 Bullet Duplication Logik 🟢
-    public void UnlockBulletDuplication()
-    {
-        if (!HasUpgrade("BulletDuplication"))
-        {
-            unlockedUpgrades.Add("BulletDuplication");
-            Debug.Log("Bullet Duplication unlocked!");
-        }
-
-        upgradeCanvas.SetActive(false);
-        Time.timeScale = 1f;
-    }
+  
 }

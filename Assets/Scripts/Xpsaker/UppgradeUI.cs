@@ -65,9 +65,7 @@ public class UpgradeUI : MonoBehaviour
             case 0:
                 button.onClick.AddListener(() => upgradeManager.UnlockUpgrade("ShieldUpgrade"));
                 break;
-            case 1:
-                button.onClick.AddListener(() => upgradeManager.UnlockUpgrade("BulletDuplication"));
-                break;
+            
             default:
                 break;
         }
