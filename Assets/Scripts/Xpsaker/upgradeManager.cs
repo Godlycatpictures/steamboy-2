@@ -13,8 +13,6 @@ public class UpgradeManager : MonoBehaviour
     // Prefab för BulletSizeIncrease
     public GameObject bulletSizeIncreasePrefab;
 
-    private List<string> unlockedUpgrades = new List<string>();
-
     private void Start()
     {
         ApplyUpgrades();
@@ -24,7 +22,7 @@ public class UpgradeManager : MonoBehaviour
     {
         // Uppdatera aktivering av objekt baserat på uppgraderingsstatus
         shieldUpgradeObject.SetActive(sceneInfo.hasShieldUpgrade);
-        bulletsizeUpgradeObject.SetActive(sceneInfo.hasBulletsizeUpgrade);
+        bulletsizeUpgradeObject.SetActive(sceneInfo.hasBulletsizeUpgrade); // Bulletsize-objektet ska vara synligt när uppgraderingen är upplåst
 
         // Kontrollera om BulletSizeUpgrade är upplåst och applicera den
         if (sceneInfo.hasBulletsizeUpgrade)
@@ -35,58 +33,38 @@ public class UpgradeManager : MonoBehaviour
 
     public void UnlockUpgrade(string upgradeName)
     {
-        if (!unlockedUpgrades.Contains(upgradeName))
-        {
-            unlockedUpgrades.Add(upgradeName);
-            sceneInfo.UnlockUpgrade(upgradeName);
-            ApplyUpgrades();
-        }
-    }
-
-    public bool HasUpgrade(string upgradeName)
-    {
-        return unlockedUpgrades.Contains(upgradeName);
+        sceneInfo.UnlockUpgrade(upgradeName);
+        ApplyUpgrades(); // Uppdatera uppgraderingar direkt
     }
 
     public void UnlockShieldUpgrade()
     {
         sceneInfo.hasShieldUpgrade = true;
-        ApplyUpgrades();
+        ApplyUpgrades(); // Uppdatera uppgraderingar direkt
         upgradeCanvas.SetActive(false);
-        Time.timeScale = 1f;
+        Time.timeScale = 1f; // Fortsätt spelet
     }
 
     public void UnlockBulletSizeUpgrade()
     {
         Debug.Log("Unlocking bullet size upgrade");
         sceneInfo.hasBulletsizeUpgrade = true;
-        ApplyUpgrades();
+        ApplyUpgrades(); // Uppdatera uppgraderingar direkt
         upgradeCanvas.SetActive(false);
-        Time.timeScale = 1f;
+        Time.timeScale = 1f; // Fortsätt spelet
     }
 
+    // Till denna metod applicerar vi BulletSizeUpgrade
     private void ApplyBulletSizeUpgrade()
     {
+        // Skapa en instans av BulletSizeIncrease prefabben i världen
         if (bulletSizeIncreasePrefab != null)
         {
-            Instantiate(bulletSizeIncreasePrefab);
+            Instantiate(bulletSizeIncreasePrefab);  // Skapa en instans av prefabben
         }
         else
         {
             Debug.LogWarning("BulletSizeIncrease prefab is not assigned!");
         }
-    }
-
-    // 🟢 Bullet Duplication Logik 🟢
-    public void UnlockBulletDuplication()
-    {
-        if (!HasUpgrade("BulletDuplication"))
-        {
-            unlockedUpgrades.Add("BulletDuplication");
-            Debug.Log("Bullet Duplication unlocked!");
-        }
-
-        upgradeCanvas.SetActive(false);
-        Time.timeScale = 1f;
     }
 }

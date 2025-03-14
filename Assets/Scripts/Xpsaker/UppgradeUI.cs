@@ -32,41 +32,45 @@ public class UpgradeUI : MonoBehaviour
     }
 
    private void SelectRandomUpgrades()
-   {
-       List<Button> availableButtons = new List<Button>(allUpgradeButtons);
-       activeButtons.Clear();
+{
+    List<Button> availableButtons = new List<Button>(allUpgradeButtons);
+    activeButtons.Clear();
 
-       float buttonSpacing = 50f; 
-       Vector3 startPosition = new Vector3(0f, 0f, 0f);
+    // Sätt startposition för knapparna
+    float buttonSpacing = 50f; // Avstånd mellan knapparna, justera efter behov
+    Vector3 startPosition = new Vector3(0f, 0f, 0f); // Startposition för första knappen
 
-       for (int i = 0; i < 3; i++)
-       {
-           if (availableButtons.Count == 0) break; 
+    // Välj tre knappar slumpmässigt och aktivera dem
+    for (int i = 0; i < 3; i++)
+    {
+        if (availableButtons.Count == 0) break; // Om det inte finns fler att välja
 
-           int randomIndex = Random.Range(0, availableButtons.Count);
-           Button selectedButton = availableButtons[randomIndex];
+        int randomIndex = Random.Range(0, availableButtons.Count);
+        Button selectedButton = availableButtons[randomIndex];
 
-           activeButtons.Add(selectedButton);
-           selectedButton.gameObject.SetActive(true); 
+        activeButtons.Add(selectedButton);
+        selectedButton.gameObject.SetActive(true); // Visa knappen
 
-           RectTransform buttonRect = selectedButton.GetComponent<RectTransform>();
-           buttonRect.anchoredPosition = startPosition;
+        // Dynamiskt placera knappen genom att justera RectTransform
+        RectTransform buttonRect = selectedButton.GetComponent<RectTransform>();
+        buttonRect.anchoredPosition = startPosition;
 
-           startPosition.y -= buttonSpacing; 
+        // Justera startposition för nästa knapp
+        startPosition.y -= buttonSpacing; // Om du använder VerticalLayoutGroup
+        // startPosition.x -= buttonSpacing; // Om du använder HorizontalLayoutGroup
 
-           availableButtons.RemoveAt(randomIndex); 
-       }
-   }
+        availableButtons.RemoveAt(randomIndex); // Ta bort den valda knappen från listan
+    }
+}
+
 
     private void BindUpgradeButton(Button button, int upgradeIndex)
     {
+        // Här väljer vi vilken uppgradering som knappen ska representera
         switch (upgradeIndex)
         {
             case 0:
                 button.onClick.AddListener(() => upgradeManager.UnlockUpgrade("ShieldUpgrade"));
-                break;
-            case 1:
-                button.onClick.AddListener(() => upgradeManager.UnlockUpgrade("BulletDuplication"));
                 break;
             default:
                 break;
