@@ -8,7 +8,7 @@ public class SceneInfo : ScriptableObject
        
   
     public bool hasShieldUpgrade;
-    
+    public bool hasBulletsizeUpgrade;
 
     public int health; // Mängden liv kvar
     public int numOfHearts; // Max antal hjärtan
@@ -45,7 +45,8 @@ public class SceneInfo : ScriptableObject
 
    
     hasShieldUpgrade = false;
-      
+    hasBulletsizeUpgrade = false;
+    
     }
     public void UnlockUpgrade(string upgradeName)
     {
@@ -56,7 +57,11 @@ public class SceneInfo : ScriptableObject
             case "ShieldUpgrade":
                 hasShieldUpgrade = true;
                 break;
-            default:
+        
+            case "BulletsizeUpgrade":
+                hasBulletsizeUpgrade = true;
+                break;
+                default: 
                 Debug.LogWarning($"Upgrade {upgradeName} not found!");
                 break;
         }
