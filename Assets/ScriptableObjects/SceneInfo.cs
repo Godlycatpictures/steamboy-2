@@ -10,6 +10,7 @@ public class SceneInfo : ScriptableObject
     public bool hasShieldUpgrade;
     public bool hasBulletsizeUpgrade;
     public bool hasFireRateUpgrade;
+    public bool hasAutoFireUpgrade = false;
   
 
     public int health; // Mängden liv kvar
@@ -48,6 +49,7 @@ public class SceneInfo : ScriptableObject
     hasShieldUpgrade = false;
     hasBulletsizeUpgrade = false;
     hasFireRateUpgrade = false;
+    hasAutoFireUpgrade = false;
     fireRate = 0.5f;
     
     }
@@ -64,13 +66,15 @@ public class SceneInfo : ScriptableObject
         case "FireRateUpgrade":
             hasFireRateUpgrade = true;
             break;
-        
-           
-        default: 
+        case "AutoFireUpgrade":
+            hasAutoFireUpgrade = true;  // Lägg till denna rad för att hantera full-auto
+            break;
+        default:
             Debug.LogWarning($"Upgrade {upgradeName} not found!");
             break;
     }
 }
+
 
  public void LevelUp()
 {

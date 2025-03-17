@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 6437737279446561091}
   - component: {fileID: 1859626877337038642}
   - component: {fileID: 3187319218893563036}
+  - component: {fileID: 4055605666458289172}
   m_Layer: 8
   m_Name: BanannerProjectile
-  m_TagString: Enemy
+  m_TagString: EnemyProjectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -184,3 +185,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   impactEffect: {fileID: 0}
+--- !u!114 &4055605666458289172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3035658112984272958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0808b9bc72e2743929110af8b447b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 3
