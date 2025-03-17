@@ -33,6 +33,12 @@ public class UpgradeManager : MonoBehaviour
         {
             ApplyFireRateUpgrade();
         }
+        
+        // Aktivera Re-Roll om spelaren har den
+        if (sceneInfo.hasReRoll)
+        {
+            Debug.Log("Re-Roll Upgrade is available!");
+        }
     }
 
     public bool HasUpgrade(string upgradeName)
@@ -40,35 +46,32 @@ public class UpgradeManager : MonoBehaviour
         return unlockedUpgrades.Contains(upgradeName);
     }
 
- public void UnlockShieldUpgrade()
-{
-    if (!sceneInfo.hasShieldUpgrade) // Se till att det inte redan är upplåst
+    public void UnlockShieldUpgrade()
     {
-        sceneInfo.hasShieldUpgrade = true;
-        shieldUpgradeObject.SetActive(true);
-        unlockedUpgrades.Add("ShieldUpgrade");
-        Debug.Log("Shield upgrade unlocked.");
+        if (!sceneInfo.hasShieldUpgrade)
+        {
+            sceneInfo.hasShieldUpgrade = true;
+            shieldUpgradeObject.SetActive(true);
+            unlockedUpgrades.Add("ShieldUpgrade");
+            Debug.Log("Shield upgrade unlocked.");
+        }
+
+        CloseUpgradeMenu();
     }
 
-    upgradeCanvas.SetActive(false);
-    Time.timeScale = 1f;
-}
-
-public void UnlockBulletSizeUpgrade()
-{
-    if (!sceneInfo.hasBulletsizeUpgrade)
+    public void UnlockBulletSizeUpgrade()
     {
-        sceneInfo.hasBulletsizeUpgrade = true;
-        bulletsizeUpgradeObject.SetActive(true);
-        ApplyBulletSizeUpgrade();
-        unlockedUpgrades.Add("BulletsizeUpgrade");
-        Debug.Log("Bullet size upgrade unlocked.");
+        if (!sceneInfo.hasBulletsizeUpgrade)
+        {
+            sceneInfo.hasBulletsizeUpgrade = true;
+            bulletsizeUpgradeObject.SetActive(true);
+            ApplyBulletSizeUpgrade();
+            unlockedUpgrades.Add("BulletsizeUpgrade");
+            Debug.Log("Bullet size upgrade unlocked.");
+        }
+
+        CloseUpgradeMenu();
     }
-
-    upgradeCanvas.SetActive(false);
-    Time.timeScale = 1f;
-}
-
 
     private void ApplyBulletSizeUpgrade()
     {
@@ -83,30 +86,28 @@ public void UnlockBulletSizeUpgrade()
     }
 
     public void UnlockFireRateUpgrade()
-{
-    if (sceneInfo.fireRate > 0.1f) // Om fireRate kan minskas ytterligare
     {
-        sceneInfo.fireRate -= 0.1f; // Minska fireRate för att göra skjutningen snabbare
-        PlayerPrefs.SetFloat("fireRate", sceneInfo.fireRate); // Spara den nya fireRate till PlayerPrefs
-        Debug.Log("Fire rate decreased to: " + sceneInfo.fireRate);
-    }
-    else
-    {
-        Debug.Log("Maximum fire rate upgrade reached.");
-    }
+        if (sceneInfo.fireRate > 0.1f)
+        {
+            sceneInfo.fireRate -= 0.1f;
+            PlayerPrefs.SetFloat("fireRate", sceneInfo.fireRate);
+            Debug.Log("Fire rate decreased to: " + sceneInfo.fireRate);
+        }
+        else
+        {
+            Debug.Log("Maximum fire rate upgrade reached.");
+        }
 
-    if (!sceneInfo.hasFireRateUpgrade)
-    {
-        sceneInfo.hasFireRateUpgrade = true;
-        FireRateUpgradePrefab.SetActive(true);
-        unlockedUpgrades.Add("FireRateUpgrade");
-        ApplyFireRateUpgrade();
+        if (!sceneInfo.hasFireRateUpgrade)
+        {
+            sceneInfo.hasFireRateUpgrade = true;
+            FireRateUpgradePrefab.SetActive(true);
+            unlockedUpgrades.Add("FireRateUpgrade");
+            ApplyFireRateUpgrade();
+        }
+
+        CloseUpgradeMenu();
     }
-
-    upgradeCanvas.SetActive(false);
-    Time.timeScale = 1f;
-}
-
 
     private void ApplyFireRateUpgrade()
     {
@@ -120,23 +121,48 @@ public void UnlockBulletSizeUpgrade()
         }
     }
 
-   public void UnlockFullAutoUpgrade()
-{
-    if (!sceneInfo.hasAutoFireUpgrade)
+    public void UnlockFullAutoUpgrade()
     {
-        sceneInfo.hasAutoFireUpgrade = true;
-        unlockedUpgrades.Add("FullAutoUpgrade");
-        sceneInfo.fireRate *= 2; // Dubbla fireRate för att göra det snabbare
-        // Aktivera full-auto i Weapon
-        Weapon weapon = FindObjectOfType<Weapon>();
-        if (weapon != null)
+        if (!sceneInfo.hasAutoFireUpgrade)
         {
-            weapon.isAutoFireEnabled = true; // Sätt flaggan för auto fire
+            sceneInfo.hasAutoFireUpgrade = true;
+            unlockedUpgrades.Add("FullAutoUpgrade");
+            sceneInfo.fireRate *= 2;
+
+            Weapon weapon = FindObjectOfType<Weapon>();
+            if (weapon != null)
+            {
+                weapon.isAutoFireEnabled = true;
+            }
         }
+
+        CloseUpgradeMenu();
     }
 
-    upgradeCanvas.SetActive(false);
-    Time.timeScale = 1f;
+    // Ny metod för att låsa upp Re-Roll
+public void UnlockReRollUpgrade()
+{
+    if (!sceneInfo.hasReRoll)
+    {
+        sceneInfo.hasReRoll = true;
+        sceneInfo.hasUsedReRoll = false; // Se till att spelaren kan använda den
+        Debug.Log("Re-Roll upgrade unlocked!");
+    }
+    CloseUpgradeMenu();
 }
 
+
+
+    // Återställ Re-Roll när spelaren går upp i level
+    public void ResetReRollOnLevelUp()
+    {
+        sceneInfo.hasUsedReRoll = false;
+        Debug.Log("Re-Roll Reset on Level Up!");
+    }
+
+    private void CloseUpgradeMenu()
+    {
+        upgradeCanvas.SetActive(false);
+        Time.timeScale = 1f;
+    }
 }

@@ -11,9 +11,13 @@ public class SceneInfo : ScriptableObject
     public bool hasBulletsizeUpgrade;
     public bool hasFireRateUpgrade;
     public bool hasAutoFireUpgrade = false;
-  
+    public bool hasKillToHeal;
+
+    public bool hasReRoll;
+     public bool hasUsedReRoll;
 
     public int health; // Mängden liv kvar
+    public int EnemiesKilled;
     public int numOfHearts; // Max antal hjärtan
 
     public int currentCoins; // Antalet mynt som spelaren har
@@ -50,6 +54,8 @@ public class SceneInfo : ScriptableObject
     hasBulletsizeUpgrade = false;
     hasFireRateUpgrade = false;
     hasAutoFireUpgrade = false;
+    hasUsedReRoll = false;
+    hasReRoll = false;
     fireRate = 0.5f;
     
     }
@@ -80,7 +86,7 @@ public class SceneInfo : ScriptableObject
 {
     xp -= xpToNextLevel;
     level++;
-
+     hasUsedReRoll = false;
     int baseXP = 100;  
     float growthFactor = 1.2f;  
     int linearFactor = 50;
