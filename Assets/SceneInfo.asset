@@ -19,7 +19,7 @@ MonoBehaviour:
   numOfHearts: 3
   currentCoins: 0
   fireForce: 10
-  fireRate: 0.10000002
+  fireRate: 0.1
   damageModifier: 1
   randmap: -1
   xp: 483

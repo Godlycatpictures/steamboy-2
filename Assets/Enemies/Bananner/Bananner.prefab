@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 263386594182415179}
   - component: {fileID: 5340557700874866199}
   - component: {fileID: -7191219128444716360}
+  - component: {fileID: -7023415329890083213}
   m_Layer: 0
   m_Name: Bananner
   m_TagString: Enemy
@@ -190,3 +191,16 @@ MonoBehaviour:
   isMoving: 0
   attacking: 0
   attackPrefab: {fileID: 3035658112984272958, guid: d453279f91c20f94b9e150a26685bc79, type: 3}
+--- !u!114 &-7023415329890083213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6631798278925613764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0808b9bc72e2743929110af8b447b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 6

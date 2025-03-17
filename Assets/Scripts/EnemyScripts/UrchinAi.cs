@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class UrchinAi : MonoBehaviour
 {
-    private float detectionRange = 3f;
-    private float attackRange = 1f;
+    private float detectionRange = 6f;
+    private float attackRange = 3f;
     private float speed = 0.5f;
     public float xVelocity;
     public float yVelocity;
@@ -45,7 +45,7 @@ public class UrchinAi : MonoBehaviour
                 isMoving = true;
                 MoveTowards(player.position);
             }
-            else if (distanceToPlayer <= attackRange && attackCoolDown <= 0)
+            else if (distanceToPlayer <= attackRange && attackCoolDown <= 0 && !attacking)
             {
                 isMoving = false;
                 StartCoroutine(Attack());
@@ -73,22 +73,45 @@ public class UrchinAi : MonoBehaviour
         rb.velocity = direction * speed; // Moves in both X and Y directions
     }
 
-    private IEnumerator Attack()
+private IEnumerator Attack()
+{
+    rb.velocity = Vector2.zero; // Stop movement while attacking
+    attacking = true;
+
+    yield return new WaitForSeconds(0.8f); // Simulated attack duration
+
+    int projectileCount = 7; // Number of projectiles
+    float projectileSpeed = 3f; // Adjust as needed
+
+    for (int i = 0; i < projectileCount; i++)
     {
-        rb.velocity = Vector2.zero; // Stop movement while attacking
-        attacking = true;
+        // Generate a random angle between 10° and 170° (Only above the enemy)
+        float randomAngle = Random.Range(10f, 170f);
+        float radianAngle = randomAngle * Mathf.Deg2Rad; // Convert to radians
 
-        // Attack logic (e.g., play animation, deal damage, etc.)
+        // Convert angle to direction vector
+        Vector2 direction = new Vector2(Mathf.Cos(radianAngle), Mathf.Sin(radianAngle)).normalized;
 
-        yield return new WaitForSeconds(1f); // Simulated attack duration
+        // Calculate the rotation to match the movement direction
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg; // Convert to degrees
+        Quaternion rotation = Quaternion.Euler(0, 0, angle); // 2D rotation
 
-        //Instantiate(attackPrefab, rb.position, Quaternion.identity); Lägg till attack här
+        // Instantiate projectile with the correct rotation
+        var UrchinProjectile = Instantiate(attackPrefab, rb.position, rotation);
+        Rigidbody2D projectileRb = UrchinProjectile.GetComponent<Rigidbody2D>();
 
-        yield return new WaitForSeconds(0.5f); // Added time for padding
-
-        attacking = false;
-        attackCoolDown = 1.5f; // Reset cooldown
+        if (projectileRb != null)
+        {
+            // Assign velocity
+            projectileRb.velocity = direction * projectileSpeed;
+        }
     }
+
+    yield return new WaitForSeconds(0.8f); // Added time for padding
+
+    attacking = false;
+    attackCoolDown = 1.5f; // Reset cooldown
+}
 
     private void FixedUpdate()
     {

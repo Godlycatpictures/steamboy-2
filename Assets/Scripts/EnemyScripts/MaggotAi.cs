@@ -45,7 +45,7 @@ public class MaggotAi : MonoBehaviour
                 isMoving = true;
                 MoveTowards(player.position);
             }
-            else if (distanceToPlayer <= attackRange && attackCoolDown <= 0)
+            else if (distanceToPlayer <= attackRange && attackCoolDown <= 0 && !attacking)
             {
                 isMoving = false;
                 StartCoroutine(Attack());
@@ -81,7 +81,7 @@ public class MaggotAi : MonoBehaviour
         // Attack logic (e.g., play animation, deal damage, etc.)
 
         yield return new WaitForSeconds(1.2f); // Simulated attack duration
-        /*Instantiate(attackPrefab, rb.position, Quaternion.identity); Ersätt detta med en attack när det finns*/
+        Instantiate(attackPrefab, rb.position, Quaternion.identity);
 
         attacking = false;
         attackCoolDown = 1.5f; // Reset cooldown
