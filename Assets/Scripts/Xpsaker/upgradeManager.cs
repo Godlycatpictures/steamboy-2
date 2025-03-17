@@ -5,6 +5,8 @@ public class UpgradeManager : MonoBehaviour
 {
     public GameObject upgradeCanvas;
     public SceneInfo sceneInfo;
+    public GameObject ghostCompanionPrefab;
+    public GameObject activeGhost;
 
     public GameObject shieldUpgradeObject;
     public GameObject bulletsizeUpgradeObject;
@@ -17,6 +19,13 @@ public class UpgradeManager : MonoBehaviour
     {
         ApplyUpgrades();
     }
+    void Update()
+{
+    if (Input.GetKeyDown(KeyCode.F9)) // Test instantiation with F9
+    {
+        UnlockGhostCompanion();
+    }
+}
 
     public void ApplyUpgrades()
     {
@@ -164,5 +173,25 @@ public void UnlockReRollUpgrade()
     {
         upgradeCanvas.SetActive(false);
         Time.timeScale = 1f;
+    }
+    public void UnlockGhostCompanion()
+    {
+        if (!sceneInfo.hasGhostCompanion)
+        {
+            sceneInfo.hasGhostCompanion = true;
+            
+            // Instantiate ghost using same pattern as shield/bullet upgrades
+            if (ghostCompanionPrefab != null)
+            {
+                activeGhost = Instantiate(ghostCompanionPrefab);
+                activeGhost.GetComponent<GhostCompanion>().player = 
+                    GameObject.FindGameObjectWithTag("Player").transform;
+                activeGhost.SetActive(true); // Explicit activation
+            }
+            
+            unlockedUpgrades.Add("GhostCompanion");
+            Debug.Log("Ghost companion unlocked!");
+        }
+        CloseUpgradeMenu();
     }
 }

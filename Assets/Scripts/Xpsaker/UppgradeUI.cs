@@ -5,9 +5,12 @@ using UnityEngine.UI;
 
 public class UpgradeUI : MonoBehaviour
 {
+
     public Button rerollButton; // Knappen för att rerolla uppgraderingar
     public UpgradeManager upgradeManager;
     public GameObject upgradeCanvas; // Canvas för uppgraderingsmenyn
+
+
 
     public List<Button> allUpgradeButtons; // Alla uppgraderingsknappar
     private List<Button> activeButtons = new List<Button>(); // De tre slumpmässigt valda knapparna
@@ -107,6 +110,7 @@ public class UpgradeUI : MonoBehaviour
             case 2: return upgradeManager.sceneInfo.hasFireRateUpgrade;
             case 3: return upgradeManager.sceneInfo.hasAutoFireUpgrade;
             case 4: return upgradeManager.sceneInfo.hasReRoll;
+            case 5: return upgradeManager.sceneInfo.hasGhostCompanion; // lowercase 's' in sceneInfo // Add this to IsUpgradeUnlockedForButton
             default: return false;
         }
     }
@@ -141,5 +145,9 @@ public class UpgradeUI : MonoBehaviour
     upgradeManager.UnlockReRollUpgrade(); // Anropa UpgradeManager för att låsa upp Re-Roll
     HideUpgradeMenu(); // Stäng uppgraderingsmenyn
 }
-
+public void UnlockGhostCompanionUpgrade()
+{
+    upgradeManager.UnlockGhostCompanion();
+    HideUpgradeMenu();
+}
 }

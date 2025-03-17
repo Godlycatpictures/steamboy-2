@@ -11,7 +11,8 @@ public class SceneInfo : ScriptableObject
     public bool hasBulletsizeUpgrade;
     public bool hasFireRateUpgrade;
     public bool hasAutoFireUpgrade = false;
-    public bool hasKillToHeal;
+    public bool hasKillToHeal; //måste göras
+    public bool hasGhostCompanion;
 
     public bool hasReRoll;
      public bool hasUsedReRoll;
@@ -56,6 +57,8 @@ public class SceneInfo : ScriptableObject
     hasAutoFireUpgrade = false;
     hasUsedReRoll = false;
     hasReRoll = false;
+    hasKillToHeal = false;
+    hasGhostCompanion = false;
     fireRate = 0.5f;
     
     }
