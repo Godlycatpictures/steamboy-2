@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8988810738866117176}
   - component: {fileID: 8267725853355511355}
   - component: {fileID: -202065043388355722}
+  - component: {fileID: -3030097031517905373}
   m_Layer: 0
   m_Name: Cacti
   m_TagString: Enemy
@@ -190,3 +191,16 @@ MonoBehaviour:
   isMoving: 0
   attacking: 0
   attackPrefab: {fileID: 0}
+--- !u!114 &-3030097031517905373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6817648967736326541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0808b9bc72e2743929110af8b447b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 4

@@ -45,7 +45,7 @@ public class CactiAi : MonoBehaviour
                 isMoving = true;
                 MoveTowards(player.position);
             }
-            else if (distanceToPlayer <= attackRange && attackCoolDown <= 0)
+            else if (distanceToPlayer <= attackRange && attackCoolDown <= 0 && !attacking)
             {
                 isMoving = false;
                 StartCoroutine(Attack());
@@ -79,7 +79,7 @@ public class CactiAi : MonoBehaviour
         attacking = true;
 
 
-        yield return new WaitForSeconds(1.2f); // Simulated attack duration
+        yield return new WaitForSeconds(0.5f); // Simulated attack duration
         /*Instantiate(attackPrefab, rb.position, Quaternion.identity); Ersätt detta med en attack när det finns*/
 
         attacking = false;
