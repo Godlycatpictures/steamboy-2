@@ -49,7 +49,7 @@ public class griggly : MonoBehaviour
         // Grant XP before destroying the enemy
         if (xpCharacter != null)
         {
-            xpCharacter.AddXP(50); // Add XP when enemy dies
+            xpCharacter.AddXP(1000); // Add XP when enemy dies
         }
 
         Destroy(gameObject); // Remove enemy from scene
