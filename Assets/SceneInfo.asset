@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f4c83e8bab40204b8e5b84b3bb1adb4, type: 3}
   m_Name: SceneInfo
   m_EditorClassIdentifier: 
-  hasShieldUpgrade: 0
-  hasBulletsizeUpgrade: 0
-  hasFireRateUpgrade: 0
+  hasShieldUpgrade: 1
+  hasBulletsizeUpgrade: 1
+  hasFireRateUpgrade: 1
   health: 3
   numOfHearts: 3
   currentCoins: 0
   fireForce: 10
-  fireRate: 0.5
+  fireRate: 0.10000002
   damageModifier: 1
   randmap: -1
-  xp: 115
-  level: 5
-  xpToNextLevel: 380
+  xp: 483
+  level: 8
+  xpToNextLevel: 577
   xpMultiplier: 1.2
   roomsCleared: 

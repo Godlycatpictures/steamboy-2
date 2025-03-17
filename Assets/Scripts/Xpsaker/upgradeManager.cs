@@ -9,10 +9,7 @@ public class UpgradeManager : MonoBehaviour
     
     public GameObject shieldUpgradeObject;
     public GameObject bulletsizeUpgradeObject;
-
     public GameObject FireRateUpgradePrefab;
-
-
     public GameObject bulletSizeIncreasePrefab;
 
     private List<string> unlockedUpgrades = new List<string>();
@@ -24,31 +21,18 @@ public class UpgradeManager : MonoBehaviour
 
     public void ApplyUpgrades()
     {
-        // Uppdatera aktivering av objekt baserat på uppgraderingsstatus
         shieldUpgradeObject.SetActive(sceneInfo.hasShieldUpgrade);
         bulletsizeUpgradeObject.SetActive(sceneInfo.hasBulletsizeUpgrade);
         FireRateUpgradePrefab.SetActive(sceneInfo.hasFireRateUpgrade);
 
-        // Kontrollera om BulletSizeUpgrade är upplåst och applicera den
         if (sceneInfo.hasBulletsizeUpgrade)
         {
             ApplyBulletSizeUpgrade();
         }
 
-        // Kontrollera om FireRateUpgrade är upplåst och applicera den
         if (sceneInfo.hasFireRateUpgrade)
         {
             ApplyFireRateUpgrade();
-        }
-    }
-
-    public void UnlockUpgrade(string upgradeName)
-    {
-        if (!unlockedUpgrades.Contains(upgradeName))
-        {
-            unlockedUpgrades.Add(upgradeName);
-            sceneInfo.UnlockUpgrade(upgradeName);
-            ApplyUpgrades();
         }
     }
 
@@ -59,17 +43,27 @@ public class UpgradeManager : MonoBehaviour
 
     public void UnlockShieldUpgrade()
     {
-        sceneInfo.hasShieldUpgrade = true;
-        ApplyUpgrades();
+        if (!sceneInfo.hasShieldUpgrade) // Se till att det inte redan är upplåst
+        {
+            sceneInfo.hasShieldUpgrade = true;
+            shieldUpgradeObject.SetActive(true);
+            Debug.Log("Shield upgrade unlocked.");
+        }
+
         upgradeCanvas.SetActive(false);
         Time.timeScale = 1f;
     }
 
     public void UnlockBulletSizeUpgrade()
     {
-        Debug.Log("Unlocking bullet size upgrade");
-        sceneInfo.hasBulletsizeUpgrade = true;
-        ApplyUpgrades();
+        if (!sceneInfo.hasBulletsizeUpgrade)
+        {
+            sceneInfo.hasBulletsizeUpgrade = true;
+            bulletsizeUpgradeObject.SetActive(true);
+            ApplyBulletSizeUpgrade();
+            Debug.Log("Bullet size upgrade unlocked.");
+        }
+
         upgradeCanvas.SetActive(false);
         Time.timeScale = 1f;
     }
@@ -85,24 +79,32 @@ public class UpgradeManager : MonoBehaviour
             Debug.LogWarning("BulletSizeIncrease prefab is not assigned!");
         }
     }
-   public void unlockFireRateUpgrade()
-{
-    // Kolla om fireRate kan minskas (t.ex. så att det inte blir negativt eller under ett visst minimum)
-    if (sceneInfo.fireRate > 0.1f) // Förhindra att fireRate blir för låg
+
+    public void UnlockFireRateUpgrade()
     {
-        sceneInfo.fireRate -= 0.1f;
-        PlayerPrefs.SetFloat("fireRate", sceneInfo.fireRate);  // Uppdatera PlayerPrefs
-    }
-    else
-    {
-        Debug.Log("Maximum fire rate upgrade reached.");
+        if (sceneInfo.fireRate > 0.1f)
+        {
+            sceneInfo.fireRate -= 0.1f;
+            PlayerPrefs.SetFloat("fireRate", sceneInfo.fireRate);
+            Debug.Log("Fire rate decreased to: " + sceneInfo.fireRate);
+        }
+        else
+        {
+            Debug.Log("Maximum fire rate upgrade reached.");
+        }
+
+        if (!sceneInfo.hasFireRateUpgrade)
+        {
+            sceneInfo.hasFireRateUpgrade = true;
+            FireRateUpgradePrefab.SetActive(true);
+            ApplyFireRateUpgrade();
+        }
+
+        upgradeCanvas.SetActive(false);
+        Time.timeScale = 1f;
     }
 
-    ApplyUpgrades(); // Applicera uppgraderingen i UI:t
-    upgradeCanvas.SetActive(false);
-    Time.timeScale = 1f; // Fortsätt spelet
-}
-  private void ApplyFireRateUpgrade()
+    private void ApplyFireRateUpgrade()
     {
         if (FireRateUpgradePrefab != null)
         {
@@ -113,5 +115,4 @@ public class UpgradeManager : MonoBehaviour
             Debug.LogWarning("FireRateUpgrade prefab is not assigned!");
         }
     }
-  
 }

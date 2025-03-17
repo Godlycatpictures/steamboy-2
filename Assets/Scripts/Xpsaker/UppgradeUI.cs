@@ -57,24 +57,24 @@ public class UpgradeUI : MonoBehaviour
            availableButtons.RemoveAt(randomIndex); 
        }
    }
-
-    private void BindUpgradeButton(Button button, int upgradeIndex)
+private void BindUpgradeButton(Button button, int upgradeIndex)
+{
+    switch (upgradeIndex)
     {
-        switch (upgradeIndex)
-        {
-            case 0:
-                button.onClick.AddListener(() => upgradeManager.UnlockUpgrade("ShieldUpgrade"));
-                break;
-            case 1:
-                button.onClick.AddListener(() => upgradeManager.UnlockUpgrade("BulletsizeUpgrade"));
-                break;
-            case 2:
-                button.onClick.AddListener(() => upgradeManager.UnlockUpgrade("FireRateUpgrade"));
-                break;
-            default:
-                break;
-        }
+        case 0:
+            button.onClick.AddListener(() => upgradeManager.UnlockShieldUpgrade()); 
+            break;
+        case 1:
+            button.onClick.AddListener(() => upgradeManager.UnlockBulletSizeUpgrade());
+            break;
+        case 2:
+            button.onClick.AddListener(() => upgradeManager.UnlockFireRateUpgrade());
+            break;
+        default:
+            Debug.LogError("Invalid upgrade index: " + upgradeIndex);
+            break;
     }
+}
 
     private void HideAllButtons()
     {
