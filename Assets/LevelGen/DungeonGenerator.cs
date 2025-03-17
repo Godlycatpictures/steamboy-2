@@ -46,7 +46,7 @@ public class DungeonGenerator : MonoBehaviour
 
         if (rooms.ContainsKey(0))
         {
-            rooms[0].Position = Vector2.zero; // Start room at (0,0)
+            rooms[0].Position = Vector2.zero; // börja i början
             queue.Enqueue(rooms[0]);
             visited.Add(0);
         }
