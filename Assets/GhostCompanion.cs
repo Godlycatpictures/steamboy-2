@@ -9,6 +9,8 @@ public class GhostCompanion : MonoBehaviour
     public float shootingInterval = 2f;
     public GameObject homingBulletPrefab;
     public float bulletSpeed = 5f;
+    public float shootingRange = 5f; // Avstånd där companion får skjuta
+    public LayerMask enemyLayer; // Lager för fiender
 
     private float shootingTimer;
 
@@ -16,48 +18,44 @@ public class GhostCompanion : MonoBehaviour
     {
         if (player == null) return;
 
-        // Smooth follow player
+        // Följ spelaren smidigt
         Vector3 targetPosition = player.position + new Vector3(1.5f, 1.5f, 0);
         transform.position = Vector3.Lerp(transform.position, targetPosition, followSpeed * Time.deltaTime);
 
-        // Shooting logic
-        shootingTimer += Time.deltaTime;
-        if (shootingTimer >= shootingInterval)
+        // Kolla om det finns fiender inom räckvidd
+        if (EnemyInRange())
         {
-            ShootHomingBullet();
-            shootingTimer = 0f;
+            shootingTimer += Time.deltaTime;
+            if (shootingTimer >= shootingInterval)
+            {
+                ShootHomingBullet();
+                shootingTimer = 0f;
+            }
         }
     }
 
-void ShootHomingBullet()
-{
-    // Debug: Verify prefab assignment
-    if (homingBulletPrefab == null)
+    bool EnemyInRange()
     {
-        Debug.LogError("Missing bullet prefab in GhostCompanion!");
-        return;
+        Collider2D[] enemies = Physics2D.OverlapCircleAll(transform.position, shootingRange, enemyLayer);
+        return enemies.Length > 0;
     }
 
-    // Debug: Verify spawn position
-    Debug.Log($"Trying to spawn bullet at {transform.position}");
-    
-    try
+    void ShootHomingBullet()
     {
-        GameObject bullet = Instantiate(
-            homingBulletPrefab,
-            transform.position + (transform.up * 0.5f), // Offset forward
-            Quaternion.identity
-        );
-        
-        // Debug: Verify instantiation
+        if (homingBulletPrefab == null)
+        {
+            Debug.LogError("Missing bullet prefab in GhostCompanion!");
+            return;
+        }
+
+        GameObject bullet = Instantiate(homingBulletPrefab, transform.position + (transform.up * 0.5f), Quaternion.identity);
+
         if (bullet == null)
         {
             Debug.LogError("Bullet instantiation failed!");
             return;
         }
-        Debug.Log($"Bullet spawned successfully at {bullet.transform.position}");
 
-        // Initialize bullet components
         HomingBullet homingScript = bullet.GetComponent<HomingBullet>();
         if (homingScript != null)
         {
@@ -68,9 +66,11 @@ void ShootHomingBullet()
             Debug.LogError("Missing HomingBullet script on bullet prefab!");
         }
     }
-    catch (System.Exception e)
+
+    // Rita ut räckvidden i scenen för debug
+    void OnDrawGizmosSelected()
     {
-        Debug.LogError($"Bullet spawn error: {e.Message}");
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, shootingRange);
     }
-}
 }
