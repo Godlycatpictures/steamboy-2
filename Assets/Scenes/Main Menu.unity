@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 164897083}
   m_Layer: 5
   m_Name: OptionsButton
-  m_TagString: Untagged
+  m_TagString: MainMenuUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -436,7 +436,7 @@ GameObject:
   - component: {fileID: 601076015}
   m_Layer: 5
   m_Name: PlayButton
-  m_TagString: Untagged
+  m_TagString: MainMenuUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -602,6 +602,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c4e77dfacac567478e903a0d252fc48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainMenuTag: MainMenuUI
+  settingsTag: SettingsUI
 --- !u!1 &988228430
 GameObject:
   m_ObjectHideFlags: 0
@@ -1191,7 +1193,7 @@ GameObject:
   - component: {fileID: 2003687457}
   m_Layer: 5
   m_Name: QuitButton
-  m_TagString: Untagged
+  m_TagString: MainMenuUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

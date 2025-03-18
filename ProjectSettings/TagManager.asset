@@ -6,7 +6,11 @@ TagManager:
   tags:
   - Bullet
   - Enemy
+<<<<<<< HEAD
+  - MainMenuUI
+=======
   - EnemyProjectile
+>>>>>>> 4481d3b8b738ee70ddf93709156983e50aac3df6
   layers:
   - Default
   - TransparentFX
