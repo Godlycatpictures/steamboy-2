@@ -5,8 +5,12 @@ using UnityEngine.UI;
 
 public class UpgradeUI : MonoBehaviour
 {
+
+    public Button rerollButton; // Knappen för att rerolla uppgraderingar
     public UpgradeManager upgradeManager;
     public GameObject upgradeCanvas; // Canvas för uppgraderingsmenyn
+
+
 
     public List<Button> allUpgradeButtons; // Alla uppgraderingsknappar
     private List<Button> activeButtons = new List<Button>(); // De tre slumpmässigt valda knapparna
@@ -14,15 +18,21 @@ public class UpgradeUI : MonoBehaviour
     private void Start()
     {
         HideAllButtons();
+        rerollButton.gameObject.SetActive(false);
+        rerollButton.onClick.AddListener(RerollUpgrades);
     }
 
     public void ShowUpgradeMenu()
     {
-        HideAllButtons(); // Göm alla knappar först
-        SelectRandomUpgrades(); // Välj tre slumpmässiga
+        HideAllButtons();
+        SelectRandomUpgrades();
+
+        // Visa reroll-knappen endast om spelaren har den och INTE har använt den
+        bool canUseReRoll = upgradeManager.sceneInfo.hasReRoll && !upgradeManager.sceneInfo.hasUsedReRoll;
+        rerollButton.gameObject.SetActive(canUseReRoll);
 
         upgradeCanvas.SetActive(true);
-        Time.timeScale = 0f; // Pausa spelet
+        Time.timeScale = 0f;
     }
 
     public void HideUpgradeMenu()
@@ -32,49 +42,78 @@ public class UpgradeUI : MonoBehaviour
     }
 
    private void SelectRandomUpgrades()
-   {
-       List<Button> availableButtons = new List<Button>(allUpgradeButtons);
-       activeButtons.Clear();
-
-       float buttonSpacing = 50f; 
-       Vector3 startPosition = new Vector3(0f, 0f, 0f);
-
-       for (int i = 0; i < 3; i++)
-       {
-           if (availableButtons.Count == 0) break; 
-
-           int randomIndex = Random.Range(0, availableButtons.Count);
-           Button selectedButton = availableButtons[randomIndex];
-
-           activeButtons.Add(selectedButton);
-           selectedButton.gameObject.SetActive(true); 
-
-           RectTransform buttonRect = selectedButton.GetComponent<RectTransform>();
-           buttonRect.anchoredPosition = startPosition;
-
-           startPosition.y -= buttonSpacing; 
-
-           availableButtons.RemoveAt(randomIndex); 
-       }
-   }
-private void BindUpgradeButton(Button button, int upgradeIndex)
 {
-    switch (upgradeIndex)
+    List<Button> availableButtons = new List<Button>();
+
+    // Lägg till alla knappar som INTE är upplåsta (förutom FireRate som kan uppgraderas flera gånger)
+    foreach (Button button in allUpgradeButtons)
     {
-        case 0:
-            button.onClick.AddListener(() => upgradeManager.UnlockShieldUpgrade()); 
-            break;
-        case 1:
-            button.onClick.AddListener(() => upgradeManager.UnlockBulletSizeUpgrade());
-            break;
-        case 2:
-            button.onClick.AddListener(() => upgradeManager.UnlockFireRateUpgrade());
-            break;
-        default:
-            Debug.LogError("Invalid upgrade index: " + upgradeIndex);
-            break;
+        // Tillåt FireRate att alltid dyka upp även om den är "unlocked"
+        if (IsFireRateUpgrade(button) || !IsUpgradeUnlockedForButton(button))
+        {
+            availableButtons.Add(button);
+        }
     }
-}
+
+    // Lägg till Re-Roll som ett alternativ om den inte är upplåstad
+    if (!upgradeManager.sceneInfo.hasReRoll)
+    {
+        Button reRollUpgradeButton = allUpgradeButtons.Find(b => b.name == "ReRollUpgradeButton");
+        if (reRollUpgradeButton != null && !availableButtons.Contains(reRollUpgradeButton))
+        {
+            availableButtons.Add(reRollUpgradeButton);
+        }
+    }
+
+    activeButtons.Clear();
+
+    float buttonSpacing = 50f;
+    Vector3 startPosition = new Vector3(0f, 0f, 0f);
+
+    // Välj 3 slumpmässiga unika knappar
+    for (int i = 0; i < 3; i++)
+    {
+        if (availableButtons.Count == 0) break;
+
+        int randomIndex = Random.Range(0, availableButtons.Count);
+        Button selectedButton = availableButtons[randomIndex];
+        activeButtons.Add(selectedButton);
+        availableButtons.RemoveAt(randomIndex);
+
+        // Positionera knappen
+        RectTransform buttonRect = selectedButton.GetComponent<RectTransform>();
+        buttonRect.anchoredPosition = startPosition;
+        startPosition.y -= buttonSpacing;
+
+        selectedButton.gameObject.SetActive(true);
+    }
+
+    // Debugga vilka knappar som valts
+    foreach (Button btn in activeButtons)
+    {
+        Debug.Log("Selected Upgrade: " + btn.name);
+    }
+}    private bool IsFireRateUpgrade(Button button)
+    {
+        int upgradeIndex = allUpgradeButtons.IndexOf(button);
+        return upgradeIndex == 2; // Index 2 är FireRateUpgrade
+    }
+
+    private bool IsUpgradeUnlockedForButton(Button button)
+    {
+        int upgradeIndex = allUpgradeButtons.IndexOf(button);
+
+        switch (upgradeIndex)
+        {
+            case 0: return upgradeManager.sceneInfo.hasShieldUpgrade;
+            case 1: return upgradeManager.sceneInfo.hasBulletsizeUpgrade;
+            case 2: return upgradeManager.sceneInfo.hasFireRateUpgrade;
+            case 3: return upgradeManager.sceneInfo.hasAutoFireUpgrade;
+            case 4: return upgradeManager.sceneInfo.hasReRoll;
+            case 5: return upgradeManager.sceneInfo.hasGhostCompanion; // lowercase 's' in sceneInfo // Add this to IsUpgradeUnlockedForButton
+            default: return false;
+        }
+    }
 
     private void HideAllButtons()
     {
@@ -83,4 +122,32 @@ private void BindUpgradeButton(Button button, int upgradeIndex)
             button.gameObject.SetActive(false);
         }
     }
+
+   public void RerollUpgrades()
+{
+    if (!upgradeManager.sceneInfo.hasReRoll || upgradeManager.sceneInfo.hasUsedReRoll)
+        return;
+
+    Debug.Log("Re-Roll used! Getting new upgrades...");
+
+    // Markera att reroll har använts så att knappen inte visas igen
+    upgradeManager.sceneInfo.hasUsedReRoll = true;
+    rerollButton.gameObject.SetActive(false);
+
+    // Dölj nuvarande knappar och välj nya
+    HideAllButtons();
+    SelectRandomUpgrades();
+}
+
+
+   public void UnlockReRollUpgrade()
+{
+    upgradeManager.UnlockReRollUpgrade(); // Anropa UpgradeManager för att låsa upp Re-Roll
+    HideUpgradeMenu(); // Stäng uppgraderingsmenyn
+}
+public void UnlockGhostCompanionUpgrade()
+{
+    upgradeManager.UnlockGhostCompanion();
+    HideUpgradeMenu();
+}
 }

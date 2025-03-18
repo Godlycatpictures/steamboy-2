@@ -3,50 +3,40 @@ using System.Collections.Generic;
 
 public class Weapon : MonoBehaviour
 {
+    public bool isAutoFireEnabled = false;  // Flagga för att hantera full-auto
+
     public GameObject bulletPrefab;
     public Transform firePoint;
     public float fireForce = 20f;
-    public float fireRate = 0.5f; // Time between shots
+
     private float nextFireTime = 0f; // When the next shot can be fired
 
     [SerializeField]
-    public SceneInfo sceneInfo;  // Kontrollera att denna referens är kopplad via Inspector
+    public SceneInfo sceneInfo;  // Referens till SceneInfo
 
- void Start()
+ void Update()
 {
-    if (sceneInfo != null)
+    float currentFireRate = sceneInfo.fireRate; // Hämtar den aktuella fireRate från SceneInfo
+
+    if (isAutoFireEnabled)
     {
-        // Återställ fireRate till värdet från PlayerPrefs om det finns, annars använd standardvärde
-        fireRate = PlayerPrefs.GetFloat("fireRate", 0.5f);  // Hämtar värdet från PlayerPrefs (standard är 0.5f)
-        fireForce = sceneInfo.fireForce;
+        // Om full-auto är aktiverat och knappen hålls nere
+        if (Input.GetButton("Fire1") && Time.time >= nextFireTime)
+        {
+            Fire();
+            nextFireTime = Time.time + currentFireRate; // Använd den uppdaterade fireRate
+        }
     }
     else
     {
-        Debug.LogError("SceneInfo is not assigned in Weapon script!");
-    }
-
-    // Logga för att kontrollera initialisering
-    Debug.Log("Start fireRate: " + fireRate);
-}
-
-    void Update()
-    {
-        // Uppdatera fireRate varje frame från SceneInfo
-        if (sceneInfo != null)
-        {
-            fireRate = sceneInfo.fireRate;  // Uppdatera fireRate varje frame
-        }
-
-        // Kontrollera att fireRate faktiskt förändras vid varje knapptryckning
-        Debug.Log("Updated fireRate: " + fireRate);
-
-        // Om spelaren trycker på skjutknappen och tidpunkten är rätt
+        // Om inte full-auto, skjuta en gång per knapptryckning
         if (Input.GetButtonDown("Fire1") && Time.time >= nextFireTime)
         {
             Fire();
-            nextFireTime = Time.time + fireRate; // Ställ in nästa skott-tid
+            nextFireTime = Time.time + currentFireRate; // Använd den uppdaterade fireRate
         }
     }
+}
 
     public void Fire()
     {

@@ -10,9 +10,15 @@ public class SceneInfo : ScriptableObject
     public bool hasShieldUpgrade;
     public bool hasBulletsizeUpgrade;
     public bool hasFireRateUpgrade;
-  
+    public bool hasAutoFireUpgrade = false;
+    public bool hasKillToHeal; //måste göras
+    public bool hasGhostCompanion;
+
+    public bool hasReRoll;
+     public bool hasUsedReRoll;
 
     public int health; // Mängden liv kvar
+    public int EnemiesKilled;
     public int numOfHearts; // Max antal hjärtan
 
     public int currentCoins; // Antalet mynt som spelaren har
@@ -48,6 +54,11 @@ public class SceneInfo : ScriptableObject
     hasShieldUpgrade = false;
     hasBulletsizeUpgrade = false;
     hasFireRateUpgrade = false;
+    hasAutoFireUpgrade = false;
+    hasUsedReRoll = false;
+    hasReRoll = false;
+    hasKillToHeal = false;
+    hasGhostCompanion = false;
     fireRate = 0.5f;
     
     }
@@ -64,19 +75,21 @@ public class SceneInfo : ScriptableObject
         case "FireRateUpgrade":
             hasFireRateUpgrade = true;
             break;
-        
-           
-        default: 
+        case "AutoFireUpgrade":
+            hasAutoFireUpgrade = true;  // Lägg till denna rad för att hantera full-auto
+            break;
+        default:
             Debug.LogWarning($"Upgrade {upgradeName} not found!");
             break;
     }
 }
 
+
  public void LevelUp()
 {
     xp -= xpToNextLevel;
     level++;
-
+     hasUsedReRoll = false;
     int baseXP = 100;  
     float growthFactor = 1.2f;  
     int linearFactor = 50;

@@ -13,17 +13,22 @@ MonoBehaviour:
   m_Name: SceneInfo
   m_EditorClassIdentifier: 
   hasShieldUpgrade: 1
-  hasBulletsizeUpgrade: 1
-  hasFireRateUpgrade: 1
-  health: 3
+  hasBulletsizeUpgrade: 0
+  hasFireRateUpgrade: 0
+  hasAutoFireUpgrade: 0
+  hasKillToHeal: 0
+  hasReRoll: 0
+  hasUsedReRoll: 0
+  health: 2
+  EnemiesKilled: 0
   numOfHearts: 3
   currentCoins: 0
   fireForce: 10
-  fireRate: 0.10000002
+  fireRate: 0.5
   damageModifier: 1
   randmap: -1
-  xp: 483
-  level: 8
-  xpToNextLevel: 577
+  xp: 95
+  level: 3
+  xpToNextLevel: 261
   xpMultiplier: 1.2
   roomsCleared: 

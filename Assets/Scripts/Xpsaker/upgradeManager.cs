@@ -1,12 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using System.Collections.Generic;
 
 public class UpgradeManager : MonoBehaviour
 {
     public GameObject upgradeCanvas;
     public SceneInfo sceneInfo;
-    
+    public GameObject ghostCompanionPrefab;
+    public GameObject activeGhost;
+
     public GameObject shieldUpgradeObject;
     public GameObject bulletsizeUpgradeObject;
     public GameObject FireRateUpgradePrefab;
@@ -18,6 +19,13 @@ public class UpgradeManager : MonoBehaviour
     {
         ApplyUpgrades();
     }
+    void Update()
+{
+    if (Input.GetKeyDown(KeyCode.F9)) // Test instantiation with F9
+    {
+        UnlockGhostCompanion();
+    }
+}
 
     public void ApplyUpgrades()
     {
@@ -34,6 +42,12 @@ public class UpgradeManager : MonoBehaviour
         {
             ApplyFireRateUpgrade();
         }
+        
+        // Aktivera Re-Roll om spelaren har den
+        if (sceneInfo.hasReRoll)
+        {
+            Debug.Log("Re-Roll Upgrade is available!");
+        }
     }
 
     public bool HasUpgrade(string upgradeName)
@@ -43,15 +57,15 @@ public class UpgradeManager : MonoBehaviour
 
     public void UnlockShieldUpgrade()
     {
-        if (!sceneInfo.hasShieldUpgrade) // Se till att det inte redan är upplåst
+        if (!sceneInfo.hasShieldUpgrade)
         {
             sceneInfo.hasShieldUpgrade = true;
             shieldUpgradeObject.SetActive(true);
+            unlockedUpgrades.Add("ShieldUpgrade");
             Debug.Log("Shield upgrade unlocked.");
         }
 
-        upgradeCanvas.SetActive(false);
-        Time.timeScale = 1f;
+        CloseUpgradeMenu();
     }
 
     public void UnlockBulletSizeUpgrade()
@@ -61,11 +75,11 @@ public class UpgradeManager : MonoBehaviour
             sceneInfo.hasBulletsizeUpgrade = true;
             bulletsizeUpgradeObject.SetActive(true);
             ApplyBulletSizeUpgrade();
+            unlockedUpgrades.Add("BulletsizeUpgrade");
             Debug.Log("Bullet size upgrade unlocked.");
         }
 
-        upgradeCanvas.SetActive(false);
-        Time.timeScale = 1f;
+        CloseUpgradeMenu();
     }
 
     private void ApplyBulletSizeUpgrade()
@@ -97,11 +111,11 @@ public class UpgradeManager : MonoBehaviour
         {
             sceneInfo.hasFireRateUpgrade = true;
             FireRateUpgradePrefab.SetActive(true);
+            unlockedUpgrades.Add("FireRateUpgrade");
             ApplyFireRateUpgrade();
         }
 
-        upgradeCanvas.SetActive(false);
-        Time.timeScale = 1f;
+        CloseUpgradeMenu();
     }
 
     private void ApplyFireRateUpgrade()
@@ -114,5 +128,70 @@ public class UpgradeManager : MonoBehaviour
         {
             Debug.LogWarning("FireRateUpgrade prefab is not assigned!");
         }
+    }
+
+    public void UnlockFullAutoUpgrade()
+    {
+        if (!sceneInfo.hasAutoFireUpgrade)
+        {
+            sceneInfo.hasAutoFireUpgrade = true;
+            unlockedUpgrades.Add("FullAutoUpgrade");
+            sceneInfo.fireRate *= 2;
+
+            Weapon weapon = FindObjectOfType<Weapon>();
+            if (weapon != null)
+            {
+                weapon.isAutoFireEnabled = true;
+            }
+        }
+
+        CloseUpgradeMenu();
+    }
+
+    // Ny metod för att låsa upp Re-Roll
+public void UnlockReRollUpgrade()
+{
+    if (!sceneInfo.hasReRoll)
+    {
+        sceneInfo.hasReRoll = true;
+        sceneInfo.hasUsedReRoll = false; // Se till att spelaren kan använda den
+        Debug.Log("Re-Roll upgrade unlocked!");
+    }
+    CloseUpgradeMenu();
+}
+
+
+
+    // Återställ Re-Roll när spelaren går upp i level
+    public void ResetReRollOnLevelUp()
+    {
+        sceneInfo.hasUsedReRoll = false;
+        Debug.Log("Re-Roll Reset on Level Up!");
+    }
+
+    private void CloseUpgradeMenu()
+    {
+        upgradeCanvas.SetActive(false);
+        Time.timeScale = 1f;
+    }
+    public void UnlockGhostCompanion()
+    {
+        if (!sceneInfo.hasGhostCompanion)
+        {
+            sceneInfo.hasGhostCompanion = true;
+            
+            // Instantiate ghost using same pattern as shield/bullet upgrades
+            if (ghostCompanionPrefab != null)
+            {
+                activeGhost = Instantiate(ghostCompanionPrefab);
+                activeGhost.GetComponent<GhostCompanion>().player = 
+                    GameObject.FindGameObjectWithTag("Player").transform;
+                activeGhost.SetActive(true); // Explicit activation
+            }
+            
+            unlockedUpgrades.Add("GhostCompanion");
+            Debug.Log("Ghost companion unlocked!");
+        }
+        CloseUpgradeMenu();
     }
 }
