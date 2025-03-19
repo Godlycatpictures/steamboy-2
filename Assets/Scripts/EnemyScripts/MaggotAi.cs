@@ -80,7 +80,7 @@ public class MaggotAi : MonoBehaviour
 
         // Attack logic (e.g., play animation, deal damage, etc.)
 
-        yield return new WaitForSeconds(1.2f); // Simulated attack duration
+        yield return new WaitForSeconds(1f); // Simulated attack duration
         Instantiate(attackPrefab, rb.position, Quaternion.identity);
 
         attacking = false;

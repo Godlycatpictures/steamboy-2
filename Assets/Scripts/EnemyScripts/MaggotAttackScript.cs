@@ -10,11 +10,6 @@ public class MaggotAttackScript : MonoBehaviour
         StartCoroutine(Death());
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     private IEnumerator Death()
     {
 

@@ -190,7 +190,7 @@ MonoBehaviour:
   attackCoolDown: 0
   isMoving: 0
   attacking: 0
-  attackPrefab: {fileID: 0}
+  attackPrefab: {fileID: 15188683019473291, guid: c62243c509b9ef544b390212e12a2db5, type: 3}
 --- !u!114 &-3030097031517905373
 MonoBehaviour:
   m_ObjectHideFlags: 0
