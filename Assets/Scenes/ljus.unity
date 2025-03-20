@@ -10104,6 +10104,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -1672009150438444318, guid: 9490747744cb1314eb2c6d3e6d9918b4, type: 3}
+    - target: {fileID: 7693998477576128608, guid: 4e750cdc5a827294b912fa8da6729e0d, type: 3}
+      propertyPath: m_ChildControlWidth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7693998477576128608, guid: 4e750cdc5a827294b912fa8da6729e0d, type: 3}
+      propertyPath: m_ChildControlHeight
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7998268909256397362, guid: 4e750cdc5a827294b912fa8da6729e0d, type: 3}
       propertyPath: m_Name
       value: Reroll
