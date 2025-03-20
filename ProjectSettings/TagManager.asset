@@ -3,14 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Bullet
-  - Enemy
-<<<<<<< HEAD
-  - MainMenuUI
-=======
-  - EnemyProjectile
->>>>>>> 4481d3b8b738ee70ddf93709156983e50aac3df6
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -18,9 +11,9 @@ TagManager:
   - 
   - Water
   - UI
-  - Enemy
-  - Player
-  - EnemyProjectiles
+  - 
+  - 
+  - 
   - 
   - 
   - 
