@@ -414,6 +414,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9056831617762494792, guid: b97e12228fc408f45927b4b793c5d6a0, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 188944664}
+    - target: {fileID: 9056831617762494792, guid: b97e12228fc408f45927b4b793c5d6a0, type: 3}
+      propertyPath: homingBulletPrefab
+      value: 
+      objectReference: {fileID: 1054596805913308768, guid: 71354a04f7d744b448ea9c8a2007f6c1, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
