@@ -4,9 +4,9 @@ using needRoomData;
 public class DungeonGenerator : MonoBehaviour
 {
     public List<DungeonLayoutSO> dungeonLayouts; // List of predefined layouts
-    public List<GameObject> StartRooms, NormalRooms, RewardRooms, BossRooms;
+    public List<GameObject> StartRooms, NormalRooms1, NormalRooms2, NormalRooms3, NormalRooms4, RewardRooms, BossRooms;
     public GameObject CorridorPrefab;
-
+    
     private Dictionary<int, RoomData> rooms = new();
     private Dictionary<int, GameObject> spawnedRooms = new();
 
@@ -90,8 +90,8 @@ public class DungeonGenerator : MonoBehaviour
     Vector2 GetSmarterOffset(Vector2 currentPosition, int connectionID)
     {
         float angle = Random.Range(0f, Mathf.PI * 2); // Random direction
-        float minDistance = 6f; // Minimum spacing
-        float maxDistance = 10f; // Maximum spacing
+        float minDistance = 10f; // Minimum spacing
+        float maxDistance = 20f; // Maximum spacing
         float distance = Random.Range(minDistance, maxDistance);
 
         return new Vector2(Mathf.Cos(angle), Mathf.Sin(angle)) * distance;
@@ -100,7 +100,7 @@ public class DungeonGenerator : MonoBehaviour
     // **Prevent rooms from overlapping while maintaining structure**
     void ApplyRoomRepulsion()
     {
-        float repulsionStrength = 1f; // Lowered strength for less drastic changes
+        float repulsionStrength = 4f; // Lowered strength for less drastic changes
         bool changed = true;
 
         while (changed)
@@ -148,7 +148,10 @@ public class DungeonGenerator : MonoBehaviour
         return type switch
         {
             "Start" => StartRooms[Random.Range(0, StartRooms.Count)],
-            "Normal" => NormalRooms[Random.Range(0, NormalRooms.Count)],
+            "Normal1" => NormalRooms1[Random.Range(0, NormalRooms1.Count)],
+            "Normal2" => NormalRooms2[Random.Range(0, NormalRooms2.Count)],
+            "Normal3" => NormalRooms3[Random.Range(0, NormalRooms3.Count)],
+            "Normal4" => NormalRooms4[Random.Range(0, NormalRooms4.Count)],
             "Reward" => RewardRooms[Random.Range(0, RewardRooms.Count)],
             "Boss" => BossRooms[Random.Range(0, BossRooms.Count)],
             _ => null

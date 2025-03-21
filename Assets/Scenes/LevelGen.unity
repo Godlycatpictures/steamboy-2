@@ -200,7 +200,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 846656422}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6fba158f0315e2b4ab3ce66b697004af, type: 3}
   m_Name: 
@@ -539,7 +539,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4332856861819239613, guid: 1fbb7d5819bd99247b1196e57e883d16, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4758803987042199023, guid: 1fbb7d5819bd99247b1196e57e883d16, type: 3}
       propertyPath: sceneInfo
@@ -661,15 +661,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 935995106717129279, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.30355412
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 935995106717129279, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.56128764
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 935995106717129279, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.06386504
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 935995106717129279, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
       propertyPath: m_LocalRotation.w
@@ -700,17 +700,49 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
-      propertyPath: dungeonLayouts.Array.size
-      value: 2
+      propertyPath: NormalRooms1.Array.size
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
+      propertyPath: NormalRooms2.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
+      propertyPath: NormalRooms3.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
+      propertyPath: NormalRooms4.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
+      propertyPath: dungeonLayouts.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
+      propertyPath: NormalRooms1.Array.data[0]
+      value: 
+      objectReference: {fileID: 6544012759024180810, guid: 9af77dc03e436ce44b53bca17d28f215, type: 3}
+    - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
+      propertyPath: NormalRooms2.Array.data[0]
+      value: 
+      objectReference: {fileID: 690702074287083624, guid: bf98055fb6a5dbc46897e28c7bf6c4ae, type: 3}
+    - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
+      propertyPath: NormalRooms3.Array.data[0]
+      value: 
+      objectReference: {fileID: 1560919418390050695, guid: 1931de5ade13ea54890f1a1254465fa3, type: 3}
+    - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
+      propertyPath: NormalRooms4.Array.data[0]
+      value: 
+      objectReference: {fileID: 6544012759024180810, guid: 9af77dc03e436ce44b53bca17d28f215, type: 3}
     - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
       propertyPath: dungeonLayouts.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: 2aa33b4225adf544eaeb0bc9ff3bccc5, type: 2}
+      objectReference: {fileID: 11400000, guid: e2071739b8dc07f49ad77fd83d9e29f8, type: 2}
     - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
       propertyPath: dungeonLayouts.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: 1dbb354e4c98c1140996e2e7b34d5a89, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 7294335832489187649, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
       propertyPath: m_Name
       value: Generator

@@ -44,8 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d8fdfc0827666147b0f5902ea70d87f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dungeonLayouts:
-  - {fileID: 11400000, guid: 2aa33b4225adf544eaeb0bc9ff3bccc5, type: 2}
+  dungeonLayouts: []
   StartRooms:
   - {fileID: 365348716636797640, guid: c4b6ec3ccfd5f4348a63756cbc64f06a, type: 3}
   NormalRooms:
