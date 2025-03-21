@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 918223336239059210}
   - component: {fileID: 2489683209532317656}
   - component: {fileID: 269551398358234783}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: UrchinProjectile
   m_TagString: EnemyProjectile
   m_Icon: {fileID: 0}
@@ -161,3 +161,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d34cc0f9f4721954b9f1a8021b60ff1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  life: 3
+  impactEffect: {fileID: 0}

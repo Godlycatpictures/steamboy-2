@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8267725853355511355}
   - component: {fileID: -202065043388355722}
   - component: {fileID: -3030097031517905373}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cacti
   m_TagString: Enemy
   m_Icon: {fileID: 0}
