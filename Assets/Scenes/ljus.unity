@@ -9192,6 +9192,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 44910184}
+    - target: {fileID: 1800125348062657875, guid: a220b1bc3e4fa4e46ae4beec51852a17, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1800125348062657875, guid: a220b1bc3e4fa4e46ae4beec51852a17, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2180438097044469159, guid: a220b1bc3e4fa4e46ae4beec51852a17, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -9288,6 +9296,22 @@ PrefabInstance:
       propertyPath: upgradeManager
       value: 
       objectReference: {fileID: 44910184}
+    - target: {fileID: 7957215784188616854, guid: a220b1bc3e4fa4e46ae4beec51852a17, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7957215784188616854, guid: a220b1bc3e4fa4e46ae4beec51852a17, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8347810354721462983, guid: a220b1bc3e4fa4e46ae4beec51852a17, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8347810354721462983, guid: a220b1bc3e4fa4e46ae4beec51852a17, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9175313414250234516, guid: a220b1bc3e4fa4e46ae4beec51852a17, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -9305,6 +9329,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7101106879806536296, guid: b97e12228fc408f45927b4b793c5d6a0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3974441899277362122, guid: b97e12228fc408f45927b4b793c5d6a0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5670904926409646842, guid: b97e12228fc408f45927b4b793c5d6a0, type: 3}
       propertyPath: m_Name
       value: homing baby
@@ -9363,7 +9395,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9056831617762494792, guid: b97e12228fc408f45927b4b793c5d6a0, type: 3}
       propertyPath: enemyLayer.m_Bits
-      value: 0
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 9056831617762494792, guid: b97e12228fc408f45927b4b793c5d6a0, type: 3}
       propertyPath: homingBulletPrefab

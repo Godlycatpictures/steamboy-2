@@ -29,6 +29,7 @@ public class GhostCompanion : MonoBehaviour
             if (shootingTimer >= shootingInterval)
             {
                 ShootHomingBullet();
+                Debug.Log("Shooting enemy");
                 shootingTimer = 0f;
             }
         }

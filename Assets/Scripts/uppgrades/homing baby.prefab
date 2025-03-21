@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5202987834322830848}
   m_Layer: 0
   m_Name: homing baby
-  m_TagString: Untagged
+  m_TagString: Drone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100,15 +100,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7eb194038ccfcce4988dee49140bcb07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 6936584312178348187, guid: cdcdf2efe7b26e6449d96c62196cbbcf, type: 3}
   followSpeed: 3
   shootingInterval: 2
-  homingBulletPrefab: {fileID: 0}
+  homingBulletPrefab: {fileID: 1054596805913308768, guid: 71354a04f7d744b448ea9c8a2007f6c1, type: 3}
   bulletSpeed: 5
   shootingRange: 5
   enemyLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
 --- !u!95 &-3974441899277362122
 Animator:
   serializedVersion: 5
