@@ -29,6 +29,12 @@ public class griggly : MonoBehaviour
         TakeDamage();
         Destroy(collision.gameObject); // Destroy the bullet
     }
+      else if (collision.CompareTag("DroneProjectile")) // Check if it's a bullet
+    { 
+        Debug.Log("Enemy hit by bullet!");
+        TakeDamage();
+        Destroy(collision.gameObject); // Destroy the bullet
+    }
 }
 
 
