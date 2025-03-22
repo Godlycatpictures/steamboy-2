@@ -50,7 +50,7 @@ public class SceneInfo : ScriptableObject
         xp = 0;
         xpToNextLevel = 100;  // Start XP för nästa nivå
 
-   
+
     hasShieldUpgrade = false;
     hasBulletsizeUpgrade = false;
     hasFireRateUpgrade = false;
@@ -60,6 +60,9 @@ public class SceneInfo : ScriptableObject
     hasKillToHeal = false;
     hasGhostCompanion = false;
     fireRate = 0.5f;
+    numOfHearts = 3;
+    health = numOfHearts;
+
     
     }
     public void UnlockUpgrade(string upgradeName)
