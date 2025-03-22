@@ -14,9 +14,9 @@ void Start()
     // Update is called once per frame
     void Update()
     {
-        if (sceneInfo.health <= 0)
+        if (sceneInfo != null && sceneInfo.health <= 0)
         {
-            
+            PlayerDeath();
             
         }
     }
