@@ -7,6 +7,7 @@ public class HomingBullet : MonoBehaviour
     public float speed;
     public float rotateSpeed;
     public float lifetime = 10f; // Added death timer (10 seconds)
+    public GameObject explosion;
     
     private Transform target;
     private Rigidbody2D rb;
@@ -60,6 +61,10 @@ public class HomingBullet : MonoBehaviour
         }
         return closest;
     }
-
-   
+    
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        //Instantiate(explosion, transform.position, Quaternion.identity); //Impact effect
+        Destroy(gameObject);
+    }
 }
