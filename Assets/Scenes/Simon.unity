@@ -672,13 +672,17 @@ PrefabInstance:
       propertyPath: attackPrefab
       value: 
       objectReference: {fileID: 8875575363412579763, guid: e223488acf72d99459efd078d0d0bc2a, type: 3}
+    - target: {fileID: -228985721035717716, guid: 40f8169e618b64743b04cd84ed7f0743, type: 3}
+      propertyPath: health
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1808544135238947597, guid: 40f8169e618b64743b04cd84ed7f0743, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.4
+      value: 5.45
       objectReference: {fileID: 0}
     - target: {fileID: 1808544135238947597, guid: 40f8169e618b64743b04cd84ed7f0743, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -11.7
+      value: 0.16
       objectReference: {fileID: 0}
     - target: {fileID: 1808544135238947597, guid: 40f8169e618b64743b04cd84ed7f0743, type: 3}
       propertyPath: m_LocalPosition.z

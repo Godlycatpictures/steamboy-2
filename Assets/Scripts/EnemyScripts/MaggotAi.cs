@@ -94,7 +94,6 @@ public class MaggotAi : MonoBehaviour
         animator.SetBool("isMoving", isMoving);
         animator.SetBool("attacking", attacking);
     }
-
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;

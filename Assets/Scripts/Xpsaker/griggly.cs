@@ -5,10 +5,12 @@ using UnityEngine;
 public class griggly : MonoBehaviour
 {
     public int health = 1; // Enemy health
+    public int xp; // XP to grant when enemy dies
     private xpChar xpCharacter; // Reference to xpChar script
 
     void Start()
     {
+
         // Find the xpChar component in the scene
         xpCharacter = FindObjectOfType<xpChar>();
 
@@ -17,6 +19,7 @@ public class griggly : MonoBehaviour
         {
             Debug.LogError("xpChar script not found in the scene!");
         }
+
     }
 
  void OnTriggerEnter2D(Collider2D collision)
@@ -51,11 +54,11 @@ public class griggly : MonoBehaviour
     void Die()
     {
         Debug.Log("Enemy Destroyed!");
-        
+
         // Grant XP before destroying the enemy
         if (xpCharacter != null)
         {
-            xpCharacter.AddXP(100); // Add XP when enemy dies
+            xpCharacter.AddXP(xp); // Add XP when enemy dies
         }
 
         Destroy(gameObject); // Remove enemy from scene
