@@ -25,7 +25,7 @@ public class HomingBullet : MonoBehaviour
         if (rb == null) rb = GetComponent<Rigidbody2D>();
         
         // Add automatic destruction after lifetime seconds
-        Destroy(gameObject, lifetime);
+        //Destroy(gameObject, lifetime);
     }
 
     void FixedUpdate()
@@ -64,7 +64,18 @@ public class HomingBullet : MonoBehaviour
     
     void OnCollisionEnter2D(Collision2D collision)
     {
-        //Instantiate(explosion, transform.position, Quaternion.identity); //Impact effect
+
+        StartCoroutine(Destroy());
+
+    }
+
+    private IEnumerator Destroy(){
+        
+        GameObject explosionObject = Instantiate(explosion, rb.position, Quaternion.identity); //Explosion
+        explosionObject.transform.parent = null;
+            
+        yield return new WaitForSeconds(0.5f);
+
         Destroy(gameObject);
     }
 }
