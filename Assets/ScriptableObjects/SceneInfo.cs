@@ -37,6 +37,8 @@ public class SceneInfo : ScriptableObject
     public int xpToNextLevel = 100;
     public float xpMultiplier = 1.5f;
 
+    public bool screenShake;
+
     // Håller reda på vilka rum som har blivit rensade
     public List<bool> roomsCleared = new List<bool>();
     

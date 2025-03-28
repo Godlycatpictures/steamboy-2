@@ -5204,7 +5204,7 @@ GameObject:
   - component: {fileID: 1074771939}
   - component: {fileID: 1074771938}
   - component: {fileID: 1074771942}
-  - component: {fileID: 1074771941}
+  - component: {fileID: 1074771943}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -5286,19 +5286,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1074771941
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1074771937}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fba158f0315e2b4ab3ce66b697004af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 1910221239}
 --- !u!114 &1074771942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5343,6 +5330,55 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &1074771943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074771937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d674de847a5c7b64a84a28c24f299cf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1910221239}
+  shakeDuration: 0.5
+  shakeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2.4074616
+      outSlope: 2.4074616
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.13984883
+    - serializedVersion: 3
+      time: 0.23180936
+      value: 0.32484066
+      inSlope: -1.1806321
+      outSlope: -1.1806321
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.12052768
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -0.42286465
+      outSlope: -0.42286465
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  screenShake: 0
+  sceneInfo: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
 --- !u!4 &1094954422 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3114076938604373473, guid: eb0c210c6b2ed0f4cb287ef53746d5cd, type: 3}

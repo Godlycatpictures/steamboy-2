@@ -163,4 +163,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   life: 3
   impactEffect: {fileID: 4126784178328386841, guid: 7a3f3952827e32a4b810a3dd9b041339, type: 3}
-  bulletPrefab: {fileID: 3034541605973710986}

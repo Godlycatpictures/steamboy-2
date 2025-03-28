@@ -6,7 +6,7 @@ public class HomingBullet : MonoBehaviour
 {
     public float speed;
     public float rotateSpeed;
-    public float lifetime = 10f; // Added death timer (10 seconds)
+    public float lifetime = 5f; // Added death timer (10 seconds)
     public GameObject explosion;
     
     private Transform target;
@@ -62,18 +62,15 @@ public class HomingBullet : MonoBehaviour
         return closest;
     }
     
-void OnCollisionEnter2D(Collision2D collision)
+void OnTriggerEnter2D(Collider2D collision)
 {
-    Explode();
-}
+    if (collision.CompareTag("Enemy")) // Check if it's a bullet
+    { 
 
-void Explode()
-{
-    if (explosion != null)
-    {
-        Instantiate(explosion, transform.position, Quaternion.identity);
-    }
-    
+    Instantiate(explosion, transform.position, Quaternion.identity);
     Destroy(gameObject); // Destroy missile immediately after spawning explosion
+
+    }
+
 }
 }

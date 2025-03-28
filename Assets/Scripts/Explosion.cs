@@ -4,18 +4,21 @@ using UnityEngine;
 
 public class Explosion : MonoBehaviour
 {
+    public SceneInfo sceneInfo;
+
     void Start()
     {
-        Debug.Log("I AM ALIVE");
+        
+        FindObjectOfType<CameraScript>().StartShake();
         StartCoroutine(Death());
     }
 
     private IEnumerator Death()
     {
+        
+    yield return new WaitForSeconds(0.8f);
 
-    yield return new WaitForSeconds(5f);
-
-    //Destroy(gameObject);
+    Destroy(gameObject);
 
     }
 }

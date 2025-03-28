@@ -22,7 +22,7 @@ public class griggly : MonoBehaviour
 
     }
 
- void OnTriggerEnter2D(Collider2D collision)
+void OnTriggerEnter2D(Collider2D collision)
 {
     Debug.Log("Something entered the trigger: " + collision.gameObject.name);
 
@@ -30,13 +30,11 @@ public class griggly : MonoBehaviour
     { 
         Debug.Log("Enemy hit by bullet!");
         TakeDamage();
-        Destroy(collision.gameObject); // Destroy the bullet
     }
       else if (collision.CompareTag("DroneProjectile")) // Check if it's a bullet
     { 
         Debug.Log("Enemy hit by bullet!");
         TakeDamage();
-        Destroy(collision.gameObject); // Destroy the bullet
     }
 }
 
