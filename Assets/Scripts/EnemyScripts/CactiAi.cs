@@ -14,6 +14,7 @@ public class CactiAi : MonoBehaviour
 
     public bool isMoving;
     public bool attacking;
+    public bool isHit;
 
     private Animator animator;
     private Rigidbody2D rb;
@@ -40,12 +41,12 @@ public class CactiAi : MonoBehaviour
 
         if (distanceToPlayer < detectionRange)
         {
-            if (distanceToPlayer > attackRange && !attacking)
+            if (distanceToPlayer > attackRange && !attacking && !isHit)
             {
                 isMoving = true;
                 MoveTowards(player.position);
             }
-            else if (distanceToPlayer <= attackRange && attackCoolDown <= 0 && !attacking)
+            else if (distanceToPlayer <= attackRange && attackCoolDown <= 0 && !attacking && !isHit)
             {
                 isMoving = false;
                 StartCoroutine(Attack());
@@ -87,12 +88,37 @@ public class CactiAi : MonoBehaviour
         attackCoolDown = 1.5f; // Reset cooldown
     }
 
-    private void FixedUpdate()
+   private void FixedUpdate()
     {
         // Use last known xVelocity to ensure direction remains consistent
         animator.SetFloat("xVelocity", lastKnownXVelocity); 
         animator.SetBool("isMoving", isMoving);
         animator.SetBool("attacking", attacking);
+        animator.SetBool("isHit", isHit);
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+    if (collision.CompareTag("Bullet")) // Check if it's a bullet
+    { 
+
+        isHit = true;
+        StartCoroutine(Hurt());
+
+    } if (collision.CompareTag("DroneProjectile")) //chech if le drone projectile
+    {
+
+    }
+    }
+
+    private IEnumerator Hurt()
+    {
+            rb.velocity = Vector2.zero;
+
+            yield return new WaitForSeconds(1f);
+
+            isHit = false;
+            isMoving = false;
     }
 
     private void OnDrawGizmosSelected()
