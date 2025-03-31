@@ -31,10 +31,13 @@ void OnTriggerEnter2D(Collider2D collision)
         Debug.Log("Enemy hit by bullet!");
         TakeDamage();
     }
-      else if (collision.CompareTag("DroneProjectile")) // Check if it's a bullet
+     else if (collision.CompareTag("DroneProjectile")) // Check if it's a bullet
     { 
         Debug.Log("Enemy hit by bullet!");
         TakeDamage();
+    }
+    else{
+
     }
 }
 
