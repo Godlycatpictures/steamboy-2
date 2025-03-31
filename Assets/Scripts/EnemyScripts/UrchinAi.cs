@@ -14,6 +14,7 @@ public class UrchinAi : MonoBehaviour
 
     public bool isMoving;
     public bool attacking;
+    public bool isHit;
 
     private Animator animator;
     private Rigidbody2D rb;
@@ -119,6 +120,31 @@ private IEnumerator Attack()
         animator.SetFloat("xVelocity", lastKnownXVelocity); 
         animator.SetBool("isMoving", isMoving);
         animator.SetBool("attacking", attacking);
+        animator.SetBool("isHit", isHit);
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+    if (collision.CompareTag("Bullet")) // Check if it's a bullet
+    { 
+
+        isHit = true;
+        StartCoroutine(Hurt());
+
+    } if (collision.CompareTag("DroneProjectile")) //chech if le drone projectile
+    {
+
+    }
+    }
+
+    private IEnumerator Hurt()
+    {
+            rb.velocity = Vector2.zero;
+
+            yield return new WaitForSeconds(1f);
+
+            isHit = false;
+            isMoving = false;
     }
 
     private void OnDrawGizmosSelected()
