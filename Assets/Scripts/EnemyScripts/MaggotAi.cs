@@ -46,7 +46,7 @@ public class MaggotAi : MonoBehaviour
                 isMoving = true;
                 MoveTowards(player.position);
             }
-            else if (distanceToPlayer <= attackRange && attackCoolDown <= 0 && !attacking && !isHit)
+            else if (distanceToPlayer <= attackRange && attackCoolDown <= 0 && !attacking)
             {
                 isMoving = false;
                 StartCoroutine(Attack());

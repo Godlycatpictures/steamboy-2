@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5340557700874866199}
   - component: {fileID: -7191219128444716360}
   - component: {fileID: -7023415329890083213}
+  - component: {fileID: -4839460713669779482}
   m_Layer: 6
   m_Name: Bananner
   m_TagString: Enemy
@@ -190,6 +191,7 @@ MonoBehaviour:
   attackCoolDown: 0
   isMoving: 0
   attacking: 0
+  isHit: 0
   attackPrefab: {fileID: 3035658112984272958, guid: d453279f91c20f94b9e150a26685bc79, type: 3}
 --- !u!114 &-7023415329890083213
 MonoBehaviour:
@@ -204,3 +206,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  xp: 0
+  deathEffect: {fileID: 3371569424538963305, guid: 8600c92868e86274d9b036656541aa31, type: 3}
+--- !u!114 &-4839460713669779482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6631798278925613764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7237506d7eb5de148aa14a086a7e4190, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

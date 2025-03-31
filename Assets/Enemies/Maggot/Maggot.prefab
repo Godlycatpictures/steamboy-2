@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8004229030180488744}
   - component: {fileID: -8431468107537882929}
   - component: {fileID: -228985721035717716}
+  - component: {fileID: 8763630296764968419}
   m_Layer: 6
   m_Name: Maggot
   m_TagString: Enemy
@@ -190,6 +191,7 @@ MonoBehaviour:
   attackCoolDown: 0
   isMoving: 0
   attacking: 0
+  isHit: 0
   attackPrefab: {fileID: 8875575363412579763, guid: e223488acf72d99459efd078d0d0bc2a, type: 3}
 --- !u!114 &-228985721035717716
 MonoBehaviour:
@@ -204,3 +206,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1
+  xp: 0
+  deathEffect: {fileID: 3371569424538963305, guid: 8600c92868e86274d9b036656541aa31, type: 3}
+--- !u!114 &8763630296764968419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5014191067730563818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7237506d7eb5de148aa14a086a7e4190, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

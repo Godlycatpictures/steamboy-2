@@ -198,3 +198,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
+  xp: 0
+  deathEffect: {fileID: 3371569424538963305, guid: 6d641abc6feff6243b715e789fd5d454, type: 3}

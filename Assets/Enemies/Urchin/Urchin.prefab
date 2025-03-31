@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6561374594015915706}
   - component: {fileID: -4063971286778656632}
   - component: {fileID: -6209898809808509913}
+  - component: {fileID: 8672029409027900050}
   m_Layer: 6
   m_Name: Urchin
   m_TagString: Enemy
@@ -190,6 +191,7 @@ MonoBehaviour:
   attackCoolDown: 0
   isMoving: 0
   attacking: 0
+  isHit: 0
   attackPrefab: {fileID: 1160812637858356002, guid: fbdd4412126a15a47b5559db2b89e22c, type: 3}
 --- !u!114 &-6209898809808509913
 MonoBehaviour:
@@ -204,3 +206,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 5
+  xp: 0
+  deathEffect: {fileID: 3371569424538963305, guid: 8600c92868e86274d9b036656541aa31, type: 3}
+--- !u!114 &8672029409027900050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6426913837226805085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7237506d7eb5de148aa14a086a7e4190, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
