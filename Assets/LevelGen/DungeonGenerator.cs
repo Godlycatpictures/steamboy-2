@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using needRoomData;
-public class DungeonGenerator : MonoBehaviour
+public class DungeonGenerator1 : MonoBehaviour
 {
     public List<DungeonLayoutSO> dungeonLayouts; // List of predefined layouts
     public List<GameObject> StartRooms, NormalRooms1, NormalRooms2, NormalRooms3, NormalRooms4, RewardRooms, BossRooms;

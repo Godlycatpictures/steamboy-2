@@ -9,6 +9,7 @@ TagManager:
   - Bullet
   - Drone
   - DroneProjectile
+  - Door
   layers:
   - Default
   - TransparentFX
