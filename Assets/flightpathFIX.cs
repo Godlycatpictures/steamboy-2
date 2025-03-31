@@ -2,16 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HomingBullet : MonoBehaviour
+public class flightpathFIX : MonoBehaviour
 {
     public float speed;
     public float rotateSpeed;
-    public float lifetime = 5f;
-    public GameObject explosion;
-
+    public float lifetime = 5f; // Added death timer (10 seconds)
+    
     private Transform target;
     private Rigidbody2D rb;
-    private GameObject targetGuide; // Osynligt objekt som leder missilen
 
     public void Initialize(float bulletSpeed, float bulletRotateSpeed)
     {
@@ -24,14 +22,8 @@ public class HomingBullet : MonoBehaviour
     {
         target = FindClosestEnemy();
         if (rb == null) rb = GetComponent<Rigidbody2D>();
-
-        if (target != null)
-        {
-            // Skapa ett osynligt objekt framför missilen som leder den
-            targetGuide = new GameObject("TargetGuide");
-            targetGuide.transform.position = transform.position;
-        }
-
+        
+        // Add automatic destruction after lifetime seconds
         Destroy(gameObject, lifetime);
     }
 
@@ -43,18 +35,7 @@ public class HomingBullet : MonoBehaviour
             if (target == null) return;
         }
 
-        // Flytta targetGuide snabbare än missilen för att skapa en jämnare bana
-        if (targetGuide != null)
-        {
-            targetGuide.transform.position = Vector2.MoveTowards(
-                targetGuide.transform.position,
-                target.position,
-                speed * 1.5f * Time.fixedDeltaTime // Guide rör sig snabbare än missilen
-            );
-        }
-
-        // Rikta missilen mot targetGuide istället för direkt mot fienden
-        Vector2 direction = (Vector2)targetGuide.transform.position - rb.position;
+        Vector2 direction = (Vector2)target.position - rb.position;
         direction.Normalize();
 
         float rotateAmount = Vector3.Cross(direction, transform.up).z;
@@ -79,17 +60,14 @@ public class HomingBullet : MonoBehaviour
         }
         return closest;
     }
-
-    void OnTriggerEnter2D(Collider2D collision)
+    
+void OnTriggerEnter2D(Collider2D collision)
+{
+  Debug.Log("Hit: " + collision.gameObject.name);
+    if (collision.gameObject.CompareTag("Enemy"))
     {
-        if (collision.CompareTag("Enemy"))
-        {
-            Instantiate(explosion, transform.position, Quaternion.identity);
-            Destroy(gameObject); // Förstör missilen
-            if (targetGuide != null)
-            {
-                Destroy(targetGuide); // Förstör även targetGuide
-            }
-        }
+        Destroy(gameObject); 
     }
+ 
+}
 }
