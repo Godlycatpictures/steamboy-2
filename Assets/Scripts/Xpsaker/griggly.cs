@@ -42,8 +42,6 @@ void OnTriggerEnter2D(Collider2D collision)
 
     }
 }
-
-
     void TakeDamage()
     {
         health--;
