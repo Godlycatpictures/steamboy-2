@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BannannerProjectile : MonoBehaviour
 {
-    private float speed = 1f;
+    private float speed = 3f;
 
     public GameObject impactEffect;
 
@@ -42,7 +42,7 @@ public class BannannerProjectile : MonoBehaviour
    
     void OnCollisionEnter2D(Collision2D collision)
     {
-        //Instantiate(impactEffect, transform.position, Quaternion.identity); //Impact effect
+        Instantiate(impactEffect, transform.position, Quaternion.identity); //Impact effect
         Destroy(gameObject);
     }
 }
