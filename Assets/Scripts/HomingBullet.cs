@@ -11,6 +11,8 @@ public class HomingBullet : MonoBehaviour
     private Transform target;
     private Rigidbody2D rb;
     private GameObject targetGuide; // Osynligt objekt som leder missilen
+    
+    public GameObject collosionEffect;
 
     public void Initialize(float bulletSpeed, float bulletRotateSpeed)
     {
@@ -83,6 +85,8 @@ public class HomingBullet : MonoBehaviour
     {
         if (collision.CompareTag("Enemy"))
         {
+            
+            Instantiate(collosionEffect, transform.position, Quaternion.identity);
             Destroy(gameObject); // Förstör missilen
             if (targetGuide != null)
             {
