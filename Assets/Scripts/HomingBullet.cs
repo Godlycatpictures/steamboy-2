@@ -7,7 +7,6 @@ public class HomingBullet : MonoBehaviour
     public float speed;
     public float rotateSpeed;
     public float lifetime = 5f;
-    public GameObject explosion;
 
     private Transform target;
     private Rigidbody2D rb;
@@ -84,7 +83,6 @@ public class HomingBullet : MonoBehaviour
     {
         if (collision.CompareTag("Enemy"))
         {
-            Instantiate(explosion, transform.position, Quaternion.identity);
             Destroy(gameObject); // Förstör missilen
             if (targetGuide != null)
             {
