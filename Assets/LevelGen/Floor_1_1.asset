@@ -18,11 +18,11 @@ MonoBehaviour:
     roomType: Start
     connections: 01000000
   - id: 1
-    roomType: Normal3
-    connections: 0200000003000000
+    roomType: Normal
+    connections: 000000000200000003000000
   - id: 2
-    roomType: Normal1
-    connections: 
+    roomType: Normal
+    connections: 01000000
   - id: 3
     roomType: Boss
-    connections: 
+    connections: 01000000

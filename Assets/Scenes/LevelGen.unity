@@ -355,100 +355,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1334357673
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1847995431}
-    m_Modifications:
-    - target: {fileID: 4867633039963338685, guid: 9156485ceaaf934409ed9ca2b54a7050, type: 3}
-      propertyPath: m_Name
-      value: Grid
-      objectReference: {fileID: 0}
-    - target: {fileID: 6244643723958956829, guid: 9156485ceaaf934409ed9ca2b54a7050, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6244643723958956829, guid: 9156485ceaaf934409ed9ca2b54a7050, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6244643723958956829, guid: 9156485ceaaf934409ed9ca2b54a7050, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6244643723958956829, guid: 9156485ceaaf934409ed9ca2b54a7050, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6244643723958956829, guid: 9156485ceaaf934409ed9ca2b54a7050, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6244643723958956829, guid: 9156485ceaaf934409ed9ca2b54a7050, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6244643723958956829, guid: 9156485ceaaf934409ed9ca2b54a7050, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6244643723958956829, guid: 9156485ceaaf934409ed9ca2b54a7050, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6244643723958956829, guid: 9156485ceaaf934409ed9ca2b54a7050, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6244643723958956829, guid: 9156485ceaaf934409ed9ca2b54a7050, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9156485ceaaf934409ed9ca2b54a7050, type: 3}
---- !u!4 &1334357674 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6244643723958956829, guid: 9156485ceaaf934409ed9ca2b54a7050, type: 3}
-  m_PrefabInstance: {fileID: 1334357673}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1847995430
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1847995431}
-  m_Layer: 0
-  m_Name: NormalRoom_3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1847995431
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1847995430}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.537676, y: -0.19773608, z: 0.039302174}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1334357674}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1935960876
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -700,6 +606,30 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
+      propertyPath: BossRooms.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
+      propertyPath: StartRooms.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
+      propertyPath: NormalRooms.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
+      propertyPath: BossRooms.Array.data[0]
+      value: 
+      objectReference: {fileID: 5153730758128651013, guid: 960b0f79e4da11847b2603d22a59ac20, type: 3}
+    - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
+      propertyPath: BossRooms.Array.data[1]
+      value: 
+      objectReference: {fileID: 3022900611371398318, guid: 2eca99ac8f3f43c4c8675859df79a907, type: 3}
+    - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
+      propertyPath: BossRooms.Array.data[2]
+      value: 
+      objectReference: {fileID: 6894539410581739220, guid: a8e2eb6f286ae094db46113fa4734067, type: 3}
+    - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
       propertyPath: NormalRooms1.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -715,6 +645,34 @@ PrefabInstance:
       propertyPath: NormalRooms4.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
+      propertyPath: StartRooms.Array.data[0]
+      value: 
+      objectReference: {fileID: 3609428139400942019, guid: bb6c98badd9962c49a2f1e77e473301b, type: 3}
+    - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
+      propertyPath: StartRooms.Array.data[1]
+      value: 
+      objectReference: {fileID: 8848725327177385555, guid: c4b6ec3ccfd5f4348a63756cbc64f06a, type: 3}
+    - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
+      propertyPath: NormalRooms.Array.data[0]
+      value: 
+      objectReference: {fileID: 2061878960738066579, guid: 44bfca0b0df6a1242b752f6a171c1210, type: 3}
+    - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
+      propertyPath: NormalRooms.Array.data[1]
+      value: 
+      objectReference: {fileID: 5705937135903131283, guid: 023fe9ba95f3374409b0f7a9458e71f0, type: 3}
+    - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
+      propertyPath: NormalRooms.Array.data[2]
+      value: 
+      objectReference: {fileID: 4525889580779657503, guid: 00cddc94035104940a8308ee2d5626f7, type: 3}
+    - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
+      propertyPath: NormalRooms.Array.data[3]
+      value: 
+      objectReference: {fileID: 5971065276136075632, guid: 7bfc10f07c9e514408eb35b39ed0ed0d, type: 3}
+    - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
+      propertyPath: NormalRooms.Array.data[4]
+      value: 
+      objectReference: {fileID: 5841296184729160046, guid: 16adddeef64249a45afb7ee3737d306b, type: 3}
     - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
       propertyPath: dungeonLayouts.Array.size
       value: 1
@@ -761,4 +719,3 @@ SceneRoots:
   - {fileID: 1935960876}
   - {fileID: 2021313362}
   - {fileID: 3777362035202486168}
-  - {fileID: 1847995431}

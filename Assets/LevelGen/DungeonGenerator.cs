@@ -1,160 +1,149 @@
 using System.Collections.Generic;
 using UnityEngine;
 using needRoomData;
+using System.Collections;
+using System.Linq;
+
 public class DungeonGenerator1 : MonoBehaviour
 {
-    public List<DungeonLayoutSO> dungeonLayouts; // List of predefined layouts
-    public List<GameObject> StartRooms, NormalRooms1, NormalRooms2, NormalRooms3, NormalRooms4, RewardRooms, BossRooms;
-    public GameObject CorridorPrefab;
-    
+    public List<DungeonLayoutSO> dungeonLayouts;
+    public List<GameObject> StartRooms, NormalRooms, ShopNPCRooms, BossRooms;
+
     private Dictionary<int, RoomData> rooms = new();
     private Dictionary<int, GameObject> spawnedRooms = new();
 
     void Start()
     {
-        GenerateDungeon();
+        StartCoroutine(GenerateDungeonCoroutine());
     }
 
-    public void GenerateDungeon()
+    IEnumerator GenerateDungeonCoroutine()
     {
-        // välj en layout
-        DungeonLayoutSO selectedLayout = dungeonLayouts[Random.Range(0, dungeonLayouts.Count)];
+        // Force first layout for testing (0-1, 1-2, 1-3)
+        DungeonLayoutSO selectedLayout = dungeonLayouts[0];
 
-        // vilka rum
+        // Initialize rooms
         foreach (var room in selectedLayout.rooms)
         {
             rooms[room.id] = room;
-            Debug.Log($"Room {room.id}: {room.roomType}");
+            yield return null;
         }
 
-        // spawn
+        // Spawn all rooms first
         foreach (var room in rooms.Values)
         {
-            SpawnRooms();
-            Debug.Log($"Room {room.id} spawned");
+            SpawnRoom(room);
+            yield return null;
         }
 
-        // korridorer
+        // Connect rooms
         ConnectRooms();
-        Debug.Log("Rooms connected");
+        Debug.Log("Dungeon generation complete!");
     }
 
-    void SpawnRooms()
+    void SpawnRoom(RoomData room)
     {
-        Queue<RoomData> queue = new Queue<RoomData>();
-        HashSet<int> visited = new HashSet<int>();
+        if (spawnedRooms.ContainsKey(room.id)) return;
 
-        if (rooms.ContainsKey(0))
+        // Simple random positioning with some spacing
+        Vector3 position = new Vector3(
+            Random.Range(-20f, 20f),
+            Random.Range(-20f, 20f),
+            0
+        );
+
+        GameObject prefab = GetPrefabForRoomType(room.roomType, room.connections.Count);
+        if (prefab != null)
         {
-            rooms[0].Position = Vector2.zero; // börja i början
-            queue.Enqueue(rooms[0]);
-            visited.Add(0);
-        }
-
-        while (queue.Count > 0)
-        {
-            RoomData current = queue.Dequeue();
-            Vector2 currentPosition = current.Position;
-
-            foreach (int connection in current.connections)
-            {
-                if (!visited.Contains(connection) && rooms.ContainsKey(connection))
-                {
-                    visited.Add(connection);
-                    queue.Enqueue(rooms[connection]);
-
-                    // Ensure rooms are spaced naturally without excessive gaps
-                    Vector2 offset = GetSmarterOffset(currentPosition, connection);
-                    rooms[connection].Position = currentPosition + offset;
-                }
-            }
-        }
-
-        ApplyRoomRepulsion(); // Adjust to avoid overlaps
-
-        // Instantiate rooms at final positions
-        foreach (var room in rooms.Values)
-        {
-            if (spawnedRooms.ContainsKey(room.id)) continue; // Prevent duplicate spawning
-
-            Vector3 worldPosition = new Vector3(room.Position.x, room.Position.y, 0);
-            GameObject prefab = GetPrefabForRoomType(room.roomType);
-            if (prefab != null)
-            {
-                spawnedRooms[room.id] = Instantiate(prefab, worldPosition, Quaternion.identity);
-            }
+            spawnedRooms[room.id] = Instantiate(prefab, position, Quaternion.identity);
         }
     }
 
-    // **Fix excessive distance issues**
-    Vector2 GetSmarterOffset(Vector2 currentPosition, int connectionID)
-    {
-        float angle = Random.Range(0f, Mathf.PI * 2); // Random direction
-        float minDistance = 10f; // Minimum spacing
-        float maxDistance = 20f; // Maximum spacing
-        float distance = Random.Range(minDistance, maxDistance);
-
-        return new Vector2(Mathf.Cos(angle), Mathf.Sin(angle)) * distance;
-    }
-
-    // **Prevent rooms from overlapping while maintaining structure**
-    void ApplyRoomRepulsion()
-    {
-        float repulsionStrength = 4f; // Lowered strength for less drastic changes
-        bool changed = true;
-
-        while (changed)
-        {
-            changed = false;
-            foreach (var roomA in rooms.Values)
-            {
-                foreach (var roomB in rooms.Values)
-                {
-                    if (roomA == roomB) continue;
-
-                    Vector2 delta = roomA.Position - roomB.Position;
-                    float distance = delta.magnitude;
-
-                    if (distance < 5f) // Adjusted threshold
-                    {
-                        Vector2 push = delta.normalized * repulsionStrength;
-                        roomA.Position += push / 2;
-                        roomB.Position -= push / 2;
-                        changed = true;
-                    }
-                }
-            }
-        }
-    }
     void ConnectRooms()
     {
+        StartCoroutine(ConnectRoomsCoroutine());
+    }
+
+    IEnumerator ConnectRoomsCoroutine()
+    {
         foreach (var room in rooms.Values)
         {
-            foreach (int connection in room.connections)
+            GameObject roomObj = spawnedRooms[room.id];
+            TeleportConnector connector = roomObj.GetComponent<TeleportConnector>();
+            if (connector == null) continue;
+
+            // For each connection, find a matching door
+            foreach (int connectedId in room.connections)
             {
-                if (!spawnedRooms.ContainsKey(connection)) continue;
+                if (!spawnedRooms.ContainsKey(connectedId)) continue;
 
-                Vector3 from = spawnedRooms[room.id].transform.position;
-                Vector3 to = spawnedRooms[connection].transform.position;
-                Vector3 midpoint = (from + to) / 2;
+                GameObject targetRoom = spawnedRooms[connectedId];
+                TeleportConnector targetConnector = targetRoom.GetComponent<TeleportConnector>();
+                if (targetConnector == null) continue;
 
-                Instantiate(CorridorPrefab, midpoint, Quaternion.identity);
+                // Find first available door in source room
+                Transform sourceDoor = connector.doorPoints[0];
+                if (sourceDoor == null) continue;
+
+                // Find first available door in target room
+                Transform targetDoor = targetConnector.doorPoints[0];
+                if (targetDoor == null) continue;
+
+                // Link them
+                connector.LinkDoor(connectedId, targetDoor);
+                targetConnector.LinkDoor(room.id, sourceDoor);
+
+                // Set the connected room IDs
+                DoorTeleportation doorA = sourceDoor.GetComponent<DoorTeleportation>();
+                if (doorA != null) doorA.connectedRoomID = connectedId;
+
+                DoorTeleportation doorB = targetDoor.GetComponent<DoorTeleportation>();
+                if (doorB != null) doorB.connectedRoomID = room.id;
+
+                yield return null;
             }
         }
     }
 
-    GameObject GetPrefabForRoomType(string type)
+    GameObject GetPrefabForRoomType(string type, int minDoors)
     {
-        return type switch
+        List<GameObject> pool = type switch
         {
-            "Start" => StartRooms[Random.Range(0, StartRooms.Count)],
-            "Normal1" => NormalRooms1[Random.Range(0, NormalRooms1.Count)],
-            "Normal2" => NormalRooms2[Random.Range(0, NormalRooms2.Count)],
-            "Normal3" => NormalRooms3[Random.Range(0, NormalRooms3.Count)],
-            "Normal4" => NormalRooms4[Random.Range(0, NormalRooms4.Count)],
-            "Reward" => RewardRooms[Random.Range(0, RewardRooms.Count)],
-            "Boss" => BossRooms[Random.Range(0, BossRooms.Count)],
+            "Start" => StartRooms,
+            "Normal" => NormalRooms,
+            "ShopNPC" => ShopNPCRooms,
+            "Boss" => BossRooms,
             _ => null
         };
+
+        if (pool == null || pool.Count == 0) return null;
+
+        // Filter by minimum door count
+        List<GameObject> suitablePrefabs = pool.Where(p =>
+            p.GetComponent<TeleportConnector>()?.doorPoints.Count >= minDoors
+        ).ToList();
+
+        return suitablePrefabs.Count > 0
+            ? suitablePrefabs[Random.Range(0, suitablePrefabs.Count)]
+            : pool[Random.Range(0, pool.Count)];
+    }
+
+    void OnDrawGizmos()
+    {
+        if (spawnedRooms == null || spawnedRooms.Count == 0) return;
+
+        foreach (var room in rooms.Values)
+        {
+            if (!spawnedRooms.TryGetValue(room.id, out var roomObj)) continue;
+
+            foreach (int connectedId in room.connections)
+            {
+                if (!spawnedRooms.TryGetValue(connectedId, out var connectedRoom)) continue;
+
+                // Draw a line between room centers
+                Gizmos.color = Color.green;
+                Gizmos.DrawLine(roomObj.transform.position, connectedRoom.transform.position);
+            }
+        }
     }
 }
