@@ -6,7 +6,7 @@ public class SceneInfo : ScriptableObject
     
 {
        
-  
+    public bool hasExplodingBullets;
     public bool hasShieldUpgrade;
     public bool hasBulletsizeUpgrade;
     public bool hasFireRateUpgrade;
@@ -61,13 +61,14 @@ public class SceneInfo : ScriptableObject
     hasReRoll = false;
     hasKillToHeal = false;
     hasGhostCompanion = false;
+    hasExplodingBullets = false;
     fireRate = 0.5f;
     numOfHearts = 3;
     health = numOfHearts;
 
     
     }
-    public void UnlockUpgrade(string upgradeName)
+public void UnlockUpgrade(string upgradeName)
 {
     switch (upgradeName)
     {
@@ -81,13 +82,17 @@ public class SceneInfo : ScriptableObject
             hasFireRateUpgrade = true;
             break;
         case "AutoFireUpgrade":
-            hasAutoFireUpgrade = true;  // Lägg till denna rad för att hantera full-auto
+            hasAutoFireUpgrade = true;
+            break;
+        case "ExplodingBullets":
+            hasExplodingBullets = true;
             break;
         default:
             Debug.LogWarning($"Upgrade {upgradeName} not found!");
             break;
     }
 }
+
 
 
  public void LevelUp()

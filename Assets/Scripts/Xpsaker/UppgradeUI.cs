@@ -111,6 +111,8 @@ public class UpgradeUI : MonoBehaviour
             case 3: return upgradeManager.sceneInfo.hasAutoFireUpgrade;
             case 4: return upgradeManager.sceneInfo.hasReRoll;
             case 5: return upgradeManager.sceneInfo.hasGhostCompanion; // lowercase 's' in sceneInfo // Add this to IsUpgradeUnlockedForButton
+            case 6: return upgradeManager.sceneInfo.hasExplodingBullets;
+
             default: return false;
         }
     }
@@ -150,4 +152,10 @@ public void UnlockGhostCompanionUpgrade()
     upgradeManager.UnlockGhostCompanion();
     HideUpgradeMenu();
 }
+public void UnlockExplodingBullets()
+{
+    upgradeManager.UnlockExplodingBulletsUpgrade();
+    HideUpgradeMenu();
+}
+
 }
