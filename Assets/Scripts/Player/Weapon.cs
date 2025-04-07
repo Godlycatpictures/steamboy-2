@@ -4,7 +4,7 @@ using System.Collections.Generic;
 public class Weapon : MonoBehaviour
 {
     public bool isAutoFireEnabled = false;  // Flagga för att hantera full-auto
-
+    public GameObject ExplodingBulletPrefab; // Referens till prefab för exploderande kulor
     public GameObject bulletPrefab;
     public Transform firePoint;
     public float fireForce = 20f;
@@ -40,7 +40,17 @@ public class Weapon : MonoBehaviour
 
     public void Fire()
     {
-        var bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        if(sceneInfo.hasExplodingBullets)
+        {
+            // Om spelaren har uppgraderingen för exploderande kulor, använd den
+            GameObject bullet = Instantiate(ExplodingBulletPrefab, firePoint.position, firePoint.rotation);
+            bullet.GetComponent<Rigidbody2D>().velocity = firePoint.right * fireForce;
+        }
+        else
+        {
+          var bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         bullet.GetComponent<Rigidbody2D>().velocity = firePoint.right * fireForce;
+        }
+      
     }
 }

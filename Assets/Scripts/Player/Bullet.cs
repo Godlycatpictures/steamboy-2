@@ -5,6 +5,7 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public float life = 3;
+    public GameObject PBullet;
   
     void Awake()
     {
@@ -18,6 +19,8 @@ public class Bullet : MonoBehaviour
     { 
         Debug.Log("Enemy hit by bullet!");
         Destroy(gameObject);
+        Destroy(PBullet); 
+
     }
     }
 }

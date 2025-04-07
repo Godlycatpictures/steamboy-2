@@ -194,4 +194,17 @@ public void UnlockReRollUpgrade()
         }
         CloseUpgradeMenu();
     }
+    public void UnlockExplodingBulletsUpgrade()
+{
+    if (!sceneInfo.hasExplodingBullets)
+    {
+        sceneInfo.hasExplodingBullets = true;
+        unlockedUpgrades.Add("ExplodingBullets");
+        
+    }
+
+    CloseUpgradeMenu();
+}
+
+
 }
