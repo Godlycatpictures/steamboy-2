@@ -427,6 +427,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2678753192396488408, guid: 1fbb7d5819bd99247b1196e57e883d16, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3095708988924513284, guid: 1fbb7d5819bd99247b1196e57e883d16, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -437,6 +441,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3095708988924513284, guid: 1fbb7d5819bd99247b1196e57e883d16, type: 3}
       propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3244416604881318954, guid: 1fbb7d5819bd99247b1196e57e883d16, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3970838091851434753, guid: 1fbb7d5819bd99247b1196e57e883d16, type: 3}
+      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4332856861819239613, guid: 1fbb7d5819bd99247b1196e57e883d16, type: 3}
@@ -691,7 +703,7 @@ PrefabInstance:
       objectReference: {fileID: 5128715624882877733, guid: fce555d61a9e3674f881f0d644b69190, type: 3}
     - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
       propertyPath: dungeonLayouts.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
       propertyPath: NormalRooms1.Array.data[0]
@@ -716,7 +728,7 @@ PrefabInstance:
     - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
       propertyPath: dungeonLayouts.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: b4f1c181e694b8d44a7979232239b3c8, type: 2}
+      objectReference: {fileID: 11400000, guid: e2071739b8dc07f49ad77fd83d9e29f8, type: 2}
     - target: {fileID: 7294335832489187649, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
       propertyPath: m_Name
       value: Generator
