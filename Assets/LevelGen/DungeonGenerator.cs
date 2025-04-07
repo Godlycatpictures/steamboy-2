@@ -11,6 +11,7 @@ public class DungeonGenerator1 : MonoBehaviour
 
     private Dictionary<int, RoomData> rooms = new();
     private Dictionary<int, GameObject> spawnedRooms = new();
+    private Dictionary<int, List<Transform>> availableDoors = new();
 
     void Start()
     {
@@ -19,44 +20,69 @@ public class DungeonGenerator1 : MonoBehaviour
 
     IEnumerator GenerateDungeonCoroutine()
     {
-        // Force first layout for testing (0-1, 1-2, 1-3)
-        DungeonLayoutSO selectedLayout = dungeonLayouts[0];
+        // Choose layout
+        DungeonLayoutSO selectedLayout = dungeonLayouts[Random.Range(0, dungeonLayouts.Count)];
 
-        // Initialize rooms
         foreach (var room in selectedLayout.rooms)
         {
             rooms[room.id] = room;
             yield return null;
         }
 
-        // Spawn all rooms first
+        // Spawn rooms - now with strict door count checking
+        bool allRoomsValid = true;
         foreach (var room in rooms.Values)
         {
-            SpawnRoom(room);
+            if (!SpawnRoomWithExactDoors(room))
+            {
+                Debug.LogError($"No suitable room found for Room ID {room.id} with exactly {room.connections.Count} doors");
+                allRoomsValid = false;
+                break;
+            }
             yield return null;
         }
 
-        // Connect rooms
-        ConnectRooms();
-        Debug.Log("Dungeon generation complete!");
+        if (allRoomsValid)
+        {
+            // Connect rooms
+            ConnectRooms();
+            Debug.Log("Dungeon generation complete!");
+        }
+        else
+        {
+            Debug.LogError("Dungeon generation failed due to missing room prefabs with required door counts");
+        }
     }
 
-    void SpawnRoom(RoomData room)
+    bool SpawnRoomWithExactDoors(RoomData room)
     {
-        if (spawnedRooms.ContainsKey(room.id)) return;
+        if (spawnedRooms.ContainsKey(room.id)) return true;
 
-        // Simple random positioning with some spacing
-        Vector3 position = new Vector3(
-            Random.Range(-20f, 20f),
-            Random.Range(-20f, 20f),
-            0
-        );
+        GameObject prefab = GetPrefabWithExactDoorCount(room.roomType, room.connections.Count);
+        if (prefab == null) return false;
 
-        GameObject prefab = GetPrefabForRoomType(room.roomType, room.connections.Count);
-        if (prefab != null)
+        // Stack rooms downward with spacing
+        float spacing = 30f;
+        Vector3 position = new Vector3(0, -room.id * spacing, 0);
+
+        GameObject newRoom = Instantiate(prefab, position, Quaternion.identity);
+        spawnedRooms[room.id] = newRoom;
+
+        // Initialize available doors list
+        TeleportConnector connector = newRoom.GetComponent<TeleportConnector>();
+        if (connector != null)
         {
-            spawnedRooms[room.id] = Instantiate(prefab, position, Quaternion.identity);
+            availableDoors[room.id] = new List<Transform>(connector.doorPoints);
+
+            // Verify the room has exactly the required number of doors
+            if (connector.doorPoints.Count != room.connections.Count)
+            {
+                Debug.LogError($"Room {room.id} has {connector.doorPoints.Count} doors but needs exactly {room.connections.Count}");
+                return false;
+            }
         }
+
+        return true;
     }
 
     void ConnectRooms()
@@ -66,46 +92,57 @@ public class DungeonGenerator1 : MonoBehaviour
 
     IEnumerator ConnectRoomsCoroutine()
     {
+        // First create all possible connections between rooms
         foreach (var room in rooms.Values)
         {
-            GameObject roomObj = spawnedRooms[room.id];
+            if (!spawnedRooms.TryGetValue(room.id, out GameObject roomObj)) continue;
             TeleportConnector connector = roomObj.GetComponent<TeleportConnector>();
             if (connector == null) continue;
 
-            // For each connection, find a matching door
             foreach (int connectedId in room.connections)
             {
-                if (!spawnedRooms.ContainsKey(connectedId)) continue;
+                // Skip if already linked or if target room doesn't exist
+                if (connector.GetConnectedDoor(connectedId)) continue;
+                if (!spawnedRooms.TryGetValue(connectedId, out GameObject targetRoom)) continue;
 
-                GameObject targetRoom = spawnedRooms[connectedId];
                 TeleportConnector targetConnector = targetRoom.GetComponent<TeleportConnector>();
                 if (targetConnector == null) continue;
 
-                // Find first available door in source room
-                Transform sourceDoor = connector.doorPoints[0];
-                if (sourceDoor == null) continue;
+                // Find available doors in both rooms
+                if (availableDoors[room.id].Count == 0 || availableDoors[connectedId].Count == 0)
+                {
+                    Debug.LogWarning($"No available doors for connection between Room {room.id} and Room {connectedId}");
+                    continue;
+                }
 
-                // Find first available door in target room
-                Transform targetDoor = targetConnector.doorPoints[0];
-                if (targetDoor == null) continue;
+                // Get first available door from each room
+                Transform sourceDoor = availableDoors[room.id][0];
+                Transform targetDoor = availableDoors[connectedId][0];
 
-                // Link them
+                DoorTeleportation sourceTeleport = sourceDoor.GetComponent<DoorTeleportation>();
+                DoorTeleportation targetTeleport = targetDoor.GetComponent<DoorTeleportation>();
+
+                if (sourceTeleport == null || targetTeleport == null) continue;
+
+                // Link the doors
                 connector.LinkDoor(connectedId, targetDoor);
                 targetConnector.LinkDoor(room.id, sourceDoor);
 
-                // Set the connected room IDs
-                DoorTeleportation doorA = sourceDoor.GetComponent<DoorTeleportation>();
-                if (doorA != null) doorA.connectedRoomID = connectedId;
+                sourceTeleport.connectedRoomID = connectedId;
+                targetTeleport.connectedRoomID = room.id;
 
-                DoorTeleportation doorB = targetDoor.GetComponent<DoorTeleportation>();
-                if (doorB != null) doorB.connectedRoomID = room.id;
+                // Remove used doors from available lists
+                availableDoors[room.id].Remove(sourceDoor);
+                availableDoors[connectedId].Remove(targetDoor);
 
                 yield return null;
             }
         }
+
+        Debug.Log("Room connections established.");
     }
 
-    GameObject GetPrefabForRoomType(string type, int minDoors)
+    GameObject GetPrefabWithExactDoorCount(string type, int requiredDoors)
     {
         List<GameObject> pool = type switch
         {
@@ -118,14 +155,16 @@ public class DungeonGenerator1 : MonoBehaviour
 
         if (pool == null || pool.Count == 0) return null;
 
-        // Filter by minimum door count
+        // Find prefabs with EXACTLY the required number of doors
         List<GameObject> suitablePrefabs = pool.Where(p =>
-            p.GetComponent<TeleportConnector>()?.doorPoints.Count >= minDoors
-        ).ToList();
+        {
+            var connector = p.GetComponent<TeleportConnector>();
+            return connector != null && connector.doorPoints.Count == requiredDoors;
+        }).ToList();
 
         return suitablePrefabs.Count > 0
             ? suitablePrefabs[Random.Range(0, suitablePrefabs.Count)]
-            : pool[Random.Range(0, pool.Count)];
+            : null; // Return null if no suitable prefab found
     }
 
     void OnDrawGizmos()
@@ -140,7 +179,6 @@ public class DungeonGenerator1 : MonoBehaviour
             {
                 if (!spawnedRooms.TryGetValue(connectedId, out var connectedRoom)) continue;
 
-                // Draw a line between room centers
                 Gizmos.color = Color.green;
                 Gizmos.DrawLine(roomObj.transform.position, connectedRoom.transform.position);
             }

@@ -14,13 +14,15 @@ public class Bullet : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("IT HIT");
     if (collision.CompareTag("Enemy")) // Check if it's a bullet
     { 
-        Debug.Log("Enemy hit by bullet!");
+        Destroy(gameObject);
+    }if (collision.CompareTag("EnemyProjectile")) // Check if it's a bullet
+    { 
         Destroy(gameObject);
         Destroy(PBullet); 
 
     }
+        Destroy(gameObject);
     }
 }

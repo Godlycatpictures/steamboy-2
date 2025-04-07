@@ -3,7 +3,7 @@ public enum DoorDirection { Up, Down, Left, Right }
 
 public class DoorTeleportation : MonoBehaviour
 {
-    public int connectedRoomID; // Set during generation
+    public int connectedRoomID; // i dungeongenerator1.cs
     private TeleportConnector connector;
     public DoorDirection direction;
 
@@ -26,7 +26,7 @@ public class DoorTeleportation : MonoBehaviour
 
     void OnDrawGizmos()
     {
-        // Draw direction arrows for each door point
+        // sträck
         switch (direction)
         {
             case DoorDirection.Up:
@@ -45,6 +45,16 @@ public class DoorTeleportation : MonoBehaviour
                 Gizmos.color = Color.yellow;
                 Gizmos.DrawLine(transform.position, transform.position + Vector3.right * 2);
                 break;
+        }
+
+        if (Application.isPlaying && connector != null)
+        {
+            Transform target = connector.GetConnectedDoor(connectedRoomID);
+            if (target != null)
+            {
+                Gizmos.color = Color.magenta;
+                Gizmos.DrawLine(transform.position, target.position);
+            }
         }
     }
 

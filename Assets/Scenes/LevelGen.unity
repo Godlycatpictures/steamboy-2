@@ -200,7 +200,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 846656422}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6fba158f0315e2b4ab3ce66b697004af, type: 3}
   m_Name: 
@@ -445,7 +445,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4332856861819239613, guid: 1fbb7d5819bd99247b1196e57e883d16, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4758803987042199023, guid: 1fbb7d5819bd99247b1196e57e883d16, type: 3}
       propertyPath: sceneInfo
@@ -607,15 +607,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
       propertyPath: BossRooms.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
       propertyPath: StartRooms.Array.size
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
       propertyPath: NormalRooms.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
       propertyPath: BossRooms.Array.data[0]
@@ -629,6 +629,10 @@ PrefabInstance:
       propertyPath: BossRooms.Array.data[2]
       value: 
       objectReference: {fileID: 6894539410581739220, guid: a8e2eb6f286ae094db46113fa4734067, type: 3}
+    - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
+      propertyPath: BossRooms.Array.data[3]
+      value: 
+      objectReference: {fileID: 1662479222469480488, guid: 3884340017af18b4e8ae1be103dad05d, type: 3}
     - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
       propertyPath: NormalRooms1.Array.size
       value: 1
@@ -654,6 +658,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8848725327177385555, guid: c4b6ec3ccfd5f4348a63756cbc64f06a, type: 3}
     - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
+      propertyPath: StartRooms.Array.data[2]
+      value: 
+      objectReference: {fileID: 132721924494675188, guid: 6367540a2ff1cff4c84388c4b5f27a29, type: 3}
+    - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
+      propertyPath: StartRooms.Array.data[3]
+      value: 
+      objectReference: {fileID: 7271191782662789303, guid: 2fe5d4f3808f0ee468e56bdada8cbb35, type: 3}
+    - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
       propertyPath: NormalRooms.Array.data[0]
       value: 
       objectReference: {fileID: 2061878960738066579, guid: 44bfca0b0df6a1242b752f6a171c1210, type: 3}
@@ -673,6 +685,10 @@ PrefabInstance:
       propertyPath: NormalRooms.Array.data[4]
       value: 
       objectReference: {fileID: 5841296184729160046, guid: 16adddeef64249a45afb7ee3737d306b, type: 3}
+    - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
+      propertyPath: NormalRooms.Array.data[5]
+      value: 
+      objectReference: {fileID: 5128715624882877733, guid: fce555d61a9e3674f881f0d644b69190, type: 3}
     - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
       propertyPath: dungeonLayouts.Array.size
       value: 1
@@ -696,11 +712,11 @@ PrefabInstance:
     - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
       propertyPath: dungeonLayouts.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: e2071739b8dc07f49ad77fd83d9e29f8, type: 2}
+      objectReference: {fileID: 11400000, guid: b4f1c181e694b8d44a7979232239b3c8, type: 2}
     - target: {fileID: 1699094998714976132, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
       propertyPath: dungeonLayouts.Array.data[1]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: b4f1c181e694b8d44a7979232239b3c8, type: 2}
     - target: {fileID: 7294335832489187649, guid: 1bb3913cf95daa443b6ab50f1ae2d897, type: 3}
       propertyPath: m_Name
       value: Generator
