@@ -173,6 +173,7 @@ public void UnlockReRollUpgrade()
     {
         upgradeCanvas.SetActive(false);
         Time.timeScale = 1f;
+        sceneInfo.screenShake = true;
     }
     public void UnlockGhostCompanion()
     {
