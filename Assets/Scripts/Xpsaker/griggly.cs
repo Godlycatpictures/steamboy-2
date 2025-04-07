@@ -8,7 +8,7 @@ public class griggly : MonoBehaviour
     public int xp; // XP to grant when enemy dies
     private xpChar xpCharacter; // Reference to xpChar script
     
-    //public GameObject deathEffect;
+    public GameObject deathEffect;
 
     void Start()
     {
@@ -61,7 +61,7 @@ void OnTriggerEnter2D(Collider2D collision)
         {
             xpCharacter.AddXP(xp); // Add XP when enemy dies
         }
-       // Instantiate(deathEffect, transform.position, Quaternion.identity);
+        Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(gameObject); // Remove enemy from scene
     }
 }
