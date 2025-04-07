@@ -3,9 +3,9 @@ using UnityEngine;
 
 public class TeleportConnector : MonoBehaviour
 {
-    public List<Transform> doorPoints; // Assign in prefab inspector
+    public List<Transform> doorPoints; // var dörrarna är
 
-    private Dictionary<int, Transform> connectedDoors = new();
+    public Dictionary<int, Transform> connectedDoors = new();
 
     public void LinkDoor(int connectedRoomID, Transform targetDoor)
     {
