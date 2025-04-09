@@ -123,7 +123,7 @@ public class UpgradeUI : MonoBehaviour
     {
         foreach (Button button in allUpgradeButtons)
         {
-            button.gameObject.SetActive(false);
+            //button.gameObject.SetActive(false);      DETTA KAN VARA EN BUGG, ÄR KOMMENTERAD JUST NU
         }
     }
 

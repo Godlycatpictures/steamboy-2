@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5358293355626671999}
   - component: {fileID: 8041546122366820935}
   - component: {fileID: 988147134487249163}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: SteamBoy
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -205,7 +205,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2421269950608076688}
   - component: {fileID: 339013949583991243}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}

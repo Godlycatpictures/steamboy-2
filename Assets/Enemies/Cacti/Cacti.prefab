@@ -208,6 +208,7 @@ MonoBehaviour:
   health: 4
   xp: 10
   deathEffect: {fileID: 3371569424538963305, guid: 8600c92868e86274d9b036656541aa31, type: 3}
+  sceneInfo: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
 --- !u!114 &8714303605507470079
 MonoBehaviour:
   m_ObjectHideFlags: 0
