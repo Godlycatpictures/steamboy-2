@@ -80,9 +80,9 @@ public class CactiAi : MonoBehaviour
         attacking = true;
 
 
-        yield return new WaitForSeconds(0.3f);
+        yield return new WaitForSeconds(0.4f);
         Instantiate(attackPrefab, rb.position, Quaternion.identity);
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.1f);
 
         attacking = false;
         attackCoolDown = 1.5f; // Reset cooldown
