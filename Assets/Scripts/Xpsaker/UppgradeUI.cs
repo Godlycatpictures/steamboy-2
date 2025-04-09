@@ -112,6 +112,8 @@ public class UpgradeUI : MonoBehaviour
             case 4: return upgradeManager.sceneInfo.hasReRoll;
             case 5: return upgradeManager.sceneInfo.hasGhostCompanion; // lowercase 's' in sceneInfo // Add this to IsUpgradeUnlockedForButton
             case 6: return upgradeManager.sceneInfo.hasExplodingBullets;
+            case 7: return upgradeManager.sceneInfo.hasChainDamage; // Ny index för ChainDamage
+
 
             default: return false;
         }
@@ -155,6 +157,11 @@ public void UnlockGhostCompanionUpgrade()
 public void UnlockExplodingBullets()
 {
     upgradeManager.UnlockExplodingBulletsUpgrade();
+    HideUpgradeMenu();
+}
+public void UnlockChainDamage()
+{
+    upgradeManager.UnlockChainDamageUpgrade();
     HideUpgradeMenu();
 }
 

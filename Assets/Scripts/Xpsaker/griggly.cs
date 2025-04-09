@@ -10,38 +10,38 @@ public class griggly : MonoBehaviour
     
     public GameObject deathEffect;
 
+    public SceneInfo sceneInfo; // Drag-and-drop via Inspector!
+
     void Start()
     {
-
-        // Find the xpChar component in the scene
         xpCharacter = FindObjectOfType<xpChar>();
 
-        // Ensure it's found
         if (xpCharacter == null)
         {
             Debug.LogError("xpChar script not found in the scene!");
         }
 
+        if (sceneInfo == null)
+        {
+            sceneInfo = FindObjectOfType<SceneInfo>();
+            if (sceneInfo == null)
+                Debug.LogWarning("SceneInfo is not assigned to enemy!");
+        }
     }
 
-void OnTriggerEnter2D(Collider2D collision)
-{
-    Debug.Log("Something entered the trigger: " + collision.gameObject.name);
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Bullet") || collision.CompareTag("DroneProjectile"))
+        {
+            TakeDamage();
 
-    if (collision.CompareTag("Bullet")) // Check if it's a bullet
-    { 
-        Debug.Log("Enemy hit by bullet!");
-        TakeDamage();
+            if (sceneInfo != null && sceneInfo.hasChainDamage)
+            {
+                ApplyChainDamage();
+            }
+        }
     }
-     else if (collision.CompareTag("DroneProjectile")) // Check if it's a bullet
-    { 
-        Debug.Log("Enemy hit by bullet!");
-        TakeDamage();
-    }
-    else{
 
-    }
-}
     void TakeDamage()
     {
         health--;
@@ -54,14 +54,59 @@ void OnTriggerEnter2D(Collider2D collision)
 
     void Die()
     {
-        Debug.Log("Enemy Destroyed!");
-
-        // Grant XP before destroying the enemy
         if (xpCharacter != null)
         {
-            xpCharacter.AddXP(xp); // Add XP when enemy dies
+            xpCharacter.AddXP(xp);
         }
+
         Instantiate(deathEffect, transform.position, Quaternion.identity);
-        Destroy(gameObject); // Remove enemy from scene
+        Destroy(gameObject);
+    }
+
+    void ApplyChainDamage()
+    {
+        float chainRange = 5f;
+        int chainDamage = 1;
+
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+
+        Transform closest = null;
+        float closestDist = Mathf.Infinity;
+
+        foreach (GameObject enemy in enemies)
+        {
+            if (enemy == gameObject) continue;
+
+            float dist = Vector2.Distance(transform.position, enemy.transform.position);
+            if (dist < closestDist && dist <= chainRange)
+            {
+                closestDist = dist;
+                closest = enemy.transform;
+            }
+        }
+
+        if (closest != null)
+        {
+            // Rita blixt (DebugLine för nu – kan bytas mot riktig VFX)
+            Debug.DrawLine(transform.position, closest.position, Color.yellow, 0.5f);
+
+            // Skada närmaste fiende
+            griggly otherEnemy = closest.GetComponent<griggly>();
+            if (otherEnemy != null)
+            {
+                otherEnemy.TakeDamageFromChain(chainDamage);
+            }
+        }
+    }
+
+    // Extra metod för att tillåta chain-skada utan att aktivera kedjereaktion
+    public void TakeDamageFromChain(int damage)
+    {
+        health -= damage;
+
+        if (health <= 0)
+        {
+            Die();
+        }
     }
 }

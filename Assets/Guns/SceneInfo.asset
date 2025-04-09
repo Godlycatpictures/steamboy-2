@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: SceneInfo
   m_EditorClassIdentifier: 
   hasExplodingBullets: 0
-  hasShieldUpgrade: 1
+  hasShieldUpgrade: 0
   hasBulletsizeUpgrade: 0
-  hasFireRateUpgrade: 0
+  hasFireRateUpgrade: 1
   hasAutoFireUpgrade: 0
   hasKillToHeal: 0
   hasGhostCompanion: 0
@@ -26,12 +26,13 @@ MonoBehaviour:
   numOfHearts: 3
   currentCoins: 0
   fireForce: 10
-  fireRate: 0.5
+  fireRate: 0.4
   damageModifier: 1
+  hasChainDamage: 1
   randmap: -1
-  xp: 0
-  level: 1
-  xpToNextLevel: 100
+  xp: 200
+  level: 2
+  xpToNextLevel: 205
   xpMultiplier: 1.2
-  screenShake: 0
+  screenShake: 1
   roomsCleared: 

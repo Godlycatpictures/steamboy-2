@@ -186,6 +186,10 @@ PrefabInstance:
       propertyPath: xp
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 6996185348673545404, guid: eb0c210c6b2ed0f4cb287ef53746d5cd, type: 3}
+      propertyPath: sceneInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -255,6 +259,10 @@ PrefabInstance:
       propertyPath: xp
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 6996185348673545404, guid: eb0c210c6b2ed0f4cb287ef53746d5cd, type: 3}
+      propertyPath: sceneInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -324,6 +332,10 @@ PrefabInstance:
       propertyPath: xp
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 6996185348673545404, guid: eb0c210c6b2ed0f4cb287ef53746d5cd, type: 3}
+      propertyPath: sceneInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -413,6 +425,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 0}
 --- !u!61 &51145911
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -607,6 +620,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
 --- !u!61 &99547370
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -786,6 +800,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
 --- !u!61 &139030018
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -960,6 +975,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
 --- !u!61 &148661389
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1126,6 +1142,10 @@ PrefabInstance:
       propertyPath: xp
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 6996185348673545404, guid: eb0c210c6b2ed0f4cb287ef53746d5cd, type: 3}
+      propertyPath: sceneInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1298,6 +1318,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 0}
 --- !u!61 &254342882
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1487,6 +1508,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 0}
 --- !u!61 &279066750
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1676,6 +1698,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
 --- !u!61 &320994920
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1973,6 +1996,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 0}
 --- !u!61 &415527883
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2147,6 +2171,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 0}
 --- !u!61 &417868450
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2323,6 +2348,10 @@ PrefabInstance:
       propertyPath: xp
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 6996185348673545404, guid: eb0c210c6b2ed0f4cb287ef53746d5cd, type: 3}
+      propertyPath: sceneInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2471,6 +2500,10 @@ PrefabInstance:
       propertyPath: xp
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 6996185348673545404, guid: eb0c210c6b2ed0f4cb287ef53746d5cd, type: 3}
+      propertyPath: sceneInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2676,6 +2709,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 0}
 --- !u!61 &549909042
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2813,6 +2847,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 0}
 --- !u!4 &584858046 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1302183630761102645, guid: 1fbb7d5819bd99247b1196e57e883d16, type: 3}
@@ -2915,6 +2950,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
 --- !u!61 &701461392
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3088,6 +3124,10 @@ PrefabInstance:
       propertyPath: xp
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 6996185348673545404, guid: eb0c210c6b2ed0f4cb287ef53746d5cd, type: 3}
+      propertyPath: sceneInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -3335,6 +3375,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 0}
 --- !u!61 &758632778
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3509,6 +3550,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 0}
 --- !u!61 &810175699
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3683,6 +3725,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 0}
 --- !u!61 &821795508
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3872,6 +3915,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
 --- !u!61 &845675458
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4031,6 +4075,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 0}
 --- !u!61 &845762083
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4408,6 +4453,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
 --- !u!61 &978702005
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4577,6 +4623,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 0}
 --- !u!61 &1002592291
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4753,6 +4800,10 @@ PrefabInstance:
       propertyPath: xp
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 6996185348673545404, guid: eb0c210c6b2ed0f4cb287ef53746d5cd, type: 3}
+      propertyPath: sceneInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4835,6 +4886,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
 --- !u!61 &1011403510
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4996,6 +5048,10 @@ PrefabInstance:
       propertyPath: xp
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 6996185348673545404, guid: eb0c210c6b2ed0f4cb287ef53746d5cd, type: 3}
+      propertyPath: sceneInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5078,6 +5134,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
 --- !u!61 &1031475928
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5239,6 +5296,10 @@ PrefabInstance:
       propertyPath: xp
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 6996185348673545404, guid: eb0c210c6b2ed0f4cb287ef53746d5cd, type: 3}
+      propertyPath: sceneInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5503,6 +5564,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 0}
 --- !u!61 &1151307052
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5761,6 +5823,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
 --- !u!61 &1214544525
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6004,6 +6067,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
 --- !u!61 &1216521994
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6168,6 +6232,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 0}
 --- !u!61 &1292423531
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6342,6 +6407,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 0}
 --- !u!61 &1330425089
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6519,6 +6585,10 @@ PrefabInstance:
       propertyPath: xp
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 6996185348673545404, guid: eb0c210c6b2ed0f4cb287ef53746d5cd, type: 3}
+      propertyPath: sceneInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6601,6 +6671,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
 --- !u!61 &1355046691
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6780,6 +6851,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
 --- !u!61 &1371938146
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7082,6 +7154,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 0}
 --- !u!61 &1446039980
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7276,6 +7349,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
 --- !u!61 &1466933912
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7524,6 +7598,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 0}
 --- !u!61 &1644457056
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7713,6 +7788,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
 --- !u!61 &1669851718
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7961,6 +8037,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
 --- !u!61 &1716703366
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8135,6 +8212,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
 --- !u!61 &1725754838
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8296,6 +8374,10 @@ PrefabInstance:
       propertyPath: xp
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 6996185348673545404, guid: eb0c210c6b2ed0f4cb287ef53746d5cd, type: 3}
+      propertyPath: sceneInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8543,6 +8625,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 0}
 --- !u!61 &1928125046
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8724,6 +8807,10 @@ PrefabInstance:
       propertyPath: xp
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 6996185348673545404, guid: eb0c210c6b2ed0f4cb287ef53746d5cd, type: 3}
+      propertyPath: sceneInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8793,6 +8880,10 @@ PrefabInstance:
       propertyPath: xp
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 6996185348673545404, guid: eb0c210c6b2ed0f4cb287ef53746d5cd, type: 3}
+      propertyPath: sceneInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8875,6 +8966,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
 --- !u!61 &2048060974
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9034,6 +9126,7 @@ MonoBehaviour:
   health: 1
   xp: 0
   deathEffect: {fileID: 0}
+  sceneInfo: {fileID: 0}
 --- !u!61 &2051343463
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9222,6 +9315,10 @@ PrefabInstance:
       propertyPath: xp
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 6996185348673545404, guid: eb0c210c6b2ed0f4cb287ef53746d5cd, type: 3}
+      propertyPath: sceneInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -9438,6 +9535,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: uppgradeUI
       objectReference: {fileID: 0}
+    - target: {fileID: 831501230373638538, guid: a220b1bc3e4fa4e46ae4beec51852a17, type: 3}
+      propertyPath: m_text
+      value: Chain dmg
+      objectReference: {fileID: 0}
     - target: {fileID: 1075551463410475521, guid: a220b1bc3e4fa4e46ae4beec51852a17, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -9590,6 +9691,34 @@ PrefabInstance:
       propertyPath: upgradeManager
       value: 
       objectReference: {fileID: 44910184}
+    - target: {fileID: 7927124873609063283, guid: a220b1bc3e4fa4e46ae4beec51852a17, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7927124873609063283, guid: a220b1bc3e4fa4e46ae4beec51852a17, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7927124873609063283, guid: a220b1bc3e4fa4e46ae4beec51852a17, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 44910184}
+    - target: {fileID: 7927124873609063283, guid: a220b1bc3e4fa4e46ae4beec51852a17, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7927124873609063283, guid: a220b1bc3e4fa4e46ae4beec51852a17, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UnlockChainDamageUpgrade
+      objectReference: {fileID: 0}
+    - target: {fileID: 7927124873609063283, guid: a220b1bc3e4fa4e46ae4beec51852a17, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UpgradeManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7927124873609063283, guid: a220b1bc3e4fa4e46ae4beec51852a17, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7957215784188616854, guid: a220b1bc3e4fa4e46ae4beec51852a17, type: 3}
       propertyPath: m_LocalScale.x
       value: 2

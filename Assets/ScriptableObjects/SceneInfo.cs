@@ -27,6 +27,8 @@ public class SceneInfo : ScriptableObject
     public float fireRate; // Ska bli mindre för att den ska skjuta snabbare
 
     public int damageModifier = 1;
+     public bool hasChainDamage;
+
 
     public int randmap;
 
@@ -65,6 +67,9 @@ public class SceneInfo : ScriptableObject
     fireRate = 0.5f;
     numOfHearts = 3;
     health = numOfHearts;
+    hasChainDamage = false;
+
+   
 
     
     }
@@ -87,6 +92,10 @@ public void UnlockUpgrade(string upgradeName)
         case "ExplodingBullets":
             hasExplodingBullets = true;
             break;
+            case "ChainDamage":
+    hasChainDamage = true;
+    break;
+
         default:
             Debug.LogWarning($"Upgrade {upgradeName} not found!");
             break;

@@ -207,5 +207,16 @@ public void UnlockReRollUpgrade()
     CloseUpgradeMenu();
 }
 
+public void UnlockChainDamageUpgrade()
+{
+    if (!sceneInfo.hasChainDamage)
+    {
+        sceneInfo.hasChainDamage = true;
+        unlockedUpgrades.Add("ChainDamage");
+        Debug.Log("Chain Damage unlocked!");
+    }
+
+    CloseUpgradeMenu();
+}
 
 }
