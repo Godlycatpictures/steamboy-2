@@ -22567,7 +22567,8 @@ PrefabInstance:
       value: UnlockFullAutoUpgrade
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 5372637356931271965, guid: a220b1bc3e4fa4e46ae4beec51852a17, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a220b1bc3e4fa4e46ae4beec51852a17, type: 3}
