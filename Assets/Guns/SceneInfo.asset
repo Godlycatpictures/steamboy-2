@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f4c83e8bab40204b8e5b84b3bb1adb4, type: 3}
   m_Name: SceneInfo
   m_EditorClassIdentifier: 
-  hasExplodingBullets: 0
+  hasExplodingBullets: 1
   hasShieldUpgrade: 0
-  hasBulletsizeUpgrade: 0
-  hasFireRateUpgrade: 1
+  hasBulletsizeUpgrade: 1
+  hasFireRateUpgrade: 0
   hasAutoFireUpgrade: 0
   hasKillToHeal: 0
   hasGhostCompanion: 0
@@ -26,11 +26,11 @@ MonoBehaviour:
   numOfHearts: 3
   currentCoins: 0
   fireForce: 10
-  fireRate: 0.4
+  fireRate: 0.5
   damageModifier: 1
   hasChainDamage: 1
   randmap: -1
-  xp: 200
+  xp: 130
   level: 2
   xpToNextLevel: 205
   xpMultiplier: 1.2
