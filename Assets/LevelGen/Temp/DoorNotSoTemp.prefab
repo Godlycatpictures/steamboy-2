@@ -100,7 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   connectedRoomID: 0
   direction: 0
-  teleportCooldown: 0.5
+  teleportCooldown: 1
 --- !u!61 &4556810721503305757
 BoxCollider2D:
   m_ObjectHideFlags: 0

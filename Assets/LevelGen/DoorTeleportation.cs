@@ -4,12 +4,12 @@ public enum DoorDirection { Up, Down, Left, Right }
 
 public class DoorTeleportation : MonoBehaviour
 {
-    public int connectedRoomID; // Set in DungeonGenerator1.cs
+    public int connectedRoomID; // görs i dugeongenerator1.cs
     private TeleportConnector connector;
     public DoorDirection direction;
 
     [Header("Teleport Settings")]
-    public float teleportCooldown = 0.5f; // Prevents immediate re-triggering
+    public float teleportCooldown = 1f;
     private float lastTeleportTime = -1f;
     private bool isTeleporting = false;
 
@@ -26,7 +26,7 @@ public class DoorTeleportation : MonoBehaviour
     {
         if (other.CompareTag("Player") && !isTeleporting)
         {
-            Debug.Log($"Playe entered door {gameObject.name}");
+            Debug.Log($"Player entered door {gameObject.name}");
             TryTeleportPlayer(other.gameObject);
         }
     }
@@ -47,14 +47,14 @@ public class DoorTeleportation : MonoBehaviour
         player.transform.position = target.position + teleportOffset;
 
         // Reset teleport flag after a small delay
-        Invoke(nameof(ResetTeleportFlag), 0.1f);
+        Invoke(nameof(ResetTeleportFlag), 0.5f);
     }
 
     private Vector3 GetTeleportOffset(DoorTeleportation targetDoor)
     {
         if (targetDoor == null) return Vector3.forward * 5f;
 
-        // Adjust this based on the target door's direction
+        // offset
         switch (targetDoor.direction)
         {
             case DoorDirection.Up:
@@ -77,7 +77,7 @@ public class DoorTeleportation : MonoBehaviour
 
     void OnDrawGizmos()
     {
-        // Draw direction line
+        // sträck
         switch (direction)
         {
             case DoorDirection.Up:
