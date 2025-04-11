@@ -107,6 +107,9 @@ public class MaggotAi : MonoBehaviour
 
     } if (collision.CompareTag("DroneProjectile")) //chech if le drone projectile
     {
+        
+        isHit = true;
+        StartCoroutine(Hurt());
 
     }
     }
