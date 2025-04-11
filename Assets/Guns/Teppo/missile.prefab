@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 7760249620283458926}
   - component: {fileID: 6544624774358815141}
   - component: {fileID: -7344366130553183107}
-  m_Layer: 3
-  m_Name: missile
+  - component: {fileID: -1196395817555957177}
+  m_Layer: 9
+  m_Name: Missile
   m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -164,3 +165,24 @@ MonoBehaviour:
   life: 3
   collosionEffect: {fileID: 2162746097292309348, guid: 409286f195c7a6b428da44ec899673a0, type: 3}
   PBullet: {fileID: 0}
+--- !u!95 &-1196395817555957177
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1054596805913308768}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 89b0c344d5f450943b9a79eff9278252, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
