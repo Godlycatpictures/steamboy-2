@@ -23,5 +23,14 @@ public class Bomba : MonoBehaviour
             Destroy(PBullet); 
            
         }
+
+        if (collision.CompareTag("EnemyProjectile"))
+        {
+            
+            Instantiate(collosionEffect, transform.position, Quaternion.identity);
+            Destroy(gameObject); // Förstör missilen
+            Destroy(PBullet); 
+           
+        }
     }
 }
