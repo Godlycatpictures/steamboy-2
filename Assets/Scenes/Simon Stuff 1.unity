@@ -5904,10 +5904,46 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 41115546474074768, guid: 91b21101c85fe8e45be19acce67f5db3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -84
+      objectReference: {fileID: 0}
     - target: {fileID: 538402019741896344, guid: 91b21101c85fe8e45be19acce67f5db3, type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1074771939}
+    - target: {fileID: 1074866218628284727, guid: 91b21101c85fe8e45be19acce67f5db3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -84
+      objectReference: {fileID: 0}
+    - target: {fileID: 1452656767101071641, guid: 91b21101c85fe8e45be19acce67f5db3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -84
+      objectReference: {fileID: 0}
+    - target: {fileID: 1620870040514415001, guid: 91b21101c85fe8e45be19acce67f5db3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -84
+      objectReference: {fileID: 0}
+    - target: {fileID: 2946091566060728443, guid: 91b21101c85fe8e45be19acce67f5db3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 225.80005
+      objectReference: {fileID: 0}
+    - target: {fileID: 2946091566060728443, guid: 91b21101c85fe8e45be19acce67f5db3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -84
+      objectReference: {fileID: 0}
+    - target: {fileID: 3068478352967201783, guid: 91b21101c85fe8e45be19acce67f5db3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -84
+      objectReference: {fileID: 0}
+    - target: {fileID: 3890368110278838933, guid: 91b21101c85fe8e45be19acce67f5db3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -84
+      objectReference: {fileID: 0}
+    - target: {fileID: 5424960154599247869, guid: 91b21101c85fe8e45be19acce67f5db3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -84
+      objectReference: {fileID: 0}
     - target: {fileID: 5813118225244161676, guid: 91b21101c85fe8e45be19acce67f5db3, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -5991,6 +6027,10 @@ PrefabInstance:
     - target: {fileID: 6839704316392320203, guid: 91b21101c85fe8e45be19acce67f5db3, type: 3}
       propertyPath: m_Name
       value: UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925419362694211264, guid: 91b21101c85fe8e45be19acce67f5db3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -84
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
