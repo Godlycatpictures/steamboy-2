@@ -197,6 +197,8 @@ public void UnlockReRollUpgrade()
     }
     public void UnlockExplodingBulletsUpgrade()
 {
+    Debug.Log("Clicked Exploding Bullets button");
+
     if (!sceneInfo.hasExplodingBullets)
     {
         sceneInfo.hasExplodingBullets = true;
@@ -209,6 +211,8 @@ public void UnlockReRollUpgrade()
 
 public void UnlockChainDamageUpgrade()
 {
+    Debug.Log("Clicked chain Bullets button");
+
     if (!sceneInfo.hasChainDamage)
     {
         sceneInfo.hasChainDamage = true;

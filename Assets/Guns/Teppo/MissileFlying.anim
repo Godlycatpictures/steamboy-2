@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Animation
+  m_Name: MissileFlying
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -22,9 +22,9 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: 778911732, guid: da3762893a31b1843bede11c4d9fd204, type: 3}
-    - time: 0.083333336
+    - time: 0.06666667
       value: {fileID: -1504103852, guid: da3762893a31b1843bede11c4d9fd204, type: 3}
-    - time: 0.18333334
+    - time: 0.16666667
       value: {fileID: -1627995817, guid: da3762893a31b1843bede11c4d9fd204, type: 3}
     - time: 0.25
       value: {fileID: -1627995817, guid: da3762893a31b1843bede11c4d9fd204, type: 3}

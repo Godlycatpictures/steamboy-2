@@ -16,6 +16,7 @@ public class SceneInfo : ScriptableObject
 
     public bool hasReRoll;
      public bool hasUsedReRoll;
+     public bool hasChainDamage;
 
     public int health; // Mängden liv kvar
     public int EnemiesKilled;
@@ -27,7 +28,7 @@ public class SceneInfo : ScriptableObject
     public float fireRate; // Ska bli mindre för att den ska skjuta snabbare
 
     public int damageModifier = 1;
-     public bool hasChainDamage;
+     
 
 
     public int randmap;
@@ -92,9 +93,9 @@ public void UnlockUpgrade(string upgradeName)
         case "ExplodingBullets":
             hasExplodingBullets = true;
             break;
-            case "ChainDamage":
-    hasChainDamage = true;
-    break;
+        case "ChainDamage":
+         hasChainDamage = true;
+             break;
 
         default:
             Debug.LogWarning($"Upgrade {upgradeName} not found!");
