@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class KnockBack : MonoBehaviour
 {
-    private float knockbackForce = 10f; // Adjust this to control how strong the knockback is
+    private float knockbackForce = 5f; // Adjust this to control how strong the knockback is
     private Rigidbody2D rb;
 
     private void Awake()

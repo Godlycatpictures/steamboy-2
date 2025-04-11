@@ -85,7 +85,7 @@ public class BanannerAi : MonoBehaviour
         Instantiate(attackPrefab, spawnPosition, Quaternion.identity);
 
         attacking = false;
-        attackCoolDown = 5f; // Reset cooldown
+        attackCoolDown = 3f; // Reset cooldown
     }
 
     private void FixedUpdate()

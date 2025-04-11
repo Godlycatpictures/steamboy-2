@@ -5,8 +5,8 @@ using UnityEngine;
 public class MaggotAi : MonoBehaviour
 {
     private float detectionRange = 5f;
-    private float attackRange = 1f;
-    private float speed = 0.5f;
+    private float attackRange = 0.5f;
+    private float speed = 1f;
     public float xVelocity;
     public float yVelocity;
     public float lastKnownXVelocity = 1f; // Default to facing right

@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class FireOrb : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+   public float life = 3;
+   public GameObject impactEffect;
+
+    void Awake()
     {
-        
+        Destroy(gameObject, life);
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        
+        Instantiate(impactEffect, transform.position, Quaternion.identity); //Impact effect
+        Destroy(gameObject);
     }
 }
