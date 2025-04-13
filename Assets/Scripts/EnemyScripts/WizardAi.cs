@@ -9,8 +9,9 @@ public class WizardAi : MonoBehaviour
     private float speed = 0.5f;
     public float xVelocity;
     public float yVelocity;
-    public float lastKnownXVelocity = 1f; // Default to facing right
-    public float attackCoolDown = 0f; // Starts at 0, ready to attack
+    public float lastKnownXVelocity = 1f;
+
+    public float attackCoolDown = 0f;
 
     public bool attacking;
     public bool spikeAttack;
@@ -35,11 +36,8 @@ public class WizardAi : MonoBehaviour
     {
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
-        // Reduce cooldown timer
         if (attackCoolDown > 0)
-        {
             attackCoolDown -= Time.deltaTime;
-        }
 
         if (distanceToPlayer < detectionRange)
         {
@@ -54,54 +52,141 @@ public class WizardAi : MonoBehaviour
         }
         else
         {
-            rb.velocity = Vector2.zero; // Stop movement when player is out of range
+            rb.velocity = Vector2.zero;
         }
 
-        // Update velocity values for the animator
         xVelocity = rb.velocity.x;
-
-        // Store last known xVelocity if moving
         if (xVelocity != 0)
-        {
             lastKnownXVelocity = xVelocity;
-        }
     }
 
     private void MoveTowards(Vector2 target)
     {
         Vector2 direction = (target - (Vector2)transform.position).normalized;
-        rb.velocity = direction * speed; // Moves in both X and Y directions
+        rb.velocity = direction * speed;
     }
 
     private void ChooseAttack()
     {
+        attacking = true;
 
-        StartCoroutine(FireOrbAttack());
-        
-        StartCoroutine(SpikeAttack());
+        float roll = Random.Range(0f, 1f);
 
-        attackCoolDown = 1.5f; // Reset cooldown
+        if (roll < 0.33f)
+        {
+            StartCoroutine(FireOrbAttack());
+        }
+        else if (roll < 0.66f)
+        {
+            StartCoroutine(SpikeAttack());
+        }
+        else
+        {
+            StartCoroutine(HatDashAttack());
+        }
     }
 
     private IEnumerator FireOrbAttack()
     {
+        rb.velocity = Vector2.zero;
 
-        yield return new WaitForSeconds(1f); // Simulated attack duration
+        fireOrbAttack = true;
 
+        yield return new WaitForSeconds(1.2f); // Wind-up
+
+        int orbType = Random.Range(0, 2); // 0 = burst, 1 = single
+
+        if (orbType == 0)
+        {
+            int orbCount = 10;
+            for (int i = 0; i < orbCount; i++)
+            {
+                float angle = i * Mathf.PI * 2f / orbCount;
+                Vector2 direction = new Vector2(Mathf.Cos(angle), Mathf.Sin(angle));
+                Quaternion rotation = Quaternion.LookRotation(Vector3.forward, direction);
+
+                GameObject orb = Instantiate(fireOrbPrefab, transform.position, rotation);
+                Rigidbody2D orbRb = orb.GetComponent<Rigidbody2D>();
+                if (orbRb != null)
+                    orbRb.velocity = direction * 3f;
+            }
+        }
+        else
+        {
+            Vector2 direction = (player.position - transform.position).normalized;
+            Quaternion rotation = Quaternion.LookRotation(Vector3.forward, direction);
+
+            GameObject orb = Instantiate(fireOrbPrefab, transform.position, rotation);
+            Rigidbody2D orbRb = orb.GetComponent<Rigidbody2D>();
+            if (orbRb != null)
+                orbRb.velocity = direction * 5f;
+        }
+
+        yield return new WaitForSeconds(0.2f);
+
+        fireOrbAttack = false;
+        attacking = false;
+        attackCoolDown += 1.5f;
     }
 
     private IEnumerator SpikeAttack()
-    {
-        
-        yield return new WaitForSeconds(1f); // Simulated attack duration
+    {   
+        rb.velocity = Vector2.zero;
 
+        spikeAttack = true;
+
+        yield return new WaitForSeconds(0.4f); // Wind-up
+
+        int spikeCount = 20;
+        float minRadius = 0f;
+        float maxRadius = 3f;
+
+        for (int i = 0; i < spikeCount; i++)
+        {
+            float angle = Random.Range(0f, Mathf.PI * 2f);
+            float radius = Random.Range(minRadius, maxRadius);
+            Vector2 offset = new Vector2(Mathf.Cos(angle), Mathf.Sin(angle)) * radius;
+
+            Instantiate(spikePrefab, player.position + (Vector3)offset, Quaternion.identity);
+        }
+
+        yield return new WaitForSeconds(1f);
+
+        spikeAttack = false;
+        attacking = false;
+        attackCoolDown += 1.5f;
     }
 
+    private IEnumerator HatDashAttack()
+    {
+        hatMode = true;
+
+        yield return new WaitForSeconds(1f); // Dash wind-up
+
+        Collider2D col = GetComponent<Collider2D>();
+        if (col != null)
+            col.enabled = false;
+
+        Vector2 dashDirection = (player.position - transform.position).normalized;
+        rb.velocity = dashDirection * 5f;
+
+        yield return new WaitForSeconds(1f); // Dash duration
+
+        rb.velocity = Vector2.zero;
+
+        if (col != null)
+            col.enabled = true;
+
+        hatMode = false;
+        attacking = false;
+        attackCoolDown += 1.5f;
+
+        yield return new WaitForSeconds(1f); // Post-dash delay
+    }
 
     private void FixedUpdate()
     {
-        // Use last known xVelocity to ensure direction remains consistent
-        animator.SetFloat("xVelocity", lastKnownXVelocity); 
+        animator.SetFloat("xVelocity", lastKnownXVelocity);
         animator.SetBool("spikeAttack", spikeAttack);
         animator.SetBool("fireOrbAttack", fireOrbAttack);
         animator.SetBool("hatMode", hatMode);
