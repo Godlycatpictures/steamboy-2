@@ -18,6 +18,8 @@ public class SceneInfo : ScriptableObject
      public bool hasUsedReRoll;
      public bool hasChainDamage;
 
+     public bool hasHpUppgrade;
+
     public int health; // Mängden liv kvar
     public int EnemiesKilled;
     public int numOfHearts; // Max antal hjärtan
@@ -69,7 +71,7 @@ public class SceneInfo : ScriptableObject
     numOfHearts = 3;
     health = numOfHearts;
     hasChainDamage = false;
-
+    hasHpUppgrade = false;
    
 
     

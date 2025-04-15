@@ -222,5 +222,21 @@ public void UnlockChainDamageUpgrade()
 
     CloseUpgradeMenu();
 }
+public void UnlockHpUppgrade(){
+
+    Debug.Log("Clicked Hp Upgrade button");
+
+    if(!sceneInfo.hasHpUppgrade)
+    {
+        sceneInfo.hasHpUppgrade = true;
+        unlockedUpgrades.Add("HpUpgrade");
+        sceneInfo.numOfHearts += 1; // Increase the number of hearts
+     
+        Debug.Log("Hp Upgrade unlocked!");
+    }
+    CloseUpgradeMenu();
+
+
+}
 
 }

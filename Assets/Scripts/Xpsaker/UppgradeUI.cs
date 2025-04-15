@@ -9,7 +9,7 @@ public class UpgradeUI : MonoBehaviour
     public Button rerollButton; // Knappen för att rerolla uppgraderingar
     public UpgradeManager upgradeManager;
     public GameObject upgradeCanvas; // Canvas för uppgraderingsmenyn
-
+     public SceneInfo sceneInfo;
 
 
     public List<Button> allUpgradeButtons; // Alla uppgraderingsknappar
@@ -53,6 +53,13 @@ public class UpgradeUI : MonoBehaviour
         {
             availableButtons.Add(button);
         }
+        // Tillåt HP Upgrade att alltid dyka upp även om den är "unlocked"
+       if(sceneInfo.numOfHearts < 10){
+        if (IsHpUppgrade(button) || !IsUpgradeUnlockedForButton(button))
+        {
+            availableButtons.Add(button);
+        }
+       }
     }
 
     // Lägg till Re-Roll som ett alternativ om den inte är upplåstad
@@ -98,7 +105,11 @@ public class UpgradeUI : MonoBehaviour
         int upgradeIndex = allUpgradeButtons.IndexOf(button);
         return upgradeIndex == 2; // Index 2 är FireRateUpgrade
     }
-
+     private bool IsHpUppgrade(Button button)
+    {
+        int upgradeIndex = allUpgradeButtons.IndexOf(button);
+        return upgradeIndex == 8; 
+    }
     private bool IsUpgradeUnlockedForButton(Button button)
     {
         int upgradeIndex = allUpgradeButtons.IndexOf(button);
@@ -113,6 +124,7 @@ public class UpgradeUI : MonoBehaviour
             case 5: return upgradeManager.sceneInfo.hasGhostCompanion; // lowercase 's' in sceneInfo // Add this to IsUpgradeUnlockedForButton
             case 6: return upgradeManager.sceneInfo.hasExplodingBullets;
             case 7: return upgradeManager.sceneInfo.hasChainDamage; // Ny index för ChainDamage
+            case 8: return upgradeManager.sceneInfo.hasHpUppgrade; // Ny index för HP Upgrade
 
 
             default: return false;
