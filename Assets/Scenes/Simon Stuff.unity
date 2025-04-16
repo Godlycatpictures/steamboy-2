@@ -2842,6 +2842,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 44910184}
     - target: {fileID: 7646855030368442967, guid: a220b1bc3e4fa4e46ae4beec51852a17, type: 3}
+      propertyPath: sceneInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
+    - target: {fileID: 7646855030368442967, guid: a220b1bc3e4fa4e46ae4beec51852a17, type: 3}
       propertyPath: upgradeManager
       value: 
       objectReference: {fileID: 44910184}

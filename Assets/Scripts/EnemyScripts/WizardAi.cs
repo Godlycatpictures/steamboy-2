@@ -72,65 +72,88 @@ public class WizardAi : MonoBehaviour
 
         float roll = Random.Range(0f, 1f);
 
-        if (roll < 0.33f)
+        if (roll < 0.5f)
         {
             StartCoroutine(FireOrbAttack());
         }
-        else if (roll < 0.66f)
-        {
-            StartCoroutine(SpikeAttack());
-        }
-        else
+        else if (roll < 0.8f)
         {
             StartCoroutine(HatDashAttack());
         }
-    }
-
-    private IEnumerator FireOrbAttack()
-    {
-        rb.velocity = Vector2.zero;
-
-        fireOrbAttack = true;
-
-        yield return new WaitForSeconds(1.2f); // Wind-up
-
-        int orbType = Random.Range(0, 2); // 0 = burst, 1 = single
-
-        if (orbType == 0)
-        {
-            int orbCount = 10;
-            for (int i = 0; i < orbCount; i++)
-            {
-                float angle = i * Mathf.PI * 2f / orbCount;
-                Vector2 direction = new Vector2(Mathf.Cos(angle), Mathf.Sin(angle));
-                Quaternion rotation = Quaternion.LookRotation(Vector3.forward, direction);
-
-                GameObject orb = Instantiate(fireOrbPrefab, transform.position, rotation);
-                Rigidbody2D orbRb = orb.GetComponent<Rigidbody2D>();
-                if (orbRb != null)
-                    orbRb.velocity = direction * 3f;
-            }
-        }
         else
         {
-            Vector2 direction = (player.position - transform.position).normalized;
-            Quaternion rotation = Quaternion.LookRotation(Vector3.forward, direction);
-
-            GameObject orb = Instantiate(fireOrbPrefab, transform.position, rotation);
-            Rigidbody2D orbRb = orb.GetComponent<Rigidbody2D>();
-            if (orbRb != null)
-                orbRb.velocity = direction * 5f;
+            StartCoroutine(SpikeAttack());
         }
-
-        yield return new WaitForSeconds(0.2f);
-
-        fireOrbAttack = false;
-        attacking = false;
-        attackCoolDown += 1.5f;
     }
 
+private IEnumerator FireOrbAttack()
+{
+    rb.velocity = Vector2.zero;
+
+    fireOrbAttack = true;
+
+    yield return new WaitForSeconds(1.2f); // Wind-up
+
+    int orbType = Random.Range(0, 3); // 0 = burst, 1 = single, 2 = spinning
+
+    if (orbType == 0)
+    {
+        // BURST SHOT
+        int orbCount = 10;
+        for (int i = 0; i < orbCount; i++)
+        {
+            float angle = i * Mathf.PI * 2f / orbCount;
+            Vector2 direction = new Vector2(Mathf.Cos(angle), Mathf.Sin(angle));
+            float zRotation = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+
+            GameObject orb = Instantiate(fireOrbPrefab, transform.position, Quaternion.Euler(0, 0, zRotation));
+            Rigidbody2D orbRb = orb.GetComponent<Rigidbody2D>();
+            if (orbRb != null)
+                orbRb.velocity = direction * 3f;
+        }
+    }
+    else if (orbType == 1)
+    {
+        // SINGLE TARGETED SHOT
+        Vector2 direction = (player.position - transform.position).normalized;
+        float zRotation = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+
+        GameObject orb = Instantiate(fireOrbPrefab, transform.position, Quaternion.Euler(0, 0, zRotation));
+        Rigidbody2D orbRb = orb.GetComponent<Rigidbody2D>();
+        if (orbRb != null)
+            orbRb.velocity = direction * 5f;
+    }
+    else if (orbType == 2)
+    {
+        // SPINNING FIRE BURST
+        int shots = 20;
+        float startAngle = Random.Range(0f, 360f); // adds a little randomness
+        for (int i = 0; i < shots; i++)
+        {
+            float angle = startAngle + (i * (360f / shots));
+            float rad = angle * Mathf.Deg2Rad;
+            Vector2 direction = new Vector2(Mathf.Cos(rad), Mathf.Sin(rad));
+            float zRotation = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+
+            GameObject orb = Instantiate(fireOrbPrefab, transform.position, Quaternion.Euler(0, 0, zRotation));
+            Rigidbody2D orbRb = orb.GetComponent<Rigidbody2D>();
+            if (orbRb != null)
+                orbRb.velocity = direction * 3f;
+
+            yield return new WaitForSeconds(0.1f); // delay between each shot
+        }
+    }
+
+    yield return new WaitForSeconds(0.2f);
+
+    fireOrbAttack = false;
+    attacking = false;
+    attackCoolDown += 1.5f;
+}
+
+
     private IEnumerator SpikeAttack()
-    {   
+    {
         rb.velocity = Vector2.zero;
 
         spikeAttack = true;
