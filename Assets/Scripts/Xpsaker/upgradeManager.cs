@@ -7,6 +7,7 @@ public class UpgradeManager : MonoBehaviour
     public SceneInfo sceneInfo;
     public GameObject ghostCompanionPrefab;
     public GameObject activeGhost;
+    public GameObject player;
 
     public GameObject shieldUpgradeObject;
     public GameObject bulletsizeUpgradeObject;
@@ -233,6 +234,28 @@ public void UnlockHpUppgrade(){
         sceneInfo.HpUp();
      
         Debug.Log("Hp Upgrade unlocked!");
+    }
+    CloseUpgradeMenu();
+
+
+}
+public void UnlockTinyUppgrade()
+{
+    if(!sceneInfo.hasTinyUppgrade)
+    {
+        Debug.Log("Clicked Tiny Upgrade button");
+        sceneInfo.hasTinyUppgrade = true;
+        unlockedUpgrades.Add("TinyUpgrade");
+        Debug.Log("Tiny Upgrade unlocked!");
+        if (player != null)
+        {
+            player.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f); // Scale down the player
+        }
+        else
+        {
+            Debug.LogWarning("Player GameObject is not assigned!");
+        }
+        
     }
     CloseUpgradeMenu();
 
