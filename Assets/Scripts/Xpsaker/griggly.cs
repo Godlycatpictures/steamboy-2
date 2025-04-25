@@ -37,12 +37,13 @@ public class griggly : MonoBehaviour
     {
         if (collision.CompareTag("Bullet") || collision.CompareTag("DroneProjectile"))
         {
-            TakeDamage();
+           if (sceneInfo != null && sceneInfo.hasChainDamage)
+{
+    ApplyChainDamage();
+}
 
-            if (sceneInfo != null && sceneInfo.hasChainDamage)
-            {
-                ApplyChainDamage();
-            }
+TakeDamage(); 
+
         }
     }
 

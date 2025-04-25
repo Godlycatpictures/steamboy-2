@@ -125,6 +125,7 @@ public class UpgradeUI : MonoBehaviour
             case 6: return upgradeManager.sceneInfo.hasExplodingBullets;
             case 7: return upgradeManager.sceneInfo.hasChainDamage; // Ny index för ChainDamage
             case 8: return upgradeManager.sceneInfo.hasHpUppgrade; // Ny index för HP Upgrade
+            case 9 : return upgradeManager.sceneInfo.hasTinyUppgrade; // Ny index för Tiny Upgrade
 
 
             default: return false;
