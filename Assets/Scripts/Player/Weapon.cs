@@ -7,6 +7,9 @@ public class Weapon : MonoBehaviour
     public GameObject ExplodingBulletPrefab; // Referens till prefab för exploderande kulor
     public GameObject bulletPrefab;
     public Transform firePoint;
+    public AudioSource gunshot1;
+    public AudioSource gunshot2;
+    public AudioSource gunshot3;
     public float fireForce = 20f;
 
     private float nextFireTime = 0f; // When the next shot can be fired
@@ -51,6 +54,24 @@ public class Weapon : MonoBehaviour
           var bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         bullet.GetComponent<Rigidbody2D>().velocity = firePoint.right * fireForce;
         }
-      
+
+        PlayGunshot();
+    }
+
+    public void PlayGunshot() {
+        int randomIndex = Random.Range(0, 3); 
+
+        switch (randomIndex)
+        {
+            case 0:
+                gunshot1.Play();
+                break;
+            case 1:
+                gunshot2.Play(); 
+                break;
+            case 2:
+                gunshot3.Play(); 
+                break;
+        }
     }
 }
