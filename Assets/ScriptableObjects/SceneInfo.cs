@@ -13,12 +13,14 @@ public class SceneInfo : ScriptableObject
     public bool hasAutoFireUpgrade = false;
     public bool hasKillToHeal; //måste göras
     public bool hasGhostCompanion;
+    public bool hasShockwaveRoll;
 
     public bool hasReRoll;
      public bool hasUsedReRoll;
      public bool hasChainDamage;
 
      public bool hasHpUppgrade;
+     public bool hasTinyUppgrade;
 
     public int health; // Mängden liv kvar
     public int EnemiesKilled;
@@ -72,6 +74,8 @@ public class SceneInfo : ScriptableObject
     health = numOfHearts;
     hasChainDamage = false;
     hasHpUppgrade = false;
+    hasShockwaveRoll = false;
+    hasTinyUppgrade = false;
    
 
     
@@ -98,6 +102,7 @@ public void UnlockUpgrade(string upgradeName)
         case "ChainDamage":
          hasChainDamage = true;
              break;
+        
 
         default:
             Debug.LogWarning($"Upgrade {upgradeName} not found!");
