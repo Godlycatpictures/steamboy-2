@@ -14,7 +14,7 @@ public class Player_Movement : MonoBehaviour
     public Weapon weapon;
 
     //dashingeg
-    [Header("Setting for the dash")] // gör ddet enklare att se valuen i editor
+    [Header("Setting for the dash")] // gï¿½r ddet enklare att se valuen i editor
     [SerializeField] float dashingspeed = 10;
     [SerializeField] float dashtimetaken = 1;
     [SerializeField] float dashcooldownbeforeotheruse = 1;
@@ -47,7 +47,7 @@ public class Player_Movement : MonoBehaviour
 
         ProcessInputs();
 
-        //Vinkar karaktären åt andra hålet om x movement är negativ
+        //Vinkar karaktï¿½ren ï¿½t andra hï¿½let om x movement ï¿½r negativ
         if (movement.x > 0f)
         {
 
@@ -64,7 +64,7 @@ public class Player_Movement : MonoBehaviour
     {
         if (currently_dashing == 1)
         {
-            return;  // ifall dash --> inte gör nåt annat
+            return;  // ifall dash --> inte gï¿½r nï¿½t annat
         }
 
         Move();
@@ -88,10 +88,17 @@ public class Player_Movement : MonoBehaviour
         currently_dashing = 1;
 
         can_dash = false;
+        
+        Collider2D col = GetComponent<Collider2D>();
+        if (col != null)
+            col.enabled = false;
 
         rb.velocity = new Vector2(directionofmovement.x * dashingspeed, directionofmovement.y * dashingspeed);
 
-        yield return new WaitForSeconds(dashtimetaken); // sätter tiden det tar att dashar
+        yield return new WaitForSeconds(dashtimetaken); // sï¿½tter tiden det tar att dashar
+
+        if (col != null)
+            col.enabled = true;
 
         currently_dashing = 0;
 
