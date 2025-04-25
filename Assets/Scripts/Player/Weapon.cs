@@ -17,7 +17,7 @@ public class Weapon : MonoBehaviour
     [SerializeField]
     public SceneInfo sceneInfo;  // Referens till SceneInfo
 
- void Update()
+void Update()
 {
     float currentFireRate = sceneInfo.fireRate; // Hämtar den aktuella fireRate från SceneInfo
 

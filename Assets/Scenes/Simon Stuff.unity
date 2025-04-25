@@ -722,6 +722,10 @@ PrefabInstance:
       propertyPath: sceneInfo
       value: 
       objectReference: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
+    - target: {fileID: 4758803987042199023, guid: 1fbb7d5819bd99247b1196e57e883d16, type: 3}
+      propertyPath: ExplodingBulletPrefab
+      value: 
+      objectReference: {fileID: 1054596805913308768, guid: 253c3ddb22717644b8d6126b872197d1, type: 3}
     - target: {fileID: 7225424037818814020, guid: 1fbb7d5819bd99247b1196e57e883d16, type: 3}
       propertyPath: SceneCamera
       value: 
@@ -2501,6 +2505,7 @@ MonoBehaviour:
   fullHeart: {fileID: -51121821760409650, guid: e31a59ed3a2ff8e459b7c731442fe956, type: 3}
   emptyHeart: {fileID: -3339266273236148953, guid: e31a59ed3a2ff8e459b7c731442fe956, type: 3}
   invincibilityTime: 0.5
+  isInvincible: 0
   playerSprite: {fileID: 1910221254}
   flashSpeed: 0.1
   sceneInfo: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
