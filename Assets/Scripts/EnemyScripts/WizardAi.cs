@@ -114,7 +114,9 @@ private IEnumerator FireOrbAttack()
     }
     else if (orbType == 1)
     {
-        // SINGLE TARGETED SHOT
+        // 5 TARGETED SHOT
+        for (int i = 0; i < 5; i++)
+        { 
         Vector2 direction = (player.position - transform.position).normalized;
         float zRotation = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
@@ -122,6 +124,9 @@ private IEnumerator FireOrbAttack()
         Rigidbody2D orbRb = orb.GetComponent<Rigidbody2D>();
         if (orbRb != null)
             orbRb.velocity = direction * 5f;
+        
+        yield return new WaitForSeconds(0.1f); // delay between shots
+        }
     }
     else if (orbType == 2)
     {

@@ -14,12 +14,12 @@ public class Spike : MonoBehaviour
     private IEnumerator Death()
     {
 
-    yield return new WaitForSeconds(1.3f);
+    yield return new WaitForSeconds(0.6f);
 
         Vector2 spawnPosition = transform.position + new Vector3(0, 0.15f, 0); // Spawn attack above enemy
         Instantiate(spikeDamage, spawnPosition, Quaternion.identity);
 
-    yield return new WaitForSeconds(1.7f);
+    yield return new WaitForSeconds(1.4f);
 
     Destroy(gameObject);
 
