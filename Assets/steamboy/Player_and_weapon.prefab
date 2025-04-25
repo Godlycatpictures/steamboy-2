@@ -98,6 +98,18 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7544799421912147814, guid: 3c1640a7066703e4fbaa95b4105f35be, type: 3}
+      propertyPath: gunshot1
+      value: 
+      objectReference: {fileID: 5944159957126982462, guid: 2e73c22938883d74eaa13d2219eafb80, type: 3}
+    - target: {fileID: 7544799421912147814, guid: 3c1640a7066703e4fbaa95b4105f35be, type: 3}
+      propertyPath: gunshot2
+      value: 
+      objectReference: {fileID: 1087619392346467022, guid: ce76ac37bd989bc42915803191dbe00a, type: 3}
+    - target: {fileID: 7544799421912147814, guid: 3c1640a7066703e4fbaa95b4105f35be, type: 3}
+      propertyPath: gunshot3
+      value: 
+      objectReference: {fileID: 1720336804557068077, guid: 9886bd209fa41df4284ac213f7af3e17, type: 3}
+    - target: {fileID: 7544799421912147814, guid: 3c1640a7066703e4fbaa95b4105f35be, type: 3}
       propertyPath: sceneInfo
       value: 
       objectReference: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
@@ -105,6 +117,10 @@ PrefabInstance:
       propertyPath: bulletPrefab
       value: 
       objectReference: {fileID: 3034541605973710986, guid: 0513017eb02c4884cb288fafff46e9cd, type: 3}
+    - target: {fileID: 7544799421912147814, guid: 3c1640a7066703e4fbaa95b4105f35be, type: 3}
+      propertyPath: ExplodingBulletPrefab
+      value: 
+      objectReference: {fileID: 1054596805913308768, guid: 253c3ddb22717644b8d6126b872197d1, type: 3}
     - target: {fileID: 8358953103061975834, guid: 3c1640a7066703e4fbaa95b4105f35be, type: 3}
       propertyPath: m_Layer
       value: 8
