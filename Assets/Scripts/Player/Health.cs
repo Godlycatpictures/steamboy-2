@@ -13,7 +13,7 @@ public class NewBehaviourScript : MonoBehaviour
     public Sprite emptyHeart;
 
     public float invincibilityTime = 0.5f;
-    private bool isInvincible = false;
+    public bool isInvincible = false;
 
     [SerializeField] private SpriteRenderer playerSprite;
     [SerializeField] private float flashSpeed = 0.5f;
@@ -24,7 +24,7 @@ public class NewBehaviourScript : MonoBehaviour
     void Start()
     {
         numOfHearts = sceneInfo.numOfHearts;
-        health = sceneInfo.health;  
+        health = sceneInfo.health;
     }
 
     void FixedUpdate()
@@ -68,11 +68,10 @@ public class NewBehaviourScript : MonoBehaviour
 
         while (elapsed < invincibilityTime)
         {
-            playerSprite.color = new Color(1f, 1f, 1f, 0.5f); // half-transparent
+            playerSprite.color = new Color(1f, 1f, 1f, 0.5f);
             yield return new WaitForSeconds(flashSpeed);
             playerSprite.color = originalColor;
             yield return new WaitForSeconds(flashSpeed);
-
             elapsed += flashSpeed * 2;
         }
 
