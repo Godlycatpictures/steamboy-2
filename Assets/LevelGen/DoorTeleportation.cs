@@ -1,12 +1,13 @@
 using UnityEngine;
 
-public enum DoorDirection { Up, Down, Left, Right }
+public enum Direction { Up, Down, Left, Right }
 
 public class DoorTeleportation : MonoBehaviour
 {
-    public int connectedRoomID; // görs i dugeongenerator1.cs
+    public int connectedRoomID = -1; // görs i dugeongenerator1.cs
     private TeleportConnector connector;
-    public DoorDirection direction;
+    public Direction direction;
+
 
     [Header("Teleport Settings")]
     public float teleportCooldown = 1f;
@@ -50,25 +51,24 @@ public class DoorTeleportation : MonoBehaviour
         Invoke(nameof(ResetTeleportFlag), 0.5f);
     }
 
+    private Vector3 GetTeleportOffset(Direction dir)
+    {
+        float offset = 2f;
+        return dir switch
+        {
+            Direction.Up => Vector3.up * offset,
+            Direction.Down => Vector3.down * offset,
+            Direction.Left => Vector3.left * offset,
+            Direction.Right => Vector3.right * offset,
+            _ => Vector3.forward * offset
+        };
+    }
+
     private Vector3 GetTeleportOffset(DoorTeleportation targetDoor)
     {
-        if (targetDoor == null) return Vector3.forward * 5f;
-
-        // offset
-        switch (targetDoor.direction)
-        {
-            case DoorDirection.Up:
-                return Vector3.forward * -5f;
-            case DoorDirection.Down:
-                return Vector3.back * -5f;
-            case DoorDirection.Left:
-                return Vector3.left * -5f;
-            case DoorDirection.Right:
-                return Vector3.right * -5f;
-            default:
-                return Vector3.forward * -5f;
-        }
+        return GetTeleportOffset(targetDoor.direction);
     }
+
 
     private void ResetTeleportFlag()
     {
@@ -80,19 +80,19 @@ public class DoorTeleportation : MonoBehaviour
         // sträck
         switch (direction)
         {
-            case DoorDirection.Up:
+            case Direction.Up:
                 Gizmos.color = Color.green;
                 Gizmos.DrawLine(transform.position, transform.position + Vector3.up * 2);
                 break;
-            case DoorDirection.Down:
+            case Direction.Down:
                 Gizmos.color = Color.red;
                 Gizmos.DrawLine(transform.position, transform.position + Vector3.down * 2);
                 break;
-            case DoorDirection.Left:
+            case Direction.Left:
                 Gizmos.color = Color.blue;
                 Gizmos.DrawLine(transform.position, transform.position + Vector3.left * 2);
                 break;
-            case DoorDirection.Right:
+            case Direction.Right:
                 Gizmos.color = Color.yellow;
                 Gizmos.DrawLine(transform.position, transform.position + Vector3.right * 2);
                 break;

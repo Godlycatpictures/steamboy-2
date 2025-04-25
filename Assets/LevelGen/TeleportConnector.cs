@@ -18,9 +18,6 @@ public class TeleportConnector : MonoBehaviour
         return connectedDoors.ContainsKey(roomID) ? connectedDoors[roomID] : null;
     }
 
-    // Optional: Use trigger zones at doors to teleport players
-
-
     void OnDrawGizmos()
     {
         Gizmos.color = Color.yellow;

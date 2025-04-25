@@ -14,9 +14,14 @@ namespace needRoomData
     public class RoomData
     {
         public int id;
-        public string roomType; // "Start", "Normal", "Boss", ShopNPC.
-        public List<int> connections;
+        public string roomType;
+        public List<RoomConnection> connections;
         public Vector2 Position { get; set; }
     }
-}
 
+    [System.Serializable]
+    public class RoomConnection
+    {
+        public int targetRoomID;
+    }
+}

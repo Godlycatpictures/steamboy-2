@@ -12,23 +12,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2ce38aeceaef0f47b4e1abaa7fdbbd8, type: 3}
   m_Name: zigzaglayout
   m_EditorClassIdentifier: 
-  dungeonName: 
+  dungeonName: zigzaglayout
   rooms:
   - id: 0
     roomType: Start
-    connections: 01000000
+    connections:
+    - targetRoomID: 1
   - id: 1
     roomType: Normal
-    connections: 000000000200000003000000
+    connections:
+    - targetRoomID: 0
+    - targetRoomID: 2
   - id: 2
     roomType: Normal
-    connections: 010000000400000005000000
+    connections:
+    - targetRoomID: 1
+    - targetRoomID: 3
+    - targetRoomID: 4
   - id: 3
     roomType: Normal
-    connections: 01000000
+    connections:
+    - targetRoomID: 2
   - id: 4
     roomType: Normal
-    connections: 02000000
+    connections:
+    - targetRoomID: 2
+    - targetRoomID: 5
   - id: 5
     roomType: Boss
-    connections: 02000000
+    connections:
+    - targetRoomID: 1

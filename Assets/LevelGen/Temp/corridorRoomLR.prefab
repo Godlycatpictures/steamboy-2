@@ -47,7 +47,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78492c04a383cf046a9776300e56e8c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doorPoints: []
+  doorPoints:
+  - {fileID: 7381127067071924611}
+  - {fileID: 5240827186213513567}
 --- !u!212 &113349069044404665
 SpriteRenderer:
   m_ObjectHideFlags: 0
