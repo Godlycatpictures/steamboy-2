@@ -230,7 +230,7 @@ public void UnlockHpUppgrade(){
     {
         sceneInfo.hasHpUppgrade = true;
         unlockedUpgrades.Add("HpUpgrade");
-        sceneInfo.numOfHearts += 1; // Increase the number of hearts
+        sceneInfo.HpUp();
      
         Debug.Log("Hp Upgrade unlocked!");
     }
