@@ -118,8 +118,16 @@ public void UnlockUpgrade(string upgradeName)
 
     xpToNextLevel = Mathf.RoundToInt(baseXP + (Mathf.Pow(level, 2) * growthFactor) + (level * linearFactor));
 }
+public void HpUp(){
+numOfHearts++;
+health = numOfHearts;
+
+
+
+}
 }
     // Metod för att hantera level-up
+
  
 
    

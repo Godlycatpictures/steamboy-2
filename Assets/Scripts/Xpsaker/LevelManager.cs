@@ -43,7 +43,7 @@ public class LevelManager : MonoBehaviour
         OnLevelUp?.Invoke(sceneInfo.level); // Event som kan användas i UI eller effekter
         //upgradeManager.ApplyUpgrades(); // Uppdatera spelarens uppgraderingar
         upgradeUI.ShowUpgradeMenu();
-        sceneInfo.screenShake = false;
+     
     }
 
     private void Start()

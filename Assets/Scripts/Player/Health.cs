@@ -12,6 +12,12 @@ public class NewBehaviourScript : MonoBehaviour
     public Sprite fullHeart;
     public Sprite emptyHeart;
 
+    public float invincibilityTime = 0.5f;
+    private bool isInvincible = false;
+
+    [SerializeField] private SpriteRenderer playerSprite;
+    [SerializeField] private float flashSpeed = 0.5f;
+
     [SerializeField]
     public SceneInfo sceneInfo;
 
@@ -19,7 +25,6 @@ public class NewBehaviourScript : MonoBehaviour
     {
         numOfHearts = sceneInfo.numOfHearts;
         health = sceneInfo.health;  
-        
     }
 
     void FixedUpdate()
@@ -29,48 +34,49 @@ public class NewBehaviourScript : MonoBehaviour
             health = numOfHearts;
         }
 
-        for (int i = 0; i < hearts.Length; i++){
-
-            if (i < health)
-            {
-                hearts[i].sprite = fullHeart;
-            }
-            else
-            {
-                hearts[i].sprite = emptyHeart;
-            }
-
-            if (i < numOfHearts)
-            {
-                hearts[i].enabled = true;
-            }
-            else
-            {
-                hearts[i].enabled = false;
-            }
+        for (int i = 0; i < hearts.Length; i++)
+        {
+            hearts[i].sprite = i < health ? fullHeart : emptyHeart;
+            hearts[i].enabled = i < numOfHearts;
         }
+
         sceneInfo.health = health;
-        sceneInfo.numOfHearts = numOfHearts;
+        numOfHearts = sceneInfo.numOfHearts;
     }
 
     private void loseLife()
     {
         health--;
     }
-    private void gainLife()
+
+    public void OnCollisionEnter2D(Collision2D collision)
     {
-        health++;
-    }
-    private void lifeUp()
-    {
-        numOfHearts++;
+        if (collision.gameObject.CompareTag("EnemyProjectile") && !isInvincible)
+        {
+            StartCoroutine(InvincibilityDuration());
+        }
     }
 
-    public void OnCollisionEnter2D(Collision2D other)
+    private IEnumerator InvincibilityDuration()
     {
-        if (other.gameObject.CompareTag("EnemyProjectile"))
+        isInvincible = true;
+
+        loseLife();
+
+        float elapsed = 0f;
+        Color originalColor = playerSprite.color;
+
+        while (elapsed < invincibilityTime)
         {
-            loseLife();
+            playerSprite.color = new Color(1f, 1f, 1f, 0.5f); // half-transparent
+            yield return new WaitForSeconds(flashSpeed);
+            playerSprite.color = originalColor;
+            yield return new WaitForSeconds(flashSpeed);
+
+            elapsed += flashSpeed * 2;
         }
+
+        playerSprite.color = originalColor;
+        isInvincible = false;
     }
 }
