@@ -73,36 +73,38 @@ public class griggly : MonoBehaviour
         Destroy(gameObject);
     }
 
-    void SpawnGore()
+void SpawnGore()
+{
+    if (gorePrefabs == null || gorePrefabs.Length == 0)
+        return;
+
+    for (int i = 0; i < goreAmount; i++)
     {
-        if (gorePrefabs == null || gorePrefabs.Length == 0)
-            return;
+        int randomIndex = Random.Range(0, gorePrefabs.Length);
+        Quaternion randomRotation = Quaternion.Euler(0f, 0f, Random.Range(0f, 360f));
+        GameObject gorePiece = Instantiate(gorePrefabs[randomIndex], transform.position, randomRotation);
 
-        for (int i = 0; i < goreAmount; i++)
+        Rigidbody2D rb = gorePiece.GetComponent<Rigidbody2D>();
+        if (rb != null)
         {
-            int randomIndex = Random.Range(0, gorePrefabs.Length);
-            GameObject gorePiece = Instantiate(gorePrefabs[randomIndex], transform.position, Quaternion.identity);
+            Vector2 randomDir = Random.insideUnitCircle.normalized;
+            rb.AddForce(randomDir * Random.Range(goreSpreadForce * 0.5f, goreSpreadForce), ForceMode2D.Impulse);
 
-            Rigidbody2D rb = gorePiece.GetComponent<Rigidbody2D>();
-            if (rb != null)
-            {
-                Vector2 randomDir = Random.insideUnitCircle.normalized;
-                rb.AddForce(randomDir * Random.Range(goreSpreadForce * 0.5f, goreSpreadForce), ForceMode2D.Impulse);
+            rb.drag = Random.Range(3f, 7f);
+            rb.angularDrag = Random.Range(3f, 7f);
+        }
 
-                rb.drag = Random.Range(3f, 7f);
-                rb.angularDrag = Random.Range(3f, 7f);
-            }
-
-            if (Random.value < 0.5f)
-            {
-                StartCoroutine(FadeAndDestroy(gorePiece, goreLifetime));
-            }
-            else
-            {
-                StartCoroutine(StickyGore(gorePiece));
-            }
+        if (Random.value < 0.5f)
+        {
+            StartCoroutine(FadeAndDestroy(gorePiece, goreLifetime));
+        }
+        else
+        {
+            StartCoroutine(StickyGore(gorePiece));
         }
     }
+}
+
 
     void SpawnBlood()
     {

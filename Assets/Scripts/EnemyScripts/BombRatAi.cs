@@ -9,8 +9,9 @@ public class BombRatAi : MonoBehaviour
     private float speed = 1f;
     public float xVelocity;
     public float yVelocity;
-    public float lastKnownXVelocity = 1f; // Default to facing right
-    public float attackCoolDown = 0f; // Starts at 0, ready to attack
+    public float lastKnownXVelocity = 1f;
+
+    public float attackCoolDown = 0f;
 
     public bool isMoving;
     public bool exploding;
@@ -21,7 +22,15 @@ public class BombRatAi : MonoBehaviour
     private Transform player;
 
     public GameObject attackPrefab;
-    public GameObject deathEffect; // Prefab for the death effect
+    public GameObject deathEffect;
+
+    [Header("Gore Settings")]
+    public GameObject[] gorePrefabs;
+    public GameObject[] bloodSplats;
+    public int goreAmount = 5;
+    public float goreSpreadForce = 5f;
+    public float goreLifetime = 2f;
+    public int bloodAmount = 3;
 
     void Start()
     {
@@ -34,11 +43,8 @@ public class BombRatAi : MonoBehaviour
     {
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
-        // Reduce cooldown timer
         if (attackCoolDown > 0)
-        {
             attackCoolDown -= Time.deltaTime;
-        }
 
         if (distanceToPlayer < detectionRange)
         {
@@ -56,75 +62,141 @@ public class BombRatAi : MonoBehaviour
         else
         {
             isMoving = false;
-            rb.velocity = Vector2.zero; // Stop movement when player is out of range
+            rb.velocity = Vector2.zero;
         }
 
-        // Update velocity values for the animator
         xVelocity = rb.velocity.x;
-
-        // Store last known xVelocity if moving
         if (xVelocity != 0)
-        {
             lastKnownXVelocity = xVelocity;
-        }
     }
 
     private void MoveTowards(Vector2 target)
     {
         Vector2 direction = (target - (Vector2)transform.position).normalized;
-        rb.velocity = direction * speed; // Moves in both X and Y directions
+        rb.velocity = direction * speed;
     }
 
     private IEnumerator Attack()
     {
-        rb.velocity = Vector2.zero; // Stop movement while exploding
+        rb.velocity = Vector2.zero;
         exploding = true;
 
-        // Attack logic (e.g., play animation, deal damage, etc.)
-
-        yield return new WaitForSeconds(1.2f); // Simulated attack duration
+        yield return new WaitForSeconds(1.2f);
 
         Instantiate(attackPrefab, rb.position, Quaternion.identity);
         Instantiate(deathEffect, transform.position, Quaternion.identity);
+        
+        SpawnGore();
+        SpawnBlood();
 
         Destroy(gameObject);
-        exploding = false;
-        attackCoolDown = 1.5f; // Reset cooldown
+        attackCoolDown = 1.5f;
+    }
+
+    void SpawnGore()
+    {
+        if (gorePrefabs == null || gorePrefabs.Length == 0)
+            return;
+
+        for (int i = 0; i < goreAmount; i++)
+        {
+            int randomIndex = Random.Range(0, gorePrefabs.Length);
+            Quaternion randomRot = Quaternion.Euler(0f, 0f, Random.Range(0f, 360f));
+            GameObject gorePiece = Instantiate(gorePrefabs[randomIndex], transform.position, randomRot);
+
+            Rigidbody2D rbGore = gorePiece.GetComponent<Rigidbody2D>();
+            if (rbGore != null)
+            {
+                Vector2 randomDir = Random.insideUnitCircle.normalized;
+                rbGore.AddForce(randomDir * Random.Range(goreSpreadForce * 0.5f, goreSpreadForce), ForceMode2D.Impulse);
+                rbGore.drag = Random.Range(3f, 7f);
+                rbGore.angularDrag = Random.Range(3f, 7f);
+            }
+
+            if (Random.value < 0.5f)
+                StartCoroutine(FadeAndDestroy(gorePiece, goreLifetime));
+            else
+                StartCoroutine(StickyGore(gorePiece));
+        }
+    }
+
+    void SpawnBlood()
+    {
+        if (bloodSplats == null || bloodSplats.Length == 0)
+            return;
+
+        for (int i = 0; i < bloodAmount; i++)
+        {
+            int randomIndex = Random.Range(0, bloodSplats.Length);
+            GameObject blood = Instantiate(bloodSplats[randomIndex]);
+
+            Vector2 randomOffset = Random.insideUnitCircle * 0.5f;
+            blood.transform.position = (Vector2)transform.position + randomOffset;
+            blood.transform.rotation = Quaternion.Euler(0f, 0f, Random.Range(0f, 360f));
+
+            float randomScale = Random.Range(0.8f, 1.2f);
+            blood.transform.localScale = new Vector3(randomScale, randomScale, 1f);
+        }
+    }
+
+    IEnumerator FadeAndDestroy(GameObject gorePiece, float lifetime)
+    {
+        SpriteRenderer sr = gorePiece.GetComponent<SpriteRenderer>();
+        float elapsed = 0f;
+        Color originalColor = sr.color;
+
+        yield return new WaitForSeconds(lifetime);
+        float fadeDuration = 1f;
+
+        while (elapsed < fadeDuration)
+        {
+            if (sr != null)
+            {
+                float alpha = Mathf.Lerp(1f, 0f, elapsed / fadeDuration);
+                sr.color = new Color(originalColor.r, originalColor.g, originalColor.b, alpha);
+            }
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+
+        Destroy(gorePiece);
+    }
+
+    IEnumerator StickyGore(GameObject gorePiece)
+    {
+        Rigidbody2D rb = gorePiece.GetComponent<Rigidbody2D>();
+        yield return new WaitForSeconds(0.5f);
+
+        if (rb != null)
+        {
+            rb.velocity = Vector2.zero;
+            rb.angularVelocity = 0f;
+            rb.isKinematic = true;
+        }
     }
 
     private void FixedUpdate()
     {
-        // Use last known xVelocity to ensure direction remains consistent
-        animator.SetFloat("xVelocity", lastKnownXVelocity); 
+        animator.SetFloat("xVelocity", lastKnownXVelocity);
         animator.SetBool("isMoving", isMoving);
         animator.SetBool("exploding", exploding);
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-    if (collision.CompareTag("Bullet")) // Check if it's a bullet
-    { 
-
-        isHit = true;
-        StartCoroutine(Hurt());
-
-    } if (collision.CompareTag("DroneProjectile")) //chech if le drone projectile
-    {
-        
-        isHit = true;
-        StartCoroutine(Hurt());
-
-    }
+        if (collision.CompareTag("Bullet") || collision.CompareTag("DroneProjectile"))
+        {
+            isHit = true;
+            StartCoroutine(Hurt());
+        }
     }
 
     private IEnumerator Hurt()
     {
-            rb.velocity = Vector2.zero;
-
-            yield return new WaitForSeconds(1f);
-
-            isHit = false;
-            isMoving = false;
+        rb.velocity = Vector2.zero;
+        yield return new WaitForSeconds(1f);
+        isHit = false;
+        isMoving = false;
     }
 
     private void OnDrawGizmosSelected()
