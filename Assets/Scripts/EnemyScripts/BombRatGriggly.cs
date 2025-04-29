@@ -5,9 +5,8 @@ using UnityEngine;
 public class BombRatGriggly : MonoBehaviour
 {
 
-   public GameObject chainEffectPrefab; // Detta är nu en SpriteRenderer-version
-   public GameObject explosion; // Detta är nu en SpriteRenderer-version
-
+    public GameObject chainEffectPrefab; // Detta är nu en SpriteRenderer-version
+    public GameObject explosion; // Detta är nu en SpriteRenderer-version
 
     public int health = 1; // Enemy health
     public int xp; // XP to grant when enemy dies
@@ -38,12 +37,13 @@ public class BombRatGriggly : MonoBehaviour
     {
         if (collision.CompareTag("Bullet") || collision.CompareTag("DroneProjectile"))
         {
-           if (sceneInfo != null && sceneInfo.hasChainDamage)
-{
-    ApplyChainDamage();
-}
 
-TakeDamage(); 
+        if (sceneInfo != null && sceneInfo.hasChainDamage)
+        {
+        ApplyChainDamage();
+        }
+
+        TakeDamage(); 
 
         }
     }
@@ -115,9 +115,6 @@ TakeDamage();
 
     Destroy(effect, 0.3f);
 }
-
-
-       
         griggly otherEnemy = closest.GetComponent<griggly>();
         if (otherEnemy != null)
         {
