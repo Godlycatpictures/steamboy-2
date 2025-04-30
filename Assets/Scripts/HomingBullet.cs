@@ -60,7 +60,7 @@ public class HomingBullet : MonoBehaviour
 
         float rotateAmount = Vector3.Cross(direction, transform.up).z;
         rb.angularVelocity = -rotateAmount * rotateSpeed;
-        rb.velocity = transform.up * speed;
+        rb.linearVelocity = transform.up * speed;
     }
 
     Transform FindClosestEnemy()

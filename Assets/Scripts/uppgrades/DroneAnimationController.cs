@@ -19,7 +19,7 @@ public class DroneAnimationController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        xVelocity = rb.velocity.x;
+        xVelocity = rb.linearVelocity.x;
 
         if (xVelocity != 0)
         {

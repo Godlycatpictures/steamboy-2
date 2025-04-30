@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -83,6 +84,8 @@ ScriptedImporter:
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   asepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
@@ -96,6 +99,8 @@ ScriptedImporter:
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   importFileNodeState: 1
   platformSettingsDirtyTick: 638812867381927882
   textureAssetName: 
@@ -105,6 +110,7 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -123,9 +129,10 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: BombRat_Frame_0
     originalName: 
-    pivot: {x: 0.55, y: 0.55172414}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -146,6 +153,7 @@ ScriptedImporter:
     pivot: {x: 0.5882353, y: 0.5555556}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 92
@@ -163,9 +171,10 @@ ScriptedImporter:
     uvTransform: {x: 92, y: 225}
   - name: BombRat_Frame_2
     originalName: 
-    pivot: {x: 0.45000002, y: 0.55172414}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -186,6 +195,7 @@ ScriptedImporter:
     pivot: {x: 0.5882353, y: 0.5555556}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 120
@@ -203,9 +213,10 @@ ScriptedImporter:
     uvTransform: {x: 120, y: 4}
   - name: BombRat_Frame_4
     originalName: 
-    pivot: {x: 0.55, y: 0.5714286}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 35
@@ -223,9 +234,10 @@ ScriptedImporter:
     uvTransform: {x: 35, y: 78}
   - name: BombRat_Frame_5
     originalName: 
-    pivot: {x: 0.6666667, y: 0.5925926}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 63
@@ -243,9 +255,10 @@ ScriptedImporter:
     uvTransform: {x: 63, y: 4}
   - name: BombRat_Frame_6
     originalName: 
-    pivot: {x: 0.6086957, y: 0.55172414}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -263,9 +276,10 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: BombRat_Frame_7
     originalName: 
-    pivot: {x: 0.6086957, y: 0.55172414}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -286,6 +300,7 @@ ScriptedImporter:
     pivot: {x: 0.5882353, y: 0.5555556}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 120
@@ -303,9 +318,10 @@ ScriptedImporter:
     uvTransform: {x: 120, y: 30}
   - name: BombRat_Frame_9
     originalName: 
-    pivot: {x: 0.45000002, y: 0.5714286}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 35
@@ -323,9 +339,10 @@ ScriptedImporter:
     uvTransform: {x: 35, y: 114}
   - name: BombRat_Frame_10
     originalName: 
-    pivot: {x: 0.33333334, y: 0.5925926}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 63
@@ -343,9 +360,10 @@ ScriptedImporter:
     uvTransform: {x: 63, y: 39}
   - name: BombRat_Frame_11
     originalName: 
-    pivot: {x: 0.39130434, y: 0.55172414}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -363,9 +381,10 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 78}
   - name: BombRat_Frame_12
     originalName: 
-    pivot: {x: 0.39130434, y: 0.55172414}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -386,6 +405,7 @@ ScriptedImporter:
     pivot: {x: 0.5882353, y: 0.5555556}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 120
@@ -403,9 +423,10 @@ ScriptedImporter:
     uvTransform: {x: 120, y: 56}
   - name: BombRat_Frame_14
     originalName: 
-    pivot: {x: 0.55, y: 0.55172414}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 35
@@ -423,9 +444,10 @@ ScriptedImporter:
     uvTransform: {x: 35, y: 4}
   - name: BombRat_Frame_15
     originalName: 
-    pivot: {x: 0.55, y: 0.5714286}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 35
@@ -443,9 +465,10 @@ ScriptedImporter:
     uvTransform: {x: 35, y: 150}
   - name: BombRat_Frame_16
     originalName: 
-    pivot: {x: 0.55, y: 0.5925926}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 35
@@ -463,9 +486,10 @@ ScriptedImporter:
     uvTransform: {x: 35, y: 222}
   - name: BombRat_Frame_17
     originalName: 
-    pivot: {x: 0.55, y: 0.5925926}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 63
@@ -483,9 +507,10 @@ ScriptedImporter:
     uvTransform: {x: 63, y: 74}
   - name: BombRat_Frame_18
     originalName: 
-    pivot: {x: 0.55, y: 0.61538464}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -503,9 +528,10 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 226}
   - name: BombRat_Frame_19
     originalName: 
-    pivot: {x: 0.55, y: 0.64}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 63
@@ -523,9 +549,10 @@ ScriptedImporter:
     uvTransform: {x: 63, y: 213}
   - name: BombRat_Frame_20
     originalName: 
-    pivot: {x: 0.55, y: 0.6666667}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 92
@@ -543,9 +570,10 @@ ScriptedImporter:
     uvTransform: {x: 92, y: 37}
   - name: BombRat_Frame_21
     originalName: 
-    pivot: {x: 0.55, y: 0.6956522}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 92
@@ -563,9 +591,10 @@ ScriptedImporter:
     uvTransform: {x: 92, y: 101}
   - name: BombRat_Frame_22
     originalName: 
-    pivot: {x: 0.55, y: 0.6956522}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 92
@@ -586,6 +615,7 @@ ScriptedImporter:
     pivot: {x: 0.5882353, y: 0.5555556}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 120
@@ -603,9 +633,10 @@ ScriptedImporter:
     uvTransform: {x: 120, y: 82}
   - name: BombRat_Frame_24
     originalName: 
-    pivot: {x: 0.45000002, y: 0.55172414}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 35
@@ -623,9 +654,10 @@ ScriptedImporter:
     uvTransform: {x: 35, y: 41}
   - name: BombRat_Frame_25
     originalName: 
-    pivot: {x: 0.45000002, y: 0.5714286}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 35
@@ -643,9 +675,10 @@ ScriptedImporter:
     uvTransform: {x: 35, y: 186}
   - name: BombRat_Frame_26
     originalName: 
-    pivot: {x: 0.45000002, y: 0.5925926}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 63
@@ -663,9 +696,10 @@ ScriptedImporter:
     uvTransform: {x: 63, y: 109}
   - name: BombRat_Frame_27
     originalName: 
-    pivot: {x: 0.45000002, y: 0.5925926}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 63
@@ -683,9 +717,10 @@ ScriptedImporter:
     uvTransform: {x: 63, y: 144}
   - name: BombRat_Frame_28
     originalName: 
-    pivot: {x: 0.45000002, y: 0.61538464}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 63
@@ -703,9 +738,10 @@ ScriptedImporter:
     uvTransform: {x: 63, y: 179}
   - name: BombRat_Frame_29
     originalName: 
-    pivot: {x: 0.45000002, y: 0.64}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 92
@@ -723,9 +759,10 @@ ScriptedImporter:
     uvTransform: {x: 92, y: 4}
   - name: BombRat_Frame_30
     originalName: 
-    pivot: {x: 0.45000002, y: 0.6666667}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 92
@@ -743,9 +780,10 @@ ScriptedImporter:
     uvTransform: {x: 92, y: 69}
   - name: BombRat_Frame_31
     originalName: 
-    pivot: {x: 0.45000002, y: 0.6956522}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 92
@@ -763,9 +801,10 @@ ScriptedImporter:
     uvTransform: {x: 92, y: 163}
   - name: BombRat_Frame_32
     originalName: 
-    pivot: {x: 0.45000002, y: 0.6956522}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 92
@@ -786,6 +825,7 @@ ScriptedImporter:
     pivot: {x: 0.5882353, y: 0.5555556}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 120
@@ -802,15 +842,21 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 120, y: 108}
   spriteSheetImportData: []
+  tileSetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1525790971
+    uuid:
+      value0: 1878585689
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: 1878585689
     name: BombRat
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: BombRat_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -819,7 +865,7 @@ ScriptedImporter:
         width: 20
         height: 29
       spriteId: 9421cfcd496d3fc4fa4d3f04df4df656
-    - name: BombRat_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -828,7 +874,7 @@ ScriptedImporter:
         width: 17
         height: 18
       spriteId: 236c6a893408c954897361f0172f7479
-    - name: BombRat_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -837,7 +883,7 @@ ScriptedImporter:
         width: 20
         height: 29
       spriteId: a6bd2986387e1954292986085ea5d47f
-    - name: BombRat_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -846,7 +892,7 @@ ScriptedImporter:
         width: 17
         height: 18
       spriteId: 86909afb08099c7439fae4433f1545ad
-    - name: BombRat_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -855,7 +901,7 @@ ScriptedImporter:
         width: 20
         height: 28
       spriteId: b6e7fd730164cd44c8520598abf697c7
-    - name: BombRat_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -864,7 +910,7 @@ ScriptedImporter:
         width: 21
         height: 27
       spriteId: 8484c6212f582c44ab78875a87c4f6c9
-    - name: BombRat_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -873,7 +919,7 @@ ScriptedImporter:
         width: 23
         height: 29
       spriteId: f528efeffdcbce3448343ea8f435399b
-    - name: BombRat_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -882,7 +928,7 @@ ScriptedImporter:
         width: 23
         height: 29
       spriteId: d5bae6cbf40c655419b24e8e722ff1b4
-    - name: BombRat_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -891,7 +937,7 @@ ScriptedImporter:
         width: 17
         height: 18
       spriteId: 2ac688b27522d6e4abbad91c3cb60db8
-    - name: BombRat_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -900,7 +946,7 @@ ScriptedImporter:
         width: 20
         height: 28
       spriteId: c15289c2d36ba464a888247e7b42a921
-    - name: BombRat_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -909,7 +955,7 @@ ScriptedImporter:
         width: 21
         height: 27
       spriteId: fae0ecdf474ef8744894e03f70ccb64c
-    - name: BombRat_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -918,7 +964,7 @@ ScriptedImporter:
         width: 23
         height: 29
       spriteId: 81062e0a611931d43b7c7b8ca41a2c09
-    - name: BombRat_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -927,7 +973,7 @@ ScriptedImporter:
         width: 23
         height: 29
       spriteId: a09e8f524c399c2428a8201eb4bd720a
-    - name: BombRat_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -936,7 +982,7 @@ ScriptedImporter:
         width: 17
         height: 18
       spriteId: 40975a4839fc1d445acaf36e5fb01a68
-    - name: BombRat_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -945,7 +991,7 @@ ScriptedImporter:
         width: 20
         height: 29
       spriteId: ec6199a762162b6488fcc98d773bd957
-    - name: BombRat_Frame_15
+    - name: Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -954,7 +1000,7 @@ ScriptedImporter:
         width: 20
         height: 28
       spriteId: 3f5fcecddc3e66e418008fb2d2c6d917
-    - name: BombRat_Frame_16
+    - name: Frame_16
       frameIndex: 16
       additiveSortOrder: 0
       cellRect:
@@ -963,7 +1009,7 @@ ScriptedImporter:
         width: 20
         height: 27
       spriteId: f41d45107255f124e8c8a29103dd73c2
-    - name: BombRat_Frame_17
+    - name: Frame_17
       frameIndex: 17
       additiveSortOrder: 0
       cellRect:
@@ -972,7 +1018,7 @@ ScriptedImporter:
         width: 20
         height: 27
       spriteId: 34d929bf1ea58a74797f51ecf6508bae
-    - name: BombRat_Frame_18
+    - name: Frame_18
       frameIndex: 18
       additiveSortOrder: 0
       cellRect:
@@ -981,7 +1027,7 @@ ScriptedImporter:
         width: 20
         height: 26
       spriteId: 723bce4a477188c4887e8ab5f42aa423
-    - name: BombRat_Frame_19
+    - name: Frame_19
       frameIndex: 19
       additiveSortOrder: 0
       cellRect:
@@ -990,7 +1036,7 @@ ScriptedImporter:
         width: 20
         height: 25
       spriteId: 74a72c157dc979f42a31721ca763f880
-    - name: BombRat_Frame_20
+    - name: Frame_20
       frameIndex: 20
       additiveSortOrder: 0
       cellRect:
@@ -999,7 +1045,7 @@ ScriptedImporter:
         width: 20
         height: 24
       spriteId: e1a2bd02bb19a8749bb6609188435ebe
-    - name: BombRat_Frame_21
+    - name: Frame_21
       frameIndex: 21
       additiveSortOrder: 0
       cellRect:
@@ -1008,7 +1054,7 @@ ScriptedImporter:
         width: 20
         height: 23
       spriteId: ed33da133b5a1174bbefd3f3ff0839e1
-    - name: BombRat_Frame_22
+    - name: Frame_22
       frameIndex: 22
       additiveSortOrder: 0
       cellRect:
@@ -1017,7 +1063,7 @@ ScriptedImporter:
         width: 20
         height: 23
       spriteId: 90d9ff3061d600947bd257293be32a3e
-    - name: BombRat_Frame_23
+    - name: Frame_23
       frameIndex: 23
       additiveSortOrder: 0
       cellRect:
@@ -1026,7 +1072,7 @@ ScriptedImporter:
         width: 17
         height: 18
       spriteId: 27e466c9088972c4789395e524c0c020
-    - name: BombRat_Frame_24
+    - name: Frame_24
       frameIndex: 24
       additiveSortOrder: 0
       cellRect:
@@ -1035,7 +1081,7 @@ ScriptedImporter:
         width: 20
         height: 29
       spriteId: c18fab287cde43e478a58a2bf3c176db
-    - name: BombRat_Frame_25
+    - name: Frame_25
       frameIndex: 25
       additiveSortOrder: 0
       cellRect:
@@ -1044,7 +1090,7 @@ ScriptedImporter:
         width: 20
         height: 28
       spriteId: 6846128ad3dbf114992d3fa8736bb771
-    - name: BombRat_Frame_26
+    - name: Frame_26
       frameIndex: 26
       additiveSortOrder: 0
       cellRect:
@@ -1053,7 +1099,7 @@ ScriptedImporter:
         width: 20
         height: 27
       spriteId: 9f60d2b58907c9546b5810812e7aeb4a
-    - name: BombRat_Frame_27
+    - name: Frame_27
       frameIndex: 27
       additiveSortOrder: 0
       cellRect:
@@ -1062,7 +1108,7 @@ ScriptedImporter:
         width: 20
         height: 27
       spriteId: 6eb0c3f94abef0b43b04cc2631e9eaee
-    - name: BombRat_Frame_28
+    - name: Frame_28
       frameIndex: 28
       additiveSortOrder: 0
       cellRect:
@@ -1071,7 +1117,7 @@ ScriptedImporter:
         width: 20
         height: 26
       spriteId: 2cf995d1dbad1644a9677b34010c65c6
-    - name: BombRat_Frame_29
+    - name: Frame_29
       frameIndex: 29
       additiveSortOrder: 0
       cellRect:
@@ -1080,7 +1126,7 @@ ScriptedImporter:
         width: 20
         height: 25
       spriteId: c6b4e4bdaf3c65542a2ad0698d335099
-    - name: BombRat_Frame_30
+    - name: Frame_30
       frameIndex: 30
       additiveSortOrder: 0
       cellRect:
@@ -1089,7 +1135,7 @@ ScriptedImporter:
         width: 20
         height: 24
       spriteId: 42a2002dfaa692947ad54387c2766383
-    - name: BombRat_Frame_31
+    - name: Frame_31
       frameIndex: 31
       additiveSortOrder: 0
       cellRect:
@@ -1098,7 +1144,7 @@ ScriptedImporter:
         width: 20
         height: 23
       spriteId: 716d574f398133c44b3e04989dcf3451
-    - name: BombRat_Frame_32
+    - name: Frame_32
       frameIndex: 32
       additiveSortOrder: 0
       cellRect:
@@ -1107,7 +1153,7 @@ ScriptedImporter:
         width: 20
         height: 23
       spriteId: 168f9c4a50c4c8946983318a5dd3ff6f
-    - name: BombRat_Frame_33
+    - name: Frame_33
       frameIndex: 33
       additiveSortOrder: 0
       cellRect:
@@ -1117,7 +1163,10 @@ ScriptedImporter:
         height: 18
       spriteId: ae34bf74713075e41984b648c738f8b3
     linkedCells: []
+    tileCells: []
+    tileSetIndex: 0
     parentIndex: -1
+  tileSets: []
   platformSettings:
   - name: DefaultTexturePlatform
     overridden: 0
@@ -1147,3 +1196,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 64, y: 64}
+  previousTextureSize: {x: 256, y: 256}

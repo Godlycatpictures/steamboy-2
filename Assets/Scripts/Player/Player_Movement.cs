@@ -88,7 +88,7 @@ public class Player_Movement : MonoBehaviour
         // 🚫 Ignore collisions with enemy projectiles during dash
         Physics2D.IgnoreLayerCollision(playerLayer, projectileLayer, true);
 
-        rb.velocity = directionofmovement * dashingspeed;
+        rb.linearVelocity = directionofmovement * dashingspeed;
 
         yield return new WaitForSeconds(dashtimetaken);
 

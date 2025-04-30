@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -75,7 +76,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 7
+    defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
     mosaicPadding: 4
     spritePadding: 0
@@ -83,12 +84,14 @@ ScriptedImporter:
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   asepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 7
+    defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
     mosaicPadding: 4
     spritePadding: 0
@@ -96,8 +99,10 @@ ScriptedImporter:
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638799098073528615
+  platformSettingsDirtyTick: 638816073082406936
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -105,6 +110,7 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -126,6 +132,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 158
@@ -146,6 +153,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 158
@@ -166,6 +174,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 228
@@ -186,6 +195,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 228
@@ -206,6 +216,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 261
@@ -226,6 +237,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 261
@@ -246,6 +258,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 261
@@ -263,9 +276,10 @@ ScriptedImporter:
     uvTransform: {x: 261, y: 86}
   - name: Wizard_Frame_7
     originalName: 
-    pivot: {x: 0.6086957, y: -0.875}
+    pivot: {x: 0.6086957, y: 0.45833334}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 329
@@ -286,6 +300,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 158
@@ -306,6 +321,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 158
@@ -326,6 +342,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 228
@@ -346,6 +363,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 228
@@ -366,6 +384,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 261
@@ -386,6 +405,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 261
@@ -406,6 +426,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 261
@@ -423,9 +444,10 @@ ScriptedImporter:
     uvTransform: {x: 261, y: 209}
   - name: Wizard_Frame_15
     originalName: 
-    pivot: {x: 0.6086957, y: -0.875}
+    pivot: {x: 0.6086957, y: 0.45833334}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 329
@@ -446,6 +468,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 158
@@ -466,6 +489,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 228
@@ -486,6 +510,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 228
@@ -506,6 +531,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 158
@@ -526,6 +552,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 43
@@ -546,6 +573,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 43
@@ -566,6 +594,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 43
@@ -586,6 +615,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 43
@@ -606,6 +636,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 43
@@ -626,6 +657,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 43
@@ -646,6 +678,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 43
@@ -666,6 +699,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 43
@@ -686,6 +720,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 82
@@ -706,6 +741,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 158
@@ -726,6 +762,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 228
@@ -746,6 +783,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 228
@@ -766,6 +804,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 158
@@ -786,6 +825,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 194
@@ -803,9 +843,10 @@ ScriptedImporter:
     uvTransform: {x: 194, y: 4}
   - name: Wizard_Frame_34
     originalName: 
-    pivot: {x: 0.6086957, y: -0.875}
+    pivot: {x: 0.6086957, y: 0.45833334}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 329
@@ -826,6 +867,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 194
@@ -846,6 +888,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 228
@@ -866,6 +909,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 228
@@ -886,6 +930,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 158
@@ -906,6 +951,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 82
@@ -923,9 +969,10 @@ ScriptedImporter:
     uvTransform: {x: 82, y: 46}
   - name: Wizard_Frame_40
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0.47058824}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 82
@@ -946,6 +993,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 82
@@ -966,6 +1014,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 82
@@ -986,6 +1035,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 82
@@ -1006,6 +1056,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 82
@@ -1026,6 +1077,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 82
@@ -1046,6 +1098,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 82
@@ -1066,6 +1119,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 82
@@ -1086,6 +1140,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 158
@@ -1106,6 +1161,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 228
@@ -1126,6 +1182,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 228
@@ -1143,9 +1200,10 @@ ScriptedImporter:
     uvTransform: {x: 228, y: 468}
   - name: Wizard_Frame_51
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.4615385, y: 0.47058824}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 194
@@ -1166,6 +1224,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 194
@@ -1183,9 +1242,10 @@ ScriptedImporter:
     uvTransform: {x: 194, y: 130}
   - name: Wizard_Frame_53
     originalName: 
-    pivot: {x: 0.6086957, y: -0.875}
+    pivot: {x: 0.6086957, y: 0.45833334}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 329
@@ -1206,6 +1266,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 194
@@ -1226,6 +1287,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 261
@@ -1246,6 +1308,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 261
@@ -1266,6 +1329,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 158
@@ -1286,6 +1350,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 120
@@ -1306,6 +1371,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 120
@@ -1326,6 +1392,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 120
@@ -1346,6 +1413,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 82
@@ -1366,6 +1434,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -1386,6 +1455,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -1406,6 +1476,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -1426,6 +1497,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -1446,6 +1518,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -1466,6 +1539,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -1486,6 +1560,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -1506,6 +1581,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -1526,6 +1602,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 82
@@ -1546,6 +1623,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 120
@@ -1566,6 +1644,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 120
@@ -1586,6 +1665,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 261
@@ -1606,6 +1686,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 261
@@ -1623,9 +1704,10 @@ ScriptedImporter:
     uvTransform: {x: 261, y: 373}
   - name: Wizard_Frame_75
     originalName: 
-    pivot: {x: 0.6086957, y: -0.875}
+    pivot: {x: 0.6086957, y: 0.45833334}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 329
@@ -1646,6 +1728,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 194
@@ -1666,6 +1749,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 261
@@ -1686,6 +1770,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 261
@@ -1706,6 +1791,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 158
@@ -1726,6 +1812,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 120
@@ -1746,6 +1833,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 120
@@ -1766,6 +1854,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 120
@@ -1786,6 +1875,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 120
@@ -1806,6 +1896,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -1826,6 +1917,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -1846,6 +1938,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -1866,6 +1959,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -1886,6 +1980,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 43
@@ -1906,6 +2001,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 43
@@ -1926,6 +2022,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 43
@@ -1946,6 +2043,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 43
@@ -1966,6 +2064,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 120
@@ -1986,6 +2085,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 120
@@ -2006,6 +2106,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 120
@@ -2026,6 +2127,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 295
@@ -2046,6 +2148,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 295
@@ -2063,9 +2166,10 @@ ScriptedImporter:
     uvTransform: {x: 295, y: 45}
   - name: Wizard_Frame_97
     originalName: 
-    pivot: {x: 0.6086957, y: -0.875}
+    pivot: {x: 0.6086957, y: 0.45833334}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 362
@@ -2086,6 +2190,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 194
@@ -2106,6 +2211,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 295
@@ -2126,6 +2232,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 295
@@ -2146,6 +2253,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 295
@@ -2166,6 +2274,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 329
@@ -2186,6 +2295,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 329
@@ -2203,9 +2313,10 @@ ScriptedImporter:
     uvTransform: {x: 329, y: 218}
   - name: Wizard_Frame_108
     originalName: 
-    pivot: {x: 0.6086957, y: -0.875}
+    pivot: {x: 0.6086957, y: 0.45833334}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 362
@@ -2226,6 +2337,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 194
@@ -2246,6 +2358,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 295
@@ -2266,6 +2379,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 295
@@ -2286,6 +2400,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 295
@@ -2306,6 +2421,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 329
@@ -2326,6 +2442,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 329
@@ -2343,9 +2460,10 @@ ScriptedImporter:
     uvTransform: {x: 329, y: 250}
   - name: Wizard_Frame_119
     originalName: 
-    pivot: {x: 0.6086957, y: -0.875}
+    pivot: {x: 0.6086957, y: 0.45833334}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 362
@@ -2363,9 +2481,10 @@ ScriptedImporter:
     uvTransform: {x: 362, y: 68}
   - name: Wizard_Frame_121
     originalName: 
-    pivot: {x: 0.6086957, y: -0.875}
+    pivot: {x: 0.6086957, y: 0.45833334}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 362
@@ -2383,9 +2502,10 @@ ScriptedImporter:
     uvTransform: {x: 362, y: 100}
   - name: Wizard_Frame_123
     originalName: 
-    pivot: {x: 0.6086957, y: -0.875}
+    pivot: {x: 0.6086957, y: 0.45833334}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 362
@@ -2406,6 +2526,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 329
@@ -2426,6 +2547,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 329
@@ -2446,6 +2568,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 329
@@ -2466,6 +2589,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 295
@@ -2486,6 +2610,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 295
@@ -2506,6 +2631,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 194
@@ -2526,6 +2652,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 194
@@ -2543,9 +2670,10 @@ ScriptedImporter:
     uvTransform: {x: 194, y: 382}
   - name: Wizard_Frame_134
     originalName: 
-    pivot: {x: 0.6086957, y: -0.875}
+    pivot: {x: 0.6086957, y: 0.45833334}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 362
@@ -2566,6 +2694,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 329
@@ -2586,6 +2715,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 329
@@ -2606,6 +2736,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 329
@@ -2626,6 +2757,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 295
@@ -2646,6 +2778,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 295
@@ -2666,6 +2799,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 194
@@ -2686,6 +2820,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 194
@@ -2703,9 +2838,10 @@ ScriptedImporter:
     uvTransform: {x: 194, y: 466}
   - name: Wizard_Frame_145
     originalName: 
-    pivot: {x: 0.6086957, y: -0.875}
+    pivot: {x: 0.6086957, y: 0.45833334}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 362
@@ -2726,6 +2862,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 393
@@ -2746,6 +2883,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 295
@@ -2766,6 +2904,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 393
@@ -2786,6 +2925,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 393
@@ -2806,6 +2946,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 393
@@ -2826,6 +2967,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 393
@@ -2846,6 +2988,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 393
@@ -2866,6 +3009,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 393
@@ -2886,6 +3030,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 393
@@ -2906,6 +3051,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 393
@@ -2926,6 +3072,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 393
@@ -2946,6 +3093,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 393
@@ -2966,6 +3114,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 393
@@ -2986,6 +3135,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 393
@@ -3006,6 +3156,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 393
@@ -3026,6 +3177,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 393
@@ -3042,15 +3194,21 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 393, y: 94}
   spriteSheetImportData: []
+  tileSetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1678267451
+    uuid:
+      value0: 2449221351
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: -1845745945
     name: Wizard
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Wizard_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -3059,7 +3217,7 @@ ScriptedImporter:
         width: 26
         height: 34
       spriteId: b544ec16eca58d74dbf8d8fad4deac69
-    - name: Wizard_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -3068,7 +3226,7 @@ ScriptedImporter:
         width: 26
         height: 35
       spriteId: ca92f53186b23b949a24b21fcb94f54d
-    - name: Wizard_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -3077,7 +3235,7 @@ ScriptedImporter:
         width: 25
         height: 35
       spriteId: 71ec33f351b19fc4eb9803bc53062f61
-    - name: Wizard_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -3086,7 +3244,7 @@ ScriptedImporter:
         width: 25
         height: 34
       spriteId: 701d1ed61e92bb64b85fddc9a0a15c90
-    - name: Wizard_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -3095,7 +3253,7 @@ ScriptedImporter:
         width: 26
         height: 33
       spriteId: 43876bb0b8e19bf46befdcaf45e402aa
-    - name: Wizard_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -3104,7 +3262,7 @@ ScriptedImporter:
         width: 26
         height: 33
       spriteId: 7fbd6c99fbe48ad45876cd6b2ec71b94
-    - name: Wizard_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -3113,7 +3271,7 @@ ScriptedImporter:
         width: 26
         height: 33
       spriteId: d1144e6582bf5b94d8cad5b23f5c4c25
-    - name: Wizard_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -3122,7 +3280,7 @@ ScriptedImporter:
         width: 23
         height: 24
       spriteId: d6477d95d661c174f85ef0b36d3fefa0
-    - name: Wizard_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -3131,7 +3289,7 @@ ScriptedImporter:
         width: 26
         height: 34
       spriteId: 4b6e705c4b4697e4898e5a034e6447d1
-    - name: Wizard_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -3140,7 +3298,7 @@ ScriptedImporter:
         width: 26
         height: 35
       spriteId: eb997f106687920409d58fce4d19a97b
-    - name: Wizard_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -3149,7 +3307,7 @@ ScriptedImporter:
         width: 25
         height: 35
       spriteId: b04fa3c91e6ab9e4c9ff558973ef2c54
-    - name: Wizard_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -3158,7 +3316,7 @@ ScriptedImporter:
         width: 25
         height: 34
       spriteId: cc0b16a40ada076429cb2d2504355a32
-    - name: Wizard_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -3167,7 +3325,7 @@ ScriptedImporter:
         width: 26
         height: 33
       spriteId: d7cac0743a2c16c45843cb7e3ea48d00
-    - name: Wizard_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -3176,7 +3334,7 @@ ScriptedImporter:
         width: 26
         height: 33
       spriteId: 281c0665390f4144e971df7a29f6cd13
-    - name: Wizard_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -3185,7 +3343,7 @@ ScriptedImporter:
         width: 26
         height: 33
       spriteId: 5d19c64043fa29d48899dd91d4df8c79
-    - name: Wizard_Frame_15
+    - name: Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -3194,7 +3352,7 @@ ScriptedImporter:
         width: 23
         height: 24
       spriteId: 0857d15ff2368994499fc27e8bbf0101
-    - name: Wizard_Frame_16
+    - name: Frame_16
       frameIndex: 16
       additiveSortOrder: 0
       cellRect:
@@ -3203,7 +3361,7 @@ ScriptedImporter:
         width: 26
         height: 34
       spriteId: a6bdca66d568a0240955c102e234c9af
-    - name: Wizard_Frame_17
+    - name: Frame_17
       frameIndex: 17
       additiveSortOrder: 0
       cellRect:
@@ -3212,7 +3370,7 @@ ScriptedImporter:
         width: 25
         height: 34
       spriteId: 89925ae7e3fbbd1429ce4cab5f57f7dc
-    - name: Wizard_Frame_18
+    - name: Frame_18
       frameIndex: 18
       additiveSortOrder: 0
       cellRect:
@@ -3221,7 +3379,7 @@ ScriptedImporter:
         width: 25
         height: 34
       spriteId: 2dda96c7a44507642a6ef1f3958f2786
-    - name: Wizard_Frame_19
+    - name: Frame_19
       frameIndex: 19
       additiveSortOrder: 0
       cellRect:
@@ -3230,7 +3388,7 @@ ScriptedImporter:
         width: 28
         height: 34
       spriteId: f5432def059076d45bce1b48c4f5842e
-    - name: Wizard_Frame_20
+    - name: Frame_20
       frameIndex: 20
       additiveSortOrder: 0
       cellRect:
@@ -3239,7 +3397,7 @@ ScriptedImporter:
         width: 30
         height: 34
       spriteId: d5b1edd28a20af6448c16b0d69299779
-    - name: Wizard_Frame_21
+    - name: Frame_21
       frameIndex: 21
       additiveSortOrder: 0
       cellRect:
@@ -3248,7 +3406,7 @@ ScriptedImporter:
         width: 30
         height: 34
       spriteId: e036bfda7346e424db79695e93545ca1
-    - name: Wizard_Frame_22
+    - name: Frame_22
       frameIndex: 22
       additiveSortOrder: 0
       cellRect:
@@ -3257,7 +3415,7 @@ ScriptedImporter:
         width: 30
         height: 34
       spriteId: 8099d3b777853ba4fb985c9f16c67b9a
-    - name: Wizard_Frame_23
+    - name: Frame_23
       frameIndex: 23
       additiveSortOrder: 0
       cellRect:
@@ -3266,7 +3424,7 @@ ScriptedImporter:
         width: 30
         height: 34
       spriteId: 9e0ea1f51b1ad1848bcda9f05e0f8d06
-    - name: Wizard_Frame_24
+    - name: Frame_24
       frameIndex: 24
       additiveSortOrder: 0
       cellRect:
@@ -3275,7 +3433,7 @@ ScriptedImporter:
         width: 30
         height: 34
       spriteId: 18d75ab561f9a6c498decef6669875f3
-    - name: Wizard_Frame_25
+    - name: Frame_25
       frameIndex: 25
       additiveSortOrder: 0
       cellRect:
@@ -3284,7 +3442,7 @@ ScriptedImporter:
         width: 30
         height: 34
       spriteId: a77ba8bb823172c41adc2e8864462bfd
-    - name: Wizard_Frame_26
+    - name: Frame_26
       frameIndex: 26
       additiveSortOrder: 0
       cellRect:
@@ -3293,7 +3451,7 @@ ScriptedImporter:
         width: 30
         height: 34
       spriteId: baf67255f6b29c446ab6dec51f69482a
-    - name: Wizard_Frame_27
+    - name: Frame_27
       frameIndex: 27
       additiveSortOrder: 0
       cellRect:
@@ -3302,7 +3460,7 @@ ScriptedImporter:
         width: 30
         height: 34
       spriteId: 70a1a94d96d65394fb70d1cf11a37a27
-    - name: Wizard_Frame_28
+    - name: Frame_28
       frameIndex: 28
       additiveSortOrder: 0
       cellRect:
@@ -3311,7 +3469,7 @@ ScriptedImporter:
         width: 30
         height: 34
       spriteId: d2e0bd0088ea8d748bbf4681e1150950
-    - name: Wizard_Frame_29
+    - name: Frame_29
       frameIndex: 29
       additiveSortOrder: 0
       cellRect:
@@ -3320,7 +3478,7 @@ ScriptedImporter:
         width: 28
         height: 34
       spriteId: f5ec3010b758abe47be7193e2546665f
-    - name: Wizard_Frame_30
+    - name: Frame_30
       frameIndex: 30
       additiveSortOrder: 0
       cellRect:
@@ -3329,7 +3487,7 @@ ScriptedImporter:
         width: 25
         height: 34
       spriteId: 4346c369cf656924eaa7b5f5ca2cc0a4
-    - name: Wizard_Frame_31
+    - name: Frame_31
       frameIndex: 31
       additiveSortOrder: 0
       cellRect:
@@ -3338,7 +3496,7 @@ ScriptedImporter:
         width: 25
         height: 34
       spriteId: b22b276bdf4fedb43a7b03e2b6ad6083
-    - name: Wizard_Frame_32
+    - name: Frame_32
       frameIndex: 32
       additiveSortOrder: 0
       cellRect:
@@ -3347,7 +3505,7 @@ ScriptedImporter:
         width: 26
         height: 34
       spriteId: 50fe5e53829515944a2dbae4b35b8208
-    - name: Wizard_Frame_33
+    - name: Frame_33
       frameIndex: 33
       additiveSortOrder: 0
       cellRect:
@@ -3356,7 +3514,7 @@ ScriptedImporter:
         width: 26
         height: 34
       spriteId: 9bb1c6083e83b7d4aa85c709760d1df9
-    - name: Wizard_Frame_34
+    - name: Frame_34
       frameIndex: 34
       additiveSortOrder: 0
       cellRect:
@@ -3365,7 +3523,7 @@ ScriptedImporter:
         width: 23
         height: 24
       spriteId: af1ad0f55366635439566e000fc7808a
-    - name: Wizard_Frame_35
+    - name: Frame_35
       frameIndex: 35
       additiveSortOrder: 0
       cellRect:
@@ -3374,7 +3532,7 @@ ScriptedImporter:
         width: 26
         height: 34
       spriteId: 0841888fa57c53046858872fb793d448
-    - name: Wizard_Frame_36
+    - name: Frame_36
       frameIndex: 36
       additiveSortOrder: 0
       cellRect:
@@ -3383,7 +3541,7 @@ ScriptedImporter:
         width: 25
         height: 34
       spriteId: d1d8bc3012523f34b91c14f0847cb430
-    - name: Wizard_Frame_37
+    - name: Frame_37
       frameIndex: 37
       additiveSortOrder: 0
       cellRect:
@@ -3392,7 +3550,7 @@ ScriptedImporter:
         width: 25
         height: 34
       spriteId: 3d337394194750049b613cf4f355c27c
-    - name: Wizard_Frame_38
+    - name: Frame_38
       frameIndex: 38
       additiveSortOrder: 0
       cellRect:
@@ -3401,7 +3559,7 @@ ScriptedImporter:
         width: 28
         height: 34
       spriteId: 51589f92ddae98b448e87ccb85c1b3af
-    - name: Wizard_Frame_39
+    - name: Frame_39
       frameIndex: 39
       additiveSortOrder: 0
       cellRect:
@@ -3410,7 +3568,7 @@ ScriptedImporter:
         width: 30
         height: 34
       spriteId: 5066d5f6d82a67e47ae50a58cd231909
-    - name: Wizard_Frame_40
+    - name: Frame_40
       frameIndex: 40
       additiveSortOrder: 0
       cellRect:
@@ -3419,7 +3577,7 @@ ScriptedImporter:
         width: 30
         height: 34
       spriteId: be53c622f9331cf498f4a213746194ce
-    - name: Wizard_Frame_41
+    - name: Frame_41
       frameIndex: 41
       additiveSortOrder: 0
       cellRect:
@@ -3428,7 +3586,7 @@ ScriptedImporter:
         width: 30
         height: 34
       spriteId: 65219c575c91e604881daf0fe190b7c1
-    - name: Wizard_Frame_42
+    - name: Frame_42
       frameIndex: 42
       additiveSortOrder: 0
       cellRect:
@@ -3437,7 +3595,7 @@ ScriptedImporter:
         width: 30
         height: 34
       spriteId: 8086eeb22188cda40a1a16d3b61f55e2
-    - name: Wizard_Frame_43
+    - name: Frame_43
       frameIndex: 43
       additiveSortOrder: 0
       cellRect:
@@ -3446,7 +3604,7 @@ ScriptedImporter:
         width: 30
         height: 34
       spriteId: 5b697b3b2172dd3429d4c6156c1c158a
-    - name: Wizard_Frame_44
+    - name: Frame_44
       frameIndex: 44
       additiveSortOrder: 0
       cellRect:
@@ -3455,7 +3613,7 @@ ScriptedImporter:
         width: 30
         height: 34
       spriteId: b55e2f267787f6846a847e299c8bce20
-    - name: Wizard_Frame_45
+    - name: Frame_45
       frameIndex: 45
       additiveSortOrder: 0
       cellRect:
@@ -3464,7 +3622,7 @@ ScriptedImporter:
         width: 30
         height: 34
       spriteId: ad15b87af3994124ba6a71b1f955a10b
-    - name: Wizard_Frame_46
+    - name: Frame_46
       frameIndex: 46
       additiveSortOrder: 0
       cellRect:
@@ -3473,7 +3631,7 @@ ScriptedImporter:
         width: 30
         height: 34
       spriteId: c1e90c7c0bd400847a2ecaea6a969db2
-    - name: Wizard_Frame_47
+    - name: Frame_47
       frameIndex: 47
       additiveSortOrder: 0
       cellRect:
@@ -3482,7 +3640,7 @@ ScriptedImporter:
         width: 30
         height: 34
       spriteId: e64c20f2c0bed9a459da87f4294d9d77
-    - name: Wizard_Frame_48
+    - name: Frame_48
       frameIndex: 48
       additiveSortOrder: 0
       cellRect:
@@ -3491,7 +3649,7 @@ ScriptedImporter:
         width: 28
         height: 34
       spriteId: 4b20963b2285a5c4ea70389d20788ac7
-    - name: Wizard_Frame_49
+    - name: Frame_49
       frameIndex: 49
       additiveSortOrder: 0
       cellRect:
@@ -3500,7 +3658,7 @@ ScriptedImporter:
         width: 25
         height: 34
       spriteId: d6488aac30bf07c419ca4fe0abb9d6ef
-    - name: Wizard_Frame_50
+    - name: Frame_50
       frameIndex: 50
       additiveSortOrder: 0
       cellRect:
@@ -3509,7 +3667,7 @@ ScriptedImporter:
         width: 25
         height: 34
       spriteId: ce891b9b07bce8a44a0be711346a4121
-    - name: Wizard_Frame_51
+    - name: Frame_51
       frameIndex: 51
       additiveSortOrder: 0
       cellRect:
@@ -3518,7 +3676,7 @@ ScriptedImporter:
         width: 26
         height: 34
       spriteId: 36b1fc75bf6461c4283907f58ffea0c1
-    - name: Wizard_Frame_52
+    - name: Frame_52
       frameIndex: 52
       additiveSortOrder: 0
       cellRect:
@@ -3527,7 +3685,7 @@ ScriptedImporter:
         width: 26
         height: 34
       spriteId: 8b69b23dc4522c049a6c2522cad94212
-    - name: Wizard_Frame_53
+    - name: Frame_53
       frameIndex: 53
       additiveSortOrder: 0
       cellRect:
@@ -3536,7 +3694,7 @@ ScriptedImporter:
         width: 23
         height: 24
       spriteId: afdc914a8c322254d87954eeb70d23e2
-    - name: Wizard_Frame_54
+    - name: Frame_54
       frameIndex: 54
       additiveSortOrder: 0
       cellRect:
@@ -3545,7 +3703,7 @@ ScriptedImporter:
         width: 26
         height: 34
       spriteId: abb493466be569f41a789ff57ac44a27
-    - name: Wizard_Frame_55
+    - name: Frame_55
       frameIndex: 55
       additiveSortOrder: 0
       cellRect:
@@ -3554,7 +3712,7 @@ ScriptedImporter:
         width: 26
         height: 33
       spriteId: df19b6067be9d684db54576115384489
-    - name: Wizard_Frame_56
+    - name: Frame_56
       frameIndex: 56
       additiveSortOrder: 0
       cellRect:
@@ -3563,7 +3721,7 @@ ScriptedImporter:
         width: 26
         height: 33
       spriteId: 93e9ee1b91616894e823f534bd131b57
-    - name: Wizard_Frame_57
+    - name: Frame_57
       frameIndex: 57
       additiveSortOrder: 0
       cellRect:
@@ -3572,7 +3730,7 @@ ScriptedImporter:
         width: 28
         height: 33
       spriteId: f8e46253199ea2c44b16ea1c4d75eafb
-    - name: Wizard_Frame_58
+    - name: Frame_58
       frameIndex: 58
       additiveSortOrder: 0
       cellRect:
@@ -3581,7 +3739,7 @@ ScriptedImporter:
         width: 29
         height: 33
       spriteId: 04b0a8a9cfe92d944853b7ee0551d747
-    - name: Wizard_Frame_59
+    - name: Frame_59
       frameIndex: 59
       additiveSortOrder: 0
       cellRect:
@@ -3590,7 +3748,7 @@ ScriptedImporter:
         width: 29
         height: 33
       spriteId: a194efa20c2f46a44879bf2166733c0f
-    - name: Wizard_Frame_60
+    - name: Frame_60
       frameIndex: 60
       additiveSortOrder: 0
       cellRect:
@@ -3599,7 +3757,7 @@ ScriptedImporter:
         width: 29
         height: 33
       spriteId: 4caf5749698fac840b887a43e6b94e6f
-    - name: Wizard_Frame_61
+    - name: Frame_61
       frameIndex: 61
       additiveSortOrder: 0
       cellRect:
@@ -3608,7 +3766,7 @@ ScriptedImporter:
         width: 30
         height: 33
       spriteId: ba5399130aaacba4d951c8117c12369a
-    - name: Wizard_Frame_62
+    - name: Frame_62
       frameIndex: 62
       additiveSortOrder: 0
       cellRect:
@@ -3617,7 +3775,7 @@ ScriptedImporter:
         width: 31
         height: 33
       spriteId: 59e62fcd7c69f534e9102614112e24e4
-    - name: Wizard_Frame_63
+    - name: Frame_63
       frameIndex: 63
       additiveSortOrder: 0
       cellRect:
@@ -3626,7 +3784,7 @@ ScriptedImporter:
         width: 31
         height: 33
       spriteId: 9d6eb2ecadfc3d64facdadb8b50c7e87
-    - name: Wizard_Frame_64
+    - name: Frame_64
       frameIndex: 64
       additiveSortOrder: 0
       cellRect:
@@ -3635,7 +3793,7 @@ ScriptedImporter:
         width: 31
         height: 33
       spriteId: 4aaf9521b92ae3f4ebe53106713692d5
-    - name: Wizard_Frame_65
+    - name: Frame_65
       frameIndex: 65
       additiveSortOrder: 0
       cellRect:
@@ -3644,7 +3802,7 @@ ScriptedImporter:
         width: 31
         height: 33
       spriteId: 7fc43fa4e1cf5394ea7d3cd38c7b8ea0
-    - name: Wizard_Frame_66
+    - name: Frame_66
       frameIndex: 66
       additiveSortOrder: 0
       cellRect:
@@ -3653,7 +3811,7 @@ ScriptedImporter:
         width: 31
         height: 33
       spriteId: 03ef397a8e078c0419de2c3e96ec760c
-    - name: Wizard_Frame_67
+    - name: Frame_67
       frameIndex: 67
       additiveSortOrder: 0
       cellRect:
@@ -3662,7 +3820,7 @@ ScriptedImporter:
         width: 31
         height: 33
       spriteId: 10ac4a2bf46665149afabc9cc50a1b98
-    - name: Wizard_Frame_68
+    - name: Frame_68
       frameIndex: 68
       additiveSortOrder: 0
       cellRect:
@@ -3671,7 +3829,7 @@ ScriptedImporter:
         width: 31
         height: 33
       spriteId: 7f9ce4bb6c4daa64d8ca24849c7a0d3e
-    - name: Wizard_Frame_69
+    - name: Frame_69
       frameIndex: 69
       additiveSortOrder: 0
       cellRect:
@@ -3680,7 +3838,7 @@ ScriptedImporter:
         width: 31
         height: 33
       spriteId: 8be1bbe7f6406124d9012ebe34decc24
-    - name: Wizard_Frame_70
+    - name: Frame_70
       frameIndex: 70
       additiveSortOrder: 0
       cellRect:
@@ -3689,7 +3847,7 @@ ScriptedImporter:
         width: 30
         height: 33
       spriteId: de0dd76effba0d0418f3cc6ffba43468
-    - name: Wizard_Frame_71
+    - name: Frame_71
       frameIndex: 71
       additiveSortOrder: 0
       cellRect:
@@ -3698,7 +3856,7 @@ ScriptedImporter:
         width: 29
         height: 33
       spriteId: 000895b60ed490b4caa1f293afa62812
-    - name: Wizard_Frame_72
+    - name: Frame_72
       frameIndex: 72
       additiveSortOrder: 0
       cellRect:
@@ -3707,7 +3865,7 @@ ScriptedImporter:
         width: 29
         height: 33
       spriteId: 3772fa7c62b2bdf418baa824add2b330
-    - name: Wizard_Frame_73
+    - name: Frame_73
       frameIndex: 73
       additiveSortOrder: 0
       cellRect:
@@ -3716,7 +3874,7 @@ ScriptedImporter:
         width: 26
         height: 33
       spriteId: 6e014a3783396c04485644ca0fec69a6
-    - name: Wizard_Frame_74
+    - name: Frame_74
       frameIndex: 74
       additiveSortOrder: 0
       cellRect:
@@ -3725,7 +3883,7 @@ ScriptedImporter:
         width: 26
         height: 33
       spriteId: 7b37f76619637774783fca22d8e07f0f
-    - name: Wizard_Frame_75
+    - name: Frame_75
       frameIndex: 75
       additiveSortOrder: 0
       cellRect:
@@ -3734,7 +3892,7 @@ ScriptedImporter:
         width: 23
         height: 24
       spriteId: e5c54334e2068ca4dba95a2527c186c8
-    - name: Wizard_Frame_76
+    - name: Frame_76
       frameIndex: 76
       additiveSortOrder: 0
       cellRect:
@@ -3743,7 +3901,7 @@ ScriptedImporter:
         width: 26
         height: 34
       spriteId: a690dfc31a6d9bf41a0c73e4bd67b750
-    - name: Wizard_Frame_77
+    - name: Frame_77
       frameIndex: 77
       additiveSortOrder: 0
       cellRect:
@@ -3752,7 +3910,7 @@ ScriptedImporter:
         width: 26
         height: 33
       spriteId: 1b6dfa2c702c6a74d93b71b2a7fd7d78
-    - name: Wizard_Frame_78
+    - name: Frame_78
       frameIndex: 78
       additiveSortOrder: 0
       cellRect:
@@ -3761,7 +3919,7 @@ ScriptedImporter:
         width: 26
         height: 33
       spriteId: 2d4103643c43aa642bc489ebcdd635a1
-    - name: Wizard_Frame_79
+    - name: Frame_79
       frameIndex: 79
       additiveSortOrder: 0
       cellRect:
@@ -3770,7 +3928,7 @@ ScriptedImporter:
         width: 28
         height: 33
       spriteId: 8edcd006fe9fe4b44827ebf27261b9b6
-    - name: Wizard_Frame_80
+    - name: Frame_80
       frameIndex: 80
       additiveSortOrder: 0
       cellRect:
@@ -3779,7 +3937,7 @@ ScriptedImporter:
         width: 29
         height: 33
       spriteId: bd4cabce0a8fd0e4091a5aad3cba0b32
-    - name: Wizard_Frame_81
+    - name: Frame_81
       frameIndex: 81
       additiveSortOrder: 0
       cellRect:
@@ -3788,7 +3946,7 @@ ScriptedImporter:
         width: 29
         height: 33
       spriteId: b80b33117474c724c960ac009c63c91e
-    - name: Wizard_Frame_82
+    - name: Frame_82
       frameIndex: 82
       additiveSortOrder: 0
       cellRect:
@@ -3797,7 +3955,7 @@ ScriptedImporter:
         width: 29
         height: 33
       spriteId: faad74ab026944347b8680b46c7e86b3
-    - name: Wizard_Frame_83
+    - name: Frame_83
       frameIndex: 83
       additiveSortOrder: 0
       cellRect:
@@ -3806,7 +3964,7 @@ ScriptedImporter:
         width: 30
         height: 33
       spriteId: 9c32fc4b4b97c994e923893d5d83b708
-    - name: Wizard_Frame_84
+    - name: Frame_84
       frameIndex: 84
       additiveSortOrder: 0
       cellRect:
@@ -3815,7 +3973,7 @@ ScriptedImporter:
         width: 31
         height: 33
       spriteId: 46e1439eaa84b4b409096f854d78ff2b
-    - name: Wizard_Frame_85
+    - name: Frame_85
       frameIndex: 85
       additiveSortOrder: 0
       cellRect:
@@ -3824,7 +3982,7 @@ ScriptedImporter:
         width: 31
         height: 33
       spriteId: e8bbf9ce87e1e454798104ea91e12544
-    - name: Wizard_Frame_86
+    - name: Frame_86
       frameIndex: 86
       additiveSortOrder: 0
       cellRect:
@@ -3833,7 +3991,7 @@ ScriptedImporter:
         width: 31
         height: 33
       spriteId: ded012cc131e25140885fe9679c38782
-    - name: Wizard_Frame_87
+    - name: Frame_87
       frameIndex: 87
       additiveSortOrder: 0
       cellRect:
@@ -3842,7 +4000,7 @@ ScriptedImporter:
         width: 31
         height: 33
       spriteId: c6a6ec097bafc1445b94bf9f9591d2f7
-    - name: Wizard_Frame_88
+    - name: Frame_88
       frameIndex: 88
       additiveSortOrder: 0
       cellRect:
@@ -3851,7 +4009,7 @@ ScriptedImporter:
         width: 31
         height: 33
       spriteId: 86e4f87e23aeb6a47aae32882f8448c4
-    - name: Wizard_Frame_89
+    - name: Frame_89
       frameIndex: 89
       additiveSortOrder: 0
       cellRect:
@@ -3860,7 +4018,7 @@ ScriptedImporter:
         width: 31
         height: 33
       spriteId: 40adfe5673a69bb4c81e2f95a662f557
-    - name: Wizard_Frame_90
+    - name: Frame_90
       frameIndex: 90
       additiveSortOrder: 0
       cellRect:
@@ -3869,7 +4027,7 @@ ScriptedImporter:
         width: 31
         height: 33
       spriteId: 15713a5c1aea20a44ac07e32c6600518
-    - name: Wizard_Frame_91
+    - name: Frame_91
       frameIndex: 91
       additiveSortOrder: 0
       cellRect:
@@ -3878,7 +4036,7 @@ ScriptedImporter:
         width: 31
         height: 33
       spriteId: 9383fa8125a4cf9478aeb3461bef5dfd
-    - name: Wizard_Frame_92
+    - name: Frame_92
       frameIndex: 92
       additiveSortOrder: 0
       cellRect:
@@ -3887,7 +4045,7 @@ ScriptedImporter:
         width: 30
         height: 33
       spriteId: 11c35c1014f00ab4d8c2172bcd1b708c
-    - name: Wizard_Frame_93
+    - name: Frame_93
       frameIndex: 93
       additiveSortOrder: 0
       cellRect:
@@ -3896,7 +4054,7 @@ ScriptedImporter:
         width: 29
         height: 33
       spriteId: ca544f160b546d44daf4aa7e262a7278
-    - name: Wizard_Frame_94
+    - name: Frame_94
       frameIndex: 94
       additiveSortOrder: 0
       cellRect:
@@ -3905,7 +4063,7 @@ ScriptedImporter:
         width: 29
         height: 33
       spriteId: 3a58699e885cce94bb8b2bfd13318d4b
-    - name: Wizard_Frame_95
+    - name: Frame_95
       frameIndex: 95
       additiveSortOrder: 0
       cellRect:
@@ -3914,7 +4072,7 @@ ScriptedImporter:
         width: 26
         height: 33
       spriteId: ba2aa4df4503a524b8fe9464f7cc1b21
-    - name: Wizard_Frame_96
+    - name: Frame_96
       frameIndex: 96
       additiveSortOrder: 0
       cellRect:
@@ -3923,7 +4081,7 @@ ScriptedImporter:
         width: 26
         height: 33
       spriteId: 17ec1279fd8f39e46a6634bbbcf2d5bc
-    - name: Wizard_Frame_97
+    - name: Frame_97
       frameIndex: 97
       additiveSortOrder: 0
       cellRect:
@@ -3932,7 +4090,7 @@ ScriptedImporter:
         width: 23
         height: 24
       spriteId: 95f5bc5d47a75b3468d0a050e845ddb8
-    - name: Wizard_Frame_98
+    - name: Frame_98
       frameIndex: 98
       additiveSortOrder: 0
       cellRect:
@@ -3941,7 +4099,7 @@ ScriptedImporter:
         width: 26
         height: 34
       spriteId: e7e63df0b32bef7468b2d541701c339f
-    - name: Wizard_Frame_99
+    - name: Frame_99
       frameIndex: 99
       additiveSortOrder: 0
       cellRect:
@@ -3950,7 +4108,7 @@ ScriptedImporter:
         width: 25
         height: 34
       spriteId: d762a7a901806e241b265a2508ec0d39
-    - name: Wizard_Frame_100
+    - name: Frame_100
       frameIndex: 100
       additiveSortOrder: 0
       cellRect:
@@ -3959,7 +4117,7 @@ ScriptedImporter:
         width: 25
         height: 32
       spriteId: f7614cce9adbbc0408d8209d00c192a2
-    - name: Wizard_Frame_101
+    - name: Frame_101
       frameIndex: 101
       additiveSortOrder: 0
       cellRect:
@@ -3968,7 +4126,7 @@ ScriptedImporter:
         width: 25
         height: 29
       spriteId: 1cf8e2f540f120145ae97f8be3edc078
-    - name: Wizard_Frame_102
+    - name: Frame_102
       frameIndex: 102
       additiveSortOrder: 0
       cellRect:
@@ -3977,7 +4135,7 @@ ScriptedImporter:
         width: 25
         height: 27
       spriteId: 146f119c48f0a3641b11bbf0d9f43c28
-    - name: Wizard_Frame_103
+    - name: Frame_103
       frameIndex: 103
       additiveSortOrder: 0
       cellRect:
@@ -3986,7 +4144,7 @@ ScriptedImporter:
         width: 25
         height: 24
       spriteId: 1af8358631ba12d4c8def1ac570beeb4
-    - name: Wizard_Frame_108
+    - name: Frame_108
       frameIndex: 108
       additiveSortOrder: 0
       cellRect:
@@ -3995,7 +4153,7 @@ ScriptedImporter:
         width: 23
         height: 24
       spriteId: 498b5232c9fae6b44a213b157917add2
-    - name: Wizard_Frame_109
+    - name: Frame_109
       frameIndex: 109
       additiveSortOrder: 0
       cellRect:
@@ -4004,7 +4162,7 @@ ScriptedImporter:
         width: 26
         height: 34
       spriteId: 08bcec08e84ed5048ae2f796f24231f1
-    - name: Wizard_Frame_110
+    - name: Frame_110
       frameIndex: 110
       additiveSortOrder: 0
       cellRect:
@@ -4013,7 +4171,7 @@ ScriptedImporter:
         width: 25
         height: 34
       spriteId: e67559351391ea24fa3adeaf5f918c48
-    - name: Wizard_Frame_111
+    - name: Frame_111
       frameIndex: 111
       additiveSortOrder: 0
       cellRect:
@@ -4022,7 +4180,7 @@ ScriptedImporter:
         width: 25
         height: 32
       spriteId: f848040a2e9e8c74aa8848cfe2e48a4f
-    - name: Wizard_Frame_112
+    - name: Frame_112
       frameIndex: 112
       additiveSortOrder: 0
       cellRect:
@@ -4031,7 +4189,7 @@ ScriptedImporter:
         width: 25
         height: 29
       spriteId: 2406ebfd1c11d86468c2ba9e48b2474f
-    - name: Wizard_Frame_113
+    - name: Frame_113
       frameIndex: 113
       additiveSortOrder: 0
       cellRect:
@@ -4040,7 +4198,7 @@ ScriptedImporter:
         width: 25
         height: 27
       spriteId: 4a3217df22df0444ea40361676e5d989
-    - name: Wizard_Frame_114
+    - name: Frame_114
       frameIndex: 114
       additiveSortOrder: 0
       cellRect:
@@ -4049,7 +4207,7 @@ ScriptedImporter:
         width: 25
         height: 24
       spriteId: ffdcdfb95c340d943904a8d143a4d636
-    - name: Wizard_Frame_119
+    - name: Frame_119
       frameIndex: 119
       additiveSortOrder: 0
       cellRect:
@@ -4058,7 +4216,7 @@ ScriptedImporter:
         width: 23
         height: 24
       spriteId: 00a4d8f9c49a8e24ba2981f429c0753c
-    - name: Wizard_Frame_121
+    - name: Frame_121
       frameIndex: 121
       additiveSortOrder: 0
       cellRect:
@@ -4067,7 +4225,7 @@ ScriptedImporter:
         width: 23
         height: 24
       spriteId: 65e359273885f8f4db2c8c346ff34da6
-    - name: Wizard_Frame_123
+    - name: Frame_123
       frameIndex: 123
       additiveSortOrder: 0
       cellRect:
@@ -4076,7 +4234,7 @@ ScriptedImporter:
         width: 23
         height: 24
       spriteId: 4f750cb948e3cb7438e612fbbc52969b
-    - name: Wizard_Frame_127
+    - name: Frame_127
       frameIndex: 127
       additiveSortOrder: 0
       cellRect:
@@ -4085,7 +4243,7 @@ ScriptedImporter:
         width: 25
         height: 24
       spriteId: df9c87903630d7141a0bd55e459a25a5
-    - name: Wizard_Frame_128
+    - name: Frame_128
       frameIndex: 128
       additiveSortOrder: 0
       cellRect:
@@ -4094,7 +4252,7 @@ ScriptedImporter:
         width: 25
         height: 27
       spriteId: 6a0adde28cd1ed342afbbba40b6bfef1
-    - name: Wizard_Frame_129
+    - name: Frame_129
       frameIndex: 129
       additiveSortOrder: 0
       cellRect:
@@ -4103,7 +4261,7 @@ ScriptedImporter:
         width: 25
         height: 29
       spriteId: 84de7399ab99b9d4aaa569fccc6f715d
-    - name: Wizard_Frame_130
+    - name: Frame_130
       frameIndex: 130
       additiveSortOrder: 0
       cellRect:
@@ -4112,7 +4270,7 @@ ScriptedImporter:
         width: 25
         height: 32
       spriteId: 670c7ff5294658a44a02b11039fc7868
-    - name: Wizard_Frame_131
+    - name: Frame_131
       frameIndex: 131
       additiveSortOrder: 0
       cellRect:
@@ -4121,7 +4279,7 @@ ScriptedImporter:
         width: 25
         height: 34
       spriteId: 6cb5e16562214bf488b4a99ef1804bc8
-    - name: Wizard_Frame_132
+    - name: Frame_132
       frameIndex: 132
       additiveSortOrder: 0
       cellRect:
@@ -4130,7 +4288,7 @@ ScriptedImporter:
         width: 26
         height: 34
       spriteId: 35f08edc84f785f478566005fdfcdc2e
-    - name: Wizard_Frame_133
+    - name: Frame_133
       frameIndex: 133
       additiveSortOrder: 0
       cellRect:
@@ -4139,7 +4297,7 @@ ScriptedImporter:
         width: 26
         height: 34
       spriteId: 89b2fab7f51924d4e965227c0fe95f7d
-    - name: Wizard_Frame_134
+    - name: Frame_134
       frameIndex: 134
       additiveSortOrder: 0
       cellRect:
@@ -4148,7 +4306,7 @@ ScriptedImporter:
         width: 23
         height: 24
       spriteId: 34c436a40eaaeb6408cc82a9c3521cc9
-    - name: Wizard_Frame_138
+    - name: Frame_138
       frameIndex: 138
       additiveSortOrder: 0
       cellRect:
@@ -4157,7 +4315,7 @@ ScriptedImporter:
         width: 25
         height: 24
       spriteId: 263c016e15397324c8daf884d5c17019
-    - name: Wizard_Frame_139
+    - name: Frame_139
       frameIndex: 139
       additiveSortOrder: 0
       cellRect:
@@ -4166,7 +4324,7 @@ ScriptedImporter:
         width: 25
         height: 27
       spriteId: 566fff4170a926e4d9aaaf565bb117c4
-    - name: Wizard_Frame_140
+    - name: Frame_140
       frameIndex: 140
       additiveSortOrder: 0
       cellRect:
@@ -4175,7 +4333,7 @@ ScriptedImporter:
         width: 25
         height: 29
       spriteId: 17337a144353a554d90f76f0dff5c0e8
-    - name: Wizard_Frame_141
+    - name: Frame_141
       frameIndex: 141
       additiveSortOrder: 0
       cellRect:
@@ -4184,7 +4342,7 @@ ScriptedImporter:
         width: 25
         height: 32
       spriteId: 98fb88ee4ca70794fb129ec103813207
-    - name: Wizard_Frame_142
+    - name: Frame_142
       frameIndex: 142
       additiveSortOrder: 0
       cellRect:
@@ -4193,7 +4351,7 @@ ScriptedImporter:
         width: 25
         height: 34
       spriteId: 8a13a599e23184f4898ba610a50d0a62
-    - name: Wizard_Frame_143
+    - name: Frame_143
       frameIndex: 143
       additiveSortOrder: 0
       cellRect:
@@ -4202,7 +4360,7 @@ ScriptedImporter:
         width: 26
         height: 34
       spriteId: 900127d6ac3a3394ca302501a83f6581
-    - name: Wizard_Frame_144
+    - name: Frame_144
       frameIndex: 144
       additiveSortOrder: 0
       cellRect:
@@ -4211,7 +4369,7 @@ ScriptedImporter:
         width: 26
         height: 34
       spriteId: f673eddfd6adc6047838fc4f31ee8e38
-    - name: Wizard_Frame_145
+    - name: Frame_145
       frameIndex: 145
       additiveSortOrder: 0
       cellRect:
@@ -4220,7 +4378,7 @@ ScriptedImporter:
         width: 23
         height: 24
       spriteId: 0f1a68a603a7afa4dba15bf137b1c969
-    - name: Wizard_Frame_104
+    - name: Frame_104
       frameIndex: 104
       additiveSortOrder: 0
       cellRect:
@@ -4229,7 +4387,7 @@ ScriptedImporter:
         width: 25
         height: 22
       spriteId: e1f2fd5753af8334e81a06cfe2893bfd
-    - name: Wizard_Frame_105
+    - name: Frame_105
       frameIndex: 105
       additiveSortOrder: 0
       cellRect:
@@ -4238,7 +4396,7 @@ ScriptedImporter:
         width: 25
         height: 18
       spriteId: 1782ad9e748cd6044a10b7cc3d434098
-    - name: Wizard_Frame_106
+    - name: Frame_106
       frameIndex: 106
       additiveSortOrder: 0
       cellRect:
@@ -4247,7 +4405,7 @@ ScriptedImporter:
         width: 25
         height: 16
       spriteId: 3e5fdd176880f474b854050e56842d3f
-    - name: Wizard_Frame_107
+    - name: Frame_107
       frameIndex: 107
       additiveSortOrder: 0
       cellRect:
@@ -4256,7 +4414,7 @@ ScriptedImporter:
         width: 25
         height: 16
       spriteId: f29671b6ad19e9b49a350cc96133a7e6
-    - name: Wizard_Frame_115
+    - name: Frame_115
       frameIndex: 115
       additiveSortOrder: 0
       cellRect:
@@ -4265,7 +4423,7 @@ ScriptedImporter:
         width: 25
         height: 22
       spriteId: 6020d514dfa07aa458429577b76f1e3d
-    - name: Wizard_Frame_116
+    - name: Frame_116
       frameIndex: 116
       additiveSortOrder: 0
       cellRect:
@@ -4274,7 +4432,7 @@ ScriptedImporter:
         width: 25
         height: 18
       spriteId: 36cde5c37c8774441a845a9fc0abd148
-    - name: Wizard_Frame_117
+    - name: Frame_117
       frameIndex: 117
       additiveSortOrder: 0
       cellRect:
@@ -4283,7 +4441,7 @@ ScriptedImporter:
         width: 25
         height: 16
       spriteId: d2eca2e6c10fff643b3b2cf6eb15d994
-    - name: Wizard_Frame_118
+    - name: Frame_118
       frameIndex: 118
       additiveSortOrder: 0
       cellRect:
@@ -4292,7 +4450,7 @@ ScriptedImporter:
         width: 25
         height: 16
       spriteId: 17d927f42addb244382e39d74487b7e2
-    - name: Wizard_Frame_120
+    - name: Frame_120
       frameIndex: 120
       additiveSortOrder: 0
       cellRect:
@@ -4301,7 +4459,7 @@ ScriptedImporter:
         width: 25
         height: 16
       spriteId: 3a1a8bb2247c6254487379193b57d830
-    - name: Wizard_Frame_122
+    - name: Frame_122
       frameIndex: 122
       additiveSortOrder: 0
       cellRect:
@@ -4310,7 +4468,7 @@ ScriptedImporter:
         width: 25
         height: 16
       spriteId: c21d86d05fb6e6f409b5fe4f816f232c
-    - name: Wizard_Frame_124
+    - name: Frame_124
       frameIndex: 124
       additiveSortOrder: 0
       cellRect:
@@ -4319,7 +4477,7 @@ ScriptedImporter:
         width: 25
         height: 16
       spriteId: 6717a85d4eedb28428d624eb288c6e17
-    - name: Wizard_Frame_125
+    - name: Frame_125
       frameIndex: 125
       additiveSortOrder: 0
       cellRect:
@@ -4328,7 +4486,7 @@ ScriptedImporter:
         width: 25
         height: 18
       spriteId: fdc28cf14d99b20429819813851ebccc
-    - name: Wizard_Frame_126
+    - name: Frame_126
       frameIndex: 126
       additiveSortOrder: 0
       cellRect:
@@ -4337,7 +4495,7 @@ ScriptedImporter:
         width: 25
         height: 22
       spriteId: a5775cf1e8521d547b2f8a918d014e18
-    - name: Wizard_Frame_135
+    - name: Frame_135
       frameIndex: 135
       additiveSortOrder: 0
       cellRect:
@@ -4346,7 +4504,7 @@ ScriptedImporter:
         width: 25
         height: 16
       spriteId: d8b5ba4eea532b14b8e4e4afe3c29077
-    - name: Wizard_Frame_136
+    - name: Frame_136
       frameIndex: 136
       additiveSortOrder: 0
       cellRect:
@@ -4355,7 +4513,7 @@ ScriptedImporter:
         width: 25
         height: 18
       spriteId: dc5c39534e84eb640889c631dda08376
-    - name: Wizard_Frame_137
+    - name: Frame_137
       frameIndex: 137
       additiveSortOrder: 0
       cellRect:
@@ -4365,7 +4523,10 @@ ScriptedImporter:
         height: 22
       spriteId: a0c82688c6ae5ba438b81ee82c901514
     linkedCells: []
+    tileCells: []
+    tileSetIndex: 0
     parentIndex: -1
+  tileSets: []
   platformSettings:
   - name: DefaultTexturePlatform
     overridden: 0
@@ -4395,3 +4556,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 64, y: 64}
+  previousTextureSize: {x: 512, y: 512}

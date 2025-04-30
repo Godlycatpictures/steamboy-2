@@ -47,12 +47,12 @@ void Update()
         {
             // Om spelaren har uppgraderingen för exploderande kulor, använd den
             GameObject bullet = Instantiate(ExplodingBulletPrefab, firePoint.position, firePoint.rotation);
-            bullet.GetComponent<Rigidbody2D>().velocity = firePoint.right * fireForce;
+            bullet.GetComponent<Rigidbody2D>().linearVelocity = firePoint.right * fireForce;
         }
         else
         {
           var bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
-        bullet.GetComponent<Rigidbody2D>().velocity = firePoint.right * fireForce;
+        bullet.GetComponent<Rigidbody2D>().linearVelocity = firePoint.right * fireForce;
         }
 
         PlayGunshot();

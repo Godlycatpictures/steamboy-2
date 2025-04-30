@@ -90,8 +90,8 @@ void SpawnGore()
             Vector2 randomDir = Random.insideUnitCircle.normalized;
             rb.AddForce(randomDir * Random.Range(goreSpreadForce * 0.5f, goreSpreadForce), ForceMode2D.Impulse);
 
-            rb.drag = Random.Range(3f, 7f);
-            rb.angularDrag = Random.Range(3f, 7f);
+            rb.linearDamping = Random.Range(3f, 7f);
+            rb.angularDamping = Random.Range(3f, 7f);
         }
 
         if (Random.value < 0.5f)
@@ -162,7 +162,7 @@ void SpawnGore()
 
         if (rb != null)
         {
-            rb.velocity = Vector2.zero;
+            rb.linearVelocity = Vector2.zero;
             rb.angularVelocity = 0f;
             rb.isKinematic = true;
         }

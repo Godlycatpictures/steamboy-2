@@ -38,7 +38,7 @@ public class BannannerProjectile : MonoBehaviour
 
         // Limit turning speed
         currentDirection = RotateTowards(currentDirection, desiredDirection, maxTurnRate * Mathf.Deg2Rad * Time.fixedDeltaTime);
-        rb.velocity = currentDirection * speed;
+        rb.linearVelocity = currentDirection * speed;
 
         // Rotate sprite to face direction
         float aimAngle = Mathf.Atan2(currentDirection.y, currentDirection.x) * Mathf.Rad2Deg;

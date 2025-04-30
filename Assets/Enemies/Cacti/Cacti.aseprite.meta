@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -75,7 +76,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 7
+    defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
     mosaicPadding: 4
     spritePadding: 0
@@ -83,12 +84,14 @@ ScriptedImporter:
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   asepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 7
+    defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
     mosaicPadding: 4
     spritePadding: 0
@@ -96,8 +99,10 @@ ScriptedImporter:
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638771949832270512
+  platformSettingsDirtyTick: 638816068158526356
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -105,6 +110,7 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -126,6 +132,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 66
@@ -143,9 +150,10 @@ ScriptedImporter:
     uvTransform: {x: 66, y: 214}
   - name: Cacti_Frame_1
     originalName: 
-    pivot: {x: 0.5, y: -0.44117647}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -166,6 +174,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 66
@@ -183,9 +192,10 @@ ScriptedImporter:
     uvTransform: {x: 66, y: 253}
   - name: Cacti_Frame_3
     originalName: 
-    pivot: {x: 0.5, y: -0.44117647}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -206,6 +216,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 66
@@ -223,9 +234,10 @@ ScriptedImporter:
     uvTransform: {x: 66, y: 292}
   - name: Cacti_Frame_5
     originalName: 
-    pivot: {x: 0.5, y: -0.44117647}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -246,6 +258,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 66
@@ -266,6 +279,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 66
@@ -286,6 +300,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 66
@@ -306,6 +321,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 66
@@ -326,6 +342,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 108
@@ -346,6 +363,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 108
@@ -366,6 +384,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 108
@@ -386,6 +405,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 108
@@ -403,9 +423,10 @@ ScriptedImporter:
     uvTransform: {x: 108, y: 191}
   - name: Cacti_Frame_14
     originalName: 
-    pivot: {x: 0.5, y: -0.44117647}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -426,6 +447,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 108
@@ -446,6 +468,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 108
@@ -466,6 +489,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 108
@@ -486,6 +510,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 108
@@ -506,6 +531,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 108
@@ -523,9 +549,10 @@ ScriptedImporter:
     uvTransform: {x: 108, y: 386}
   - name: Cacti_Frame_20
     originalName: 
-    pivot: {x: 0.5, y: -0.44117647}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 66
@@ -546,6 +573,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 108
@@ -566,6 +594,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 155
@@ -586,6 +615,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 155
@@ -606,6 +636,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 108
@@ -626,6 +657,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -646,6 +678,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -666,6 +699,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -686,6 +720,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -703,9 +738,10 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: Cacti_Frame_29
     originalName: 
-    pivot: {x: 0.5, y: -0.44117647}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 66
@@ -726,6 +762,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 108
@@ -746,6 +783,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 155
@@ -766,6 +804,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 155
@@ -786,6 +825,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 108
@@ -806,6 +846,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -826,6 +867,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -846,6 +888,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -866,6 +909,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -886,6 +930,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 155
@@ -906,6 +951,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 155
@@ -923,9 +969,10 @@ ScriptedImporter:
     uvTransform: {x: 155, y: 43}
   - name: Cacti_Frame_40
     originalName: 
-    pivot: {x: 0.5, y: -0.44117647}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 66
@@ -946,6 +993,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 182
@@ -963,9 +1011,10 @@ ScriptedImporter:
     uvTransform: {x: 182, y: 4}
   - name: Cacti_Frame_42
     originalName: 
-    pivot: {x: 0.5, y: -0.44117647}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 66
@@ -986,6 +1035,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 182
@@ -1003,9 +1053,10 @@ ScriptedImporter:
     uvTransform: {x: 182, y: 41}
   - name: Cacti_Frame_44
     originalName: 
-    pivot: {x: 0.5, y: -0.44117647}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 66
@@ -1022,15 +1073,21 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 66, y: 172}
   spriteSheetImportData: []
+  tileSetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -296337972
+    uuid:
+      value0: 237261820
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: 237261820
     name: Cacti
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Cacti_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -1039,7 +1096,7 @@ ScriptedImporter:
         width: 19
         height: 31
       spriteId: 67f5288cccb86a249915cdf0f8b9f758
-    - name: Cacti_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -1048,7 +1105,7 @@ ScriptedImporter:
         width: 34
         height: 34
       spriteId: 29d16f95a882e994287741bc17f19bf1
-    - name: Cacti_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -1057,7 +1114,7 @@ ScriptedImporter:
         width: 19
         height: 31
       spriteId: 2ffe9b9c598068e44b39245abda4f246
-    - name: Cacti_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -1066,7 +1123,7 @@ ScriptedImporter:
         width: 34
         height: 34
       spriteId: 7442b98271736364b9988d4637515961
-    - name: Cacti_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -1075,7 +1132,7 @@ ScriptedImporter:
         width: 19
         height: 31
       spriteId: a0202011f2d18d64aa08f58738cf58be
-    - name: Cacti_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -1084,7 +1141,7 @@ ScriptedImporter:
         width: 34
         height: 34
       spriteId: 3688f0052c8455f4b86b2c5a3b5f098d
-    - name: Cacti_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -1093,7 +1150,7 @@ ScriptedImporter:
         width: 19
         height: 31
       spriteId: c961c957dbd7da640a821a873a48f6b7
-    - name: Cacti_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -1102,7 +1159,7 @@ ScriptedImporter:
         width: 19
         height: 31
       spriteId: f685c2958e18bde41bc4944ccd09ae89
-    - name: Cacti_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -1111,7 +1168,7 @@ ScriptedImporter:
         width: 19
         height: 31
       spriteId: e7f2ecc704058624e8af739c2edf831d
-    - name: Cacti_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -1120,7 +1177,7 @@ ScriptedImporter:
         width: 19
         height: 31
       spriteId: 60b39513373d40a45b3835fc3ffdf214
-    - name: Cacti_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -1129,7 +1186,7 @@ ScriptedImporter:
         width: 19
         height: 31
       spriteId: 2514aca6559d49a4fb4c9cbc6c86c13b
-    - name: Cacti_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -1138,7 +1195,7 @@ ScriptedImporter:
         width: 19
         height: 31
       spriteId: 3546f9f5632f21e4db22724d842e8bf6
-    - name: Cacti_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -1147,7 +1204,7 @@ ScriptedImporter:
         width: 19
         height: 31
       spriteId: 141f5289c8c40294385fa2b2d87a6b86
-    - name: Cacti_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -1156,7 +1213,7 @@ ScriptedImporter:
         width: 19
         height: 31
       spriteId: 780e012f6350fbb4bb55054fb506e475
-    - name: Cacti_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -1165,7 +1222,7 @@ ScriptedImporter:
         width: 34
         height: 34
       spriteId: 7d82e5c0a0f15b148bee01b312d036c9
-    - name: Cacti_Frame_15
+    - name: Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -1174,7 +1231,7 @@ ScriptedImporter:
         width: 19
         height: 31
       spriteId: 048fadb6f057d194892607d1039d88c3
-    - name: Cacti_Frame_16
+    - name: Frame_16
       frameIndex: 16
       additiveSortOrder: 0
       cellRect:
@@ -1183,7 +1240,7 @@ ScriptedImporter:
         width: 19
         height: 31
       spriteId: 5136c7e10ab5ebf46b0eba03d65bc556
-    - name: Cacti_Frame_17
+    - name: Frame_17
       frameIndex: 17
       additiveSortOrder: 0
       cellRect:
@@ -1192,7 +1249,7 @@ ScriptedImporter:
         width: 19
         height: 31
       spriteId: 3766287f7bd142142be3c85410facd10
-    - name: Cacti_Frame_18
+    - name: Frame_18
       frameIndex: 18
       additiveSortOrder: 0
       cellRect:
@@ -1201,7 +1258,7 @@ ScriptedImporter:
         width: 19
         height: 31
       spriteId: 80a33a685efbc0a44ba08623f6a40a82
-    - name: Cacti_Frame_19
+    - name: Frame_19
       frameIndex: 19
       additiveSortOrder: 0
       cellRect:
@@ -1210,7 +1267,7 @@ ScriptedImporter:
         width: 19
         height: 31
       spriteId: c6018ea234e68b54da85b4c6e718d555
-    - name: Cacti_Frame_20
+    - name: Frame_20
       frameIndex: 20
       additiveSortOrder: 0
       cellRect:
@@ -1219,7 +1276,7 @@ ScriptedImporter:
         width: 34
         height: 34
       spriteId: c9828d7e035a44d418275ef83cf0a27f
-    - name: Cacti_Frame_21
+    - name: Frame_21
       frameIndex: 21
       additiveSortOrder: 0
       cellRect:
@@ -1228,7 +1285,7 @@ ScriptedImporter:
         width: 19
         height: 31
       spriteId: 62fac04dec5c6224d9a80ba03d62e17a
-    - name: Cacti_Frame_22
+    - name: Frame_22
       frameIndex: 22
       additiveSortOrder: 0
       cellRect:
@@ -1237,7 +1294,7 @@ ScriptedImporter:
         width: 15
         height: 35
       spriteId: 9697b8c063c81714d9995affd27ccb32
-    - name: Cacti_Frame_23
+    - name: Frame_23
       frameIndex: 23
       additiveSortOrder: 0
       cellRect:
@@ -1246,7 +1303,7 @@ ScriptedImporter:
         width: 15
         height: 35
       spriteId: 256040dc83bc75d4c9445b829cc0519b
-    - name: Cacti_Frame_24
+    - name: Frame_24
       frameIndex: 24
       additiveSortOrder: 0
       cellRect:
@@ -1255,7 +1312,7 @@ ScriptedImporter:
         width: 39
         height: 27
       spriteId: 00b6e217045d0954b9fb89a06b87a244
-    - name: Cacti_Frame_25
+    - name: Frame_25
       frameIndex: 25
       additiveSortOrder: 0
       cellRect:
@@ -1264,7 +1321,7 @@ ScriptedImporter:
         width: 44
         height: 32
       spriteId: d1a42816a906eee418b678f439914552
-    - name: Cacti_Frame_26
+    - name: Frame_26
       frameIndex: 26
       additiveSortOrder: 0
       cellRect:
@@ -1273,7 +1330,7 @@ ScriptedImporter:
         width: 46
         height: 31
       spriteId: 252b8101438ddfe438bcc294199c6191
-    - name: Cacti_Frame_27
+    - name: Frame_27
       frameIndex: 27
       additiveSortOrder: 0
       cellRect:
@@ -1282,7 +1339,7 @@ ScriptedImporter:
         width: 50
         height: 31
       spriteId: 9e516c665077b474ba763ddb11990e47
-    - name: Cacti_Frame_28
+    - name: Frame_28
       frameIndex: 28
       additiveSortOrder: 0
       cellRect:
@@ -1291,7 +1348,7 @@ ScriptedImporter:
         width: 54
         height: 31
       spriteId: d648253369466a147b600aaff6a57235
-    - name: Cacti_Frame_29
+    - name: Frame_29
       frameIndex: 29
       additiveSortOrder: 0
       cellRect:
@@ -1300,7 +1357,7 @@ ScriptedImporter:
         width: 34
         height: 34
       spriteId: 5cd71b76c4614054497672dc8ee628bd
-    - name: Cacti_Frame_30
+    - name: Frame_30
       frameIndex: 30
       additiveSortOrder: 0
       cellRect:
@@ -1309,7 +1366,7 @@ ScriptedImporter:
         width: 19
         height: 31
       spriteId: d46b8225400285f45a6494a55ac5db03
-    - name: Cacti_Frame_31
+    - name: Frame_31
       frameIndex: 31
       additiveSortOrder: 0
       cellRect:
@@ -1318,7 +1375,7 @@ ScriptedImporter:
         width: 15
         height: 35
       spriteId: 560ae1061f8b2cf4ca71f2583ffe94be
-    - name: Cacti_Frame_32
+    - name: Frame_32
       frameIndex: 32
       additiveSortOrder: 0
       cellRect:
@@ -1327,7 +1384,7 @@ ScriptedImporter:
         width: 15
         height: 35
       spriteId: ff1a210cfc79b674690cb152227913eb
-    - name: Cacti_Frame_33
+    - name: Frame_33
       frameIndex: 33
       additiveSortOrder: 0
       cellRect:
@@ -1336,7 +1393,7 @@ ScriptedImporter:
         width: 39
         height: 27
       spriteId: b9c54b23654b3f047b3f3d39c8b97f1e
-    - name: Cacti_Frame_34
+    - name: Frame_34
       frameIndex: 34
       additiveSortOrder: 0
       cellRect:
@@ -1345,7 +1402,7 @@ ScriptedImporter:
         width: 44
         height: 32
       spriteId: 4cf965eab1b3b604296aae19bec44fc4
-    - name: Cacti_Frame_35
+    - name: Frame_35
       frameIndex: 35
       additiveSortOrder: 0
       cellRect:
@@ -1354,7 +1411,7 @@ ScriptedImporter:
         width: 46
         height: 31
       spriteId: bfdc106c6b1fe63448b3bceb2387ff75
-    - name: Cacti_Frame_36
+    - name: Frame_36
       frameIndex: 36
       additiveSortOrder: 0
       cellRect:
@@ -1363,7 +1420,7 @@ ScriptedImporter:
         width: 50
         height: 31
       spriteId: 493fb6e47eed20344b77099c21aed8d7
-    - name: Cacti_Frame_37
+    - name: Frame_37
       frameIndex: 37
       additiveSortOrder: 0
       cellRect:
@@ -1372,7 +1429,7 @@ ScriptedImporter:
         width: 54
         height: 31
       spriteId: 86e503cea894a4b46a285dc779fe0bb4
-    - name: Cacti_Frame_38
+    - name: Frame_38
       frameIndex: 38
       additiveSortOrder: 0
       cellRect:
@@ -1381,7 +1438,7 @@ ScriptedImporter:
         width: 19
         height: 31
       spriteId: 44952251bbbe7064eb817962103ad1b1
-    - name: Cacti_Frame_39
+    - name: Frame_39
       frameIndex: 39
       additiveSortOrder: 0
       cellRect:
@@ -1390,7 +1447,7 @@ ScriptedImporter:
         width: 19
         height: 31
       spriteId: a0dd752cfe805bb4eb7bfe807a12fe1e
-    - name: Cacti_Frame_40
+    - name: Frame_40
       frameIndex: 40
       additiveSortOrder: 0
       cellRect:
@@ -1399,7 +1456,7 @@ ScriptedImporter:
         width: 34
         height: 34
       spriteId: b791828c6b5095849bd89bb5ac0a4108
-    - name: Cacti_Frame_41
+    - name: Frame_41
       frameIndex: 41
       additiveSortOrder: 0
       cellRect:
@@ -1408,7 +1465,7 @@ ScriptedImporter:
         width: 20
         height: 29
       spriteId: 5e5f01943cb5aa348adc69f699abcb9b
-    - name: Cacti_Frame_42
+    - name: Frame_42
       frameIndex: 42
       additiveSortOrder: 0
       cellRect:
@@ -1417,7 +1474,7 @@ ScriptedImporter:
         width: 34
         height: 34
       spriteId: 282e59e48dc694a46a867f09c50fb0fd
-    - name: Cacti_Frame_43
+    - name: Frame_43
       frameIndex: 43
       additiveSortOrder: 0
       cellRect:
@@ -1426,7 +1483,7 @@ ScriptedImporter:
         width: 20
         height: 29
       spriteId: b8751562c464b9e46a205f8fa63769ef
-    - name: Cacti_Frame_44
+    - name: Frame_44
       frameIndex: 44
       additiveSortOrder: 0
       cellRect:
@@ -1436,7 +1493,10 @@ ScriptedImporter:
         height: 34
       spriteId: 6bcd791d80de2fc488d2426a4d9956aa
     linkedCells: []
+    tileCells: []
+    tileSetIndex: 0
     parentIndex: -1
+  tileSets: []
   platformSettings:
   - name: DefaultTexturePlatform
     overridden: 0
@@ -1466,3 +1526,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 64, y: 64}
+  previousTextureSize: {x: 256, y: 512}

@@ -23,7 +23,7 @@ public class KnockBack : MonoBehaviour
 
     private void ApplyKnockback(Vector2 direction)
     {
-        rb.velocity = Vector2.zero; // Reset velocity for consistent knockback
+        rb.linearVelocity = Vector2.zero; // Reset velocity for consistent knockback
         rb.AddForce(direction * knockbackForce, ForceMode2D.Impulse);
     }
 }

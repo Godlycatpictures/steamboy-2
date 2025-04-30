@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -75,7 +76,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 7
+    defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
     mosaicPadding: 4
     spritePadding: 0
@@ -83,12 +84,14 @@ ScriptedImporter:
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   asepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 7
+    defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
     mosaicPadding: 4
     spritePadding: 0
@@ -96,8 +99,10 @@ ScriptedImporter:
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638771949832270512
+  platformSettingsDirtyTick: 638816070436442146
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -105,6 +110,7 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -126,6 +132,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 76
@@ -143,9 +150,10 @@ ScriptedImporter:
     uvTransform: {x: 76, y: 476}
   - name: Urchin_Frame_1
     originalName: 
-    pivot: {x: 0.5, y: -0.44117647}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 76
@@ -166,6 +174,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 142
@@ -183,9 +192,10 @@ ScriptedImporter:
     uvTransform: {x: 142, y: 4}
   - name: Urchin_Frame_3
     originalName: 
-    pivot: {x: 0.5, y: -0.44117647}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 76
@@ -206,6 +216,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 142
@@ -226,6 +237,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 142
@@ -246,6 +258,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 142
@@ -263,9 +276,10 @@ ScriptedImporter:
     uvTransform: {x: 142, y: 115}
   - name: Urchin_Frame_7
     originalName: 
-    pivot: {x: 0.5, y: -0.44117647}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 76
@@ -286,6 +300,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 142
@@ -306,6 +321,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 142
@@ -326,6 +342,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 142
@@ -343,9 +360,10 @@ ScriptedImporter:
     uvTransform: {x: 142, y: 226}
   - name: Urchin_Frame_11
     originalName: 
-    pivot: {x: 0.5, y: -0.44117647}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 76
@@ -366,6 +384,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 142
@@ -386,6 +405,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 184
@@ -406,6 +426,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 184
@@ -426,6 +447,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 184
@@ -446,6 +468,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 184
@@ -466,6 +489,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -486,6 +510,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -506,6 +531,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -526,6 +552,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -546,6 +573,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -566,6 +594,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -586,6 +615,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 184
@@ -606,6 +636,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 142
@@ -623,9 +654,10 @@ ScriptedImporter:
     uvTransform: {x: 142, y: 300}
   - name: Urchin_Frame_25
     originalName: 
-    pivot: {x: 0.5, y: -0.44117647}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 76
@@ -646,6 +678,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 142
@@ -666,6 +699,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 184
@@ -686,6 +720,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 184
@@ -706,6 +741,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 184
@@ -726,6 +762,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 184
@@ -746,6 +783,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 76
@@ -766,6 +804,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -786,6 +825,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -806,6 +846,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -826,6 +867,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -846,6 +888,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 76
@@ -866,6 +909,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 184
@@ -886,6 +930,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 142
@@ -903,9 +948,10 @@ ScriptedImporter:
     uvTransform: {x: 142, y: 374}
   - name: Urchin_Frame_39
     originalName: 
-    pivot: {x: 0.5, y: -0.44117647}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 76
@@ -926,6 +972,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 142
@@ -943,9 +990,10 @@ ScriptedImporter:
     uvTransform: {x: 142, y: 411}
   - name: Urchin_Frame_41
     originalName: 
-    pivot: {x: 0.5, y: -0.44117647}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 76
@@ -966,6 +1014,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 142
@@ -983,9 +1032,10 @@ ScriptedImporter:
     uvTransform: {x: 142, y: 448}
   - name: Urchin_Frame_43
     originalName: 
-    pivot: {x: 0.5, y: -0.44117647}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 76
@@ -1006,6 +1056,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 226
@@ -1023,9 +1074,10 @@ ScriptedImporter:
     uvTransform: {x: 226, y: 144}
   - name: Urchin_Frame_45
     originalName: 
-    pivot: {x: 0.5, y: -0.44117647}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 76
@@ -1042,15 +1094,21 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 76, y: 434}
   spriteSheetImportData: []
+  tileSetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1240840771
+    uuid:
+      value0: 2253385487
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: -2041581809
     name: Urchin
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Urchin_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -1059,7 +1117,7 @@ ScriptedImporter:
         width: 34
         height: 29
       spriteId: c6e1b214c0d295f4395cec1d0834099a
-    - name: Urchin_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -1068,7 +1126,7 @@ ScriptedImporter:
         width: 34
         height: 34
       spriteId: 3beba0bb42004d548982cfb8793817d6
-    - name: Urchin_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -1077,7 +1135,7 @@ ScriptedImporter:
         width: 34
         height: 29
       spriteId: 08bf9dd9c5d283343b314f8c0c9b9b7a
-    - name: Urchin_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -1086,7 +1144,7 @@ ScriptedImporter:
         width: 34
         height: 34
       spriteId: 7d0a02ed4d07da8469cec00a1e5d1f3a
-    - name: Urchin_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -1095,7 +1153,7 @@ ScriptedImporter:
         width: 34
         height: 29
       spriteId: 8675603efaa9c284296cc93947d0afd9
-    - name: Urchin_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -1104,7 +1162,7 @@ ScriptedImporter:
         width: 34
         height: 29
       spriteId: 69f5df5b218e50344821c41c1030ecdd
-    - name: Urchin_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -1113,7 +1171,7 @@ ScriptedImporter:
         width: 34
         height: 29
       spriteId: 7da55b7111d5dcb44884fa8d327c5fa1
-    - name: Urchin_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -1122,7 +1180,7 @@ ScriptedImporter:
         width: 34
         height: 34
       spriteId: 08791fb21c4d2b5419486bdc8e7f860a
-    - name: Urchin_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -1131,7 +1189,7 @@ ScriptedImporter:
         width: 34
         height: 29
       spriteId: 72cc29b8ebeaa7142afdf60b2ad1830a
-    - name: Urchin_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -1140,7 +1198,7 @@ ScriptedImporter:
         width: 34
         height: 29
       spriteId: c0984af69916904488f775c8b630bdd7
-    - name: Urchin_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -1149,7 +1207,7 @@ ScriptedImporter:
         width: 34
         height: 29
       spriteId: 9f791269ba2f000478b107d7239cdc3b
-    - name: Urchin_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -1158,7 +1216,7 @@ ScriptedImporter:
         width: 34
         height: 34
       spriteId: 8551ce57df0e6814bbecdacf0b6430d8
-    - name: Urchin_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -1167,7 +1225,7 @@ ScriptedImporter:
         width: 34
         height: 29
       spriteId: 18858343315e9de4eb9cdd20dc4a51ae
-    - name: Urchin_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -1176,7 +1234,7 @@ ScriptedImporter:
         width: 34
         height: 27
       spriteId: c2b0d9bf898f4ba41be3c68b42ed5d03
-    - name: Urchin_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -1185,7 +1243,7 @@ ScriptedImporter:
         width: 34
         height: 26
       spriteId: 94989d8155d96ef4996ee6063d2aadf3
-    - name: Urchin_Frame_15
+    - name: Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -1194,7 +1252,7 @@ ScriptedImporter:
         width: 34
         height: 26
       spriteId: ac6c8e997ee16934c9abaa3553db7df4
-    - name: Urchin_Frame_16
+    - name: Frame_16
       frameIndex: 16
       additiveSortOrder: 0
       cellRect:
@@ -1203,7 +1261,7 @@ ScriptedImporter:
         width: 34
         height: 26
       spriteId: 40f8de9ccafe37d4faa29d3e03564bc2
-    - name: Urchin_Frame_17
+    - name: Frame_17
       frameIndex: 17
       additiveSortOrder: 0
       cellRect:
@@ -1212,7 +1270,7 @@ ScriptedImporter:
         width: 58
         height: 40
       spriteId: 8e57f15e55628344eb65f33e1e99a2e1
-    - name: Urchin_Frame_18
+    - name: Frame_18
       frameIndex: 18
       additiveSortOrder: 0
       cellRect:
@@ -1221,7 +1279,7 @@ ScriptedImporter:
         width: 62
         height: 43
       spriteId: 28c16c209c1dbeb48aefffae72fd5241
-    - name: Urchin_Frame_19
+    - name: Frame_19
       frameIndex: 19
       additiveSortOrder: 0
       cellRect:
@@ -1230,7 +1288,7 @@ ScriptedImporter:
         width: 64
         height: 44
       spriteId: ba320b493f713134a9059c8d8f2c9ace
-    - name: Urchin_Frame_20
+    - name: Frame_20
       frameIndex: 20
       additiveSortOrder: 0
       cellRect:
@@ -1239,7 +1297,7 @@ ScriptedImporter:
         width: 64
         height: 45
       spriteId: 8eb1871b2bfadf647a1db5a479d838d4
-    - name: Urchin_Frame_21
+    - name: Frame_21
       frameIndex: 21
       additiveSortOrder: 0
       cellRect:
@@ -1248,7 +1306,7 @@ ScriptedImporter:
         width: 59
         height: 45
       spriteId: 539c37b455e1ab844a20e9beabaeaf73
-    - name: Urchin_Frame_22
+    - name: Frame_22
       frameIndex: 22
       additiveSortOrder: 0
       cellRect:
@@ -1257,7 +1315,7 @@ ScriptedImporter:
         width: 39
         height: 38
       spriteId: 1e443f61b5a43d14789627fa5d6cc3ae
-    - name: Urchin_Frame_23
+    - name: Frame_23
       frameIndex: 23
       additiveSortOrder: 0
       cellRect:
@@ -1266,7 +1324,7 @@ ScriptedImporter:
         width: 34
         height: 27
       spriteId: 39c199e8eda0d264294e28c715df92fc
-    - name: Urchin_Frame_24
+    - name: Frame_24
       frameIndex: 24
       additiveSortOrder: 0
       cellRect:
@@ -1275,7 +1333,7 @@ ScriptedImporter:
         width: 34
         height: 29
       spriteId: c2cf6cc1a7e1f4a4ca5b231d4e1470b6
-    - name: Urchin_Frame_25
+    - name: Frame_25
       frameIndex: 25
       additiveSortOrder: 0
       cellRect:
@@ -1284,7 +1342,7 @@ ScriptedImporter:
         width: 34
         height: 34
       spriteId: 693ee13005efcc84b9d8f1a8d7da45b3
-    - name: Urchin_Frame_26
+    - name: Frame_26
       frameIndex: 26
       additiveSortOrder: 0
       cellRect:
@@ -1293,7 +1351,7 @@ ScriptedImporter:
         width: 34
         height: 29
       spriteId: 0fe52037ca7d9f54faaf561910aa2b42
-    - name: Urchin_Frame_27
+    - name: Frame_27
       frameIndex: 27
       additiveSortOrder: 0
       cellRect:
@@ -1302,7 +1360,7 @@ ScriptedImporter:
         width: 34
         height: 27
       spriteId: 2071bcde313aa9340959888a40124a90
-    - name: Urchin_Frame_28
+    - name: Frame_28
       frameIndex: 28
       additiveSortOrder: 0
       cellRect:
@@ -1311,7 +1369,7 @@ ScriptedImporter:
         width: 34
         height: 26
       spriteId: d43302f458d3dc7429456c1f8bce7d3c
-    - name: Urchin_Frame_29
+    - name: Frame_29
       frameIndex: 29
       additiveSortOrder: 0
       cellRect:
@@ -1320,7 +1378,7 @@ ScriptedImporter:
         width: 34
         height: 26
       spriteId: cf76289bd8e883a46a77058d0c5306d7
-    - name: Urchin_Frame_30
+    - name: Frame_30
       frameIndex: 30
       additiveSortOrder: 0
       cellRect:
@@ -1329,7 +1387,7 @@ ScriptedImporter:
         width: 34
         height: 26
       spriteId: 250ae5da69b2fbf44864b623f12d8ba1
-    - name: Urchin_Frame_31
+    - name: Frame_31
       frameIndex: 31
       additiveSortOrder: 0
       cellRect:
@@ -1338,7 +1396,7 @@ ScriptedImporter:
         width: 58
         height: 40
       spriteId: ff1b195fad5b00347ae54a92d27b5530
-    - name: Urchin_Frame_32
+    - name: Frame_32
       frameIndex: 32
       additiveSortOrder: 0
       cellRect:
@@ -1347,7 +1405,7 @@ ScriptedImporter:
         width: 62
         height: 43
       spriteId: 49487d3207b09c74d8e484355d1c4b89
-    - name: Urchin_Frame_33
+    - name: Frame_33
       frameIndex: 33
       additiveSortOrder: 0
       cellRect:
@@ -1356,7 +1414,7 @@ ScriptedImporter:
         width: 64
         height: 44
       spriteId: b90177359296f144b9468bae7d897934
-    - name: Urchin_Frame_34
+    - name: Frame_34
       frameIndex: 34
       additiveSortOrder: 0
       cellRect:
@@ -1365,7 +1423,7 @@ ScriptedImporter:
         width: 64
         height: 45
       spriteId: 67c67b00f351c4046b0ad20b9d773042
-    - name: Urchin_Frame_35
+    - name: Frame_35
       frameIndex: 35
       additiveSortOrder: 0
       cellRect:
@@ -1374,7 +1432,7 @@ ScriptedImporter:
         width: 59
         height: 45
       spriteId: 838a82a6d4aab824abf03786e108a7d1
-    - name: Urchin_Frame_36
+    - name: Frame_36
       frameIndex: 36
       additiveSortOrder: 0
       cellRect:
@@ -1383,7 +1441,7 @@ ScriptedImporter:
         width: 39
         height: 38
       spriteId: 33d878c8e2d20ec41a980a82948c224a
-    - name: Urchin_Frame_37
+    - name: Frame_37
       frameIndex: 37
       additiveSortOrder: 0
       cellRect:
@@ -1392,7 +1450,7 @@ ScriptedImporter:
         width: 34
         height: 27
       spriteId: 8a4d140fa27383b469b424263e90b90a
-    - name: Urchin_Frame_38
+    - name: Frame_38
       frameIndex: 38
       additiveSortOrder: 0
       cellRect:
@@ -1401,7 +1459,7 @@ ScriptedImporter:
         width: 34
         height: 29
       spriteId: 4f8fab334ab27794796ca535804bb444
-    - name: Urchin_Frame_39
+    - name: Frame_39
       frameIndex: 39
       additiveSortOrder: 0
       cellRect:
@@ -1410,7 +1468,7 @@ ScriptedImporter:
         width: 34
         height: 34
       spriteId: 9eb9381ed2158ba45aa7602581428bb6
-    - name: Urchin_Frame_40
+    - name: Frame_40
       frameIndex: 40
       additiveSortOrder: 0
       cellRect:
@@ -1419,7 +1477,7 @@ ScriptedImporter:
         width: 34
         height: 29
       spriteId: 124d8b04aec4a4a46880d74fae2aecbc
-    - name: Urchin_Frame_41
+    - name: Frame_41
       frameIndex: 41
       additiveSortOrder: 0
       cellRect:
@@ -1428,7 +1486,7 @@ ScriptedImporter:
         width: 34
         height: 34
       spriteId: 5544af890ab0d854ca488eeebf5bd14a
-    - name: Urchin_Frame_42
+    - name: Frame_42
       frameIndex: 42
       additiveSortOrder: 0
       cellRect:
@@ -1437,7 +1495,7 @@ ScriptedImporter:
         width: 34
         height: 29
       spriteId: 894f7d712ee3bce48bc15bee9200bdcd
-    - name: Urchin_Frame_43
+    - name: Frame_43
       frameIndex: 43
       additiveSortOrder: 0
       cellRect:
@@ -1446,7 +1504,7 @@ ScriptedImporter:
         width: 34
         height: 34
       spriteId: 955f5d65847913c47b33a0e3610f7a5c
-    - name: Urchin_Frame_44
+    - name: Frame_44
       frameIndex: 44
       additiveSortOrder: 0
       cellRect:
@@ -1455,7 +1513,7 @@ ScriptedImporter:
         width: 12
         height: 4
       spriteId: ea193c3d0b7ecaa478d744f511dcecdf
-    - name: Urchin_Frame_45
+    - name: Frame_45
       frameIndex: 45
       additiveSortOrder: 0
       cellRect:
@@ -1465,7 +1523,10 @@ ScriptedImporter:
         height: 34
       spriteId: e7532471192f61d4a9b07180452b6c84
     linkedCells: []
+    tileCells: []
+    tileSetIndex: 0
     parentIndex: -1
+  tileSets: []
   platformSettings:
   - name: DefaultTexturePlatform
     overridden: 0
@@ -1495,3 +1556,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 64, y: 64}
+  previousTextureSize: {x: 256, y: 512}

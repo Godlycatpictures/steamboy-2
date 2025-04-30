@@ -55,11 +55,11 @@ public class BanannerAi : MonoBehaviour
         else
         {
             isMoving = false;
-            rb.velocity = Vector2.zero; // Stop movement when player is out of range
+            rb.linearVelocity = Vector2.zero; // Stop movement when player is out of range
         }
 
         // Update velocity values for the animator
-        xVelocity = rb.velocity.x;
+        xVelocity = rb.linearVelocity.x;
 
         // Store last known xVelocity if moving
         if (xVelocity != 0)
@@ -71,12 +71,12 @@ public class BanannerAi : MonoBehaviour
     private void MoveTowards(Vector2 target)
     {
         Vector2 direction = (target - (Vector2)transform.position).normalized;
-        rb.velocity = direction * speed; // Moves in both X and Y directions
+        rb.linearVelocity = direction * speed; // Moves in both X and Y directions
     }
 
     private IEnumerator Attack()
     {
-        rb.velocity = Vector2.zero; // Stop movement while attacking
+        rb.linearVelocity = Vector2.zero; // Stop movement while attacking
         attacking = true;
         
         yield return new WaitForSeconds(1f); // Simulated attack duration
@@ -116,7 +116,7 @@ public class BanannerAi : MonoBehaviour
 
     private IEnumerator Hurt()
     {
-            rb.velocity = Vector2.zero;
+            rb.linearVelocity = Vector2.zero;
 
             yield return new WaitForSeconds(1f);
 

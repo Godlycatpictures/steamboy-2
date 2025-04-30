@@ -52,10 +52,10 @@ public class WizardAi : MonoBehaviour
         }
         else
         {
-            rb.velocity = Vector2.zero;
+            rb.linearVelocity = Vector2.zero;
         }
 
-        xVelocity = rb.velocity.x;
+        xVelocity = rb.linearVelocity.x;
         if (xVelocity != 0)
             lastKnownXVelocity = xVelocity;
     }
@@ -63,7 +63,7 @@ public class WizardAi : MonoBehaviour
     private void MoveTowards(Vector2 target)
     {
         Vector2 direction = (target - (Vector2)transform.position).normalized;
-        rb.velocity = direction * speed;
+        rb.linearVelocity = direction * speed;
     }
 
     private void ChooseAttack()
@@ -88,7 +88,7 @@ public class WizardAi : MonoBehaviour
 
 private IEnumerator FireOrbAttack()
 {
-    rb.velocity = Vector2.zero;
+    rb.linearVelocity = Vector2.zero;
 
     fireOrbAttack = true;
 
@@ -109,7 +109,7 @@ private IEnumerator FireOrbAttack()
             GameObject orb = Instantiate(fireOrbPrefab, transform.position, Quaternion.Euler(0, 0, zRotation));
             Rigidbody2D orbRb = orb.GetComponent<Rigidbody2D>();
             if (orbRb != null)
-                orbRb.velocity = direction * 3f;
+                orbRb.linearVelocity = direction * 3f;
         }
     }
     else if (orbType == 1)
@@ -123,7 +123,7 @@ private IEnumerator FireOrbAttack()
         GameObject orb = Instantiate(fireOrbPrefab, transform.position, Quaternion.Euler(0, 0, zRotation));
         Rigidbody2D orbRb = orb.GetComponent<Rigidbody2D>();
         if (orbRb != null)
-            orbRb.velocity = direction * 5f;
+            orbRb.linearVelocity = direction * 5f;
         
         yield return new WaitForSeconds(0.1f); // delay between shots
         }
@@ -143,7 +143,7 @@ private IEnumerator FireOrbAttack()
             GameObject orb = Instantiate(fireOrbPrefab, transform.position, Quaternion.Euler(0, 0, zRotation));
             Rigidbody2D orbRb = orb.GetComponent<Rigidbody2D>();
             if (orbRb != null)
-                orbRb.velocity = direction * 3f;
+                orbRb.linearVelocity = direction * 3f;
 
             yield return new WaitForSeconds(0.1f); // delay between each shot
         }
@@ -159,7 +159,7 @@ private IEnumerator FireOrbAttack()
 
     private IEnumerator SpikeAttack()
     {
-        rb.velocity = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
 
         spikeAttack = true;
 
@@ -196,11 +196,11 @@ private IEnumerator FireOrbAttack()
             col.enabled = false;
 
         Vector2 dashDirection = (player.position - transform.position).normalized;
-        rb.velocity = dashDirection * 5f;
+        rb.linearVelocity = dashDirection * 5f;
 
         yield return new WaitForSeconds(1f); // Dash duration
 
-        rb.velocity = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
 
         if (col != null)
             col.enabled = true;

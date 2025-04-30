@@ -62,10 +62,10 @@ public class BombRatAi : MonoBehaviour
         else
         {
             isMoving = false;
-            rb.velocity = Vector2.zero;
+            rb.linearVelocity = Vector2.zero;
         }
 
-        xVelocity = rb.velocity.x;
+        xVelocity = rb.linearVelocity.x;
         if (xVelocity != 0)
             lastKnownXVelocity = xVelocity;
     }
@@ -73,12 +73,12 @@ public class BombRatAi : MonoBehaviour
     private void MoveTowards(Vector2 target)
     {
         Vector2 direction = (target - (Vector2)transform.position).normalized;
-        rb.velocity = direction * speed;
+        rb.linearVelocity = direction * speed;
     }
 
     private IEnumerator Attack()
     {
-        rb.velocity = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
         exploding = true;
 
         yield return new WaitForSeconds(1.2f);
@@ -109,8 +109,8 @@ public class BombRatAi : MonoBehaviour
             {
                 Vector2 randomDir = Random.insideUnitCircle.normalized;
                 rbGore.AddForce(randomDir * Random.Range(goreSpreadForce * 0.5f, goreSpreadForce), ForceMode2D.Impulse);
-                rbGore.drag = Random.Range(3f, 7f);
-                rbGore.angularDrag = Random.Range(3f, 7f);
+                rbGore.linearDamping = Random.Range(3f, 7f);
+                rbGore.angularDamping = Random.Range(3f, 7f);
             }
 
             if (Random.value < 0.5f)
@@ -169,7 +169,7 @@ public class BombRatAi : MonoBehaviour
 
         if (rb != null)
         {
-            rb.velocity = Vector2.zero;
+            rb.linearVelocity = Vector2.zero;
             rb.angularVelocity = 0f;
             rb.isKinematic = true;
         }
@@ -193,7 +193,7 @@ public class BombRatAi : MonoBehaviour
 
     private IEnumerator Hurt()
     {
-        rb.velocity = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
         yield return new WaitForSeconds(1f);
         isHit = false;
         isMoving = false;
