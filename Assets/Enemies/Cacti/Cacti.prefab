@@ -217,7 +217,7 @@ MonoBehaviour:
   - {fileID: 4894331587790321875, guid: 615d91a78e698d3459905ce0745f1966, type: 3}
   - {fileID: 640032379751932822, guid: a78b9e171b14bdc428cbcbc533c20fd7, type: 3}
   - {fileID: 42024237218065963, guid: e36c79f8d6b64dc4d8b6e9192338d887, type: 3}
-  health: 4
+  health: 5
   xp: 10
   goreAmount: 3
   goreSpreadForce: 5

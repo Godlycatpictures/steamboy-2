@@ -1856,6 +1856,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6209898809808509913, guid: cbe9bfa09dc14494597321e227a3bda0, type: 3}
+      propertyPath: xp
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1009683450063229924, guid: cbe9bfa09dc14494597321e227a3bda0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.939671
@@ -2706,7 +2710,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2aa21255527f0014aa9dd756a1fdfab0, type: 3}
---- !u!1001 &279404758606485006
+--- !u!1001 &2095468659
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -2716,11 +2720,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 713090117737114619, guid: 12f540137f3b2354cbc65df7a0caafef, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.47
+      value: 1.3468634
       objectReference: {fileID: 0}
     - target: {fileID: 713090117737114619, guid: 12f540137f3b2354cbc65df7a0caafef, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.06593132
       objectReference: {fileID: 0}
     - target: {fileID: 713090117737114619, guid: 12f540137f3b2354cbc65df7a0caafef, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2753,6 +2757,14 @@ PrefabInstance:
     - target: {fileID: 713090117737114619, guid: 12f540137f3b2354cbc65df7a0caafef, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8191142016056673532, guid: 12f540137f3b2354cbc65df7a0caafef, type: 3}
+      propertyPath: attackRange
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8191142016056673532, guid: 12f540137f3b2354cbc65df7a0caafef, type: 3}
+      propertyPath: detectionRange
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 9064756120327430898, guid: 12f540137f3b2354cbc65df7a0caafef, type: 3}
       propertyPath: m_Name
@@ -3166,4 +3178,4 @@ SceneRoots:
   - {fileID: 806879632}
   - {fileID: 1688345695}
   - {fileID: 2015945337}
-  - {fileID: 279404758606485006}
+  - {fileID: 2095468659}

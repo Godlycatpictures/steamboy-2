@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2107094842234891585}
   - component: {fileID: 7626525192935447738}
   - component: {fileID: 8146776886059912431}
+  - component: {fileID: 8191142016056673532}
   m_Layer: 6
   m_Name: ArcherRat
   m_TagString: Enemy
@@ -76,7 +77,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 9
   m_Sprite: {fileID: -2702894562822771134, guid: 151e8b47897bb04418e0b24740e814b6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -183,14 +184,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b0808b9bc72e2743929110af8b447b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chainEffectPrefab: {fileID: 0}
-  deathEffect: {fileID: 0}
-  gorePrefabs: []
-  bloodSplats: []
-  health: 1
-  xp: 0
+  chainEffectPrefab: {fileID: -2253911629886400664, guid: 3df6074db484b4f4d96d095c66233983, type: 3}
+  deathEffect: {fileID: 3371569424538963305, guid: d47eb068787fec041879b4c884af5262, type: 3}
+  gorePrefabs:
+  - {fileID: 2478650836641940447, guid: b94495280f19f7f43aee7e1592ec2953, type: 3}
+  - {fileID: 7507571860136292387, guid: 933d77f4083b19e4e8a728403254af43, type: 3}
+  - {fileID: 6474193320610817432, guid: aa4865f2d70c8714080025539ee4eeac, type: 3}
+  - {fileID: 179374978238344685, guid: 0484c418c0973bb4e8cc7ca7122fcbcb, type: 3}
+  - {fileID: 3455156563179862694, guid: 9a7a9d3225f67fa44a6fd1c21b99d1f5, type: 3}
+  bloodSplats:
+  - {fileID: 8166212927469859304, guid: a76bb9116182a364583672cda79bb6b2, type: 3}
+  - {fileID: 1046763828060782656, guid: bac76db02de6c2543a0a134ab7a3c2ea, type: 3}
+  - {fileID: 3862382634402192175, guid: e48099128b500e14e866f6540a959d92, type: 3}
+  health: 3
+  xp: 8
   goreAmount: 5
   goreSpreadForce: 5
   goreLifetime: 2
   bloodAmount: 3
   sceneInfo: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
+--- !u!114 &8191142016056673532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9064756120327430898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 467cd512b33fca044b8c73852ebf9081, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  detectionRange: 7
+  attackRange: 4
+  retreatRange: 2
+  speed: 1.5
+  attackCoolDown: 0
+  xVelocity: 0
+  lastKnownXVelocity: 1
+  isMoving: 0
+  attacking: 0
+  isHit: 0
+  arrowPrefab: {fileID: 5002393058101537946, guid: bf547347cb77ac04999eddc09ec61632, type: 3}
