@@ -1,0 +1,2367 @@
+fileFormatVersion: 2
+guid: 151e8b47897bb04418e0b24740e814b6
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 32
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 0
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 0
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638817954627788716
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: ArcherRat_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 262
+      width: 27
+      height: 25
+    spriteID: 9088418f15bef5244a0b102c8523b2aa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 262}
+  - name: ArcherRat_Frame_1
+    originalName: 
+    pivot: {x: 0.56, y: 0.5769231}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 127
+      y: 429
+      width: 25
+      height: 26
+    spriteID: d29aa073a1b654145b0d80e3847d51e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 127, y: 429}
+  - name: ArcherRat_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 295
+      width: 27
+      height: 25
+    spriteID: 817ef57ddf3e9664e9e1e940fb65e10a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 295}
+  - name: ArcherRat_Frame_3
+    originalName: 
+    pivot: {x: 0.56, y: 0.5769231}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 127
+      y: 463
+      width: 25
+      height: 26
+    spriteID: 8f701f736b6914b499c86c2d4749bdf8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 127, y: 463}
+  - name: ArcherRat_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 328
+      width: 27
+      height: 25
+    spriteID: ac9fc4261174de6468d5cb9e65b0706e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 328}
+  - name: ArcherRat_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 361
+      width: 27
+      height: 25
+    spriteID: 50ce0728f569be842aeefee7289f0a8d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 361}
+  - name: ArcherRat_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 68
+      width: 28
+      height: 25
+    spriteID: 7da287cfeba73e944bf8e047df51a7be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 68}
+  - name: ArcherRat_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 101
+      width: 28
+      height: 25
+    spriteID: 9dadac20f24613f439837f3d39874efa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 101}
+  - name: ArcherRat_Frame_8
+    originalName: 
+    pivot: {x: 0.56, y: 0.5769231}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 166
+      y: 4
+      width: 25
+      height: 26
+    spriteID: c1c9d6c8fec54884d999354919b54bd1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 166, y: 4}
+  - name: ArcherRat_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 394
+      width: 27
+      height: 25
+    spriteID: e049bfc8e1a9c1a42a893240a4b5f697
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 394}
+  - name: ArcherRat_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 427
+      width: 27
+      height: 25
+    spriteID: fdc1a22794f0c874890defe63e9fa59b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 427}
+  - name: ArcherRat_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 134
+      width: 28
+      height: 25
+    spriteID: 80cc76d06f018254d857462e90780aba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 134}
+  - name: ArcherRat_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 167
+      width: 28
+      height: 25
+    spriteID: eb8f5b57c22a996419fc237621d16f94
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 167}
+  - name: ArcherRat_Frame_13
+    originalName: 
+    pivot: {x: 0.56, y: 0.5769231}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 166
+      y: 38
+      width: 25
+      height: 26
+    spriteID: b0ea57b600544fc4c9b889319bf5e262
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 166, y: 38}
+  - name: ArcherRat_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 460
+      width: 27
+      height: 25
+    spriteID: 93ed287b380971d4abe59c87aceda930
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 460}
+  - name: ArcherRat_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 4
+      width: 26
+      height: 25
+    spriteID: cab3c8eb30cd0734588ccf0556a2a65d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 4}
+  - name: ArcherRat_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 402
+      width: 24
+      height: 25
+    spriteID: 150cc7f2d559c254596952308934f94e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 402}
+  - name: ArcherRat_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 37
+      width: 26
+      height: 25
+    spriteID: 3f97166c4af85184685efe2ec522d669
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 37}
+  - name: ArcherRat_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 70
+      width: 26
+      height: 25
+    spriteID: ada01745e94ff424f98a37bf96166854
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 70}
+  - name: ArcherRat_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 338
+      width: 27
+      height: 24
+    spriteID: 0db7bf1fc667b414aa5003748a527ef1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 338}
+  - name: ArcherRat_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 4
+      width: 30
+      height: 24
+    spriteID: b4995224334161d4a9d5ee394ebb04a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 4}
+  - name: ArcherRat_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 37
+      width: 33
+      height: 24
+    spriteID: 3734b357d274b63488deac563e4673fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 37}
+  - name: ArcherRat_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 268
+      width: 35
+      height: 24
+    spriteID: b1174faeb762df44ba97e6754fd0c0ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 268}
+  - name: ArcherRat_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 36
+      height: 25
+    spriteID: 752e0767dd9f45f44b4af81066b1c05c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: ArcherRat_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 202
+      width: 34
+      height: 25
+    spriteID: 6d884addbf23b01459342c4232d106f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 202}
+  - name: ArcherRat_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 332
+      width: 33
+      height: 25
+    spriteID: a72f1f71d98c15f4498ca57b8a0a60d3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 332}
+  - name: ArcherRat_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 136
+      width: 35
+      height: 25
+    spriteID: cd6b365d88f14da4f82d5cf8a0f6900b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 136}
+  - name: ArcherRat_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 37
+      width: 36
+      height: 25
+    spriteID: 8b15d40e8d940794ea57dac2a6fbb3a0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 37}
+  - name: ArcherRat_Frame_28
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 101
+      width: 31
+      height: 25
+    spriteID: e380d9c27daa61b4cad667e240fd8548
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 101}
+  - name: ArcherRat_Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 127
+      y: 66
+      width: 27
+      height: 25
+    spriteID: 6f890d187aafa7b4a81e49db24ce3011
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 127, y: 66}
+  - name: ArcherRat_Frame_30
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 127
+      y: 99
+      width: 27
+      height: 25
+    spriteID: 18bae578dcf84d447a129f9a4cc6c424
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 127, y: 99}
+  - name: ArcherRat_Frame_31
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 127
+      y: 132
+      width: 27
+      height: 25
+    spriteID: 85cf75477eab123429e275aabd8e816c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 127, y: 132}
+  - name: ArcherRat_Frame_32
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 127
+      y: 165
+      width: 27
+      height: 25
+    spriteID: c8b43e32a9068b242bb366fb1bd3acca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 127, y: 165}
+  - name: ArcherRat_Frame_33
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 127
+      y: 198
+      width: 27
+      height: 25
+    spriteID: 9809486805b7f3f4982b7d708cad4905
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 127, y: 198}
+  - name: ArcherRat_Frame_34
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 297
+      width: 29
+      height: 25
+    spriteID: bc93a232c717cd34d94f285ad381fda0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 297}
+  - name: ArcherRat_Frame_35
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 365
+      width: 33
+      height: 25
+    spriteID: 7c6bb33f7f3915743a9a2fae55858542
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 365}
+  - name: ArcherRat_Frame_36
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 398
+      width: 33
+      height: 25
+    spriteID: eeb659b8e04630c46aef985b6dae5dbb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 398}
+  - name: ArcherRat_Frame_37
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 233
+      width: 31
+      height: 24
+    spriteID: a75c6f742429b6043bfcc80066a0acc3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 233}
+  - name: ArcherRat_Frame_38
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 127
+      y: 4
+      width: 31
+      height: 23
+    spriteID: ea42c71b3ddbc894bb4b109c6e6f59fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 127, y: 4}
+  - name: ArcherRat_Frame_39
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 167
+      width: 30
+      height: 25
+    spriteID: d62b930de16d4f44685bdfa71da7a923
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 167}
+  - name: ArcherRat_Frame_40
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 330
+      width: 29
+      height: 25
+    spriteID: 3d32c9a8872a61648995d3482eddb980
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 330}
+  - name: ArcherRat_Frame_41
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 363
+      width: 29
+      height: 25
+    spriteID: eed69fd0618469c4bb455ea96f3bdea2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 363}
+  - name: ArcherRat_Frame_42
+    originalName: 
+    pivot: {x: 0.56, y: 0.5769231}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 103
+      width: 25
+      height: 26
+    spriteID: 4224576b13233a24d9576f6febb9d6dd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 103}
+  - name: ArcherRat_Frame_43
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 127
+      y: 231
+      width: 27
+      height: 25
+    spriteID: ef494b9b81eaab44f975b05b47242812
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 127, y: 231}
+  - name: ArcherRat_Frame_44
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 137
+      width: 26
+      height: 25
+    spriteID: ca510fb26e3530542933b6ecbb36bf0c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 137}
+  - name: ArcherRat_Frame_45
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 435
+      width: 24
+      height: 25
+    spriteID: 3780e2512de863b48a081bc0dc115f39
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 435}
+  - name: ArcherRat_Frame_46
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 170
+      width: 26
+      height: 25
+    spriteID: f05f9a7306b4c3348bfae07fca02880e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 170}
+  - name: ArcherRat_Frame_47
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 203
+      width: 26
+      height: 25
+    spriteID: f96593442d60e0442ad9e1d3dc443adb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 203}
+  - name: ArcherRat_Frame_48
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 370
+      width: 27
+      height: 24
+    spriteID: fc3b1fe252251b24882bbd1610317fec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 370}
+  - name: ArcherRat_Frame_49
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 36
+      width: 30
+      height: 24
+    spriteID: 3a99315375bb9984fb727cec619edeba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 36}
+  - name: ArcherRat_Frame_50
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 69
+      width: 33
+      height: 24
+    spriteID: edb5295a40ba88342b74ac98be2243ed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 69}
+  - name: ArcherRat_Frame_51
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 300
+      width: 35
+      height: 24
+    spriteID: 8710f148a56957b4aae906e021c7444a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 300}
+  - name: ArcherRat_Frame_52
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 70
+      width: 36
+      height: 25
+    spriteID: 43db9b6eee0a2124f8cb3756802b0850
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 70}
+  - name: ArcherRat_Frame_53
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 235
+      width: 34
+      height: 25
+    spriteID: cce0899f7aad76a4989ebc33e3d7974f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 235}
+  - name: ArcherRat_Frame_54
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 431
+      width: 33
+      height: 25
+    spriteID: 3e0d3a2833b616043bcedd0795dd4ff2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 431}
+  - name: ArcherRat_Frame_55
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 169
+      width: 35
+      height: 25
+    spriteID: 995e38edf287e0640b8d8069e9be2a72
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 169}
+  - name: ArcherRat_Frame_56
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 103
+      width: 36
+      height: 25
+    spriteID: b4f929e1beb0e0f4b9cb35b07c743498
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 103}
+  - name: ArcherRat_Frame_57
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 134
+      width: 31
+      height: 25
+    spriteID: c11da96fbf0c3404d91bfd15bd49308f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 134}
+  - name: ArcherRat_Frame_58
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 127
+      y: 264
+      width: 27
+      height: 25
+    spriteID: 5b5095f38a247a849b6edaffc5c762d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 127, y: 264}
+  - name: ArcherRat_Frame_59
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 127
+      y: 297
+      width: 27
+      height: 25
+    spriteID: 690ecaf22fd32f64e89d27b470abce47
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 127, y: 297}
+  - name: ArcherRat_Frame_60
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 127
+      y: 330
+      width: 27
+      height: 25
+    spriteID: 800a66f4a080de04e8b7903006e5b89b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 127, y: 330}
+  - name: ArcherRat_Frame_61
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 127
+      y: 363
+      width: 27
+      height: 25
+    spriteID: 991819a760eda4c4facb20c29d5ed650
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 127, y: 363}
+  - name: ArcherRat_Frame_62
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 127
+      y: 396
+      width: 27
+      height: 25
+    spriteID: 964d912b5a908a847af14d6e6c645664
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 127, y: 396}
+  - name: ArcherRat_Frame_63
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 396
+      width: 29
+      height: 25
+    spriteID: 43f2682beb0ca7d4a9912b3d137f7aae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 396}
+  - name: ArcherRat_Frame_64
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 464
+      width: 33
+      height: 25
+    spriteID: a26c59b255f74a2438f0a6eb42a7c7d7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 464}
+  - name: ArcherRat_Frame_65
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 4
+      width: 33
+      height: 25
+    spriteID: 6cf6bb1126331af41903a47997b834b9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 4}
+  - name: ArcherRat_Frame_66
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 265
+      width: 31
+      height: 24
+    spriteID: bfbc8b4db8a511f448dc09cfe01b59f1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 265}
+  - name: ArcherRat_Frame_67
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 127
+      y: 35
+      width: 31
+      height: 23
+    spriteID: c00294c872c53f34a83a8bf90be536e3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 127, y: 35}
+  - name: ArcherRat_Frame_68
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 200
+      width: 30
+      height: 25
+    spriteID: 4301b474b189e1a418ecfacb25bbb4b3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 200}
+  - name: ArcherRat_Frame_69
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 429
+      width: 29
+      height: 25
+    spriteID: 4dd4eeb25c7b19244893d6a2465a7b7b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 429}
+  - name: ArcherRat_Frame_70
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 462
+      width: 29
+      height: 25
+    spriteID: 77c7bbb3607b1a34788ba159083518cf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 462}
+  - name: ArcherRat_Frame_71
+    originalName: 
+    pivot: {x: 0.56, y: 0.5769231}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 236
+      width: 25
+      height: 26
+    spriteID: e9a9f2ca64a826e4496cb549bec4c782
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 236}
+  - name: ArcherRat_Frame_72
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 200
+      width: 30
+      height: 23
+    spriteID: 99fddac234bf8994b883e9158ac52c9c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 200}
+  - name: ArcherRat_Frame_73
+    originalName: 
+    pivot: {x: 0.56, y: 0.5769231}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 270
+      width: 25
+      height: 26
+    spriteID: c21bc83ce60374e45b831e6caa381fa5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 270}
+  - name: ArcherRat_Frame_74
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 231
+      width: 30
+      height: 23
+    spriteID: dfd408b3017592940a85aeef9da96384
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 231}
+  - name: ArcherRat_Frame_75
+    originalName: 
+    pivot: {x: 0.56, y: 0.5769231}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 304
+      width: 25
+      height: 26
+    spriteID: fecfd4ae42cb8a745aeade06f38da2e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 304}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1711368416
+    name: ArcherRat
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: ArcherRat_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 27
+        height: 25
+      spriteId: 9088418f15bef5244a0b102c8523b2aa
+    - name: ArcherRat_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 17
+        width: 25
+        height: 26
+      spriteId: d29aa073a1b654145b0d80e3847d51e9
+    - name: ArcherRat_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 16
+        width: 27
+        height: 25
+      spriteId: 817ef57ddf3e9664e9e1e940fb65e10a
+    - name: ArcherRat_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 17
+        width: 25
+        height: 26
+      spriteId: 8f701f736b6914b499c86c2d4749bdf8
+    - name: ArcherRat_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 27
+        height: 25
+      spriteId: ac9fc4261174de6468d5cb9e65b0706e
+    - name: ArcherRat_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 27
+        height: 25
+      spriteId: 50ce0728f569be842aeefee7289f0a8d
+    - name: ArcherRat_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 20
+        y: 16
+        width: 28
+        height: 25
+      spriteId: 7da287cfeba73e944bf8e047df51a7be
+    - name: ArcherRat_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 20
+        y: 16
+        width: 28
+        height: 25
+      spriteId: 9dadac20f24613f439837f3d39874efa
+    - name: ArcherRat_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 17
+        width: 25
+        height: 26
+      spriteId: c1c9d6c8fec54884d999354919b54bd1
+    - name: ArcherRat_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 16
+        width: 27
+        height: 25
+      spriteId: e049bfc8e1a9c1a42a893240a4b5f697
+    - name: ArcherRat_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 16
+        width: 27
+        height: 25
+      spriteId: fdc1a22794f0c874890defe63e9fa59b
+    - name: ArcherRat_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 16
+        y: 16
+        width: 28
+        height: 25
+      spriteId: 80cc76d06f018254d857462e90780aba
+    - name: ArcherRat_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 16
+        y: 16
+        width: 28
+        height: 25
+      spriteId: eb8f5b57c22a996419fc237621d16f94
+    - name: ArcherRat_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 17
+        width: 25
+        height: 26
+      spriteId: b0ea57b600544fc4c9b889319bf5e262
+    - name: ArcherRat_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 16
+        width: 27
+        height: 25
+      spriteId: 93ed287b380971d4abe59c87aceda930
+    - name: ArcherRat_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 26
+        height: 25
+      spriteId: cab3c8eb30cd0734588ccf0556a2a65d
+    - name: ArcherRat_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 16
+        width: 24
+        height: 25
+      spriteId: 150cc7f2d559c254596952308934f94e
+    - name: ArcherRat_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 26
+        height: 25
+      spriteId: 3f97166c4af85184685efe2ec522d669
+    - name: ArcherRat_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 26
+        height: 25
+      spriteId: ada01745e94ff424f98a37bf96166854
+    - name: ArcherRat_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 27
+        height: 24
+      spriteId: 0db7bf1fc667b414aa5003748a527ef1
+    - name: ArcherRat_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 30
+        height: 24
+      spriteId: b4995224334161d4a9d5ee394ebb04a6
+    - name: ArcherRat_Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 33
+        height: 24
+      spriteId: 3734b357d274b63488deac563e4673fa
+    - name: ArcherRat_Frame_22
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 35
+        height: 24
+      spriteId: b1174faeb762df44ba97e6754fd0c0ab
+    - name: ArcherRat_Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 36
+        height: 25
+      spriteId: 752e0767dd9f45f44b4af81066b1c05c
+    - name: ArcherRat_Frame_24
+      frameIndex: 24
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 34
+        height: 25
+      spriteId: 6d884addbf23b01459342c4232d106f3
+    - name: ArcherRat_Frame_25
+      frameIndex: 25
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 33
+        height: 25
+      spriteId: a72f1f71d98c15f4498ca57b8a0a60d3
+    - name: ArcherRat_Frame_26
+      frameIndex: 26
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 35
+        height: 25
+      spriteId: cd6b365d88f14da4f82d5cf8a0f6900b
+    - name: ArcherRat_Frame_27
+      frameIndex: 27
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 36
+        height: 25
+      spriteId: 8b15d40e8d940794ea57dac2a6fbb3a0
+    - name: ArcherRat_Frame_28
+      frameIndex: 28
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 31
+        height: 25
+      spriteId: e380d9c27daa61b4cad667e240fd8548
+    - name: ArcherRat_Frame_29
+      frameIndex: 29
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 27
+        height: 25
+      spriteId: 6f890d187aafa7b4a81e49db24ce3011
+    - name: ArcherRat_Frame_30
+      frameIndex: 30
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 27
+        height: 25
+      spriteId: 18bae578dcf84d447a129f9a4cc6c424
+    - name: ArcherRat_Frame_31
+      frameIndex: 31
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 27
+        height: 25
+      spriteId: 85cf75477eab123429e275aabd8e816c
+    - name: ArcherRat_Frame_32
+      frameIndex: 32
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 27
+        height: 25
+      spriteId: c8b43e32a9068b242bb366fb1bd3acca
+    - name: ArcherRat_Frame_33
+      frameIndex: 33
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 27
+        height: 25
+      spriteId: 9809486805b7f3f4982b7d708cad4905
+    - name: ArcherRat_Frame_34
+      frameIndex: 34
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 16
+        width: 29
+        height: 25
+      spriteId: bc93a232c717cd34d94f285ad381fda0
+    - name: ArcherRat_Frame_35
+      frameIndex: 35
+      additiveSortOrder: 0
+      cellRect:
+        x: 13
+        y: 16
+        width: 33
+        height: 25
+      spriteId: 7c6bb33f7f3915743a9a2fae55858542
+    - name: ArcherRat_Frame_36
+      frameIndex: 36
+      additiveSortOrder: 0
+      cellRect:
+        x: 13
+        y: 16
+        width: 33
+        height: 25
+      spriteId: eeb659b8e04630c46aef985b6dae5dbb
+    - name: ArcherRat_Frame_37
+      frameIndex: 37
+      additiveSortOrder: 0
+      cellRect:
+        x: 16
+        y: 16
+        width: 31
+        height: 24
+      spriteId: a75c6f742429b6043bfcc80066a0acc3
+    - name: ArcherRat_Frame_38
+      frameIndex: 38
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 16
+        width: 31
+        height: 23
+      spriteId: ea42c71b3ddbc894bb4b109c6e6f59fa
+    - name: ArcherRat_Frame_39
+      frameIndex: 39
+      additiveSortOrder: 0
+      cellRect:
+        x: 16
+        y: 16
+        width: 30
+        height: 25
+      spriteId: d62b930de16d4f44685bdfa71da7a923
+    - name: ArcherRat_Frame_40
+      frameIndex: 40
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 16
+        width: 29
+        height: 25
+      spriteId: 3d32c9a8872a61648995d3482eddb980
+    - name: ArcherRat_Frame_41
+      frameIndex: 41
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 16
+        width: 29
+        height: 25
+      spriteId: eed69fd0618469c4bb455ea96f3bdea2
+    - name: ArcherRat_Frame_42
+      frameIndex: 42
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 17
+        width: 25
+        height: 26
+      spriteId: 4224576b13233a24d9576f6febb9d6dd
+    - name: ArcherRat_Frame_43
+      frameIndex: 43
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 27
+        height: 25
+      spriteId: ef494b9b81eaab44f975b05b47242812
+    - name: ArcherRat_Frame_44
+      frameIndex: 44
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 26
+        height: 25
+      spriteId: ca510fb26e3530542933b6ecbb36bf0c
+    - name: ArcherRat_Frame_45
+      frameIndex: 45
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 24
+        height: 25
+      spriteId: 3780e2512de863b48a081bc0dc115f39
+    - name: ArcherRat_Frame_46
+      frameIndex: 46
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 26
+        height: 25
+      spriteId: f05f9a7306b4c3348bfae07fca02880e
+    - name: ArcherRat_Frame_47
+      frameIndex: 47
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 16
+        width: 26
+        height: 25
+      spriteId: f96593442d60e0442ad9e1d3dc443adb
+    - name: ArcherRat_Frame_48
+      frameIndex: 48
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 16
+        width: 27
+        height: 24
+      spriteId: fc3b1fe252251b24882bbd1610317fec
+    - name: ArcherRat_Frame_49
+      frameIndex: 49
+      additiveSortOrder: 0
+      cellRect:
+        x: 15
+        y: 16
+        width: 30
+        height: 24
+      spriteId: 3a99315375bb9984fb727cec619edeba
+    - name: ArcherRat_Frame_50
+      frameIndex: 50
+      additiveSortOrder: 0
+      cellRect:
+        x: 12
+        y: 16
+        width: 33
+        height: 24
+      spriteId: edb5295a40ba88342b74ac98be2243ed
+    - name: ArcherRat_Frame_51
+      frameIndex: 51
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 16
+        width: 35
+        height: 24
+      spriteId: 8710f148a56957b4aae906e021c7444a
+    - name: ArcherRat_Frame_52
+      frameIndex: 52
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 16
+        width: 36
+        height: 25
+      spriteId: 43db9b6eee0a2124f8cb3756802b0850
+    - name: ArcherRat_Frame_53
+      frameIndex: 53
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 16
+        width: 34
+        height: 25
+      spriteId: cce0899f7aad76a4989ebc33e3d7974f
+    - name: ArcherRat_Frame_54
+      frameIndex: 54
+      additiveSortOrder: 0
+      cellRect:
+        x: 12
+        y: 16
+        width: 33
+        height: 25
+      spriteId: 3e0d3a2833b616043bcedd0795dd4ff2
+    - name: ArcherRat_Frame_55
+      frameIndex: 55
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 16
+        width: 35
+        height: 25
+      spriteId: 995e38edf287e0640b8d8069e9be2a72
+    - name: ArcherRat_Frame_56
+      frameIndex: 56
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 16
+        width: 36
+        height: 25
+      spriteId: b4f929e1beb0e0f4b9cb35b07c743498
+    - name: ArcherRat_Frame_57
+      frameIndex: 57
+      additiveSortOrder: 0
+      cellRect:
+        x: 14
+        y: 16
+        width: 31
+        height: 25
+      spriteId: c11da96fbf0c3404d91bfd15bd49308f
+    - name: ArcherRat_Frame_58
+      frameIndex: 58
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 16
+        width: 27
+        height: 25
+      spriteId: 5b5095f38a247a849b6edaffc5c762d6
+    - name: ArcherRat_Frame_59
+      frameIndex: 59
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 16
+        width: 27
+        height: 25
+      spriteId: 690ecaf22fd32f64e89d27b470abce47
+    - name: ArcherRat_Frame_60
+      frameIndex: 60
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 16
+        width: 27
+        height: 25
+      spriteId: 800a66f4a080de04e8b7903006e5b89b
+    - name: ArcherRat_Frame_61
+      frameIndex: 61
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 16
+        width: 27
+        height: 25
+      spriteId: 991819a760eda4c4facb20c29d5ed650
+    - name: ArcherRat_Frame_62
+      frameIndex: 62
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 16
+        width: 27
+        height: 25
+      spriteId: 964d912b5a908a847af14d6e6c645664
+    - name: ArcherRat_Frame_63
+      frameIndex: 63
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 16
+        width: 29
+        height: 25
+      spriteId: 43f2682beb0ca7d4a9912b3d137f7aae
+    - name: ArcherRat_Frame_64
+      frameIndex: 64
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 16
+        width: 33
+        height: 25
+      spriteId: a26c59b255f74a2438f0a6eb42a7c7d7
+    - name: ArcherRat_Frame_65
+      frameIndex: 65
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 16
+        width: 33
+        height: 25
+      spriteId: 6cf6bb1126331af41903a47997b834b9
+    - name: ArcherRat_Frame_66
+      frameIndex: 66
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 16
+        width: 31
+        height: 24
+      spriteId: bfbc8b4db8a511f448dc09cfe01b59f1
+    - name: ArcherRat_Frame_67
+      frameIndex: 67
+      additiveSortOrder: 0
+      cellRect:
+        x: 16
+        y: 16
+        width: 31
+        height: 23
+      spriteId: c00294c872c53f34a83a8bf90be536e3
+    - name: ArcherRat_Frame_68
+      frameIndex: 68
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 16
+        width: 30
+        height: 25
+      spriteId: 4301b474b189e1a418ecfacb25bbb4b3
+    - name: ArcherRat_Frame_69
+      frameIndex: 69
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 16
+        width: 29
+        height: 25
+      spriteId: 4dd4eeb25c7b19244893d6a2465a7b7b
+    - name: ArcherRat_Frame_70
+      frameIndex: 70
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 16
+        width: 29
+        height: 25
+      spriteId: 77c7bbb3607b1a34788ba159083518cf
+    - name: ArcherRat_Frame_71
+      frameIndex: 71
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 17
+        width: 25
+        height: 26
+      spriteId: e9a9f2ca64a826e4496cb549bec4c782
+    - name: ArcherRat_Frame_72
+      frameIndex: 72
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 16
+        width: 30
+        height: 23
+      spriteId: 99fddac234bf8994b883e9158ac52c9c
+    - name: ArcherRat_Frame_73
+      frameIndex: 73
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 17
+        width: 25
+        height: 26
+      spriteId: c21bc83ce60374e45b831e6caa381fa5
+    - name: ArcherRat_Frame_74
+      frameIndex: 74
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 16
+        width: 30
+        height: 23
+      spriteId: dfd408b3017592940a85aeef9da96384
+    - name: ArcherRat_Frame_75
+      frameIndex: 75
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 17
+        width: 25
+        height: 26
+      spriteId: fecfd4ae42cb8a745aeade06f38da2e1
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}
