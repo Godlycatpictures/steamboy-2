@@ -6,7 +6,7 @@ public class ArcherRatAi : MonoBehaviour
 {
     public float detectionRange = 7f;
     public float attackRange = 4f;
-    public float retreatRange = 2f;
+    public float retreatRange = 5f;
     public float speed = 1.5f;
     public float attackCoolDown = 0f;
 
@@ -116,7 +116,7 @@ IEnumerator Attack()
 
     yield return new WaitForSeconds(0.5f); // Short post-attack delay
 
-    attackCoolDown = 2.5f;
+    attackCoolDown = 1.5f;
     attacking = false;
 }
 
