@@ -150,7 +150,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!95 &7626525192935447738
 Animator:
   serializedVersion: 5
@@ -223,9 +223,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 467cd512b33fca044b8c73852ebf9081, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detectionRange: 7
-  attackRange: 4
-  retreatRange: 2
+  detectionRange: 8
+  attackRange: 6
+  retreatRange: 4
   speed: 1.5
   attackCoolDown: 0
   xVelocity: 0
