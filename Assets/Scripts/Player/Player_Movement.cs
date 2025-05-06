@@ -28,6 +28,7 @@ public class Player_Movement : MonoBehaviour
     // 🧠 These are the layer numbers
     private int playerLayer = 8;
     private int projectileLayer = 7;
+    private int nonCollidableLayer = 12;
 
     void Start()
     {
@@ -87,6 +88,7 @@ public class Player_Movement : MonoBehaviour
 
         // 🚫 Ignore collisions with enemy projectiles during dash
         Physics2D.IgnoreLayerCollision(playerLayer, projectileLayer, true);
+        Physics2D.IgnoreLayerCollision(playerLayer, nonCollidableLayer, true);
 
         rb.velocity = directionofmovement * dashingspeed;
 
@@ -99,6 +101,8 @@ public class Player_Movement : MonoBehaviour
 
         // ✅ Re-enable collision after dash
         Physics2D.IgnoreLayerCollision(playerLayer, projectileLayer, false);
+        Physics2D.IgnoreLayerCollision(playerLayer, nonCollidableLayer, false);
+
 
         yield return new WaitForSeconds(dashcooldownbeforeotheruse);
         can_dash = true;

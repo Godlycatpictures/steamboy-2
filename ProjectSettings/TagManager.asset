@@ -11,6 +11,7 @@ TagManager:
   - DroneProjectile
   - DoorLR
   - DoorUD
+  - NonCollidableEnemyProjectile
   layers:
   - Default
   - TransparentFX
@@ -24,7 +25,7 @@ TagManager:
   - Bullet
   - Untouchable
   - Gibs
-  - 
+  - NonCollidableEnemyProjectile
   - 
   - 
   - 
