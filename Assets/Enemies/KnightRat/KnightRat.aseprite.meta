@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638822469815159521
+  platformSettingsDirtyTick: 638823212676616038
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -123,16 +123,16 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: KnightRat_Frame_0
     originalName: 
-    pivot: {x: 0.5477702, y: 0.3655406}
+    pivot: {x: 0.5714286, y: 0.5423728}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 477
-      y: 395
+      x: 614
+      y: 398
       width: 42
       height: 59
-    spriteID: ae6cd88571246c84f85d28aa6ee93cdf
+    spriteID: 9496508c12b37af45af1322f13a6971d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -140,7 +140,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 477, y: 395}
+    uvTransform: {x: 614, y: 398}
   - name: KnightRat_Frame_1
     originalName: 
     pivot: {x: 0.4912281, y: 0.48333332}
@@ -152,7 +152,7 @@ ScriptedImporter:
       y: 71
       width: 57
       height: 60
-    spriteID: 256d2f85e7aa24f46a2cfd82abb5cb74
+    spriteID: a4b58992d7343ca47bf378b29cdd8e77
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -163,16 +163,16 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 71}
   - name: KnightRat_Frame_2
     originalName: 
-    pivot: {x: 0.44039917, y: 0.3571198}
+    pivot: {x: 0.42857146, y: 0.5423728}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 527
-      y: 395
+      x: 664
+      y: 398
       width: 42
       height: 59
-    spriteID: 43cd2e584e235894cab766c62ce9722b
+    spriteID: 23a575eb42fec984ba2604b567a8cfb3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -180,7 +180,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 527, y: 395}
+    uvTransform: {x: 664, y: 398}
   - name: KnightRat_Frame_3
     originalName: 
     pivot: {x: 0.4912281, y: 0.48333332}
@@ -192,7 +192,7 @@ ScriptedImporter:
       y: 71
       width: 57
       height: 60
-    spriteID: 5d5e3761ddd730348a628757f2a9e708
+    spriteID: 2d6762a307e79af45ac14ab6420a3497
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -203,16 +203,16 @@ ScriptedImporter:
     uvTransform: {x: 69, y: 71}
   - name: KnightRat_Frame_4
     originalName: 
-    pivot: {x: 0.5112508, y: 0.34027928}
+    pivot: {x: 0.53333336, y: 0.5423728}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 967
-      y: 254
+      y: 257
       width: 45
       height: 59
-    spriteID: 26073a56decf6e84cb163b001b4cb51d
+    spriteID: d9906ffec0a14dd43ac184c82bac98d9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -220,19 +220,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 967, y: 254}
+    uvTransform: {x: 967, y: 257}
   - name: KnightRat_Frame_5
     originalName: 
-    pivot: {x: 0.5485412, y: 0.3622126}
+    pivot: {x: 0.55813956, y: 0.52459013}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 395
+      y: 398
       width: 43
       height: 61
-    spriteID: 97822cc652ffd2d4b9f59e6215e82255
+    spriteID: a2d146b343f52ce41897e65966289d14
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -240,19 +240,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 395}
+    uvTransform: {x: 4, y: 398}
   - name: KnightRat_Frame_6
     originalName: 
-    pivot: {x: 0.5279657, y: 0.3763403}
+    pivot: {x: 0.5476191, y: 0.51612896}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 106
-      y: 395
+      x: 4
+      y: 467
       width: 42
       height: 62
-    spriteID: 34cdc3473aff6d0479c754531ff6977c
+    spriteID: 3c783e4555635c747ac114907ca5beca
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -260,19 +260,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 106, y: 395}
+    uvTransform: {x: 4, y: 467}
   - name: KnightRat_Frame_7
     originalName: 
-    pivot: {x: 0.5279661, y: 0.3763403}
+    pivot: {x: 0.5476191, y: 0.51612896}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 156
-      y: 395
+      x: 54
+      y: 467
       width: 42
       height: 62
-    spriteID: cb6f173cffa030545bf8b0bfd5636fa2
+    spriteID: 56187e3959298c040acf56416b45179b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -280,7 +280,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 156, y: 395}
+    uvTransform: {x: 54, y: 467}
   - name: KnightRat_Frame_8
     originalName: 
     pivot: {x: 0.4912281, y: 0.48333332}
@@ -292,7 +292,7 @@ ScriptedImporter:
       y: 71
       width: 57
       height: 60
-    spriteID: 3a92b442d61582a4c841063a07e1b636
+    spriteID: 1a23639eb8bac014cbf9ccd4e9590695
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -303,16 +303,16 @@ ScriptedImporter:
     uvTransform: {x: 134, y: 71}
   - name: KnightRat_Frame_9
     originalName: 
-    pivot: {x: 0.4997878, y: 0.34027874}
+    pivot: {x: 0.4666667, y: 0.5423728}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 328
+      y: 331
       width: 45
       height: 59
-    spriteID: 20344d51b6081e84e947193e837570e2
+    spriteID: da972835fd0a24b4a937a9c4f116377d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -320,19 +320,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 328}
+    uvTransform: {x: 4, y: 331}
   - name: KnightRat_Frame_10
     originalName: 
-    pivot: {x: 0.44185993, y: 0.3622126}
+    pivot: {x: 0.44186047, y: 0.52459013}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 55
-      y: 395
+      y: 398
       width: 43
       height: 61
-    spriteID: 92efe50f540145f488050f880cb1eaa0
+    spriteID: 0b57bcec1d9de5c4ea85bcc8295b0a37
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -340,19 +340,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 55, y: 395}
+    uvTransform: {x: 55, y: 398}
   - name: KnightRat_Frame_11
     originalName: 
-    pivot: {x: 0.49168614, y: 0.3829971}
+    pivot: {x: 0.45238096, y: 0.51612896}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 206
-      y: 395
+      x: 104
+      y: 467
       width: 42
       height: 62
-    spriteID: 1ac302e78d2d4ab4a9533b9866b0b1b5
+    spriteID: 6a1b97c70af17f940838be78b4ac0d9b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -360,19 +360,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 206, y: 395}
+    uvTransform: {x: 104, y: 467}
   - name: KnightRat_Frame_12
     originalName: 
-    pivot: {x: 0.4523802, y: 0.38791877}
+    pivot: {x: 0.45238096, y: 0.51612896}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 256
-      y: 395
+      x: 154
+      y: 467
       width: 42
       height: 62
-    spriteID: 134378658382e504b88a0dd09d67bd25
+    spriteID: dcf8d5e717a3a464b9bb31005a540c5b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -380,7 +380,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 256, y: 395}
+    uvTransform: {x: 154, y: 467}
   - name: KnightRat_Frame_13
     originalName: 
     pivot: {x: 0.4912281, y: 0.48333332}
@@ -392,7 +392,7 @@ ScriptedImporter:
       y: 71
       width: 57
       height: 60
-    spriteID: f843517059a0fa149ba9fc1dc1dca792
+    spriteID: f308df51544c82543b69ee2f537654c1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -403,16 +403,16 @@ ScriptedImporter:
     uvTransform: {x: 199, y: 71}
   - name: KnightRat_Frame_14
     originalName: 
-    pivot: {x: 0.5714271, y: 0.3571198}
+    pivot: {x: 0.5714286, y: 0.5423728}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 577
-      y: 395
+      x: 714
+      y: 398
       width: 42
       height: 59
-    spriteID: f9935da90353cb14cb6679ad7993e711
+    spriteID: 7ae19ac7b17223c42b40565cffaab9b8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -420,19 +420,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 577, y: 395}
+    uvTransform: {x: 714, y: 398}
   - name: KnightRat_Frame_15
     originalName: 
-    pivot: {x: 0.5611304, y: 0.3398398}
+    pivot: {x: 0.58536583, y: 0.51612896}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 306
-      y: 395
+      x: 204
+      y: 467
       width: 41
       height: 62
-    spriteID: c8e5fa38acf8b8c4c988e55a5c0dc6f9
+    spriteID: 3f97820aba75ded4db02f142f29cf698
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -440,19 +440,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 306, y: 395}
+    uvTransform: {x: 204, y: 467}
   - name: KnightRat_Frame_16
     originalName: 
-    pivot: {x: 0.5109389, y: 0.3265594}
+    pivot: {x: 0.5217391, y: 0.5079365}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 110
-      y: 254
+      y: 257
       width: 46
       height: 63
-    spriteID: 82330c3f675ae0a46ba2e5abda587ed9
+    spriteID: 98f51d8173701bc428ef6dc2ef7cbbc4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -460,19 +460,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 110, y: 254}
+    uvTransform: {x: 110, y: 257}
   - name: KnightRat_Frame_17
     originalName: 
-    pivot: {x: 0.5112525, y: 0.31171626}
+    pivot: {x: 0.53333336, y: 0.48484847}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 254
+      y: 257
       width: 45
       height: 66
-    spriteID: ef48e1f21ddb6334cb14b4e7e37d4378
+    spriteID: 60f284b727c007047a3f49f3af3823f6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -480,10 +480,10 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 254}
+    uvTransform: {x: 4, y: 257}
   - name: KnightRat_Frame_18
     originalName: 
-    pivot: {x: 0.5429515, y: 0.38432685}
+    pivot: {x: 0.52830195, y: 0.56140345}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -492,7 +492,7 @@ ScriptedImporter:
       y: 4
       width: 53
       height: 57
-    spriteID: fa43fc44ee7255a4ba4f113210365030
+    spriteID: 2864ba913b1a20347844b27a35da247d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -503,16 +503,16 @@ ScriptedImporter:
     uvTransform: {x: 957, y: 4}
   - name: KnightRat_Frame_19
     originalName: 
-    pivot: {x: 0.5519441, y: 0.3995847}
+    pivot: {x: 0.586207, y: 0.6530612}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 765
-      y: 189
+      y: 192
       width: 58
       height: 49
-    spriteID: d07ddcaa1ad24074698274c51b08e881
+    spriteID: cd219465067501c4db147357bf711086
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -520,19 +520,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 765, y: 189}
+    uvTransform: {x: 765, y: 192}
   - name: KnightRat_Frame_20
     originalName: 
-    pivot: {x: 0.59332794, y: 0.4097237}
+    pivot: {x: 0.6101695, y: 0.6530612}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 467
-      y: 189
+      y: 192
       width: 59
       height: 49
-    spriteID: 4c092b47f7a3d924b87474d83a3055e6
+    spriteID: 5282bcb0ed6a89e4db31f5d41f785cc6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -540,19 +540,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 467, y: 189}
+    uvTransform: {x: 467, y: 192}
   - name: KnightRat_Frame_21
     originalName: 
-    pivot: {x: 0.6272268, y: 0.4131392}
+    pivot: {x: 0.64406776, y: 0.62745094}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 65
-      y: 189
+      y: 192
       width: 59
       height: 51
-    spriteID: 2ff4b381f114dae41bec2eee156217e7
+    spriteID: b37e839bd370fb140b63273901052d96
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -560,19 +560,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 65, y: 189}
+    uvTransform: {x: 65, y: 192}
   - name: KnightRat_Frame_22
     originalName: 
-    pivot: {x: 0.61880594, y: 0.4033975}
+    pivot: {x: 0.64406776, y: 0.62745094}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 132
-      y: 189
+      y: 192
       width: 59
       height: 51
-    spriteID: 333d9c543afd5534d9deb8dc87f4748e
+    spriteID: 7dca1779e34c79646bc42168c8b66ac9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -580,19 +580,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 132, y: 189}
+    uvTransform: {x: 132, y: 192}
   - name: KnightRat_Frame_23
     originalName: 
-    pivot: {x: 0.6272265, y: 0.4131392}
+    pivot: {x: 0.64406776, y: 0.62745094}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 199
-      y: 189
+      y: 192
       width: 59
       height: 51
-    spriteID: 5a48a56c2ea4ecc40bc5d7922fbe669c
+    spriteID: a282835917586fe4a848c1ea416afc81
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -600,19 +600,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 199, y: 189}
+    uvTransform: {x: 199, y: 192}
   - name: KnightRat_Frame_24
     originalName: 
-    pivot: {x: 0.33802816, y: 0.3985647}
+    pivot: {x: 0.33802816, y: 0.6153846}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 480
+      x: 640
       y: 4
       width: 71
       height: 52
-    spriteID: 2320ccee33dfcd64db40b11b70c07089
+    spriteID: b3ec52fa9d3ae664dbdd1a2ca9a49712
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -620,7 +620,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 480, y: 4}
+    uvTransform: {x: 640, y: 4}
   - name: KnightRat_Frame_25
     originalName: 
     pivot: {x: 0.33802816, y: 0.6666666}
@@ -632,7 +632,7 @@ ScriptedImporter:
       y: 71
       width: 71
       height: 48
-    spriteID: 83ce788cacf23cf4b815173b99d96f85
+    spriteID: 2745bed7760694e4e91ddb3a5877d2c1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -643,7 +643,27 @@ ScriptedImporter:
     uvTransform: {x: 914, y: 71}
   - name: KnightRat_Frame_26
     originalName: 
-    pivot: {x: 0.3293177, y: 0.5209937}
+    pivot: {x: 0.33333334, y: 0.7619048}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 139
+      width: 72
+      height: 42
+    spriteID: f2c96557056deeb499c2d42a436e3312
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 139}
+  - name: KnightRat_Frame_27
+    originalName: 
+    pivot: {x: 0.33333334, y: 0.7111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -651,8 +671,8 @@ ScriptedImporter:
       x: 877
       y: 4
       width: 72
-      height: 42
-    spriteID: 9e48467f821123945a9c73932c7068b5
+      height: 45
+    spriteID: 810a1ddf81775994ca44104d3caa450a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -661,38 +681,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 877, y: 4}
-  - name: KnightRat_Frame_27
-    originalName: 
-    pivot: {x: 0.33333334, y: 0.4734122}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 717
-      y: 4
-      width: 72
-      height: 45
-    spriteID: bc75b6d732b36e14d94a199a0d6265a3
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 717, y: 4}
   - name: KnightRat_Frame_28
     originalName: 
-    pivot: {x: 0.3293182, y: 0.4034401}
+    pivot: {x: 0.33333334, y: 0.58928573}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 320
+      x: 480
       y: 4
       width: 72
       height: 56
-    spriteID: 2e39ee23b7a2541448d2677b1bb21432
+    spriteID: 98ec49accb4ebff4bb34444c21c13bba
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -700,19 +700,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 320, y: 4}
+    uvTransform: {x: 480, y: 4}
   - name: KnightRat_Frame_29
     originalName: 
-    pivot: {x: 0.338727, y: 0.3561772}
+    pivot: {x: 0.34285715, y: 0.5423728}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 164
+      x: 324
       y: 4
       width: 70
       height: 59
-    spriteID: 3630ce65951fe0f48a5f413ab118694d
+    spriteID: 0aa4ae1099ea4614ab7d7b76f4e0c8fd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -720,10 +720,10 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 164, y: 4}
+    uvTransform: {x: 324, y: 4}
   - name: KnightRat_Frame_30
     originalName: 
-    pivot: {x: 0.33734852, y: 0.3610771}
+    pivot: {x: 0.33333334, y: 0.5423728}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -732,7 +732,7 @@ ScriptedImporter:
       y: 4
       width: 72
       height: 59
-    spriteID: 110bc43fb1b30424eb7142813df2e75c
+    spriteID: 92874ee42709001488597a278b1f8fdf
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -743,6 +743,26 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: KnightRat_Frame_31
     originalName: 
+    pivot: {x: 0.33333334, y: 0.5423728}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 4
+      width: 72
+      height: 59
+    spriteID: 0039124e25bd33d42b0ccbd07c3f9fbd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 4}
+  - name: KnightRat_Frame_32
+    originalName: 
     pivot: {x: 0.4912281, y: 0.48333332}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -752,7 +772,7 @@ ScriptedImporter:
       y: 71
       width: 57
       height: 60
-    spriteID: d5926cd4c93a93947afd4013382048af
+    spriteID: cce677dffa6326d4e8669d1472ab3bf7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -761,38 +781,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 264, y: 71}
-  - name: KnightRat_Frame_32
-    originalName: 
-    pivot: {x: 0.4758853, y: 0.34027874}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 627
-      y: 395
-      width: 42
-      height: 59
-    spriteID: 88b1a59145aa1494bbe2b4bd0ad6be56
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 627, y: 395}
   - name: KnightRat_Frame_33
     originalName: 
-    pivot: {x: 0.4267511, y: 0.33983982}
+    pivot: {x: 0.42857146, y: 0.5423728}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 355
-      y: 395
-      width: 41
-      height: 62
-    spriteID: 30cfc01261531e54aae1b8a542308a5e
+      x: 764
+      y: 398
+      width: 42
+      height: 59
+    spriteID: b6fe59566e3992549852cb8daaa942d7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -800,19 +800,39 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 355, y: 395}
+    uvTransform: {x: 764, y: 398}
   - name: KnightRat_Frame_34
     originalName: 
-    pivot: {x: 0.49986133, y: 0.3186742}
+    pivot: {x: 0.41463417, y: 0.51612896}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 253
+      y: 467
+      width: 41
+      height: 62
+    spriteID: ff8832623e521184ea4516f150a49ed9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 253, y: 467}
+  - name: KnightRat_Frame_35
+    originalName: 
+    pivot: {x: 0.47826084, y: 0.5079365}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 164
-      y: 254
+      y: 257
       width: 46
       height: 63
-    spriteID: 5f3230b24b74db74eb80f480a47746c9
+    spriteID: 8f77131db7c65fa4cafa54d9ac33c73c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -820,19 +840,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 164, y: 254}
-  - name: KnightRat_Frame_35
+    uvTransform: {x: 164, y: 257}
+  - name: KnightRat_Frame_36
     originalName: 
-    pivot: {x: 0.4997874, y: 0.31171626}
+    pivot: {x: 0.4666667, y: 0.48484847}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 57
-      y: 254
+      y: 257
       width: 45
       height: 66
-    spriteID: 544c426d2d376664abf2f839e1447651
+    spriteID: b819a41826f84904bb15c42eb348c661
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -840,19 +860,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 57, y: 254}
-  - name: KnightRat_Frame_36
+    uvTransform: {x: 57, y: 257}
+  - name: KnightRat_Frame_37
     originalName: 
-    pivot: {x: 0.4904457, y: 0.33478665}
+    pivot: {x: 0.47169816, y: 0.56140345}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 189
+      y: 192
       width: 53
       height: 57
-    spriteID: 2a79322a5a6910e4691e1c9ceccd8750
+    spriteID: 1f45fcb4de1965f428028c664c201716
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -860,19 +880,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 189}
-  - name: KnightRat_Frame_37
+    uvTransform: {x: 4, y: 192}
+  - name: KnightRat_Frame_38
     originalName: 
-    pivot: {x: 0.4074307, y: 0.4046313}
+    pivot: {x: 0.41379312, y: 0.6530612}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 831
-      y: 189
+      y: 192
       width: 58
       height: 49
-    spriteID: 9d6dfc19bc630fd40bf722e07a1eefe3
+    spriteID: 9daa7633405c97247b64fc7dd106eb01
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -880,19 +900,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 831, y: 189}
-  - name: KnightRat_Frame_38
+    uvTransform: {x: 831, y: 192}
+  - name: KnightRat_Frame_39
     originalName: 
-    pivot: {x: 0.40667105, y: 0.3995847}
+    pivot: {x: 0.3898305, y: 0.6530612}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 534
-      y: 189
+      y: 192
       width: 59
       height: 49
-    spriteID: b6e3aba537a0739459cefdbf7a7c1ad0
+    spriteID: ae54ef17718bccc4e90035dde29789fc
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -900,19 +920,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 534, y: 189}
-  - name: KnightRat_Frame_39
+    uvTransform: {x: 534, y: 192}
+  - name: KnightRat_Frame_40
     originalName: 
-    pivot: {x: 0.3727733, y: 0.4033975}
+    pivot: {x: 0.35593218, y: 0.62745094}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 266
-      y: 189
+      y: 192
       width: 59
       height: 51
-    spriteID: 1b35e0b3e92eb6b4fac6be0647b591dd
+    spriteID: 05b145d3c1fe15a409ba7d635a1b2d46
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -920,19 +940,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 266, y: 189}
-  - name: KnightRat_Frame_40
+    uvTransform: {x: 266, y: 192}
+  - name: KnightRat_Frame_41
     originalName: 
-    pivot: {x: 0.3727727, y: 0.4131392}
+    pivot: {x: 0.35593218, y: 0.62745094}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 333
-      y: 189
+      y: 192
       width: 59
       height: 51
-    spriteID: c8eb906d3e5243847986ce76b4c78c2e
+    spriteID: fdc59d815d0733b488f693e89b0cafc2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -940,19 +960,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 333, y: 189}
-  - name: KnightRat_Frame_41
+    uvTransform: {x: 333, y: 192}
+  - name: KnightRat_Frame_42
     originalName: 
-    pivot: {x: 0.37277272, y: 0.4228806}
+    pivot: {x: 0.35593218, y: 0.62745094}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 400
-      y: 189
+      y: 192
       width: 59
       height: 51
-    spriteID: 1d7026892ce61f248a74f5bed0f12ed8
+    spriteID: 20e870a2c05ddd4419e97a7775fc01fd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -960,19 +980,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 400, y: 189}
-  - name: KnightRat_Frame_42
+    uvTransform: {x: 400, y: 192}
+  - name: KnightRat_Frame_43
     originalName: 
-    pivot: {x: 0.6538284, y: 0.3874457}
+    pivot: {x: 0.6619718, y: 0.6153846}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 559
+      x: 719
       y: 4
       width: 71
       height: 52
-    spriteID: b5b7a51a0100687408edc104f8968e4b
+    spriteID: 5ee2c232680d60f41b7a5484bb7b90a1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -980,19 +1000,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 559, y: 4}
-  - name: KnightRat_Frame_43
+    uvTransform: {x: 719, y: 4}
+  - name: KnightRat_Frame_44
     originalName: 
-    pivot: {x: 0.6619718, y: 0.44382393}
+    pivot: {x: 0.6619718, y: 0.6666666}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 638
+      x: 798
       y: 4
       width: 71
       height: 48
-    spriteID: 21dcb2335b303bc46b7c1a6c53cec66f
+    spriteID: 9be3ad9ce75edb84187b99e103c226bd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1000,10 +1020,30 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 638, y: 4}
-  - name: KnightRat_Frame_44
+    uvTransform: {x: 798, y: 4}
+  - name: KnightRat_Frame_45
     originalName: 
-    pivot: {x: 0.66666645, y: 0.4984185}
+    pivot: {x: 0.6666667, y: 0.7619048}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 164
+      y: 139
+      width: 72
+      height: 42
+    spriteID: 9d2d985daeb9f7941826d7c57a5f43bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 164, y: 139}
+  - name: KnightRat_Frame_46
+    originalName: 
+    pivot: {x: 0.6666667, y: 0.7111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1011,8 +1051,8 @@ ScriptedImporter:
       x: 4
       y: 139
       width: 72
-      height: 42
-    spriteID: 55c215d448fd2844fad96fec25d07feb
+      height: 45
+    spriteID: bb28852843ccd324aa004b8aba609249
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1021,38 +1061,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 139}
-  - name: KnightRat_Frame_45
+  - name: KnightRat_Frame_47
     originalName: 
-    pivot: {x: 0.6506059, y: 0.4669879}
+    pivot: {x: 0.6666667, y: 0.58928573}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 797
-      y: 4
-      width: 72
-      height: 45
-    spriteID: ca0c90fadfe12214791cabcff2e759d1
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 797, y: 4}
-  - name: KnightRat_Frame_46
-    originalName: 
-    pivot: {x: 0.6666667, y: 0.4034401}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 400
+      x: 560
       y: 4
       width: 72
       height: 56
-    spriteID: 07de4c8e4bd98cc469b37e5560954e4f
+    spriteID: 018753e2543faa945a06bd11e6f5775c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1060,19 +1080,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 400, y: 4}
-  - name: KnightRat_Frame_47
+    uvTransform: {x: 560, y: 4}
+  - name: KnightRat_Frame_48
     originalName: 
-    pivot: {x: 0.65301293, y: 0.3561772}
+    pivot: {x: 0.6571429, y: 0.5423728}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 242
+      x: 402
       y: 4
       width: 70
       height: 59
-    spriteID: 7015f3c8380329f4ea650b4cf24163ec
+    spriteID: aef635e283b0a9d42a9fe2c420d0f7d7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1080,19 +1100,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 242, y: 4}
-  - name: KnightRat_Frame_48
+    uvTransform: {x: 402, y: 4}
+  - name: KnightRat_Frame_49
     originalName: 
-    pivot: {x: 0.6626513, y: 0.3610771}
+    pivot: {x: 0.6666667, y: 0.5423728}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 84
+      x: 164
       y: 4
       width: 72
       height: 59
-    spriteID: be704c20bcfec3940b62e1422a66bd33
+    spriteID: 7665cf01691fa894a8d490f489ed8a6b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1100,8 +1120,28 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 84, y: 4}
-  - name: KnightRat_Frame_49
+    uvTransform: {x: 164, y: 4}
+  - name: KnightRat_Frame_50
+    originalName: 
+    pivot: {x: 0.6666667, y: 0.5423728}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 244
+      y: 4
+      width: 72
+      height: 59
+    spriteID: 61f0fbaf57601b942932b83b4c84c352
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 244, y: 4}
+  - name: KnightRat_Frame_51
     originalName: 
     pivot: {x: 0.4912281, y: 0.48333332}
     alignment: 9
@@ -1112,7 +1152,7 @@ ScriptedImporter:
       y: 71
       width: 57
       height: 60
-    spriteID: 7123190f947db8e4e843add69665c2b3
+    spriteID: c93c9d66d4754f447987adb664f52572
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1121,58 +1161,58 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 329, y: 71}
-  - name: KnightRat_Frame_50
-    originalName: 
-    pivot: {x: 0.5595994, y: 0.3571198}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 677
-      y: 395
-      width: 42
-      height: 59
-    spriteID: 96537b5f653c3764eb9b23c9c75f1444
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 677, y: 395}
-  - name: KnightRat_Frame_51
-    originalName: 
-    pivot: {x: 0.5477702, y: 0.34869954}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 727
-      y: 395
-      width: 42
-      height: 59
-    spriteID: 9ef2e06864e14264594138f4bdc35efb
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 727, y: 395}
   - name: KnightRat_Frame_52
     originalName: 
-    pivot: {x: 0.4747364, y: 0.3982582}
+    pivot: {x: 0.5714286, y: 0.5423728}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 814
+      y: 398
+      width: 42
+      height: 59
+    spriteID: dba6237647ace44409dc9c66bb29cbd7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 814, y: 398}
+  - name: KnightRat_Frame_53
+    originalName: 
+    pivot: {x: 0.5714286, y: 0.5423728}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 864
+      y: 398
+      width: 42
+      height: 59
+    spriteID: bf90c55eef902bf43ac2bc599e8b1dda
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 864, y: 398}
+  - name: KnightRat_Frame_54
+    originalName: 
+    pivot: {x: 0.48979592, y: 0.58928573}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 897
-      y: 189
+      y: 192
       width: 49
       height: 56
-    spriteID: 6e06b6bd2218b0e4ca20566d82cc2ebc
+    spriteID: 265c6f4a764e46f49911b6878d20e206
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1180,19 +1220,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 897, y: 189}
-  - name: KnightRat_Frame_53
+    uvTransform: {x: 897, y: 192}
+  - name: KnightRat_Frame_55
     originalName: 
-    pivot: {x: 0.39666116, y: 0.4682238}
+    pivot: {x: 0.41379312, y: 0.7111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 258
-      y: 328
+      x: 256
+      y: 398
       width: 58
       height: 45
-    spriteID: 6d9036e890ce78e43b716517ce3c0b21
+    spriteID: b253d15a1a4ebc048b216b6c891126c8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1200,19 +1240,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 258, y: 328}
-  - name: KnightRat_Frame_54
+    uvTransform: {x: 256, y: 398}
+  - name: KnightRat_Frame_56
     originalName: 
-    pivot: {x: 0.3636359, y: 0.5017871}
+    pivot: {x: 0.36363637, y: 0.7804877}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 440
-      y: 254
+      y: 257
       width: 66
       height: 41
-    spriteID: 41c6fd6efd50d3c49a4ed0222d1ed837
+    spriteID: c17545129b5dcd2408a74a7bcdc85f81
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1220,19 +1260,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 440, y: 254}
-  - name: KnightRat_Frame_55
+    uvTransform: {x: 440, y: 257}
+  - name: KnightRat_Frame_57
     originalName: 
-    pivot: {x: 0.369231, y: 0.517443}
+    pivot: {x: 0.36923078, y: 0.7804877}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 161
+      x: 321
       y: 139
       width: 65
       height: 41
-    spriteID: abe9e3e842450c94386514a519b056e0
+    spriteID: b14c2754d96a76542a20cf2d49f7e21c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1240,19 +1280,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 161, y: 139}
-  - name: KnightRat_Frame_56
+    uvTransform: {x: 321, y: 139}
+  - name: KnightRat_Frame_58
     originalName: 
-    pivot: {x: 0.3478252, y: 0.5147815}
+    pivot: {x: 0.3478261, y: 0.82051283}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 736
-      y: 254
+      y: 257
       width: 69
       height: 39
-    spriteID: da1df8e7fc62f0d459fe0cfa0700e6fd
+    spriteID: 3d53c3cf26ef7f84aae7b21b89fcd0c2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1260,19 +1300,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 736, y: 254}
-  - name: KnightRat_Frame_57
+    uvTransform: {x: 736, y: 257}
+  - name: KnightRat_Frame_59
     originalName: 
-    pivot: {x: 0.358209, y: 0.5058359}
+    pivot: {x: 0.35820895, y: 0.82051283}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 453
+      x: 814
       y: 139
       width: 67
       height: 39
-    spriteID: d546c6e3960d7bb4688811c62d4987aa
+    spriteID: 850988e5ca53829448430542efb719de
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1280,19 +1320,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 453, y: 139}
-  - name: KnightRat_Frame_58
+    uvTransform: {x: 814, y: 139}
+  - name: KnightRat_Frame_60
     originalName: 
-    pivot: {x: 0.3749521, y: 0.5058359}
+    pivot: {x: 0.36923078, y: 0.82051283}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 753
-      y: 139
+      x: 322
+      y: 398
       width: 65
       height: 39
-    spriteID: 31d4e1f6f38ef4f4e81ab39920933487
+    spriteID: fba609f10d01db244a25e8fa63e4e2e7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1300,19 +1340,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 753, y: 139}
-  - name: KnightRat_Frame_59
+    uvTransform: {x: 322, y: 398}
+  - name: KnightRat_Frame_61
     originalName: 
-    pivot: {x: 0.369009, y: 0.50204235}
+    pivot: {x: 0.39344263, y: 0.82051283}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 374
-      y: 328
+      x: 502
+      y: 467
       width: 61
       height: 39
-    spriteID: 252ad57076b0b2e46b71803eb1d7c180
+    spriteID: 36c13db02bf6f764499209ee45988726
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1320,8 +1360,28 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 374, y: 328}
-  - name: KnightRat_Frame_60
+    uvTransform: {x: 502, y: 467}
+  - name: KnightRat_Frame_62
+    originalName: 
+    pivot: {x: 0.39344263, y: 0.82051283}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 571
+      y: 467
+      width: 61
+      height: 39
+    spriteID: 23a0e338375b91a4993c1f3c0dfc49b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 571, y: 467}
+  - name: KnightRat_Frame_63
     originalName: 
     pivot: {x: 0.4912281, y: 0.48333332}
     alignment: 9
@@ -1332,7 +1392,7 @@ ScriptedImporter:
       y: 71
       width: 57
       height: 60
-    spriteID: 6900b68b5e623404686be56227794b82
+    spriteID: 6ef665504a2dfde4bb5b7712cbafad64
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1341,18 +1401,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 394, y: 71}
-  - name: KnightRat_Frame_61
+  - name: KnightRat_Frame_64
     originalName: 
-    pivot: {x: 0.4640561, y: 0.34869954}
+    pivot: {x: 0.42857146, y: 0.5423728}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 777
-      y: 395
+      x: 914
+      y: 398
       width: 42
       height: 59
-    spriteID: 4b66872be637dc14c9784fe6630c0ebc
+    spriteID: dd491ee4276448340bf104927af508dc
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1360,19 +1420,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 777, y: 395}
-  - name: KnightRat_Frame_62
+    uvTransform: {x: 914, y: 398}
+  - name: KnightRat_Frame_65
     originalName: 
-    pivot: {x: 0.46405756, y: 0.3486995}
+    pivot: {x: 0.42857146, y: 0.5423728}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 827
-      y: 395
+      x: 964
+      y: 398
       width: 42
       height: 59
-    spriteID: a8d35b6c8845fa546b7e04c73d3496a4
+    spriteID: f24097177d74836488b0f5c605f3db4c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1380,19 +1440,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 827, y: 395}
-  - name: KnightRat_Frame_63
+    uvTransform: {x: 964, y: 398}
+  - name: KnightRat_Frame_66
     originalName: 
-    pivot: {x: 0.5177289, y: 0.3982582}
+    pivot: {x: 0.51020414, y: 0.58928573}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 954
-      y: 189
+      y: 192
       width: 49
       height: 56
-    spriteID: 8049d6d163bae9d46a1f9eadc4d6f0eb
+    spriteID: 2c66efff52c83fd4d93699cb0b726a80
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1400,19 +1460,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 954, y: 189}
-  - name: KnightRat_Frame_64
+    uvTransform: {x: 954, y: 192}
+  - name: KnightRat_Frame_67
     originalName: 
-    pivot: {x: 0.6100615, y: 0.44614327}
+    pivot: {x: 0.5932203, y: 0.7111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 57
-      y: 328
+      x: 613
+      y: 139
       width: 59
       height: 45
-    spriteID: b8d31ae2164f98d4facbfe6065f9edb7
+    spriteID: 156cf514498318d48a0169c305449ab9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1420,19 +1480,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 57, y: 328}
-  - name: KnightRat_Frame_65
+    uvTransform: {x: 613, y: 139}
+  - name: KnightRat_Frame_68
     originalName: 
-    pivot: {x: 0.65141803, y: 0.4896702}
+    pivot: {x: 0.6363636, y: 0.7804877}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 514
-      y: 254
+      y: 257
       width: 66
       height: 41
-    spriteID: cc3004453d8db594d90eb18403c4b6a6
+    spriteID: 4fdb29ede0e827c4fa537cfa914ad9d1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1440,19 +1500,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 514, y: 254}
-  - name: KnightRat_Frame_66
+    uvTransform: {x: 514, y: 257}
+  - name: KnightRat_Frame_69
     originalName: 
-    pivot: {x: 0.6422119, y: 0.50837225}
+    pivot: {x: 0.63076925, y: 0.7804877}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 234
+      x: 394
       y: 139
       width: 65
       height: 41
-    spriteID: 0d799318b0cedbb4b81d4eb44a3c9eef
+    spriteID: 7f1340949cf396647a4f14725a5a9486
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1460,19 +1520,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 234, y: 139}
-  - name: KnightRat_Frame_67
+    uvTransform: {x: 394, y: 139}
+  - name: KnightRat_Frame_70
     originalName: 
-    pivot: {x: 0.6665729, y: 0.5020424}
+    pivot: {x: 0.65217394, y: 0.82051283}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 813
-      y: 254
+      y: 257
       width: 69
       height: 39
-    spriteID: af329921e96dd4740b32525f30c9e840
+    spriteID: 557e3b37b1777554c86e7e7c938b1025
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1480,19 +1540,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 813, y: 254}
-  - name: KnightRat_Frame_68
+    uvTransform: {x: 813, y: 257}
+  - name: KnightRat_Frame_71
     originalName: 
-    pivot: {x: 0.64179105, y: 0.5153714}
+    pivot: {x: 0.64179105, y: 0.82051283}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 528
+      x: 889
       y: 139
       width: 67
       height: 39
-    spriteID: 352a9dffb6fc583478d3e96929d54a78
+    spriteID: 79c1b8aae5287e44583306c1b431fa31
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1500,19 +1560,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 528, y: 139}
-  - name: KnightRat_Frame_69
+    uvTransform: {x: 889, y: 139}
+  - name: KnightRat_Frame_72
     originalName: 
-    pivot: {x: 0.62504786, y: 0.5058359}
+    pivot: {x: 0.63076925, y: 0.82051283}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 826
-      y: 139
+      x: 395
+      y: 398
       width: 65
       height: 39
-    spriteID: e12cb401212bf6b4da757766b06ff476
+    spriteID: a68fbcd14f36e3444af45b481d6b3612
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1520,19 +1580,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 826, y: 139}
-  - name: KnightRat_Frame_70
+    uvTransform: {x: 395, y: 398}
+  - name: KnightRat_Frame_73
     originalName: 
-    pivot: {x: 0.6228458, y: 0.4893032}
+    pivot: {x: 0.60655737, y: 0.82051283}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 443
-      y: 328
+      x: 640
+      y: 467
       width: 61
       height: 39
-    spriteID: 003af988d755de14ebbaa6f0bdde4f90
+    spriteID: 8fc760aff38967044a96e8f4e8120cc4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1540,8 +1600,28 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 443, y: 328}
-  - name: KnightRat_Frame_71
+    uvTransform: {x: 640, y: 467}
+  - name: KnightRat_Frame_74
+    originalName: 
+    pivot: {x: 0.60655737, y: 0.82051283}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 709
+      y: 467
+      width: 61
+      height: 39
+    spriteID: 62babfd8d715f2a4b9390bcd9a11b411
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 709, y: 467}
+  - name: KnightRat_Frame_75
     originalName: 
     pivot: {x: 0.4912281, y: 0.48333332}
     alignment: 9
@@ -1552,7 +1632,7 @@ ScriptedImporter:
       y: 71
       width: 57
       height: 60
-    spriteID: c850a9637903bf8448b4a239560724ca
+    spriteID: ec317180df75bb9478492e40a86403c5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1561,18 +1641,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 459, y: 71}
-  - name: KnightRat_Frame_72
+  - name: KnightRat_Frame_76
     originalName: 
-    pivot: {x: 0.385178, y: 0.47656485}
+    pivot: {x: 0.39189184, y: 0.82051283}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 601
-      y: 189
+      y: 192
       width: 74
       height: 39
-    spriteID: 8d9fc2b415c958e4590fbff84a228751
+    spriteID: cdce676255834844291ea3c0ba48f1f3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1580,8 +1660,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 601, y: 189}
-  - name: KnightRat_Frame_73
+    uvTransform: {x: 601, y: 192}
+  - name: KnightRat_Frame_77
     originalName: 
     pivot: {x: 0.4912281, y: 0.48333332}
     alignment: 9
@@ -1592,7 +1672,7 @@ ScriptedImporter:
       y: 71
       width: 57
       height: 60
-    spriteID: bb7cca24e80f1a74e8cfb9b6f6a45f14
+    spriteID: b4d1f2e8fe3e4934c91817f1b2f758b6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1601,18 +1681,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 524, y: 71}
-  - name: KnightRat_Frame_74
+  - name: KnightRat_Frame_78
     originalName: 
-    pivot: {x: 0.6148211, y: 0.47656485}
+    pivot: {x: 0.6081081, y: 0.82051283}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 683
-      y: 189
+      y: 192
       width: 74
       height: 39
-    spriteID: fa521451a922b5243adc501368edb1cd
+    spriteID: 96933035b00e62846917edadb72e11d9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1620,8 +1700,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 683, y: 189}
-  - name: KnightRat_Frame_75
+    uvTransform: {x: 683, y: 192}
+  - name: KnightRat_Frame_79
     originalName: 
     pivot: {x: 0.4912281, y: 0.48333332}
     alignment: 9
@@ -1632,7 +1712,7 @@ ScriptedImporter:
       y: 71
       width: 57
       height: 60
-    spriteID: c0310003ef7111245b97325fa51a13e0
+    spriteID: 67c92a7bf1b7d9a4487a940fcbc0f9fe
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1641,18 +1721,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 589, y: 71}
-  - name: KnightRat_Frame_76
+  - name: KnightRat_Frame_80
     originalName: 
-    pivot: {x: 0.37715325, y: 0.4765649}
+    pivot: {x: 0.39344263, y: 0.82051283}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 512
-      y: 328
+      x: 778
+      y: 467
       width: 61
       height: 39
-    spriteID: 41c509c06e314e547933f5eb140ba0b1
+    spriteID: 57bbf6a018f077042a0ba5a5941ad0a7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1660,19 +1740,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 512, y: 328}
-  - name: KnightRat_Frame_77
+    uvTransform: {x: 778, y: 467}
+  - name: KnightRat_Frame_81
     originalName: 
-    pivot: {x: 0.3692308, y: 0.51537144}
+    pivot: {x: 0.36923078, y: 0.82051283}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 899
-      y: 139
+      x: 468
+      y: 398
       width: 65
       height: 39
-    spriteID: 338b08ac21ebea2499d274cc45002ee1
+    spriteID: e7856bcce39312d489a2e2211e700a8e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1680,19 +1760,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 899, y: 139}
-  - name: KnightRat_Frame_78
+    uvTransform: {x: 468, y: 398}
+  - name: KnightRat_Frame_82
     originalName: 
-    pivot: {x: 0.35820895, y: 0.5058359}
+    pivot: {x: 0.35820895, y: 0.82051283}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 603
-      y: 139
+      x: 106
+      y: 398
       width: 67
       height: 39
-    spriteID: c12919fe62f2aad46b5bf57302b0d196
+    spriteID: ce21356b6c77f5f469f496bf57a8fe84
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1700,19 +1780,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 603, y: 139}
-  - name: KnightRat_Frame_79
+    uvTransform: {x: 106, y: 398}
+  - name: KnightRat_Frame_83
     originalName: 
-    pivot: {x: 0.3406257, y: 0.4893032}
+    pivot: {x: 0.3478261, y: 0.82051283}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 890
-      y: 254
+      y: 257
       width: 69
       height: 39
-    spriteID: a2b9605781da64b48973df71a56cb958
+    spriteID: 208daba2415536f4690e82b689b3cfa7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1720,19 +1800,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 890, y: 254}
-  - name: KnightRat_Frame_80
+    uvTransform: {x: 890, y: 257}
+  - name: KnightRat_Frame_84
     originalName: 
-    pivot: {x: 0.3749521, y: 0.50837225}
+    pivot: {x: 0.36923078, y: 0.7804877}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 307
+      x: 467
       y: 139
       width: 65
       height: 41
-    spriteID: c9decd4541b3b344793d1032ccff58b4
+    spriteID: 2a51b6eb12c34424c94e91850bbdc3a2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1740,19 +1820,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 307, y: 139}
-  - name: KnightRat_Frame_81
+    uvTransform: {x: 467, y: 139}
+  - name: KnightRat_Frame_85
     originalName: 
-    pivot: {x: 0.3561087, y: 0.5139049}
+    pivot: {x: 0.36363637, y: 0.7804877}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 588
-      y: 254
+      y: 257
       width: 66
       height: 41
-    spriteID: 942c9c240f5658945bf7df302dd977ce
+    spriteID: 7681cf2849a0b5248998a2e1282fbd41
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1760,19 +1840,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 588, y: 254}
-  - name: KnightRat_Frame_82
+    uvTransform: {x: 588, y: 257}
+  - name: KnightRat_Frame_86
     originalName: 
-    pivot: {x: 0.39835888, y: 0.4461433}
+    pivot: {x: 0.40677965, y: 0.7111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 124
-      y: 328
+      x: 680
+      y: 139
       width: 59
       height: 45
-    spriteID: 02a967473be342f409350db7c95c7013
+    spriteID: 820c6568a76af4a4ea8f0b1f1e4667e7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1780,19 +1860,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 124, y: 328}
-  - name: KnightRat_Frame_83
+    uvTransform: {x: 680, y: 139}
+  - name: KnightRat_Frame_87
     originalName: 
-    pivot: {x: 0.4593786, y: 0.3941089}
+    pivot: {x: 0.48979592, y: 0.58928573}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 218
-      y: 254
+      y: 257
       width: 49
       height: 56
-    spriteID: f29e8681e529b294c82c605e609f1858
+    spriteID: 2dcefe32087ccaa42be2d8a1353f9403
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1800,19 +1880,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 218, y: 254}
-  - name: KnightRat_Frame_84
+    uvTransform: {x: 218, y: 257}
+  - name: KnightRat_Frame_88
     originalName: 
-    pivot: {x: 0.535941, y: 0.3486995}
+    pivot: {x: 0.5714286, y: 0.5423728}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 877
-      y: 395
+      x: 302
+      y: 467
       width: 42
       height: 59
-    spriteID: f70ec8c1f63b32d4b8f9031d5d44549a
+    spriteID: 44e9642976283f947818b1d96d391f83
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1820,19 +1900,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 877, y: 395}
-  - name: KnightRat_Frame_85
+    uvTransform: {x: 302, y: 467}
+  - name: KnightRat_Frame_89
     originalName: 
-    pivot: {x: 0.535941, y: 0.3486995}
+    pivot: {x: 0.5714286, y: 0.5423728}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 927
-      y: 395
+      x: 352
+      y: 467
       width: 42
       height: 59
-    spriteID: 1da33065d76f32148a4b4fe892c6edee
+    spriteID: 1fcaffc4fb081574eb6bf9a4b5d8afb7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1840,8 +1920,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 927, y: 395}
-  - name: KnightRat_Frame_86
+    uvTransform: {x: 352, y: 467}
+  - name: KnightRat_Frame_90
     originalName: 
     pivot: {x: 0.4912281, y: 0.48333332}
     alignment: 9
@@ -1852,7 +1932,7 @@ ScriptedImporter:
       y: 71
       width: 57
       height: 60
-    spriteID: f2b06178e69ef1e45adabc8da3111583
+    spriteID: fe1f71e14e802cd43b43c80da1fd7996
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1861,18 +1941,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 654, y: 71}
-  - name: KnightRat_Frame_87
+  - name: KnightRat_Frame_91
     originalName: 
-    pivot: {x: 0.6228448, y: 0.5020415}
+    pivot: {x: 0.60655737, y: 0.82051283}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 581
-      y: 328
+      x: 847
+      y: 467
       width: 61
       height: 39
-    spriteID: 47d4fa5881a37254990ed07810300fe9
+    spriteID: 77588511c8688594696ae7c343b89cba
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1880,19 +1960,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 581, y: 328}
-  - name: KnightRat_Frame_88
+    uvTransform: {x: 847, y: 467}
+  - name: KnightRat_Frame_92
     originalName: 
-    pivot: {x: 0.6307688, y: 0.4893032}
+    pivot: {x: 0.63076925, y: 0.82051283}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 404
-      y: 395
+      x: 541
+      y: 398
       width: 65
       height: 39
-    spriteID: 81cab0418ee9348498ba85cbe0fd8207
+    spriteID: ce7968bdfd2cd3c4b878596cbd3dc7a5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1900,19 +1980,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 404, y: 395}
-  - name: KnightRat_Frame_89
+    uvTransform: {x: 541, y: 398}
+  - name: KnightRat_Frame_93
     originalName: 
-    pivot: {x: 0.6306899, y: 0.51537144}
+    pivot: {x: 0.64179105, y: 0.82051283}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 678
-      y: 139
+      x: 181
+      y: 398
       width: 67
       height: 39
-    spriteID: afef378db69ca6d4a80bda32afcad60d
+    spriteID: 927ea32ec9f078d4f8201c7de203b1ce
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1920,19 +2000,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 678, y: 139}
-  - name: KnightRat_Frame_90
+    uvTransform: {x: 181, y: 398}
+  - name: KnightRat_Frame_94
     originalName: 
-    pivot: {x: 0.6467842, y: 0.5058359}
+    pivot: {x: 0.65217394, y: 0.82051283}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 84
+      x: 244
       y: 139
       width: 69
       height: 39
-    spriteID: b14d794381488014689c29f14926eaa9
+    spriteID: 7a4d95ae5ce992040bd6e7120bc5c634
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1940,19 +2020,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 84, y: 139}
-  - name: KnightRat_Frame_91
+    uvTransform: {x: 244, y: 139}
+  - name: KnightRat_Frame_95
     originalName: 
-    pivot: {x: 0.63076925, y: 0.517443}
+    pivot: {x: 0.63076925, y: 0.7804877}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 380
+      x: 540
       y: 139
       width: 65
       height: 41
-    spriteID: 7e0a25639de36ca49b37d10f30cd6c0d
+    spriteID: dc3eb22293a3c3742be180b083f6520e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1960,19 +2040,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 380, y: 139}
-  - name: KnightRat_Frame_92
+    uvTransform: {x: 540, y: 139}
+  - name: KnightRat_Frame_96
     originalName: 
-    pivot: {x: 0.65894574, y: 0.5017871}
+    pivot: {x: 0.6363636, y: 0.7804877}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 662
-      y: 254
+      y: 257
       width: 66
       height: 41
-    spriteID: e43b84752f2fb1943a33d914179e0890
+    spriteID: c0bb0d37c7d3fd141acc9e2b8007d636
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1980,19 +2060,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 662, y: 254}
-  - name: KnightRat_Frame_93
+    uvTransform: {x: 662, y: 257}
+  - name: KnightRat_Frame_97
     originalName: 
-    pivot: {x: 0.62690246, y: 0.4571838}
+    pivot: {x: 0.5932203, y: 0.7111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 191
-      y: 328
+      x: 747
+      y: 139
       width: 59
       height: 45
-    spriteID: a1772ad84143c3649a7ddd301ef81d11
+    spriteID: ea68242117218394f9366bed526aec30
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -2000,19 +2080,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 191, y: 328}
-  - name: KnightRat_Frame_94
+    uvTransform: {x: 747, y: 139}
+  - name: KnightRat_Frame_98
     originalName: 
-    pivot: {x: 0.5507601, y: 0.385237}
+    pivot: {x: 0.51020414, y: 0.58928573}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 275
-      y: 254
+      y: 257
       width: 49
       height: 56
-    spriteID: adedbd1664cac0842a9632de53035c36
+    spriteID: de0f44ee5282c564bbadf46790c55b27
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -2020,19 +2100,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 275, y: 254}
-  - name: KnightRat_Frame_95
+    uvTransform: {x: 275, y: 257}
+  - name: KnightRat_Frame_99
     originalName: 
-    pivot: {x: 0.46405756, y: 0.3402787}
+    pivot: {x: 0.42857146, y: 0.5423728}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 977
-      y: 395
+      x: 402
+      y: 467
       width: 42
       height: 59
-    spriteID: 0a8cd5c15386418439d1e7b8cd380b14
+    spriteID: 9868f03b210b15347a7fcf4bf53adce0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -2040,19 +2120,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 977, y: 395}
-  - name: KnightRat_Frame_96
+    uvTransform: {x: 402, y: 467}
+  - name: KnightRat_Frame_100
     originalName: 
-    pivot: {x: 0.4640576, y: 0.3571198}
+    pivot: {x: 0.42857146, y: 0.5423728}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 324
-      y: 328
+      x: 452
+      y: 467
       width: 42
       height: 59
-    spriteID: c962389185bb5164780df3d6476c4a71
+    spriteID: 30be773ca77f3064fa4150cb5c617313
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -2060,8 +2140,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 324, y: 328}
-  - name: KnightRat_Frame_97
+    uvTransform: {x: 452, y: 467}
+  - name: KnightRat_Frame_101
     originalName: 
     pivot: {x: 0.4912281, y: 0.48333332}
     alignment: 9
@@ -2072,7 +2152,7 @@ ScriptedImporter:
       y: 71
       width: 57
       height: 60
-    spriteID: 9d3b77c792251dc4397bd25e8ef49015
+    spriteID: 5e08411bbdbc208428085bb99199dc48
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -2081,18 +2161,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 719, y: 71}
-  - name: KnightRat_Frame_98
+  - name: KnightRat_Frame_102
     originalName: 
-    pivot: {x: 0.5112152, y: 0.34869954}
+    pivot: {x: 0.5652173, y: 0.5423728}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 332
-      y: 254
+      y: 257
       width: 46
       height: 59
-    spriteID: 4b02349c9b2dcaf43ac1b0e2eee8f293
+    spriteID: bc3258a8f21944b4d8944e27dd167e34
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -2100,8 +2180,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 332, y: 254}
-  - name: KnightRat_Frame_99
+    uvTransform: {x: 332, y: 257}
+  - name: KnightRat_Frame_103
     originalName: 
     pivot: {x: 0.4912281, y: 0.48333332}
     alignment: 9
@@ -2112,7 +2192,7 @@ ScriptedImporter:
       y: 71
       width: 57
       height: 60
-    spriteID: 1af127c043eb325488d30f9ae9714fce
+    spriteID: a9d09ddd9523a5649b973cc1ba6670c1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -2121,18 +2201,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 784, y: 71}
-  - name: KnightRat_Frame_100
+  - name: KnightRat_Frame_104
     originalName: 
-    pivot: {x: 0.499584, y: 0.34869954}
+    pivot: {x: 0.43478262, y: 0.5423728}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 386
-      y: 254
+      y: 257
       width: 46
       height: 59
-    spriteID: 8ccd947ce7f45e44bb416cc646793ec0
+    spriteID: 5dfb380755fa88e4c93d887d0a53d3aa
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -2140,8 +2220,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 386, y: 254}
-  - name: KnightRat_Frame_101
+    uvTransform: {x: 386, y: 257}
+  - name: KnightRat_Frame_105
     originalName: 
     pivot: {x: 0.4912281, y: 0.48333332}
     alignment: 9
@@ -2152,7 +2232,7 @@ ScriptedImporter:
       y: 71
       width: 57
       height: 60
-    spriteID: 9db2b2ab9cb52224a91e8cffaeb4220e
+    spriteID: 5bb5ada278ef05742a44f86bcc099f38
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -2178,7 +2258,7 @@ ScriptedImporter:
         y: 16
         width: 42
         height: 59
-      spriteId: ae6cd88571246c84f85d28aa6ee93cdf
+      spriteId: 9496508c12b37af45af1322f13a6971d
     - name: KnightRat_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
@@ -2187,7 +2267,7 @@ ScriptedImporter:
         y: 19
         width: 57
         height: 60
-      spriteId: 256d2f85e7aa24f46a2cfd82abb5cb74
+      spriteId: a4b58992d7343ca47bf378b29cdd8e77
     - name: KnightRat_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
@@ -2196,7 +2276,7 @@ ScriptedImporter:
         y: 16
         width: 42
         height: 59
-      spriteId: 43cd2e584e235894cab766c62ce9722b
+      spriteId: 23a575eb42fec984ba2604b567a8cfb3
     - name: KnightRat_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
@@ -2205,7 +2285,7 @@ ScriptedImporter:
         y: 19
         width: 57
         height: 60
-      spriteId: 5d5e3761ddd730348a628757f2a9e708
+      spriteId: 2d6762a307e79af45ac14ab6420a3497
     - name: KnightRat_Frame_4
       frameIndex: 4
       additiveSortOrder: 0
@@ -2214,7 +2294,7 @@ ScriptedImporter:
         y: 16
         width: 45
         height: 59
-      spriteId: 26073a56decf6e84cb163b001b4cb51d
+      spriteId: d9906ffec0a14dd43ac184c82bac98d9
     - name: KnightRat_Frame_5
       frameIndex: 5
       additiveSortOrder: 0
@@ -2223,7 +2303,7 @@ ScriptedImporter:
         y: 16
         width: 43
         height: 61
-      spriteId: 97822cc652ffd2d4b9f59e6215e82255
+      spriteId: a2d146b343f52ce41897e65966289d14
     - name: KnightRat_Frame_6
       frameIndex: 6
       additiveSortOrder: 0
@@ -2232,7 +2312,7 @@ ScriptedImporter:
         y: 16
         width: 42
         height: 62
-      spriteId: 34cdc3473aff6d0479c754531ff6977c
+      spriteId: 3c783e4555635c747ac114907ca5beca
     - name: KnightRat_Frame_7
       frameIndex: 7
       additiveSortOrder: 0
@@ -2241,7 +2321,7 @@ ScriptedImporter:
         y: 16
         width: 42
         height: 62
-      spriteId: cb6f173cffa030545bf8b0bfd5636fa2
+      spriteId: 56187e3959298c040acf56416b45179b
     - name: KnightRat_Frame_8
       frameIndex: 8
       additiveSortOrder: 0
@@ -2250,7 +2330,7 @@ ScriptedImporter:
         y: 19
         width: 57
         height: 60
-      spriteId: 3a92b442d61582a4c841063a07e1b636
+      spriteId: 1a23639eb8bac014cbf9ccd4e9590695
     - name: KnightRat_Frame_9
       frameIndex: 9
       additiveSortOrder: 0
@@ -2259,7 +2339,7 @@ ScriptedImporter:
         y: 16
         width: 45
         height: 59
-      spriteId: 20344d51b6081e84e947193e837570e2
+      spriteId: da972835fd0a24b4a937a9c4f116377d
     - name: KnightRat_Frame_10
       frameIndex: 10
       additiveSortOrder: 0
@@ -2268,7 +2348,7 @@ ScriptedImporter:
         y: 16
         width: 43
         height: 61
-      spriteId: 92efe50f540145f488050f880cb1eaa0
+      spriteId: 0b57bcec1d9de5c4ea85bcc8295b0a37
     - name: KnightRat_Frame_11
       frameIndex: 11
       additiveSortOrder: 0
@@ -2277,7 +2357,7 @@ ScriptedImporter:
         y: 16
         width: 42
         height: 62
-      spriteId: 1ac302e78d2d4ab4a9533b9866b0b1b5
+      spriteId: 6a1b97c70af17f940838be78b4ac0d9b
     - name: KnightRat_Frame_12
       frameIndex: 12
       additiveSortOrder: 0
@@ -2286,7 +2366,7 @@ ScriptedImporter:
         y: 16
         width: 42
         height: 62
-      spriteId: 134378658382e504b88a0dd09d67bd25
+      spriteId: dcf8d5e717a3a464b9bb31005a540c5b
     - name: KnightRat_Frame_13
       frameIndex: 13
       additiveSortOrder: 0
@@ -2295,7 +2375,7 @@ ScriptedImporter:
         y: 19
         width: 57
         height: 60
-      spriteId: f843517059a0fa149ba9fc1dc1dca792
+      spriteId: f308df51544c82543b69ee2f537654c1
     - name: KnightRat_Frame_14
       frameIndex: 14
       additiveSortOrder: 0
@@ -2304,7 +2384,7 @@ ScriptedImporter:
         y: 16
         width: 42
         height: 59
-      spriteId: f9935da90353cb14cb6679ad7993e711
+      spriteId: 7ae19ac7b17223c42b40565cffaab9b8
     - name: KnightRat_Frame_15
       frameIndex: 15
       additiveSortOrder: 0
@@ -2313,7 +2393,7 @@ ScriptedImporter:
         y: 16
         width: 41
         height: 62
-      spriteId: c8e5fa38acf8b8c4c988e55a5c0dc6f9
+      spriteId: 3f97820aba75ded4db02f142f29cf698
     - name: KnightRat_Frame_16
       frameIndex: 16
       additiveSortOrder: 0
@@ -2322,7 +2402,7 @@ ScriptedImporter:
         y: 16
         width: 46
         height: 63
-      spriteId: 82330c3f675ae0a46ba2e5abda587ed9
+      spriteId: 98f51d8173701bc428ef6dc2ef7cbbc4
     - name: KnightRat_Frame_17
       frameIndex: 17
       additiveSortOrder: 0
@@ -2331,7 +2411,7 @@ ScriptedImporter:
         y: 16
         width: 45
         height: 66
-      spriteId: ef48e1f21ddb6334cb14b4e7e37d4378
+      spriteId: 60f284b727c007047a3f49f3af3823f6
     - name: KnightRat_Frame_18
       frameIndex: 18
       additiveSortOrder: 0
@@ -2340,7 +2420,7 @@ ScriptedImporter:
         y: 16
         width: 53
         height: 57
-      spriteId: fa43fc44ee7255a4ba4f113210365030
+      spriteId: 2864ba913b1a20347844b27a35da247d
     - name: KnightRat_Frame_19
       frameIndex: 19
       additiveSortOrder: 0
@@ -2349,7 +2429,7 @@ ScriptedImporter:
         y: 16
         width: 58
         height: 49
-      spriteId: d07ddcaa1ad24074698274c51b08e881
+      spriteId: cd219465067501c4db147357bf711086
     - name: KnightRat_Frame_20
       frameIndex: 20
       additiveSortOrder: 0
@@ -2358,7 +2438,7 @@ ScriptedImporter:
         y: 16
         width: 59
         height: 49
-      spriteId: 4c092b47f7a3d924b87474d83a3055e6
+      spriteId: 5282bcb0ed6a89e4db31f5d41f785cc6
     - name: KnightRat_Frame_21
       frameIndex: 21
       additiveSortOrder: 0
@@ -2367,7 +2447,7 @@ ScriptedImporter:
         y: 16
         width: 59
         height: 51
-      spriteId: 2ff4b381f114dae41bec2eee156217e7
+      spriteId: b37e839bd370fb140b63273901052d96
     - name: KnightRat_Frame_22
       frameIndex: 22
       additiveSortOrder: 0
@@ -2376,7 +2456,7 @@ ScriptedImporter:
         y: 16
         width: 59
         height: 51
-      spriteId: 333d9c543afd5534d9deb8dc87f4748e
+      spriteId: 7dca1779e34c79646bc42168c8b66ac9
     - name: KnightRat_Frame_23
       frameIndex: 23
       additiveSortOrder: 0
@@ -2385,7 +2465,7 @@ ScriptedImporter:
         y: 16
         width: 59
         height: 51
-      spriteId: 5a48a56c2ea4ecc40bc5d7922fbe669c
+      spriteId: a282835917586fe4a848c1ea416afc81
     - name: KnightRat_Frame_24
       frameIndex: 24
       additiveSortOrder: 0
@@ -2394,7 +2474,7 @@ ScriptedImporter:
         y: 16
         width: 71
         height: 52
-      spriteId: 2320ccee33dfcd64db40b11b70c07089
+      spriteId: b3ec52fa9d3ae664dbdd1a2ca9a49712
     - name: KnightRat_Frame_25
       frameIndex: 25
       additiveSortOrder: 0
@@ -2403,7 +2483,7 @@ ScriptedImporter:
         y: 16
         width: 71
         height: 48
-      spriteId: 83ce788cacf23cf4b815173b99d96f85
+      spriteId: 2745bed7760694e4e91ddb3a5877d2c1
     - name: KnightRat_Frame_26
       frameIndex: 26
       additiveSortOrder: 0
@@ -2412,7 +2492,7 @@ ScriptedImporter:
         y: 16
         width: 72
         height: 42
-      spriteId: 9e48467f821123945a9c73932c7068b5
+      spriteId: f2c96557056deeb499c2d42a436e3312
     - name: KnightRat_Frame_27
       frameIndex: 27
       additiveSortOrder: 0
@@ -2421,7 +2501,7 @@ ScriptedImporter:
         y: 16
         width: 72
         height: 45
-      spriteId: bc75b6d732b36e14d94a199a0d6265a3
+      spriteId: 810a1ddf81775994ca44104d3caa450a
     - name: KnightRat_Frame_28
       frameIndex: 28
       additiveSortOrder: 0
@@ -2430,7 +2510,7 @@ ScriptedImporter:
         y: 15
         width: 72
         height: 56
-      spriteId: 2e39ee23b7a2541448d2677b1bb21432
+      spriteId: 98ec49accb4ebff4bb34444c21c13bba
     - name: KnightRat_Frame_29
       frameIndex: 29
       additiveSortOrder: 0
@@ -2439,7 +2519,7 @@ ScriptedImporter:
         y: 16
         width: 70
         height: 59
-      spriteId: 3630ce65951fe0f48a5f413ab118694d
+      spriteId: 0aa4ae1099ea4614ab7d7b76f4e0c8fd
     - name: KnightRat_Frame_30
       frameIndex: 30
       additiveSortOrder: 0
@@ -2448,88 +2528,88 @@ ScriptedImporter:
         y: 16
         width: 72
         height: 59
-      spriteId: 110bc43fb1b30424eb7142813df2e75c
+      spriteId: 92874ee42709001488597a278b1f8fdf
     - name: KnightRat_Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
+      cellRect:
+        x: 24
+        y: 16
+        width: 72
+        height: 59
+      spriteId: 0039124e25bd33d42b0ccbd07c3f9fbd
+    - name: KnightRat_Frame_32
+      frameIndex: 32
       additiveSortOrder: 0
       cellRect:
         x: 20
         y: 19
         width: 57
         height: 60
-      spriteId: d5926cd4c93a93947afd4013382048af
-    - name: KnightRat_Frame_32
-      frameIndex: 32
+      spriteId: cce677dffa6326d4e8669d1472ab3bf7
+    - name: KnightRat_Frame_33
+      frameIndex: 33
       additiveSortOrder: 0
       cellRect:
         x: 30
         y: 16
         width: 42
         height: 59
-      spriteId: 88b1a59145aa1494bbe2b4bd0ad6be56
-    - name: KnightRat_Frame_33
-      frameIndex: 33
+      spriteId: b6fe59566e3992549852cb8daaa942d7
+    - name: KnightRat_Frame_34
+      frameIndex: 34
       additiveSortOrder: 0
       cellRect:
         x: 31
         y: 16
         width: 41
         height: 62
-      spriteId: 30cfc01261531e54aae1b8a542308a5e
-    - name: KnightRat_Frame_34
-      frameIndex: 34
+      spriteId: ff8832623e521184ea4516f150a49ed9
+    - name: KnightRat_Frame_35
+      frameIndex: 35
       additiveSortOrder: 0
       cellRect:
         x: 26
         y: 16
         width: 46
         height: 63
-      spriteId: 5f3230b24b74db74eb80f480a47746c9
-    - name: KnightRat_Frame_35
-      frameIndex: 35
+      spriteId: 8f77131db7c65fa4cafa54d9ac33c73c
+    - name: KnightRat_Frame_36
+      frameIndex: 36
       additiveSortOrder: 0
       cellRect:
         x: 27
         y: 16
         width: 45
         height: 66
-      spriteId: 544c426d2d376664abf2f839e1447651
-    - name: KnightRat_Frame_36
-      frameIndex: 36
+      spriteId: b819a41826f84904bb15c42eb348c661
+    - name: KnightRat_Frame_37
+      frameIndex: 37
       additiveSortOrder: 0
       cellRect:
         x: 23
         y: 16
         width: 53
         height: 57
-      spriteId: 2a79322a5a6910e4691e1c9ceccd8750
-    - name: KnightRat_Frame_37
-      frameIndex: 37
+      spriteId: 1f45fcb4de1965f428028c664c201716
+    - name: KnightRat_Frame_38
+      frameIndex: 38
       additiveSortOrder: 0
       cellRect:
         x: 24
         y: 16
         width: 58
         height: 49
-      spriteId: 9d6dfc19bc630fd40bf722e07a1eefe3
-    - name: KnightRat_Frame_38
-      frameIndex: 38
+      spriteId: 9daa7633405c97247b64fc7dd106eb01
+    - name: KnightRat_Frame_39
+      frameIndex: 39
       additiveSortOrder: 0
       cellRect:
         x: 25
         y: 16
         width: 59
         height: 49
-      spriteId: b6e3aba537a0739459cefdbf7a7c1ad0
-    - name: KnightRat_Frame_39
-      frameIndex: 39
-      additiveSortOrder: 0
-      cellRect:
-        x: 27
-        y: 16
-        width: 59
-        height: 51
-      spriteId: 1b35e0b3e92eb6b4fac6be0647b591dd
+      spriteId: ae54ef17718bccc4e90035dde29789fc
     - name: KnightRat_Frame_40
       frameIndex: 40
       additiveSortOrder: 0
@@ -2538,7 +2618,7 @@ ScriptedImporter:
         y: 16
         width: 59
         height: 51
-      spriteId: c8eb906d3e5243847986ce76b4c78c2e
+      spriteId: 05b145d3c1fe15a409ba7d635a1b2d46
     - name: KnightRat_Frame_41
       frameIndex: 41
       additiveSortOrder: 0
@@ -2547,16 +2627,16 @@ ScriptedImporter:
         y: 16
         width: 59
         height: 51
-      spriteId: 1d7026892ce61f248a74f5bed0f12ed8
+      spriteId: fdc59d815d0733b488f693e89b0cafc2
     - name: KnightRat_Frame_42
       frameIndex: 42
       additiveSortOrder: 0
       cellRect:
-        x: 1
+        x: 27
         y: 16
-        width: 71
-        height: 52
-      spriteId: b5b7a51a0100687408edc104f8968e4b
+        width: 59
+        height: 51
+      spriteId: 20e870a2c05ddd4419e97a7775fc01fd
     - name: KnightRat_Frame_43
       frameIndex: 43
       additiveSortOrder: 0
@@ -2564,17 +2644,17 @@ ScriptedImporter:
         x: 1
         y: 16
         width: 71
-        height: 48
-      spriteId: 21dcb2335b303bc46b7c1a6c53cec66f
+        height: 52
+      spriteId: 5ee2c232680d60f41b7a5484bb7b90a1
     - name: KnightRat_Frame_44
       frameIndex: 44
       additiveSortOrder: 0
       cellRect:
-        x: 0
+        x: 1
         y: 16
-        width: 72
-        height: 42
-      spriteId: 55c215d448fd2844fad96fec25d07feb
+        width: 71
+        height: 48
+      spriteId: 9be3ad9ce75edb84187b99e103c226bd
     - name: KnightRat_Frame_45
       frameIndex: 45
       additiveSortOrder: 0
@@ -2582,215 +2662,215 @@ ScriptedImporter:
         x: 0
         y: 16
         width: 72
-        height: 45
-      spriteId: ca0c90fadfe12214791cabcff2e759d1
+        height: 42
+      spriteId: 9d2d985daeb9f7941826d7c57a5f43bf
     - name: KnightRat_Frame_46
       frameIndex: 46
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 16
+        width: 72
+        height: 45
+      spriteId: bb28852843ccd324aa004b8aba609249
+    - name: KnightRat_Frame_47
+      frameIndex: 47
       additiveSortOrder: 0
       cellRect:
         x: 0
         y: 15
         width: 72
         height: 56
-      spriteId: 07de4c8e4bd98cc469b37e5560954e4f
-    - name: KnightRat_Frame_47
-      frameIndex: 47
+      spriteId: 018753e2543faa945a06bd11e6f5775c
+    - name: KnightRat_Frame_48
+      frameIndex: 48
       additiveSortOrder: 0
       cellRect:
         x: 2
         y: 16
         width: 70
         height: 59
-      spriteId: 7015f3c8380329f4ea650b4cf24163ec
-    - name: KnightRat_Frame_48
-      frameIndex: 48
+      spriteId: aef635e283b0a9d42a9fe2c420d0f7d7
+    - name: KnightRat_Frame_49
+      frameIndex: 49
       additiveSortOrder: 0
       cellRect:
         x: 0
         y: 16
         width: 72
         height: 59
-      spriteId: be704c20bcfec3940b62e1422a66bd33
-    - name: KnightRat_Frame_49
-      frameIndex: 49
+      spriteId: 7665cf01691fa894a8d490f489ed8a6b
+    - name: KnightRat_Frame_50
+      frameIndex: 50
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 16
+        width: 72
+        height: 59
+      spriteId: 61f0fbaf57601b942932b83b4c84c352
+    - name: KnightRat_Frame_51
+      frameIndex: 51
       additiveSortOrder: 0
       cellRect:
         x: 20
         y: 19
         width: 57
         height: 60
-      spriteId: 7123190f947db8e4e843add69665c2b3
-    - name: KnightRat_Frame_50
-      frameIndex: 50
-      additiveSortOrder: 0
-      cellRect:
-        x: 24
-        y: 16
-        width: 42
-        height: 59
-      spriteId: 96537b5f653c3764eb9b23c9c75f1444
-    - name: KnightRat_Frame_51
-      frameIndex: 51
-      additiveSortOrder: 0
-      cellRect:
-        x: 24
-        y: 16
-        width: 42
-        height: 59
-      spriteId: 9ef2e06864e14264594138f4bdc35efb
+      spriteId: c93c9d66d4754f447987adb664f52572
     - name: KnightRat_Frame_52
       frameIndex: 52
       additiveSortOrder: 0
       cellRect:
         x: 24
-        y: 15
-        width: 49
-        height: 56
-      spriteId: 6e06b6bd2218b0e4ca20566d82cc2ebc
+        y: 16
+        width: 42
+        height: 59
+      spriteId: dba6237647ace44409dc9c66bb29cbd7
     - name: KnightRat_Frame_53
       frameIndex: 53
       additiveSortOrder: 0
       cellRect:
         x: 24
         y: 16
-        width: 58
-        height: 45
-      spriteId: 6d9036e890ce78e43b716517ce3c0b21
+        width: 42
+        height: 59
+      spriteId: bf90c55eef902bf43ac2bc599e8b1dda
     - name: KnightRat_Frame_54
       frameIndex: 54
       additiveSortOrder: 0
       cellRect:
         x: 24
-        y: 16
-        width: 66
-        height: 41
-      spriteId: 41c6fd6efd50d3c49a4ed0222d1ed837
+        y: 15
+        width: 49
+        height: 56
+      spriteId: 265c6f4a764e46f49911b6878d20e206
     - name: KnightRat_Frame_55
       frameIndex: 55
       additiveSortOrder: 0
       cellRect:
         x: 24
         y: 16
-        width: 65
-        height: 41
-      spriteId: abe9e3e842450c94386514a519b056e0
+        width: 58
+        height: 45
+      spriteId: b253d15a1a4ebc048b216b6c891126c8
     - name: KnightRat_Frame_56
       frameIndex: 56
       additiveSortOrder: 0
       cellRect:
         x: 24
         y: 16
-        width: 69
-        height: 39
-      spriteId: da1df8e7fc62f0d459fe0cfa0700e6fd
+        width: 66
+        height: 41
+      spriteId: c17545129b5dcd2408a74a7bcdc85f81
     - name: KnightRat_Frame_57
       frameIndex: 57
       additiveSortOrder: 0
       cellRect:
         x: 24
         y: 16
-        width: 67
-        height: 39
-      spriteId: d546c6e3960d7bb4688811c62d4987aa
+        width: 65
+        height: 41
+      spriteId: b14c2754d96a76542a20cf2d49f7e21c
     - name: KnightRat_Frame_58
       frameIndex: 58
       additiveSortOrder: 0
       cellRect:
         x: 24
         y: 16
-        width: 65
+        width: 69
         height: 39
-      spriteId: 31d4e1f6f38ef4f4e81ab39920933487
+      spriteId: 3d53c3cf26ef7f84aae7b21b89fcd0c2
     - name: KnightRat_Frame_59
       frameIndex: 59
       additiveSortOrder: 0
       cellRect:
         x: 24
         y: 16
-        width: 61
+        width: 67
         height: 39
-      spriteId: 252ad57076b0b2e46b71803eb1d7c180
+      spriteId: 850988e5ca53829448430542efb719de
     - name: KnightRat_Frame_60
       frameIndex: 60
+      additiveSortOrder: 0
+      cellRect:
+        x: 24
+        y: 16
+        width: 65
+        height: 39
+      spriteId: fba609f10d01db244a25e8fa63e4e2e7
+    - name: KnightRat_Frame_61
+      frameIndex: 61
+      additiveSortOrder: 0
+      cellRect:
+        x: 24
+        y: 16
+        width: 61
+        height: 39
+      spriteId: 36c13db02bf6f764499209ee45988726
+    - name: KnightRat_Frame_62
+      frameIndex: 62
+      additiveSortOrder: 0
+      cellRect:
+        x: 24
+        y: 16
+        width: 61
+        height: 39
+      spriteId: 23a0e338375b91a4993c1f3c0dfc49b7
+    - name: KnightRat_Frame_63
+      frameIndex: 63
       additiveSortOrder: 0
       cellRect:
         x: 20
         y: 19
         width: 57
         height: 60
-      spriteId: 6900b68b5e623404686be56227794b82
-    - name: KnightRat_Frame_61
-      frameIndex: 61
+      spriteId: 6ef665504a2dfde4bb5b7712cbafad64
+    - name: KnightRat_Frame_64
+      frameIndex: 64
       additiveSortOrder: 0
       cellRect:
         x: 30
         y: 16
         width: 42
         height: 59
-      spriteId: 4b66872be637dc14c9784fe6630c0ebc
-    - name: KnightRat_Frame_62
-      frameIndex: 62
+      spriteId: dd491ee4276448340bf104927af508dc
+    - name: KnightRat_Frame_65
+      frameIndex: 65
       additiveSortOrder: 0
       cellRect:
         x: 30
         y: 16
         width: 42
         height: 59
-      spriteId: a8d35b6c8845fa546b7e04c73d3496a4
-    - name: KnightRat_Frame_63
-      frameIndex: 63
+      spriteId: f24097177d74836488b0f5c605f3db4c
+    - name: KnightRat_Frame_66
+      frameIndex: 66
       additiveSortOrder: 0
       cellRect:
         x: 23
         y: 15
         width: 49
         height: 56
-      spriteId: 8049d6d163bae9d46a1f9eadc4d6f0eb
-    - name: KnightRat_Frame_64
-      frameIndex: 64
+      spriteId: 2c66efff52c83fd4d93699cb0b726a80
+    - name: KnightRat_Frame_67
+      frameIndex: 67
       additiveSortOrder: 0
       cellRect:
         x: 13
         y: 16
         width: 59
         height: 45
-      spriteId: b8d31ae2164f98d4facbfe6065f9edb7
-    - name: KnightRat_Frame_65
-      frameIndex: 65
+      spriteId: 156cf514498318d48a0169c305449ab9
+    - name: KnightRat_Frame_68
+      frameIndex: 68
       additiveSortOrder: 0
       cellRect:
         x: 6
         y: 16
         width: 66
         height: 41
-      spriteId: cc3004453d8db594d90eb18403c4b6a6
-    - name: KnightRat_Frame_66
-      frameIndex: 66
-      additiveSortOrder: 0
-      cellRect:
-        x: 7
-        y: 16
-        width: 65
-        height: 41
-      spriteId: 0d799318b0cedbb4b81d4eb44a3c9eef
-    - name: KnightRat_Frame_67
-      frameIndex: 67
-      additiveSortOrder: 0
-      cellRect:
-        x: 3
-        y: 16
-        width: 69
-        height: 39
-      spriteId: af329921e96dd4740b32525f30c9e840
-    - name: KnightRat_Frame_68
-      frameIndex: 68
-      additiveSortOrder: 0
-      cellRect:
-        x: 5
-        y: 16
-        width: 67
-        height: 39
-      spriteId: 352a9dffb6fc583478d3e96929d54a78
+      spriteId: 4fdb29ede0e827c4fa537cfa914ad9d1
     - name: KnightRat_Frame_69
       frameIndex: 69
       additiveSortOrder: 0
@@ -2798,53 +2878,53 @@ ScriptedImporter:
         x: 7
         y: 16
         width: 65
-        height: 39
-      spriteId: e12cb401212bf6b4da757766b06ff476
+        height: 41
+      spriteId: 7f1340949cf396647a4f14725a5a9486
     - name: KnightRat_Frame_70
       frameIndex: 70
+      additiveSortOrder: 0
+      cellRect:
+        x: 3
+        y: 16
+        width: 69
+        height: 39
+      spriteId: 557e3b37b1777554c86e7e7c938b1025
+    - name: KnightRat_Frame_71
+      frameIndex: 71
+      additiveSortOrder: 0
+      cellRect:
+        x: 5
+        y: 16
+        width: 67
+        height: 39
+      spriteId: 79c1b8aae5287e44583306c1b431fa31
+    - name: KnightRat_Frame_72
+      frameIndex: 72
+      additiveSortOrder: 0
+      cellRect:
+        x: 7
+        y: 16
+        width: 65
+        height: 39
+      spriteId: a68fbcd14f36e3444af45b481d6b3612
+    - name: KnightRat_Frame_73
+      frameIndex: 73
       additiveSortOrder: 0
       cellRect:
         x: 11
         y: 16
         width: 61
         height: 39
-      spriteId: 003af988d755de14ebbaa6f0bdde4f90
-    - name: KnightRat_Frame_71
-      frameIndex: 71
-      additiveSortOrder: 0
-      cellRect:
-        x: 20
-        y: 19
-        width: 57
-        height: 60
-      spriteId: c850a9637903bf8448b4a239560724ca
-    - name: KnightRat_Frame_72
-      frameIndex: 72
-      additiveSortOrder: 0
-      cellRect:
-        x: 19
-        y: 16
-        width: 74
-        height: 39
-      spriteId: 8d9fc2b415c958e4590fbff84a228751
-    - name: KnightRat_Frame_73
-      frameIndex: 73
-      additiveSortOrder: 0
-      cellRect:
-        x: 20
-        y: 19
-        width: 57
-        height: 60
-      spriteId: bb7cca24e80f1a74e8cfb9b6f6a45f14
+      spriteId: 8fc760aff38967044a96e8f4e8120cc4
     - name: KnightRat_Frame_74
       frameIndex: 74
       additiveSortOrder: 0
       cellRect:
-        x: 3
+        x: 11
         y: 16
-        width: 74
+        width: 61
         height: 39
-      spriteId: fa521451a922b5243adc501368edb1cd
+      spriteId: 62babfd8d715f2a4b9390bcd9a11b411
     - name: KnightRat_Frame_75
       frameIndex: 75
       additiveSortOrder: 0
@@ -2853,232 +2933,232 @@ ScriptedImporter:
         y: 19
         width: 57
         height: 60
-      spriteId: c0310003ef7111245b97325fa51a13e0
+      spriteId: ec317180df75bb9478492e40a86403c5
     - name: KnightRat_Frame_76
       frameIndex: 76
       additiveSortOrder: 0
       cellRect:
-        x: 24
+        x: 19
         y: 16
-        width: 61
+        width: 74
         height: 39
-      spriteId: 41c509c06e314e547933f5eb140ba0b1
+      spriteId: cdce676255834844291ea3c0ba48f1f3
     - name: KnightRat_Frame_77
       frameIndex: 77
       additiveSortOrder: 0
       cellRect:
-        x: 24
-        y: 16
-        width: 65
-        height: 39
-      spriteId: 338b08ac21ebea2499d274cc45002ee1
+        x: 20
+        y: 19
+        width: 57
+        height: 60
+      spriteId: b4d1f2e8fe3e4934c91817f1b2f758b6
     - name: KnightRat_Frame_78
       frameIndex: 78
       additiveSortOrder: 0
       cellRect:
-        x: 24
+        x: 3
         y: 16
-        width: 67
+        width: 74
         height: 39
-      spriteId: c12919fe62f2aad46b5bf57302b0d196
+      spriteId: 96933035b00e62846917edadb72e11d9
     - name: KnightRat_Frame_79
       frameIndex: 79
       additiveSortOrder: 0
       cellRect:
-        x: 24
-        y: 16
-        width: 69
-        height: 39
-      spriteId: a2b9605781da64b48973df71a56cb958
+        x: 20
+        y: 19
+        width: 57
+        height: 60
+      spriteId: 67c92a7bf1b7d9a4487a940fcbc0f9fe
     - name: KnightRat_Frame_80
       frameIndex: 80
       additiveSortOrder: 0
       cellRect:
         x: 24
         y: 16
-        width: 65
-        height: 41
-      spriteId: c9decd4541b3b344793d1032ccff58b4
+        width: 61
+        height: 39
+      spriteId: 57bbf6a018f077042a0ba5a5941ad0a7
     - name: KnightRat_Frame_81
       frameIndex: 81
       additiveSortOrder: 0
       cellRect:
         x: 24
         y: 16
-        width: 66
-        height: 41
-      spriteId: 942c9c240f5658945bf7df302dd977ce
+        width: 65
+        height: 39
+      spriteId: e7856bcce39312d489a2e2211e700a8e
     - name: KnightRat_Frame_82
       frameIndex: 82
       additiveSortOrder: 0
       cellRect:
         x: 24
         y: 16
-        width: 59
-        height: 45
-      spriteId: 02a967473be342f409350db7c95c7013
+        width: 67
+        height: 39
+      spriteId: ce21356b6c77f5f469f496bf57a8fe84
     - name: KnightRat_Frame_83
       frameIndex: 83
       additiveSortOrder: 0
       cellRect:
         x: 24
-        y: 15
-        width: 49
-        height: 56
-      spriteId: f29e8681e529b294c82c605e609f1858
+        y: 16
+        width: 69
+        height: 39
+      spriteId: 208daba2415536f4690e82b689b3cfa7
     - name: KnightRat_Frame_84
       frameIndex: 84
       additiveSortOrder: 0
       cellRect:
         x: 24
         y: 16
-        width: 42
-        height: 59
-      spriteId: f70ec8c1f63b32d4b8f9031d5d44549a
+        width: 65
+        height: 41
+      spriteId: 2a51b6eb12c34424c94e91850bbdc3a2
     - name: KnightRat_Frame_85
       frameIndex: 85
       additiveSortOrder: 0
       cellRect:
         x: 24
         y: 16
-        width: 42
-        height: 59
-      spriteId: 1da33065d76f32148a4b4fe892c6edee
+        width: 66
+        height: 41
+      spriteId: 7681cf2849a0b5248998a2e1282fbd41
     - name: KnightRat_Frame_86
       frameIndex: 86
+      additiveSortOrder: 0
+      cellRect:
+        x: 24
+        y: 16
+        width: 59
+        height: 45
+      spriteId: 820c6568a76af4a4ea8f0b1f1e4667e7
+    - name: KnightRat_Frame_87
+      frameIndex: 87
+      additiveSortOrder: 0
+      cellRect:
+        x: 24
+        y: 15
+        width: 49
+        height: 56
+      spriteId: 2dcefe32087ccaa42be2d8a1353f9403
+    - name: KnightRat_Frame_88
+      frameIndex: 88
+      additiveSortOrder: 0
+      cellRect:
+        x: 24
+        y: 16
+        width: 42
+        height: 59
+      spriteId: 44e9642976283f947818b1d96d391f83
+    - name: KnightRat_Frame_89
+      frameIndex: 89
+      additiveSortOrder: 0
+      cellRect:
+        x: 24
+        y: 16
+        width: 42
+        height: 59
+      spriteId: 1fcaffc4fb081574eb6bf9a4b5d8afb7
+    - name: KnightRat_Frame_90
+      frameIndex: 90
       additiveSortOrder: 0
       cellRect:
         x: 20
         y: 19
         width: 57
         height: 60
-      spriteId: f2b06178e69ef1e45adabc8da3111583
-    - name: KnightRat_Frame_87
-      frameIndex: 87
+      spriteId: fe1f71e14e802cd43b43c80da1fd7996
+    - name: KnightRat_Frame_91
+      frameIndex: 91
       additiveSortOrder: 0
       cellRect:
         x: 11
         y: 16
         width: 61
         height: 39
-      spriteId: 47d4fa5881a37254990ed07810300fe9
-    - name: KnightRat_Frame_88
-      frameIndex: 88
+      spriteId: 77588511c8688594696ae7c343b89cba
+    - name: KnightRat_Frame_92
+      frameIndex: 92
       additiveSortOrder: 0
       cellRect:
         x: 7
         y: 16
         width: 65
         height: 39
-      spriteId: 81cab0418ee9348498ba85cbe0fd8207
-    - name: KnightRat_Frame_89
-      frameIndex: 89
+      spriteId: ce7968bdfd2cd3c4b878596cbd3dc7a5
+    - name: KnightRat_Frame_93
+      frameIndex: 93
       additiveSortOrder: 0
       cellRect:
         x: 5
         y: 16
         width: 67
         height: 39
-      spriteId: afef378db69ca6d4a80bda32afcad60d
-    - name: KnightRat_Frame_90
-      frameIndex: 90
+      spriteId: 927ea32ec9f078d4f8201c7de203b1ce
+    - name: KnightRat_Frame_94
+      frameIndex: 94
       additiveSortOrder: 0
       cellRect:
         x: 3
         y: 16
         width: 69
         height: 39
-      spriteId: b14d794381488014689c29f14926eaa9
-    - name: KnightRat_Frame_91
-      frameIndex: 91
+      spriteId: 7a4d95ae5ce992040bd6e7120bc5c634
+    - name: KnightRat_Frame_95
+      frameIndex: 95
       additiveSortOrder: 0
       cellRect:
         x: 7
         y: 16
         width: 65
         height: 41
-      spriteId: 7e0a25639de36ca49b37d10f30cd6c0d
-    - name: KnightRat_Frame_92
-      frameIndex: 92
+      spriteId: dc3eb22293a3c3742be180b083f6520e
+    - name: KnightRat_Frame_96
+      frameIndex: 96
       additiveSortOrder: 0
       cellRect:
         x: 6
         y: 16
         width: 66
         height: 41
-      spriteId: e43b84752f2fb1943a33d914179e0890
-    - name: KnightRat_Frame_93
-      frameIndex: 93
+      spriteId: c0bb0d37c7d3fd141acc9e2b8007d636
+    - name: KnightRat_Frame_97
+      frameIndex: 97
       additiveSortOrder: 0
       cellRect:
         x: 13
         y: 16
         width: 59
         height: 45
-      spriteId: a1772ad84143c3649a7ddd301ef81d11
-    - name: KnightRat_Frame_94
-      frameIndex: 94
+      spriteId: ea68242117218394f9366bed526aec30
+    - name: KnightRat_Frame_98
+      frameIndex: 98
       additiveSortOrder: 0
       cellRect:
         x: 23
         y: 15
         width: 49
         height: 56
-      spriteId: adedbd1664cac0842a9632de53035c36
-    - name: KnightRat_Frame_95
-      frameIndex: 95
-      additiveSortOrder: 0
-      cellRect:
-        x: 30
-        y: 16
-        width: 42
-        height: 59
-      spriteId: 0a8cd5c15386418439d1e7b8cd380b14
-    - name: KnightRat_Frame_96
-      frameIndex: 96
-      additiveSortOrder: 0
-      cellRect:
-        x: 30
-        y: 16
-        width: 42
-        height: 59
-      spriteId: c962389185bb5164780df3d6476c4a71
-    - name: KnightRat_Frame_97
-      frameIndex: 97
-      additiveSortOrder: 0
-      cellRect:
-        x: 20
-        y: 19
-        width: 57
-        height: 60
-      spriteId: 9d3b77c792251dc4397bd25e8ef49015
-    - name: KnightRat_Frame_98
-      frameIndex: 98
-      additiveSortOrder: 0
-      cellRect:
-        x: 22
-        y: 16
-        width: 46
-        height: 59
-      spriteId: 4b02349c9b2dcaf43ac1b0e2eee8f293
+      spriteId: de0f44ee5282c564bbadf46790c55b27
     - name: KnightRat_Frame_99
       frameIndex: 99
       additiveSortOrder: 0
       cellRect:
-        x: 20
-        y: 19
-        width: 57
-        height: 60
-      spriteId: 1af127c043eb325488d30f9ae9714fce
+        x: 30
+        y: 16
+        width: 42
+        height: 59
+      spriteId: 9868f03b210b15347a7fcf4bf53adce0
     - name: KnightRat_Frame_100
       frameIndex: 100
       additiveSortOrder: 0
       cellRect:
-        x: 28
+        x: 30
         y: 16
-        width: 46
+        width: 42
         height: 59
-      spriteId: 8ccd947ce7f45e44bb416cc646793ec0
+      spriteId: 30be773ca77f3064fa4150cb5c617313
     - name: KnightRat_Frame_101
       frameIndex: 101
       additiveSortOrder: 0
@@ -3087,7 +3167,43 @@ ScriptedImporter:
         y: 19
         width: 57
         height: 60
-      spriteId: 9db2b2ab9cb52224a91e8cffaeb4220e
+      spriteId: 5e08411bbdbc208428085bb99199dc48
+    - name: KnightRat_Frame_102
+      frameIndex: 102
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 16
+        width: 46
+        height: 59
+      spriteId: bc3258a8f21944b4d8944e27dd167e34
+    - name: KnightRat_Frame_103
+      frameIndex: 103
+      additiveSortOrder: 0
+      cellRect:
+        x: 20
+        y: 19
+        width: 57
+        height: 60
+      spriteId: a9d09ddd9523a5649b973cc1ba6670c1
+    - name: KnightRat_Frame_104
+      frameIndex: 104
+      additiveSortOrder: 0
+      cellRect:
+        x: 28
+        y: 16
+        width: 46
+        height: 59
+      spriteId: 5dfb380755fa88e4c93d887d0a53d3aa
+    - name: KnightRat_Frame_105
+      frameIndex: 105
+      additiveSortOrder: 0
+      cellRect:
+        x: 20
+        y: 19
+        width: 57
+        height: 60
+      spriteId: 5bb5ada278ef05742a44f86bcc099f38
     linkedCells: []
     parentIndex: -1
   platformSettings:
