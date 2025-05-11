@@ -123,7 +123,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: KnightRat_Frame_0
     originalName: 
-    pivot: {x: 0.5714286, y: 0.5423728}
+    pivot: {x: 0.6321309, y: 0.36232227}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -163,7 +163,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 71}
   - name: KnightRat_Frame_2
     originalName: 
-    pivot: {x: 0.42857146, y: 0.5423728}
+    pivot: {x: 0.38304356, y: 0.3623223}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -203,7 +203,7 @@ ScriptedImporter:
     uvTransform: {x: 69, y: 71}
   - name: KnightRat_Frame_4
     originalName: 
-    pivot: {x: 0.53333336, y: 0.5423728}
+    pivot: {x: 0.5856771, y: 0.36139122}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -223,7 +223,7 @@ ScriptedImporter:
     uvTransform: {x: 967, y: 257}
   - name: KnightRat_Frame_5
     originalName: 
-    pivot: {x: 0.55813956, y: 0.52459013}
+    pivot: {x: 0.61770594, y: 0.3779097}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -243,7 +243,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 398}
   - name: KnightRat_Frame_6
     originalName: 
-    pivot: {x: 0.5476191, y: 0.51612896}
+    pivot: {x: 0.5835574, y: 0.3974452}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -263,7 +263,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 467}
   - name: KnightRat_Frame_7
     originalName: 
-    pivot: {x: 0.5476191, y: 0.51612896}
+    pivot: {x: 0.5772387, y: 0.4024279}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -303,7 +303,7 @@ ScriptedImporter:
     uvTransform: {x: 134, y: 71}
   - name: KnightRat_Frame_9
     originalName: 
-    pivot: {x: 0.4666667, y: 0.5423728}
+    pivot: {x: 0.4168382, y: 0.3650171}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -323,7 +323,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 331}
   - name: KnightRat_Frame_10
     originalName: 
-    pivot: {x: 0.44186047, y: 0.52459013}
+    pivot: {x: 0.389734, y: 0.38286003}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -343,7 +343,7 @@ ScriptedImporter:
     uvTransform: {x: 55, y: 398}
   - name: KnightRat_Frame_11
     originalName: 
-    pivot: {x: 0.45238096, y: 0.51612896}
+    pivot: {x: 0.4128881, y: 0.4024279}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -363,7 +363,7 @@ ScriptedImporter:
     uvTransform: {x: 104, y: 467}
   - name: KnightRat_Frame_12
     originalName: 
-    pivot: {x: 0.45238096, y: 0.51612896}
+    pivot: {x: 0.4030148, y: 0.39239553}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -403,7 +403,7 @@ ScriptedImporter:
     uvTransform: {x: 199, y: 71}
   - name: KnightRat_Frame_14
     originalName: 
-    pivot: {x: 0.5714286, y: 0.5423728}
+    pivot: {x: 0.6220136, y: 0.3623223}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -423,7 +423,7 @@ ScriptedImporter:
     uvTransform: {x: 714, y: 398}
   - name: KnightRat_Frame_15
     originalName: 
-    pivot: {x: 0.58536583, y: 0.51612896}
+    pivot: {x: 0.6409934, y: 0.3455771}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -443,7 +443,7 @@ ScriptedImporter:
     uvTransform: {x: 204, y: 467}
   - name: KnightRat_Frame_16
     originalName: 
-    pivot: {x: 0.5217391, y: 0.5079365}
+    pivot: {x: 0.5729911, y: 0.33686417}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -463,7 +463,7 @@ ScriptedImporter:
     uvTransform: {x: 110, y: 257}
   - name: KnightRat_Frame_17
     originalName: 
-    pivot: {x: 0.53333336, y: 0.48484847}
+    pivot: {x: 0.5586103, y: 0.3297424}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -483,7 +483,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 257}
   - name: KnightRat_Frame_18
     originalName: 
-    pivot: {x: 0.52830195, y: 0.56140345}
+    pivot: {x: 0.5736706, y: 0.3764359}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -503,7 +503,7 @@ ScriptedImporter:
     uvTransform: {x: 957, y: 4}
   - name: KnightRat_Frame_19
     originalName: 
-    pivot: {x: 0.586207, y: 0.6530612}
+    pivot: {x: 0.6237961, y: 0.4306009}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -523,7 +523,7 @@ ScriptedImporter:
     uvTransform: {x: 765, y: 192}
   - name: KnightRat_Frame_20
     originalName: 
-    pivot: {x: 0.6101695, y: 0.6530612}
+    pivot: {x: 0.6504801, y: 0.4346457}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -543,7 +543,7 @@ ScriptedImporter:
     uvTransform: {x: 467, y: 192}
   - name: KnightRat_Frame_21
     originalName: 
-    pivot: {x: 0.64406776, y: 0.62745094}
+    pivot: {x: 0.6830993, y: 0.43641272}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -563,7 +563,7 @@ ScriptedImporter:
     uvTransform: {x: 65, y: 192}
   - name: KnightRat_Frame_22
     originalName: 
-    pivot: {x: 0.64406776, y: 0.62745094}
+    pivot: {x: 0.68910426, y: 0.4398861}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -583,7 +583,7 @@ ScriptedImporter:
     uvTransform: {x: 132, y: 192}
   - name: KnightRat_Frame_23
     originalName: 
-    pivot: {x: 0.64406776, y: 0.62745094}
+    pivot: {x: 0.6830993, y: 0.43988606}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -603,7 +603,7 @@ ScriptedImporter:
     uvTransform: {x: 199, y: 192}
   - name: KnightRat_Frame_24
     originalName: 
-    pivot: {x: 0.33802816, y: 0.6153846}
+    pivot: {x: 0.3745005, y: 0.39128926}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -623,7 +623,7 @@ ScriptedImporter:
     uvTransform: {x: 640, y: 4}
   - name: KnightRat_Frame_25
     originalName: 
-    pivot: {x: 0.33802816, y: 0.6666666}
+    pivot: {x: 0.3745005, y: 0.4431647}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -643,7 +643,7 @@ ScriptedImporter:
     uvTransform: {x: 914, y: 71}
   - name: KnightRat_Frame_26
     originalName: 
-    pivot: {x: 0.33333334, y: 0.7619048}
+    pivot: {x: 0.3682008, y: 0.5136174}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -663,7 +663,7 @@ ScriptedImporter:
     uvTransform: {x: 84, y: 139}
   - name: KnightRat_Frame_27
     originalName: 
-    pivot: {x: 0.33333334, y: 0.7111111}
+    pivot: {x: 0.3667297, y: 0.46859804}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -683,7 +683,7 @@ ScriptedImporter:
     uvTransform: {x: 877, y: 4}
   - name: KnightRat_Frame_28
     originalName: 
-    pivot: {x: 0.33333334, y: 0.58928573}
+    pivot: {x: 0.3692991, y: 0.39771256}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -703,7 +703,7 @@ ScriptedImporter:
     uvTransform: {x: 480, y: 4}
   - name: KnightRat_Frame_29
     originalName: 
-    pivot: {x: 0.34285715, y: 0.5423728}
+    pivot: {x: 0.37985054, y: 0.3542702}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -723,7 +723,7 @@ ScriptedImporter:
     uvTransform: {x: 324, y: 4}
   - name: KnightRat_Frame_30
     originalName: 
-    pivot: {x: 0.33333334, y: 0.5423728}
+    pivot: {x: 0.3641614, y: 0.36054033}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -743,7 +743,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: KnightRat_Frame_31
     originalName: 
-    pivot: {x: 0.33333334, y: 0.5423728}
+    pivot: {x: 0.36673015, y: 0.3605403}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -783,7 +783,7 @@ ScriptedImporter:
     uvTransform: {x: 264, y: 71}
   - name: KnightRat_Frame_33
     originalName: 
-    pivot: {x: 0.42857146, y: 0.5423728}
+    pivot: {x: 0.383045, y: 0.36232227}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -803,7 +803,7 @@ ScriptedImporter:
     uvTransform: {x: 764, y: 398}
   - name: KnightRat_Frame_34
     originalName: 
-    pivot: {x: 0.41463417, y: 0.51612896}
+    pivot: {x: 0.35900655, y: 0.3489212}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -823,7 +823,7 @@ ScriptedImporter:
     uvTransform: {x: 253, y: 467}
   - name: KnightRat_Frame_35
     originalName: 
-    pivot: {x: 0.47826084, y: 0.5079365}
+    pivot: {x: 0.4233478, y: 0.3395371}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -843,7 +843,7 @@ ScriptedImporter:
     uvTransform: {x: 164, y: 257}
   - name: KnightRat_Frame_36
     originalName: 
-    pivot: {x: 0.4666667, y: 0.48484847}
+    pivot: {x: 0.4363081, y: 0.32562718}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -863,7 +863,7 @@ ScriptedImporter:
     uvTransform: {x: 57, y: 257}
   - name: KnightRat_Frame_37
     originalName: 
-    pivot: {x: 0.47169816, y: 0.56140345}
+    pivot: {x: 0.42579845, y: 0.3749786}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -883,7 +883,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 192}
   - name: KnightRat_Frame_38
     originalName: 
-    pivot: {x: 0.41379312, y: 0.6530612}
+    pivot: {x: 0.372788, y: 0.43464568}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -903,7 +903,7 @@ ScriptedImporter:
     uvTransform: {x: 831, y: 192}
   - name: KnightRat_Frame_39
     originalName: 
-    pivot: {x: 0.3898305, y: 0.6530612}
+    pivot: {x: 0.34952042, y: 0.4346457}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -923,7 +923,7 @@ ScriptedImporter:
     uvTransform: {x: 534, y: 192}
   - name: KnightRat_Frame_40
     originalName: 
-    pivot: {x: 0.35593218, y: 0.62745094}
+    pivot: {x: 0.31690022, y: 0.4398861}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -943,7 +943,7 @@ ScriptedImporter:
     uvTransform: {x: 266, y: 192}
   - name: KnightRat_Frame_41
     originalName: 
-    pivot: {x: 0.35593218, y: 0.62745094}
+    pivot: {x: 0.31990233, y: 0.4398861}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -963,7 +963,7 @@ ScriptedImporter:
     uvTransform: {x: 333, y: 192}
   - name: KnightRat_Frame_42
     originalName: 
-    pivot: {x: 0.35593218, y: 0.62745094}
+    pivot: {x: 0.3122631, y: 0.43703118}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -983,7 +983,7 @@ ScriptedImporter:
     uvTransform: {x: 400, y: 192}
   - name: KnightRat_Frame_43
     originalName: 
-    pivot: {x: 0.6619718, y: 0.6153846}
+    pivot: {x: 0.6281042, y: 0.3877322}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1003,7 +1003,7 @@ ScriptedImporter:
     uvTransform: {x: 719, y: 4}
   - name: KnightRat_Frame_44
     originalName: 
-    pivot: {x: 0.6619718, y: 0.6666666}
+    pivot: {x: 0.628105, y: 0.43931067}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1023,7 +1023,7 @@ ScriptedImporter:
     uvTransform: {x: 798, y: 4}
   - name: KnightRat_Frame_45
     originalName: 
-    pivot: {x: 0.6666667, y: 0.7619048}
+    pivot: {x: 0.634481, y: 0.5136174}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1043,7 +1043,7 @@ ScriptedImporter:
     uvTransform: {x: 164, y: 139}
   - name: KnightRat_Frame_46
     originalName: 
-    pivot: {x: 0.6666667, y: 0.7111111}
+    pivot: {x: 0.6347687, y: 0.4744846}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1063,7 +1063,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 139}
   - name: KnightRat_Frame_47
     originalName: 
-    pivot: {x: 0.6666667, y: 0.58928573}
+    pivot: {x: 0.6307008, y: 0.39771256}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1083,7 +1083,7 @@ ScriptedImporter:
     uvTransform: {x: 560, y: 4}
   - name: KnightRat_Frame_48
     originalName: 
-    pivot: {x: 0.6571429, y: 0.5423728}
+    pivot: {x: 0.6227918, y: 0.3636754}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1103,7 +1103,7 @@ ScriptedImporter:
     uvTransform: {x: 402, y: 4}
   - name: KnightRat_Frame_49
     originalName: 
-    pivot: {x: 0.6666667, y: 0.5423728}
+    pivot: {x: 0.63326985, y: 0.3636754}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1123,7 +1123,7 @@ ScriptedImporter:
     uvTransform: {x: 164, y: 4}
   - name: KnightRat_Frame_50
     originalName: 
-    pivot: {x: 0.6666667, y: 0.5423728}
+    pivot: {x: 0.63326985, y: 0.3574053}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1163,7 +1163,7 @@ ScriptedImporter:
     uvTransform: {x: 329, y: 71}
   - name: KnightRat_Frame_52
     originalName: 
-    pivot: {x: 0.5714286, y: 0.5423728}
+    pivot: {x: 0.6270723, y: 0.36232227}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1183,7 +1183,7 @@ ScriptedImporter:
     uvTransform: {x: 814, y: 398}
   - name: KnightRat_Frame_53
     originalName: 
-    pivot: {x: 0.5714286, y: 0.5423728}
+    pivot: {x: 0.6270723, y: 0.3623223}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1203,7 +1203,7 @@ ScriptedImporter:
     uvTransform: {x: 864, y: 398}
   - name: KnightRat_Frame_54
     originalName: 
-    pivot: {x: 0.48979592, y: 0.58928573}
+    pivot: {x: 0.5383338, y: 0.3981721}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1223,7 +1223,7 @@ ScriptedImporter:
     uvTransform: {x: 897, y: 192}
   - name: KnightRat_Frame_55
     originalName: 
-    pivot: {x: 0.41379312, y: 0.7111111}
+    pivot: {x: 0.4524394, y: 0.4727356}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1243,7 +1243,7 @@ ScriptedImporter:
     uvTransform: {x: 256, y: 398}
   - name: KnightRat_Frame_56
     originalName: 
-    pivot: {x: 0.36363637, y: 0.7804877}
+    pivot: {x: 0.3942543, y: 0.521727}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1263,7 +1263,7 @@ ScriptedImporter:
     uvTransform: {x: 440, y: 257}
   - name: KnightRat_Frame_57
     originalName: 
-    pivot: {x: 0.36923078, y: 0.7804877}
+    pivot: {x: 0.4078529, y: 0.5214345}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1283,7 +1283,7 @@ ScriptedImporter:
     uvTransform: {x: 321, y: 139}
   - name: KnightRat_Frame_58
     originalName: 
-    pivot: {x: 0.3478261, y: 0.82051283}
+    pivot: {x: 0.3819943, y: 0.5225752}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1303,7 +1303,7 @@ ScriptedImporter:
     uvTransform: {x: 736, y: 257}
   - name: KnightRat_Frame_59
     originalName: 
-    pivot: {x: 0.35820895, y: 0.82051283}
+    pivot: {x: 0.3956782, y: 0.5184651}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1323,7 +1323,7 @@ ScriptedImporter:
     uvTransform: {x: 814, y: 139}
   - name: KnightRat_Frame_60
     originalName: 
-    pivot: {x: 0.36923078, y: 0.82051283}
+    pivot: {x: 0.40864116, y: 0.5167283}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1343,7 +1343,7 @@ ScriptedImporter:
     uvTransform: {x: 322, y: 398}
   - name: KnightRat_Frame_61
     originalName: 
-    pivot: {x: 0.39344263, y: 0.82051283}
+    pivot: {x: 0.43083215, y: 0.5281137}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1363,7 +1363,7 @@ ScriptedImporter:
     uvTransform: {x: 502, y: 467}
   - name: KnightRat_Frame_62
     originalName: 
-    pivot: {x: 0.39344263, y: 0.82051283}
+    pivot: {x: 0.4308622, y: 0.513236}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1403,7 +1403,7 @@ ScriptedImporter:
     uvTransform: {x: 394, y: 71}
   - name: KnightRat_Frame_64
     originalName: 
-    pivot: {x: 0.42857146, y: 0.5423728}
+    pivot: {x: 0.3729263, y: 0.36232227}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1423,7 +1423,7 @@ ScriptedImporter:
     uvTransform: {x: 914, y: 398}
   - name: KnightRat_Frame_65
     originalName: 
-    pivot: {x: 0.42857146, y: 0.5423728}
+    pivot: {x: 0.3729277, y: 0.36232227}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1443,7 +1443,7 @@ ScriptedImporter:
     uvTransform: {x: 964, y: 398}
   - name: KnightRat_Frame_66
     originalName: 
-    pivot: {x: 0.51020414, y: 0.58928573}
+    pivot: {x: 0.4657132, y: 0.3981721}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1463,7 +1463,7 @@ ScriptedImporter:
     uvTransform: {x: 954, y: 192}
   - name: KnightRat_Frame_67
     originalName: 
-    pivot: {x: 0.5932203, y: 0.7111111}
+    pivot: {x: 0.5572158, y: 0.4793762}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1483,7 +1483,7 @@ ScriptedImporter:
     uvTransform: {x: 613, y: 139}
   - name: KnightRat_Frame_68
     originalName: 
-    pivot: {x: 0.6363636, y: 0.7804877}
+    pivot: {x: 0.6006423, y: 0.525835}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1503,7 +1503,7 @@ ScriptedImporter:
     uvTransform: {x: 514, y: 257}
   - name: KnightRat_Frame_69
     originalName: 
-    pivot: {x: 0.63076925, y: 0.7804877}
+    pivot: {x: 0.5951172, y: 0.5261446}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1523,7 +1523,7 @@ ScriptedImporter:
     uvTransform: {x: 394, y: 139}
   - name: KnightRat_Frame_70
     originalName: 
-    pivot: {x: 0.65217394, y: 0.82051283}
+    pivot: {x: 0.61800575, y: 0.526893}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1543,7 +1543,7 @@ ScriptedImporter:
     uvTransform: {x: 813, y: 257}
   - name: KnightRat_Frame_71
     originalName: 
-    pivot: {x: 0.64179105, y: 0.82051283}
+    pivot: {x: 0.60720325, y: 0.5283681}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1563,7 +1563,7 @@ ScriptedImporter:
     uvTransform: {x: 889, y: 139}
   - name: KnightRat_Frame_72
     originalName: 
-    pivot: {x: 0.63076925, y: 0.82051283}
+    pivot: {x: 0.5962862, y: 0.52493834}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1583,7 +1583,7 @@ ScriptedImporter:
     uvTransform: {x: 395, y: 398}
   - name: KnightRat_Frame_73
     originalName: 
-    pivot: {x: 0.60655737, y: 0.82051283}
+    pivot: {x: 0.5753734, y: 0.52786803}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1603,7 +1603,7 @@ ScriptedImporter:
     uvTransform: {x: 640, y: 467}
   - name: KnightRat_Frame_74
     originalName: 
-    pivot: {x: 0.60655737, y: 0.82051283}
+    pivot: {x: 0.5722556, y: 0.5229907}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1643,7 +1643,7 @@ ScriptedImporter:
     uvTransform: {x: 459, y: 71}
   - name: KnightRat_Frame_76
     originalName: 
-    pivot: {x: 0.39189184, y: 0.82051283}
+    pivot: {x: 0.4240319, y: 0.51560193}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1683,7 +1683,7 @@ ScriptedImporter:
     uvTransform: {x: 524, y: 71}
   - name: KnightRat_Frame_78
     originalName: 
-    pivot: {x: 0.6081081, y: 0.82051283}
+    pivot: {x: 0.575969, y: 0.5206839}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1723,7 +1723,7 @@ ScriptedImporter:
     uvTransform: {x: 589, y: 71}
   - name: KnightRat_Frame_80
     originalName: 
-    pivot: {x: 0.39344263, y: 0.82051283}
+    pivot: {x: 0.433981, y: 0.52786803}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1743,7 +1743,7 @@ ScriptedImporter:
     uvTransform: {x: 778, y: 467}
   - name: KnightRat_Frame_81
     originalName: 
-    pivot: {x: 0.36923078, y: 0.82051283}
+    pivot: {x: 0.40617862, y: 0.5126225}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1763,7 +1763,7 @@ ScriptedImporter:
     uvTransform: {x: 468, y: 398}
   - name: KnightRat_Frame_82
     originalName: 
-    pivot: {x: 0.35820895, y: 0.82051283}
+    pivot: {x: 0.394053, y: 0.5208333}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1783,7 +1783,7 @@ ScriptedImporter:
     uvTransform: {x: 106, y: 398}
   - name: KnightRat_Frame_83
     originalName: 
-    pivot: {x: 0.3478261, y: 0.82051283}
+    pivot: {x: 0.37955287, y: 0.5182573}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1803,7 +1803,7 @@ ScriptedImporter:
     uvTransform: {x: 890, y: 257}
   - name: KnightRat_Frame_84
     originalName: 
-    pivot: {x: 0.36923078, y: 0.7804877}
+    pivot: {x: 0.4048819, y: 0.5214345}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1823,7 +1823,7 @@ ScriptedImporter:
     uvTransform: {x: 467, y: 139}
   - name: KnightRat_Frame_85
     originalName: 
-    pivot: {x: 0.36363637, y: 0.7804877}
+    pivot: {x: 0.39935672, y: 0.5217278}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1843,7 +1843,7 @@ ScriptedImporter:
     uvTransform: {x: 588, y: 257}
   - name: KnightRat_Frame_86
     originalName: 
-    pivot: {x: 0.40677965, y: 0.7111111}
+    pivot: {x: 0.4526026, y: 0.47937623}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1863,7 +1863,7 @@ ScriptedImporter:
     uvTransform: {x: 680, y: 139}
   - name: KnightRat_Frame_87
     originalName: 
-    pivot: {x: 0.48979592, y: 0.58928573}
+    pivot: {x: 0.5413467, y: 0.39983585}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1883,7 +1883,7 @@ ScriptedImporter:
     uvTransform: {x: 218, y: 257}
   - name: KnightRat_Frame_88
     originalName: 
-    pivot: {x: 0.5714286, y: 0.5423728}
+    pivot: {x: 0.6158586, y: 0.35963467}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1903,7 +1903,7 @@ ScriptedImporter:
     uvTransform: {x: 302, y: 467}
   - name: KnightRat_Frame_89
     originalName: 
-    pivot: {x: 0.5714286, y: 0.5423728}
+    pivot: {x: 0.6257317, y: 0.36314884}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1943,7 +1943,7 @@ ScriptedImporter:
     uvTransform: {x: 654, y: 71}
   - name: KnightRat_Frame_91
     originalName: 
-    pivot: {x: 0.60655737, y: 0.82051283}
+    pivot: {x: 0.5722556, y: 0.5181134}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1963,7 +1963,7 @@ ScriptedImporter:
     uvTransform: {x: 847, y: 467}
   - name: KnightRat_Frame_92
     originalName: 
-    pivot: {x: 0.63076925, y: 0.82051283}
+    pivot: {x: 0.59628624, y: 0.5208333}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1983,7 +1983,7 @@ ScriptedImporter:
     uvTransform: {x: 541, y: 398}
   - name: KnightRat_Frame_93
     originalName: 
-    pivot: {x: 0.64179105, y: 0.82051283}
+    pivot: {x: 0.6083369, y: 0.5249383}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2003,7 +2003,7 @@ ScriptedImporter:
     uvTransform: {x: 181, y: 398}
   - name: KnightRat_Frame_94
     originalName: 
-    pivot: {x: 0.65217394, y: 0.82051283}
+    pivot: {x: 0.6185886, y: 0.52341676}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2023,7 +2023,7 @@ ScriptedImporter:
     uvTransform: {x: 244, y: 139}
   - name: KnightRat_Frame_95
     originalName: 
-    pivot: {x: 0.63076925, y: 0.7804877}
+    pivot: {x: 0.5980882, y: 0.5261446}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2043,7 +2043,7 @@ ScriptedImporter:
     uvTransform: {x: 540, y: 139}
   - name: KnightRat_Frame_96
     originalName: 
-    pivot: {x: 0.6363636, y: 0.7804877}
+    pivot: {x: 0.6006423, y: 0.52583426}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2063,7 +2063,7 @@ ScriptedImporter:
     uvTransform: {x: 662, y: 257}
   - name: KnightRat_Frame_97
     originalName: 
-    pivot: {x: 0.5932203, y: 0.7111111}
+    pivot: {x: 0.5539427, y: 0.47937623}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2083,7 +2083,7 @@ ScriptedImporter:
     uvTransform: {x: 747, y: 139}
   - name: KnightRat_Frame_98
     originalName: 
-    pivot: {x: 0.51020414, y: 0.58928573}
+    pivot: {x: 0.4620897, y: 0.3998364}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2103,7 +2103,7 @@ ScriptedImporter:
     uvTransform: {x: 275, y: 257}
   - name: KnightRat_Frame_99
     originalName: 
-    pivot: {x: 0.42857146, y: 0.5423728}
+    pivot: {x: 0.36933246, y: 0.366663}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2123,7 +2123,7 @@ ScriptedImporter:
     uvTransform: {x: 402, y: 467}
   - name: KnightRat_Frame_100
     originalName: 
-    pivot: {x: 0.42857146, y: 0.5423728}
+    pivot: {x: 0.3792056, y: 0.366663}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2163,7 +2163,7 @@ ScriptedImporter:
     uvTransform: {x: 719, y: 71}
   - name: KnightRat_Frame_102
     originalName: 
-    pivot: {x: 0.5652173, y: 0.5423728}
+    pivot: {x: 0.572539, y: 0.3654107}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -2203,7 +2203,7 @@ ScriptedImporter:
     uvTransform: {x: 784, y: 71}
   - name: KnightRat_Frame_104
     originalName: 
-    pivot: {x: 0.43478262, y: 0.5423728}
+    pivot: {x: 0.4274611, y: 0.36541075}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:

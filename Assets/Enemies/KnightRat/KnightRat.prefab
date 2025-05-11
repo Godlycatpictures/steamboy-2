@@ -171,7 +171,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.5, y: 1}
+  m_Size: {x: 1.1, y: 1.4}
   m_Direction: 0
 --- !u!114 &8843403837140083020
 MonoBehaviour:
@@ -242,4 +242,6 @@ MonoBehaviour:
   isHurt: 0
   slashing: 0
   lunging: 0
-  slashPrefab: {fileID: 0}
+  canLunge: 1
+  slashPrefab: {fileID: 8875575363412579763, guid: 35471d93f63bde24a920ce6020355a9c, type: 3}
+  lungePrefab: {fileID: 191461022624492413, guid: 739ece1135c999047a28f48cdcd225a1, type: 3}

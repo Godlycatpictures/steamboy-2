@@ -18,12 +18,16 @@ public class KnightRatAi : MonoBehaviour
     public bool isHurt;
     public bool slashing;
     public bool lunging;
+    public bool canLunge = true;
+    public bool inRange;
 
     private Animator animator;
     private Rigidbody2D rb;
     private Transform player;
 
     public GameObject slashPrefab;
+    public GameObject lungePrefab;
+
 
     void Start()
     {
@@ -39,21 +43,21 @@ public class KnightRatAi : MonoBehaviour
         if (slashCooldown > 0) slashCooldown -= Time.deltaTime;
         if (lungeCooldown > 0) lungeCooldown -= Time.deltaTime;
 
+        // Don’t interrupt attacks by forcibly zeroing velocity here
         if (isHurt || slashing || lunging)
         {
-            // Do nothing during attack or hurt
             return;
         }
 
-        if (distanceToPlayer <= attackRange && slashCooldown <= 0f)
+        if (distanceToPlayer <= attackRange && slashCooldown <= 0f && !lunging && !slashing)
         {
             StartCoroutine(SlashAttack());
         }
-        else if (distanceToPlayer <= detectionRange && lungeCooldown <= 0f)
+        else if (distanceToPlayer <= detectionRange && lungeCooldown <= 0f && !lunging && !slashing && canLunge)
         {
             StartCoroutine(LungeAttack());
         }
-        else if (distanceToPlayer <= detectionRange)
+        else if (distanceToPlayer <= detectionRange && !inRange)
         {
             MoveTowards(player.position);
             isMoving = true;
@@ -62,6 +66,14 @@ public class KnightRatAi : MonoBehaviour
         {
             rb.velocity = Vector2.zero;
             isMoving = false;
+        }
+        if(distanceToPlayer <= attackRange)
+        {
+            inRange = true;
+        }
+        else
+        {
+            inRange = false;
         }
 
         xVelocity = rb.velocity.x;
@@ -81,7 +93,7 @@ public class KnightRatAi : MonoBehaviour
         isMoving = false;
         rb.velocity = Vector2.zero;
 
-        yield return new WaitForSeconds(1.10f); // Wind-up
+        yield return new WaitForSeconds(1.1f); // Wind-up
 
         if (slashPrefab != null)
         {
@@ -89,34 +101,46 @@ public class KnightRatAi : MonoBehaviour
             Instantiate(slashPrefab, (Vector2)transform.position + offset, Quaternion.identity);
         }
 
-        yield return new WaitForSeconds(0.9f); // Recovery
+        yield return new WaitForSeconds(0.5f); // Recovery
 
         slashing = false;
-        slashCooldown = 2f;
+        slashCooldown = 5f;
     }
 
     private IEnumerator LungeAttack()
     {
         isMoving = true;
+        canLunge = false;
 
-        // Brief walk toward player to lock in direction
-        Vector2 direction = ((Vector2)player.position - (Vector2)transform.position).normalized;
-        rb.velocity = direction * speed;
-        yield return new WaitForSeconds(1.3f);
-        // Begin lunge
+        // Lock in direction at the start
+        Vector2 lockedDirection = ((Vector2)player.position - (Vector2)transform.position).normalized;
+
+        // Brief approach
+        rb.velocity = lockedDirection * speed;
+        yield return new WaitForSeconds(1f);
+
+        // Wind-up
+        rb.velocity = Vector2.zero;
         isMoving = false;
-        rb.velocity = Vector2.zero;
         lunging = true;
-        rb.velocity = direction * lungeSpeed;
 
-        yield return new WaitForSeconds(0.5f); // Lunge movement time
+        yield return new WaitForSeconds(1.3f);
 
-        lunging = false;
+        // Lunge!
+        rb.velocity = lockedDirection * lungeSpeed;
+
+        Instantiate(lungePrefab, transform.position, Quaternion.identity);
+
+        yield return new WaitForSeconds(0.5f);
+
+        // End lunge
         rb.velocity = Vector2.zero;
-                
-        yield return new WaitForSeconds(1f); // Lunge exiting time
+        lunging = false;
 
-        lungeCooldown = 5f;
+        yield return new WaitForSeconds(1f);
+
+        canLunge = true;
+        lungeCooldown = 6f;
     }
 
     private void FixedUpdate()
