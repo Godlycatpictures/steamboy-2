@@ -109,9 +109,6 @@ public void UnlockUpgrade(string upgradeName)
             break;
     }
 }
-
-
-
  public void LevelUp()
 {
     xp -= xpToNextLevel;
@@ -126,13 +123,9 @@ public void UnlockUpgrade(string upgradeName)
 public void HpUp(){
 numOfHearts++;
 health = numOfHearts;
-
-
-
 }
 }
-    // Metod för att hantera level-up
-
+  
  
 
    

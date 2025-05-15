@@ -5,6 +5,7 @@ using UnityEngine;
 public class Death : MonoBehaviour
 {
 public SceneInfo sceneInfo;
+public GameObject DeathScreen; // Reference to the death screen UI prefab
 
 void Start()
 {
@@ -14,7 +15,7 @@ void Start()
     // Update is called once per frame
     void Update()
     {
-        if (sceneInfo != null && sceneInfo.health <= 0)
+        if (sceneInfo != null && sceneInfo.health <= 0) // Ensure health is public or has a getter
         {
             PlayerDeath();
             
@@ -22,14 +23,13 @@ void Start()
     }
     public void PlayerDeath()
     {
-        Debug.Log("Player Destroyed!");
-        
-       
+        Debug.Log("Player Destroyed!");     
+    
         if (sceneInfo != null)
         {
-            sceneInfo.ResetSceneInfo(); // Add XP when enemy dies
-            Destroy(gameObject);
-            //Inztantiate(DeathScreen); Death screen
+            sceneInfo.ResetSceneInfo(); // Reset the scene info
+            Instantiate(DeathScreen); // Instantiate the death screen UI
+          
         }
     }
 }
