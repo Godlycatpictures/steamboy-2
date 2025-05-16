@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4548910893535913921}
   - component: {fileID: 5063824681568999086}
   - component: {fileID: 5587938475418426608}
-  m_Layer: 7
+  m_Layer: 12
   m_Name: MaggotAttack
   m_TagString: EnemyProjectile
   m_Icon: {fileID: 0}

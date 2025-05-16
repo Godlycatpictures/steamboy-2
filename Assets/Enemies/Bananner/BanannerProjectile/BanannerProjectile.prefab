@@ -199,7 +199,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b0808b9bc72e2743929110af8b447b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  chainEffectPrefab: {fileID: 0}
+  deathEffect: {fileID: 3371569424538963305, guid: 6d641abc6feff6243b715e789fd5d454, type: 3}
+  gorePrefabs: []
+  bloodSplats: []
   health: 2
   xp: 0
-  deathEffect: {fileID: 3371569424538963305, guid: 6d641abc6feff6243b715e789fd5d454, type: 3}
+  goreAmount: 5
+  goreSpreadForce: 5
+  goreLifetime: 2
+  bloodAmount: 3
   sceneInfo: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}

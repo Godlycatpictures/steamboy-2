@@ -119,6 +119,7 @@ MonoBehaviour:
   rerollButton: {fileID: 8992436186412231075}
   upgradeManager: {fileID: 9027462057278006376, guid: 39428bb45a018144c93109de50a50c60, type: 3}
   upgradeCanvas: {fileID: 123218032139269102}
+  sceneInfo: {fileID: 0}
   allUpgradeButtons:
   - {fileID: 1075551463410475521}
   - {fileID: 5781845061587358419}
@@ -816,7 +817,7 @@ RectTransform:
   m_GameObject: {fileID: 5372637356931271965}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.8, y: 1.8, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8347810354721462983}
