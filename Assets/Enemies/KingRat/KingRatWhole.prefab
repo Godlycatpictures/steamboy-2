@@ -239,13 +239,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 149571cdf707ae24ca6e202726f542b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scepterHand: {fileID: 7390370519760307655}
+  orbHand: {fileID: 768516939934799579}
+  ratAnimator: {fileID: 3305785927842791729}
   moveCooldown: 5
   dashCooldown: 7
   moveSpeed: 1.5
   dashForce: 10
-  scepterHand: {fileID: 0}
-  orbHand: {fileID: 0}
-  player: {fileID: 0}
 --- !u!1001 &5941500362782545024
 PrefabInstance:
   m_ObjectHideFlags: 0
