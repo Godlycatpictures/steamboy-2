@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 204446870208147771}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.0215364, y: 0.30603403, z: 0}
+  m_LocalPosition: {x: 7.6307964, y: 4.571214, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -127,8 +127,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d34cc0f9f4721954b9f1a8021b60ff1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
   life: 3
-  impactEffect: {fileID: 3371569424538963305, guid: ea74ace770f24484e844cee7ac573ade, type: 3}
+  impactEffect: {fileID: 3371569424538963305, guid: d47eb068787fec041879b4c884af5262, type: 3}
 --- !u!58 &130834987950195391
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -185,7 +186,7 @@ TrailRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -205,8 +206,8 @@ TrailRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Time: 1
+  m_SortingOrder: 10
+  m_Time: 0.5
   m_PreviewTimeScale: 1
   m_Parameters:
     serializedVersion: 3
@@ -216,7 +217,7 @@ TrailRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.10059166
+        value: 0.09470177
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -226,11 +227,11 @@ TrailRenderer:
       - serializedVersion: 3
         time: 1
         value: 0
-        inSlope: 0.0000029515973
-        outSlope: 0.0000029515973
+        inSlope: 0
+        outSlope: 0
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.1223591
+        inWeight: 0
         outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -238,7 +239,7 @@ TrailRenderer:
     colorGradient:
       serializedVersion: 2
       key0: {r: 1, g: 0, b: 0, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 0, b: 0, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}

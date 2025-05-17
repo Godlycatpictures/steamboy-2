@@ -14,8 +14,9 @@ GameObject:
   - component: {fileID: 7377168757716939594}
   - component: {fileID: 7878722516450719504}
   - component: {fileID: 5572283888500296175}
-  - component: {fileID: 5427352533575367726}
-  m_Layer: 6
+  - component: {fileID: 8927344474251039835}
+  - component: {fileID: -2582622510209639531}
+  m_Layer: 13
   m_Name: Scepter
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -200,7 +201,8 @@ MonoBehaviour:
   goreLifetime: 2
   bloodAmount: 3
   sceneInfo: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
---- !u!114 &5427352533575367726
+  gore: 0
+--- !u!114 &8927344474251039835
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -209,15 +211,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 8709817361601677139}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a825efb9161075c458a46e6e4ef0d712, type: 3}
+  m_Script: {fileID: 11500000, guid: 7c01b667b718da94d84ebb798b0f1af8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ratKing: {fileID: 1217281988699320126, guid: b717749887ed6ab41a6ba61a436fdee8, type: 3}
-  shootPoint: {fileID: 3817836206320193863}
+  meleeRange: 3
   projectilePrefab: {fileID: 204446870208147771, guid: 6a885605293b62c4a8f1a1b721bbd8e9, type: 3}
-  hoverDistance: 1.5
-  fireInterval: 4
-  swingCooldown: 6
-  burstDelay: 0.3
-  burstCount: 3
-  projectileSpeed: 6
+  burstCount: 5
+  burstInterval: 0.1
+  cooldown: 4
+--- !u!114 &-2582622510209639531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8709817361601677139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 932355c404c5b134dbdc67e628f70910, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  head: {fileID: 0}
+  offset: {x: 0, y: 0}
+  stiffness: 10
+  damping: 5

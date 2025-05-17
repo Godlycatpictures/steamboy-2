@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -7966453126895898506}
   - component: {fileID: -1596966664200345843}
   - component: {fileID: 6476899154473506775}
-  - component: {fileID: 492210219934283422}
+  - component: {fileID: -3793706247362316487}
   m_Layer: 6
   m_Name: KingRat
   m_TagString: Enemy
@@ -225,7 +225,8 @@ MonoBehaviour:
   goreLifetime: 2
   bloodAmount: 3
   sceneInfo: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
---- !u!114 &492210219934283422
+  gore: 0
+--- !u!114 &-3793706247362316487
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -234,6 +235,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 4425496699058054660}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 149571cdf707ae24ca6e202726f542b3, type: 3}
+  m_Script: {fileID: 11500000, guid: fe5c6a7454f278d489d97411579d6d4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 2
+  dashSpeed: 6
+  dashCooldown: 5
+  animator: {fileID: -1596966664200345843}

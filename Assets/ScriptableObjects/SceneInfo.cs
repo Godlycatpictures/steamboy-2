@@ -46,6 +46,8 @@ public class SceneInfo : ScriptableObject
 
     public bool screenShake;
 
+    public bool gore = true; // Om gore ska vara på eller av
+
     // Håller reda på vilka rum som har blivit rensade
     public List<bool> roomsCleared = new List<bool>();
     

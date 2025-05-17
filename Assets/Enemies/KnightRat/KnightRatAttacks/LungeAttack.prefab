@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3577755819573035241}
   - component: {fileID: 1004790400805469963}
-  - component: {fileID: 5041256172337039384}
   - component: {fileID: 7874768029636211273}
+  - component: {fileID: -4763974849779019009}
   m_Layer: 12
   m_Name: LungeAttack
   m_TagString: EnemyProjectile
@@ -61,8 +61,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!58 &5041256172337039384
-CircleCollider2D:
+--- !u!114 &7874768029636211273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191461022624492413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1846ecefb0bf9664ca247781ab192393, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  knightRatAi: {fileID: 8832732284295770345, guid: e56d10ed9f3790044b61cfbe4bc0480b, type: 3}
+  ratKnight: {fileID: 3069866815543287776, guid: e56d10ed9f3790044b61cfbe4bc0480b, type: 3}
+--- !u!70 &-4763974849779019009
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -94,17 +108,5 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.6
---- !u!114 &7874768029636211273
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 191461022624492413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1846ecefb0bf9664ca247781ab192393, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Size: {x: 1, y: 0.5}
+  m_Direction: 1

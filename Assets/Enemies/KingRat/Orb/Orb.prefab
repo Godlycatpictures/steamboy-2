@@ -15,8 +15,9 @@ GameObject:
   - component: {fileID: 8831043037345768119}
   - component: {fileID: 6267383781692303030}
   - component: {fileID: 6990529779716760705}
-  - component: {fileID: 1893019162309923344}
-  m_Layer: 6
+  - component: {fileID: -1608271244477698083}
+  - component: {fileID: 2055851506907643395}
+  m_Layer: 13
   m_Name: Orb
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -32,7 +33,7 @@ Transform:
   m_GameObject: {fileID: 8852501360370805231}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.19, y: -0.37, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -222,7 +223,8 @@ MonoBehaviour:
   goreLifetime: 2
   bloodAmount: 3
   sceneInfo: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
---- !u!114 &1893019162309923344
+  gore: 0
+--- !u!114 &-1608271244477698083
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -231,12 +233,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 8852501360370805231}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b55f374c1e1b4444fa54548c3e31af0c, type: 3}
+  m_Script: {fileID: 11500000, guid: e5fb58b9898a9a24a840a9943d543673, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ratKing: {fileID: 1217281988699320126, guid: b717749887ed6ab41a6ba61a436fdee8, type: 3}
-  throwPoint: {fileID: 9085205608413242462}
   orbPrefab: {fileID: 9190010506327431921, guid: 7718cbcc9fbcea74e82dfd8cda8280cd, type: 3}
-  hoverDistance: 1.5
-  throwInterval: 5
-  orbSpeed: 7
+  throwCooldown: 3
+  animator: {fileID: 8831043037345768119}
+--- !u!114 &2055851506907643395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8852501360370805231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 932355c404c5b134dbdc67e628f70910, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  head: {fileID: 0}
+  offset: {x: 0, y: 0}
+  stiffness: 10
+  damping: 5

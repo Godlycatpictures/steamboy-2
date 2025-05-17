@@ -18,6 +18,7 @@ public class griggly : MonoBehaviour
 
     private xpChar xpCharacter;
     public SceneInfo sceneInfo;
+    public bool gore;
 
     void Start()
     {
@@ -32,6 +33,13 @@ public class griggly : MonoBehaviour
             if (sceneInfo == null)
                 Debug.LogWarning("SceneInfo is not assigned to enemy!");
         }
+    }
+
+    void Update()
+    {
+
+        gore = sceneInfo.gore;
+
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -64,12 +72,15 @@ public class griggly : MonoBehaviour
         if (xpCharacter != null)
             xpCharacter.AddXP(xp);
 
-        if (deathEffect != null)
+        if (deathEffect != null && gore)
             Instantiate(deathEffect, transform.position, Quaternion.identity);
 
-        SpawnGore();
-        SpawnBlood(); // 🩸 New blood splat function
-
+        if (gore)
+        {
+            SpawnGore();
+            SpawnBlood(); // 🩸 New blood splat function
+        }
+        
         Destroy(gameObject);
     }
 

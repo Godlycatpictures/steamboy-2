@@ -8,8 +8,10 @@ public class KnightRatAi : MonoBehaviour
     public float speed = 1.5f;
     public float lungeSpeed = 5f;
 
-    public float slashCooldown = 0f;
-    public float lungeCooldown = 0f;
+    public int facingDirection;
+
+    public float slashCooldown = 1f;
+    public float lungeCooldown = 1f;
 
     public float xVelocity;
     public float lastKnownXVelocity = 1f;
@@ -79,6 +81,15 @@ public class KnightRatAi : MonoBehaviour
         xVelocity = rb.velocity.x;
         if (xVelocity != 0)
             lastKnownXVelocity = xVelocity;
+        
+        if (lastKnownXVelocity >0)
+        {
+            facingDirection = 1;
+        }
+        else if (lastKnownXVelocity < 0)
+        {
+            facingDirection = -1;
+        }
     }
 
     private void MoveTowards(Vector2 target)
@@ -104,7 +115,7 @@ public class KnightRatAi : MonoBehaviour
         yield return new WaitForSeconds(0.5f); // Recovery
 
         slashing = false;
-        slashCooldown = 5f;
+        slashCooldown = 3f;
     }
 
     private IEnumerator LungeAttack()
@@ -129,7 +140,11 @@ public class KnightRatAi : MonoBehaviour
         // Lunge!
         rb.velocity = lockedDirection * lungeSpeed;
 
-        Instantiate(lungePrefab, transform.position, Quaternion.identity);
+        GameObject lungeAttack = Instantiate(lungePrefab, transform.position, Quaternion.identity);
+        KnightRatLungeAttack lungeScript = lungeAttack.GetComponent<KnightRatLungeAttack>();
+        lungeScript.ratKnight = transform;
+        lungeScript.knightRatAi = this;
+
 
         yield return new WaitForSeconds(0.5f);
 

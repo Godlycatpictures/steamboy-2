@@ -20,6 +20,7 @@ public class BombRatGriggly : MonoBehaviour
 
     private xpChar xpCharacter;
     public SceneInfo sceneInfo;
+    public bool gore;
 
     void Start()
     {
@@ -34,6 +35,13 @@ public class BombRatGriggly : MonoBehaviour
             if (sceneInfo == null)
                 Debug.LogWarning("SceneInfo is not assigned to BombRatGriggly!");
         }
+    }
+    
+    void Update()
+    {
+
+        gore = sceneInfo.gore;
+
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -71,11 +79,15 @@ public class BombRatGriggly : MonoBehaviour
 
         if (explosion != null)
             Instantiate(explosion, transform.position, Quaternion.identity);
-
-        SpawnGore();
-        SpawnBlood();
+        
+        if (gore)
+        {
+            SpawnGore();
+            SpawnBlood(); // 🩸 New blood splat function
+        }
 
         Destroy(gameObject);
+        
     }
 
 void SpawnGore()
