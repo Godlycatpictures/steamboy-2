@@ -243,7 +243,9 @@ MonoBehaviour:
   moveSpeed: 1
   dashSpeed: 1
   dashCooldown: 5
+  dashDuration: 0.5
   animator: {fileID: 8292971509974502007}
+  lungePrefab: {fileID: 191461022624492413, guid: d3912fd47a56db947aba5416727cec5f, type: 3}
 --- !u!1001 &2158900564474503433
 PrefabInstance:
   m_ObjectHideFlags: 0

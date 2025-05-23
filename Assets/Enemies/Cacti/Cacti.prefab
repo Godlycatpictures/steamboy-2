@@ -170,8 +170,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.5, y: 1}
+  m_Offset: {x: 0.034378648, y: -0.0049111843}
+  m_Size: {x: 0.74556196, y: 2.011715}
   m_Direction: 0
 --- !u!114 &-202065043388355722
 MonoBehaviour:
@@ -232,6 +232,7 @@ MonoBehaviour:
   goreLifetime: 2
   bloodAmount: 3
   sceneInfo: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
+  gore: 0
 --- !u!114 &8714303605507470079
 MonoBehaviour:
   m_ObjectHideFlags: 0

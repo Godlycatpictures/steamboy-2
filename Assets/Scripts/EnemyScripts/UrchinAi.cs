@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class UrchinAi : MonoBehaviour
 {
-    private float detectionRange = 6f;
-    private float attackRange = 3f;
+    private float detectionRange = 12f;
+    private float attackRange = 6f;
     private float speed = 0.5f;
     public float xVelocity;
     public float yVelocity;

@@ -149,9 +149,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.015625}
+  m_Offset: {x: 0, y: -0.102494}
   serializedVersion: 2
-  m_Radius: 0.640625
+  m_Radius: 1.1742473
 --- !u!114 &-7966453126895898506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -241,4 +241,6 @@ MonoBehaviour:
   moveSpeed: 2
   dashSpeed: 6
   dashCooldown: 5
+  dashDuration: 0.5
   animator: {fileID: -1596966664200345843}
+  lungePrefab: {fileID: 0}

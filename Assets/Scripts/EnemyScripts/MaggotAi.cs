@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class MaggotAi : MonoBehaviour
 {
-    private float detectionRange = 5f;
-    private float attackRange = 0.8f;
+    private float detectionRange = 10f;
+    private float attackRange = 1.6f;
     private float speed = 1f;
     public float xVelocity;
     public float yVelocity;

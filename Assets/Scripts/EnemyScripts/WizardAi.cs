@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class WizardAi : MonoBehaviour
 {
-    private float detectionRange = 8f;
-    private float attackRange = 6f;
+    private float detectionRange = 16f;
+    private float attackRange = 12f;
     private float speed = 0.5f;
     public float xVelocity;
     public float yVelocity;

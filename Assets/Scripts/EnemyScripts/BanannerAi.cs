@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class BanannerAi : MonoBehaviour
 {
-    private float detectionRange = 8f;
-    private float attackRange = 5f;
+    private float detectionRange = 16f;
+    private float attackRange = 10f;
     private float speed = 1f;
     public float xVelocity;
     public float yVelocity;

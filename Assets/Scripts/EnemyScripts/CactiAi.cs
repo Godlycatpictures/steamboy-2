@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class CactiAi : MonoBehaviour
 {
-    private float detectionRange = 5f;
-    private float attackRange = 1f;
+    private float detectionRange = 10f;
+    private float attackRange = 2f;
     private float speed = 2f;
     public float xVelocity;
     public float yVelocity;

@@ -108,7 +108,7 @@ public class KnightRatAi : MonoBehaviour
 
         if (slashPrefab != null)
         {
-            Vector2 offset = new Vector2(Mathf.Sign(lastKnownXVelocity) * 0.6f, 0);
+            Vector2 offset = new Vector2(Mathf.Sign(lastKnownXVelocity) * 1.2f, 0);
             Instantiate(slashPrefab, (Vector2)transform.position + offset, Quaternion.identity);
         }
 

@@ -5,7 +5,7 @@ using UnityEngine;
 public class ScepterHand : MonoBehaviour
 {
     public enum AttackType { Melee, Burst }
-    public float meleeRange = 3f;
+    public float meleeRange = 6f;
     public GameObject projectilePrefab;
     public int burstCount = 5;
     public float burstInterval = 0.1f;

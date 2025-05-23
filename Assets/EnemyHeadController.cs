@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyHeadController : MonoBehaviour
 {
-       public float moveSpeed = 2f;
+    public float moveSpeed = 2f;
     public float dashSpeed = 6f;
     public float dashCooldown = 5f;
     public float dashDuration = 0.5f;
@@ -14,6 +14,8 @@ public class EnemyHeadController : MonoBehaviour
     private Rigidbody2D rb;
     private bool isDashing;
     private float lastDashTime = Mathf.NegativeInfinity;
+
+    public GameObject lungePrefab;
 
     void Start()
     {
@@ -43,6 +45,11 @@ public class EnemyHeadController : MonoBehaviour
         animator.SetBool("attacking", true);
 
         rb.velocity = (player.position - transform.position).normalized * dashSpeed;
+
+        GameObject lungeAttack = Instantiate(lungePrefab, transform.position, Quaternion.identity);
+        KingRatLungeAttack lungeScript = lungeAttack.GetComponent<KingRatLungeAttack>();
+        lungeScript.ratKing = transform;
+        lungeScript.EnemyHeadController = this;
 
         yield return new WaitForSeconds(dashDuration);
 
