@@ -1664,7 +1664,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d674de847a5c7b64a84a28c24f299cf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1910221239}
+  target: {fileID: 0}
   shakeDuration: 0.5
   shakeCurve:
     serializedVersion: 2

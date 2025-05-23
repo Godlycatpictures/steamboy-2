@@ -14,12 +14,6 @@ public class CameraScript : MonoBehaviour
 
     public SceneInfo sceneInfo;
 
-    private void Start(){
-
-        StartCoroutine(AssignPlayer());
-
-    }
-
     void Update()
     {
         screenShake = sceneInfo.screenShake;
@@ -58,17 +52,13 @@ public class CameraScript : MonoBehaviour
         isShaking = false;
     }
 
-    private IEnumerator AssignPlayer()
+    void FixedUpdate()
     {
         if (target == null)
         {
 
-        target = GameObject.FindGameObjectWithTag("Player").transform;
+            target = GameObject.FindGameObjectWithTag("Player").transform;
 
         }
-        
-        yield return new WaitForSeconds(1f);
-
-        StartCoroutine(AssignPlayer());
     }
 }
