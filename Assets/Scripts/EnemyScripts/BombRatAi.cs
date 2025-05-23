@@ -6,7 +6,7 @@ public class BombRatAi : MonoBehaviour
 {
     private float detectionRange = 10f;
     private float attackRange = 2f;
-    private float speed = 1f;
+    private float speed = 3f;
     public float xVelocity;
     public float yVelocity;
     public float lastKnownXVelocity = 1f;

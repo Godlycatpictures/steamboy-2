@@ -5,8 +5,8 @@ public class KnightRatAi : MonoBehaviour
 {
     public float detectionRange = 6f;
     public float attackRange = 1.2f;
-    public float speed = 1.5f;
-    public float lungeSpeed = 5f;
+    public float speed = 3f;
+    public float lungeSpeed = 8f;
 
     public int facingDirection;
 

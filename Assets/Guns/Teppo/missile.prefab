@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -7344366130553183107}
   - component: {fileID: -1196395817555957177}
   m_Layer: 9
-  m_Name: Missile
+  m_Name: missile
   m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -147,8 +147,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.04, y: 5}
-  m_Size: {x: 0.81, y: 0.3}
+  m_Offset: {x: 0.077905424, y: 0.010870702}
+  m_Size: {x: 1.1687346, y: 0.40870944}
   m_Direction: 1
 --- !u!114 &-7344366130553183107
 MonoBehaviour:

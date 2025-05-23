@@ -6,7 +6,7 @@ public class UrchinAi : MonoBehaviour
 {
     private float detectionRange = 12f;
     private float attackRange = 6f;
-    private float speed = 0.5f;
+    private float speed = 2f;
     public float xVelocity;
     public float yVelocity;
     public float lastKnownXVelocity = 1f; // Default to facing right

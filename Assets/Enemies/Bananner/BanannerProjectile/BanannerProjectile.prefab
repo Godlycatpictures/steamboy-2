@@ -199,7 +199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b0808b9bc72e2743929110af8b447b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chainEffectPrefab: {fileID: 0}
+  chainEffectPrefab: {fileID: -2253911629886400664, guid: 3df6074db484b4f4d96d095c66233983, type: 3}
   deathEffect: {fileID: 3371569424538963305, guid: 6d641abc6feff6243b715e789fd5d454, type: 3}
   gorePrefabs: []
   bloodSplats: []

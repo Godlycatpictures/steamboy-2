@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraScript : MonoBehaviour
 {
-    public GameObject target; // The player or object to follow
+    public Transform target; // The player or object to follow
     public float shakeDuration = 0.5f;
     public AnimationCurve shakeCurve;
     private Vector3 shakeOffset = Vector3.zero; // Stores shake effect
@@ -13,6 +13,12 @@ public class CameraScript : MonoBehaviour
     public bool screenShake;
 
     public SceneInfo sceneInfo;
+
+    private void Start(){
+
+        StartCoroutine(AssignPlayer());
+
+    }
 
     void Update()
     {
@@ -50,5 +56,19 @@ public class CameraScript : MonoBehaviour
         // Reset shake offset after shaking ends
         shakeOffset = Vector3.zero;
         isShaking = false;
+    }
+
+    private IEnumerator AssignPlayer()
+    {
+        if (target == null)
+        {
+
+        target = GameObject.FindGameObjectWithTag("Player").transform;
+
+        }
+        
+        yield return new WaitForSeconds(1f);
+
+        StartCoroutine(AssignPlayer());
     }
 }

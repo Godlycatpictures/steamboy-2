@@ -6,7 +6,7 @@ public class MaggotAi : MonoBehaviour
 {
     private float detectionRange = 10f;
     private float attackRange = 1.6f;
-    private float speed = 1f;
+    private float speed = 2f;
     public float xVelocity;
     public float yVelocity;
     public float lastKnownXVelocity = 1f; // Default to facing right

@@ -105,7 +105,7 @@ IEnumerator Attack()
         Rigidbody2D arrowRb = arrow.GetComponent<Rigidbody2D>();
         if (arrowRb != null)
         {
-            float arrowSpeed = 7f; // Adjust as needed for gameplay
+            float arrowSpeed = 10f; // Adjust as needed for gameplay
             arrowRb.velocity = shootDirection * arrowSpeed;
 
             // Rotate arrow to match flight direction

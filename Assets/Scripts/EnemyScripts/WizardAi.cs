@@ -6,7 +6,7 @@ public class WizardAi : MonoBehaviour
 {
     private float detectionRange = 16f;
     private float attackRange = 12f;
-    private float speed = 0.5f;
+    private float speed = 3f;
     public float xVelocity;
     public float yVelocity;
     public float lastKnownXVelocity = 1f;
@@ -143,7 +143,7 @@ private IEnumerator FireOrbAttack()
             GameObject orb = Instantiate(fireOrbPrefab, transform.position, Quaternion.Euler(0, 0, zRotation));
             Rigidbody2D orbRb = orb.GetComponent<Rigidbody2D>();
             if (orbRb != null)
-                orbRb.velocity = direction * 3f;
+                orbRb.velocity = direction * 10f;
 
             yield return new WaitForSeconds(0.1f); // delay between each shot
         }
@@ -196,7 +196,7 @@ private IEnumerator FireOrbAttack()
             col.enabled = false;
 
         Vector2 dashDirection = (player.position - transform.position).normalized;
-        rb.velocity = dashDirection * 5f;
+        rb.velocity = dashDirection * 10f;
 
         yield return new WaitForSeconds(1f); // Dash duration
 

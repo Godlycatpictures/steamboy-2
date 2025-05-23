@@ -164,11 +164,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 988147134487249163, guid: cdcdf2efe7b26e6449d96c62196cbbcf, type: 3}
       propertyPath: moveSpeed
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 988147134487249163, guid: cdcdf2efe7b26e6449d96c62196cbbcf, type: 3}
       propertyPath: dashingspeed
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 988147134487249163, guid: cdcdf2efe7b26e6449d96c62196cbbcf, type: 3}
       propertyPath: timeBetweenFiring
