@@ -160,12 +160,18 @@ MonoBehaviour:
   CorridorIndividualRoomTemplates:
   - {fileID: 8498314696703879612, guid: 42a6b5db0598acb47aef92975b41c3bd, type: 3}
   - {fileID: 790799411060736092, guid: 1a1af2dd8d5d97645bd238185d917324, type: 3}
+  - {fileID: 8498314696703879612, guid: 0aeec56ad5fd4d6469ed4fbedda95a25, type: 3}
   CorridorRoomTemplateSets: []
   DefaultIndividualRoomTemplates:
   - {fileID: 8665986835671369277, guid: 5def6361943d3084abfe4e2117412430, type: 3}
   - {fileID: 4401683328594631290, guid: 145cbd4d9dedbd54e97b2058732a9c8a, type: 3}
   - {fileID: 230591465853827643, guid: c2c13ff55f478cd4184d402d7460a856, type: 3}
   - {fileID: 3049384095414064281, guid: c17d78bcc13920644902e52b8fccf9e6, type: 3}
+  - {fileID: 3659063162871070734, guid: f11e0ebe1d5f1334596094ec990fccf2, type: 3}
+  - {fileID: 3049384095414064281, guid: 680a3a31356f5cd4fb0e60becf9c739c, type: 3}
+  - {fileID: 1556852704126082738, guid: d001e125cce709e43a2268fb77d5ae8f, type: 3}
+  - {fileID: 4401683328594631290, guid: d027e0d4877fdea4d94d9058c9e01b46, type: 3}
+  - {fileID: 4595867721053125295, guid: 825bac789843d5b4fbd025a4f5ca8364, type: 3}
   DefaultRoomTemplateSets: []
   Rooms:
   - {fileID: -3006329484226862001}
