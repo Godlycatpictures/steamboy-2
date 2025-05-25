@@ -10,7 +10,7 @@ public class Weapon : MonoBehaviour
     public AudioSource gunshot1;
     public AudioSource gunshot2;
     public AudioSource gunshot3;
-    public float fireForce = 40f;
+    public float fireForce = 1f;
 
     private float nextFireTime = 0f; // When the next shot can be fired
 
