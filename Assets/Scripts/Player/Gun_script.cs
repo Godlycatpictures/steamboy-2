@@ -18,6 +18,8 @@ public class shootypewpew : MonoBehaviour
         ProcessInputs();
         transform.position = Player.position + offset;
         animator.SetFloat("mousex", mousex);
+
+
     }
 
     void FixedUpdate()
@@ -26,7 +28,12 @@ public class shootypewpew : MonoBehaviour
         {
             Vector2 screenMousePosition = Input.mousePosition;
             mousePosition = SceneCamera.ScreenToWorldPoint(screenMousePosition);
+        } else if (SceneCamera == null)
+         {
+            SceneCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
         }
+
+
     }
 
 

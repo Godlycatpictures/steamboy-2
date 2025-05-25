@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class BombRatGriggly : MonoBehaviour
 {
+
+    public delegate void EnemyDeathHandler(GameObject enemy);
+    public event EnemyDeathHandler OnEnemyDeath;
+
     public GameObject chainEffectPrefab;
     public GameObject explosion;
     public GameObject deathEffect;
@@ -85,6 +89,9 @@ public class BombRatGriggly : MonoBehaviour
             SpawnGore();
             SpawnBlood(); // 🩸 New blood splat function
         }
+
+
+        OnEnemyDeath?.Invoke(gameObject);
 
         Destroy(gameObject);
         

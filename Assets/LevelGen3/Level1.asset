@@ -41,7 +41,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Position: {x: 384, y: 16}
-  Name: Room
+  Name: Room3
   IndividualRoomTemplates: []
   RoomTemplateSets: []
 --- !u!114 &-2862007294063315790
@@ -71,7 +71,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Position: {x: 512, y: 16}
-  Name: Room
+  Name: Distraction2
   IndividualRoomTemplates: []
   RoomTemplateSets: []
 --- !u!114 &-1530788097835220750
@@ -101,7 +101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Position: {x: 128, y: 16}
-  Name: Room
+  Name: Boss
   IndividualRoomTemplates: []
   RoomTemplateSets: []
 --- !u!114 &-1263535251429300208
@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Position: {x: 384, y: -64}
-  Name: Room
+  Name: Distraction3
   IndividualRoomTemplates: []
   RoomTemplateSets: []
 --- !u!114 &-418207982370759696
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Position: {x: 384, y: 176}
-  Name: Room
+  Name: Room1
   IndividualRoomTemplates: []
   RoomTemplateSets: []
 --- !u!114 &11400000
@@ -185,8 +185,8 @@ MonoBehaviour:
   - {fileID: 6687417941906486907}
   - {fileID: -1263535251429300208}
   EditorData:
-    PanOffset: {x: 184.92705, y: 92.93523}
-    Zoom: 0.8511716
+    PanOffset: {x: 126.890656, y: 158.07755}
+    Zoom: 0.82963324
   RoomType: Edgar.Unity.Room
   ConnectionType: Edgar.Unity.Connection
 --- !u!114 &1316120106235731721
@@ -230,7 +230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Position: {x: 384, y: 96}
-  Name: Room
+  Name: Room2
   IndividualRoomTemplates: []
   RoomTemplateSets: []
 --- !u!114 &4873356124018160342
@@ -260,7 +260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Position: {x: 512, y: 96}
-  Name: Room
+  Name: Distraction1
   IndividualRoomTemplates: []
   RoomTemplateSets: []
 --- !u!114 &6113867664586594946
@@ -307,6 +307,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Position: {x: 256, y: 16}
-  Name: Room
+  Name: Room4
   IndividualRoomTemplates: []
   RoomTemplateSets: []
