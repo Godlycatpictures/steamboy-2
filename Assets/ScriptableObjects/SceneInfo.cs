@@ -122,10 +122,15 @@ public void UnlockUpgrade(string upgradeName)
 
     xpToNextLevel = Mathf.RoundToInt(baseXP + (Mathf.Pow(level, 2) * growthFactor) + (level * linearFactor));
 }
-public void HpUp(){
-numOfHearts++;
-health = numOfHearts;
-}
+    public void HpUp()
+    {
+        numOfHearts++;
+        if (health < numOfHearts)
+        {
+            health = numOfHearts;
+        }
+        
+    }
 }
   
  
