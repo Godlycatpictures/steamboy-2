@@ -233,8 +233,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   detectionRange: 12
   attackRange: 2.6
-  speed: 1.5
-  lungeSpeed: 6
+  speed: 2.5
+  lungeSpeed: 10
   facingDirection: 0
   slashCooldown: 0
   lungeCooldown: 0
