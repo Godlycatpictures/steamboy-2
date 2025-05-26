@@ -23,11 +23,11 @@ MonoBehaviour:
   hasReRoll: 0
   hasUsedReRoll: 0
   hasChainDamage: 0
-  hasHpUppgrade: 1
+  hasHpUppgrade: 0
   hasTinyUppgrade: 0
   health: 3
   EnemiesKilled: 0
-  numOfHearts: 4
+  numOfHearts: 3
   currentCoins: 0
   fireForce: 10
   fireRate: 0.5

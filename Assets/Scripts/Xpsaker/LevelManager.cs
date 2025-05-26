@@ -46,12 +46,6 @@ public class LevelManager : MonoBehaviour
      
     }
 
-    private void Start()
-    {
-        if (sceneInfo != null)
-        {
-            sceneInfo.ResetSceneInfo();  // Återställ all data när spelet startar
-        }
-    }
+    
 }
 

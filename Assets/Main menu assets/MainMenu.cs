@@ -7,9 +7,13 @@ public class MainMenu : MonoBehaviour
 {
     public string mainMenuTag = "MainMenuUI";
     public string settingsTag = "SettingsUI";
-
+    public SceneInfo sceneInfo;
     public void PlayGame() {
-        SceneManager.LoadScene("SimonStuff1");
+        if (sceneInfo != null)
+        {
+            sceneInfo.ResetSceneInfo();  // Återställ all data när spelet startar
+        }
+        SceneManager.LoadScene("Simon Stuff 1");
     }
 
     public void OptionsGame() {
