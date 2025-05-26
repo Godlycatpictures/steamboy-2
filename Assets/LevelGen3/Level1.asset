@@ -102,7 +102,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Position: {x: 128, y: 16}
   Name: Boss
-  IndividualRoomTemplates: []
+  IndividualRoomTemplates:
+  - {fileID: 3049384095414064281, guid: b4eb45ea72554814496eceac500d4eec, type: 3}
+  - {fileID: 3049384095414064281, guid: b4eb45ea72554814496eceac500d4eec, type: 3}
+  - {fileID: 3049384095414064281, guid: b4eb45ea72554814496eceac500d4eec, type: 3}
+  - {fileID: 3049384095414064281, guid: 5126bc3cab2a4d6439412dd55014eeaf, type: 3}
   RoomTemplateSets: []
 --- !u!114 &-1263535251429300208
 MonoBehaviour:
@@ -185,8 +189,8 @@ MonoBehaviour:
   - {fileID: 6687417941906486907}
   - {fileID: -1263535251429300208}
   EditorData:
-    PanOffset: {x: 126.890656, y: 158.07755}
-    Zoom: 0.82963324
+    PanOffset: {x: -21.485645, y: 236.54158}
+    Zoom: 0.6048026
   RoomType: Edgar.Unity.Room
   ConnectionType: Edgar.Unity.Connection
 --- !u!114 &1316120106235731721
