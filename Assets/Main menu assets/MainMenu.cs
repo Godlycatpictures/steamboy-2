@@ -9,7 +9,7 @@ public class MainMenu : MonoBehaviour
     public string settingsTag = "SettingsUI";
 
     public void PlayGame() {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("LevelGen3");
     }
 
     public void OptionsGame() {
