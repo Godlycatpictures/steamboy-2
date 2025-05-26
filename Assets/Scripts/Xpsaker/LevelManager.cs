@@ -7,7 +7,7 @@ public class LevelManager : MonoBehaviour
 {
     public SceneInfo sceneInfo; // Rätt namn med stor bokstav
   //public UpgradeManager upgradeManager; // Stor bokstav!
-  public GameObject player;
+
 
     public UpgradeUI upgradeUI;  // Lägg till detta i LevelManager
 
