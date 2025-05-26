@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hasExplodingBullets: 0
   hasShieldUpgrade: 0
-  hasBulletsizeUpgrade: 0
+  hasBulletsizeUpgrade: 1
   hasFireRateUpgrade: 0
   hasAutoFireUpgrade: 0
   hasKillToHeal: 0
@@ -25,7 +25,7 @@ MonoBehaviour:
   hasChainDamage: 0
   hasHpUppgrade: 0
   hasTinyUppgrade: 0
-  health: 2
+  health: 1
   EnemiesKilled: 0
   numOfHearts: 3
   currentCoins: 0
@@ -33,9 +33,9 @@ MonoBehaviour:
   fireRate: 0.5
   damageModifier: 1
   randmap: -1
-  xp: 8
-  level: 1
-  xpToNextLevel: 100
+  xp: 147
+  level: 2
+  xpToNextLevel: 205
   xpMultiplier: 1.2
   screenShake: 1
   gore: 1

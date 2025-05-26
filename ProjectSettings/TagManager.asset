@@ -12,6 +12,11 @@ TagManager:
   - DoorLR
   - DoorUD
   - NonCollidableEnemyProjectile
+  - Level
+  - Shield
+  - BulletSize+
+  - FireRate
+  - Wepon
   layers:
   - Default
   - TransparentFX

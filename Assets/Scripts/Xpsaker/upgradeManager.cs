@@ -20,21 +20,40 @@ public class UpgradeManager : MonoBehaviour
     {
         ApplyUpgrades();
     }
-     void FixedUpdate()
+    void FixedUpdate()
     {
         if (player == null)
         {
 
             player = GameObject.FindGameObjectWithTag("Player");
+            // Försök hitta och assigna uppgraderingsobjekten om de inte redan är satta
+            if (shieldUpgradeObject == null)
+                shieldUpgradeObject = GameObject.FindGameObjectWithTag("Shield");
+            if (bulletsizeUpgradeObject == null)
+                bulletsizeUpgradeObject = GameObject.FindGameObjectWithTag("BulletSize+");
+            if (FireRateUpgradePrefab == null)
+                FireRateUpgradePrefab = GameObject.FindGameObjectWithTag("FireRate");
 
         }
+    
     }
 
     public void ApplyUpgrades()
     {
-        shieldUpgradeObject.SetActive(sceneInfo.hasShieldUpgrade);
-        bulletsizeUpgradeObject.SetActive(sceneInfo.hasBulletsizeUpgrade);
-        FireRateUpgradePrefab.SetActive(sceneInfo.hasFireRateUpgrade);
+        if (shieldUpgradeObject != null)
+            shieldUpgradeObject.SetActive(sceneInfo.hasShieldUpgrade);
+        else
+            Debug.LogWarning("ShieldUpgradeObject is not assigned!");
+
+        if (bulletsizeUpgradeObject != null)
+            bulletsizeUpgradeObject.SetActive(sceneInfo.hasBulletsizeUpgrade);
+        else
+            Debug.LogWarning("BulletsizeUpgradeObject is not assigned!");
+
+        if (FireRateUpgradePrefab != null)
+            FireRateUpgradePrefab.SetActive(sceneInfo.hasFireRateUpgrade);
+        else
+            Debug.LogWarning("FireRateUpgradePrefab is not assigned!");
 
         if (sceneInfo.hasBulletsizeUpgrade)
         {

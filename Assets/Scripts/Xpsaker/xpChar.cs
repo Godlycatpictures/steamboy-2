@@ -6,15 +6,32 @@ public class xpChar : MonoBehaviour
 {
     public LevelManager levelManager;
 
-    void Start()
+    void FixedUpdate()
     {
-        if (levelManager == null)
+          if (levelManager == null)
         {
             levelManager = GetComponent<LevelManager>();
         }
 
+    }
+
+void Start()
+{
+    if (levelManager == null)
+    {
+        levelManager = FindObjectOfType<LevelManager>();
+    }
+
+    if (levelManager != null)
+    {
         levelManager.OnLevelUp += HandleLevelUp;
     }
+    else
+    {
+        Debug.LogError("LevelManager hittades inte i scenen!");
+    }
+}
+
 
     public void AddXP(int amount)
     {

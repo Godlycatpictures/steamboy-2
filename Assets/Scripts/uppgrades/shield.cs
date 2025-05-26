@@ -7,6 +7,16 @@ public class Shield : MonoBehaviour
     public Transform player; // Referens till spelaren
     public Vector3 offset = new Vector3(-1, -1, -1); // Sköldens position bakom spelaren
 
+    void FixedUpdate()
+    {
+        if (player == null)
+        {
+
+            player = GameObject.FindGameObjectWithTag("Wepon").transform;
+
+        }
+    }
+
     void Update()
     {
         if (player != null)
