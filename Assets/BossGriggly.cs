@@ -89,7 +89,7 @@ public class BossGriggly : MonoBehaviour
 
         OnEnemyDeath?.Invoke(gameObject);
         Destroy(gameObject);
-        SceneManager.LoadScene("LevelGen3");
+        SceneManager.LoadScene("SimonStuff1");
     }
 
 void SpawnGore()
