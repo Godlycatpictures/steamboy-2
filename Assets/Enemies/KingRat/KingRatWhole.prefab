@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 9008229862887158720}
   - component: {fileID: 1698473396246923141}
   - component: {fileID: 8292971509974502007}
-  - component: {fileID: 9108340819291090961}
   - component: {fileID: 6068007221513513000}
+  - component: {fileID: 1484596167394245666}
   m_Layer: 6
   m_Name: KingRatWhole
   m_TagString: Enemy
@@ -187,47 +187,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &9108340819291090961
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2233061661161204331}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b0808b9bc72e2743929110af8b447b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chainEffectPrefab: {fileID: -2253911629886400664, guid: 3df6074db484b4f4d96d095c66233983, type: 3}
-  deathEffect: {fileID: 3371569424538963305, guid: ea74ace770f24484e844cee7ac573ade, type: 3}
-  gorePrefabs:
-  - {fileID: 2478650836641940447, guid: b94495280f19f7f43aee7e1592ec2953, type: 3}
-  - {fileID: 7507571860136292387, guid: 933d77f4083b19e4e8a728403254af43, type: 3}
-  - {fileID: 1925607098887020570, guid: 4d970d1192f431f4c88e894795bf2f8f, type: 3}
-  - {fileID: 3227067342842577472, guid: 00c4855056594184497a3ad1c6db5b60, type: 3}
-  - {fileID: 6474193320610817432, guid: aa4865f2d70c8714080025539ee4eeac, type: 3}
-  - {fileID: 179374978238344685, guid: 0484c418c0973bb4e8cc7ca7122fcbcb, type: 3}
-  - {fileID: 2792333382907656183, guid: 985aa1dca3a10b143ae4189593534587, type: 3}
-  - {fileID: 725814601588943949, guid: 43486efa13aba6340a495f80b17d358b, type: 3}
-  - {fileID: 1731163161442271797, guid: 036f2c3941835934faa0b5270a77e47f, type: 3}
-  - {fileID: 3223370676357012179, guid: 4f56f099f4ef1bd44a1a22e2a2204fc3, type: 3}
-  - {fileID: 3455156563179862694, guid: 9a7a9d3225f67fa44a6fd1c21b99d1f5, type: 3}
-  - {fileID: 5911597582872795918, guid: 8333ef93e0e8f90408067a121dae7e37, type: 3}
-  - {fileID: 2234379403423863776, guid: ac2ba25ced6ae04478b314f670a1421f, type: 3}
-  - {fileID: 9158731856246567728, guid: 89605f80af8aca847a285f85a832b764, type: 3}
-  bloodSplats:
-  - {fileID: 8166212927469859304, guid: a76bb9116182a364583672cda79bb6b2, type: 3}
-  - {fileID: 1046763828060782656, guid: bac76db02de6c2543a0a134ab7a3c2ea, type: 3}
-  - {fileID: 3862382634402192175, guid: e48099128b500e14e866f6540a959d92, type: 3}
-  health: 30
-  xp: 100
-  goreAmount: 6
-  goreSpreadForce: 6
-  goreLifetime: 2
-  bloodAmount: 3
-  sceneInfo: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
-  gore: 0
 --- !u!114 &6068007221513513000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -246,6 +205,46 @@ MonoBehaviour:
   dashDuration: 0.5
   animator: {fileID: 8292971509974502007}
   lungePrefab: {fileID: 191461022624492413, guid: d3912fd47a56db947aba5416727cec5f, type: 3}
+--- !u!114 &1484596167394245666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2233061661161204331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab1ccec4cb46634f8b8fd4f2e105ed7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chainEffectPrefab: {fileID: -2253911629886400664, guid: 3df6074db484b4f4d96d095c66233983, type: 3}
+  deathEffect: {fileID: 3371569424538963305, guid: ea74ace770f24484e844cee7ac573ade, type: 3}
+  gorePrefabs:
+  - {fileID: 2478650836641940447, guid: b94495280f19f7f43aee7e1592ec2953, type: 3}
+  - {fileID: 7507571860136292387, guid: 933d77f4083b19e4e8a728403254af43, type: 3}
+  - {fileID: 1925607098887020570, guid: 4d970d1192f431f4c88e894795bf2f8f, type: 3}
+  - {fileID: 3227067342842577472, guid: 00c4855056594184497a3ad1c6db5b60, type: 3}
+  - {fileID: 6474193320610817432, guid: aa4865f2d70c8714080025539ee4eeac, type: 3}
+  - {fileID: 179374978238344685, guid: 0484c418c0973bb4e8cc7ca7122fcbcb, type: 3}
+  - {fileID: 2792333382907656183, guid: 985aa1dca3a10b143ae4189593534587, type: 3}
+  - {fileID: 725814601588943949, guid: 43486efa13aba6340a495f80b17d358b, type: 3}
+  - {fileID: 1731163161442271797, guid: 036f2c3941835934faa0b5270a77e47f, type: 3}
+  - {fileID: 3223370676357012179, guid: 4f56f099f4ef1bd44a1a22e2a2204fc3, type: 3}
+  - {fileID: 3455156563179862694, guid: 9a7a9d3225f67fa44a6fd1c21b99d1f5, type: 3}
+  - {fileID: 5911597582872795918, guid: 8333ef93e0e8f90408067a121dae7e37, type: 3}
+  - {fileID: 2234379403423863776, guid: ac2ba25ced6ae04478b314f670a1421f, type: 3}
+  bloodSplats:
+  - {fileID: 8166212927469859304, guid: a76bb9116182a364583672cda79bb6b2, type: 3}
+  - {fileID: 1046763828060782656, guid: bac76db02de6c2543a0a134ab7a3c2ea, type: 3}
+  - {fileID: 3862382634402192175, guid: e48099128b500e14e866f6540a959d92, type: 3}
+  health: 30
+  xp: 100
+  goreAmount: 6
+  goreSpreadForce: 6
+  goreLifetime: 2
+  bloodAmount: 3
+  sceneInfo: {fileID: 11400000, guid: 5b60d850e3c382c4f93224925f87ac7e, type: 2}
+  gore: 0
 --- !u!1001 &2158900564474503433
 PrefabInstance:
   m_ObjectHideFlags: 0

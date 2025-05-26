@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class griggly : MonoBehaviour
+public class BossGriggly : MonoBehaviour
 {
     public delegate void EnemyDeathHandler(GameObject enemy);
     public event EnemyDeathHandler OnEnemyDeath;
@@ -88,6 +89,7 @@ public class griggly : MonoBehaviour
 
         OnEnemyDeath?.Invoke(gameObject);
         Destroy(gameObject);
+        SceneManager.LoadScene("LevelGen3");
     }
 
 void SpawnGore()
