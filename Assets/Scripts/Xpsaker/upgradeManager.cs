@@ -20,13 +20,15 @@ public class UpgradeManager : MonoBehaviour
     {
         ApplyUpgrades();
     }
-    void Update()
-{
-    if (Input.GetKeyDown(KeyCode.F9)) // Test instantiation with F9
+     void FixedUpdate()
     {
-        UnlockGhostCompanion();
+        if (player == null)
+        {
+
+            player = GameObject.FindGameObjectWithTag("Player");
+
+        }
     }
-}
 
     public void ApplyUpgrades()
     {
