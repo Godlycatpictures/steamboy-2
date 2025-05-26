@@ -1,10 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class griggly : MonoBehaviour
+public class BossGriggly : MonoBehaviour
 {
-    
+    public delegate void EnemyDeathHandler(GameObject enemy);
+    public event EnemyDeathHandler OnEnemyDeath;
+
+
+
     public GameObject chainEffectPrefab;
     public GameObject deathEffect;
     public GameObject[] gorePrefabs;
@@ -82,7 +87,9 @@ public class griggly : MonoBehaviour
             SpawnBlood(); // 🩸 New blood splat function
         }
 
+        OnEnemyDeath?.Invoke(gameObject);
         Destroy(gameObject);
+        SceneManager.LoadScene("SimonStuff1");
     }
 
 void SpawnGore()

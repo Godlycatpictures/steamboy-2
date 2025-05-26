@@ -9,7 +9,7 @@ public class MainMenu : MonoBehaviour
     public string settingsTag = "SettingsUI";
 
     public void PlayGame() {
-        SceneManager.LoadScene("LevelGen3");
+        SceneManager.LoadScene("SimonStuff1");
     }
 
     public void OptionsGame() {
