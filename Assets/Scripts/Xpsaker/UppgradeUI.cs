@@ -123,7 +123,7 @@ public class UpgradeUI : MonoBehaviour
             case 4: return upgradeManager.sceneInfo.hasReRoll;
             case 5: return upgradeManager.sceneInfo.hasGhostCompanion; // lowercase 's' in sceneInfo // Add this to IsUpgradeUnlockedForButton
             case 6: return upgradeManager.sceneInfo.hasExplodingBullets;
-            case 7: return upgradeManager.sceneInfo.hasChainDamage; // Ny index för ChainDamage
+            //case 7: return upgradeManager.sceneInfo.hasChainDamage; // Ny index för ChainDamage
             case 8: return upgradeManager.sceneInfo.hasHpUppgrade; // Ny index för HP Upgrade
             case 9 : return upgradeManager.sceneInfo.hasTinyUppgrade; // Ny index för Tiny Upgrade
 
