@@ -58,6 +58,7 @@ public class pausScript : MonoBehaviour
 
     public void Restart() // starta om leveln (nya rum o sånt)
     {
+        sceneInfo.ResetSceneInfo();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1f;
     }
