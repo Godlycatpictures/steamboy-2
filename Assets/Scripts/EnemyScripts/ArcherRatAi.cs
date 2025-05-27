@@ -22,6 +22,9 @@ public class ArcherRatAi : MonoBehaviour
     private Transform player;
 
     public GameObject arrowPrefab;
+    public AudioSource bowshot1;
+    public AudioSource bowshot2;
+    public AudioSource bowshot3;
 
     void Start()
     {
@@ -87,38 +90,59 @@ public class ArcherRatAi : MonoBehaviour
         isMoving = true;
     }
 
-IEnumerator Attack()
-{
-    rb.velocity = Vector2.zero;
-    attacking = true;
-    isMoving = false;
-
-    FacePlayer(); // Make sure we face the player before attacking
-
-    yield return new WaitForSeconds(2.5f); // Delay to sync with animation if needed
-
-    if (arrowPrefab != null)
+    IEnumerator Attack()
     {
-        Vector2 shootDirection = ((Vector2)player.position - (Vector2)transform.position).normalized;
-        GameObject arrow = Instantiate(arrowPrefab, transform.position, Quaternion.identity);
-        
-        Rigidbody2D arrowRb = arrow.GetComponent<Rigidbody2D>();
-        if (arrowRb != null)
-        {
-            float arrowSpeed = 10f; // Adjust as needed for gameplay
-            arrowRb.velocity = shootDirection * arrowSpeed;
+        rb.velocity = Vector2.zero;
+        attacking = true;
+        isMoving = false;
 
-            // Rotate arrow to match flight direction
-            float angle = Mathf.Atan2(shootDirection.y, shootDirection.x) * Mathf.Rad2Deg;
-            arrow.transform.rotation = Quaternion.Euler(0, 0, angle);
+        FacePlayer(); // Make sure we face the player before attacking
+
+        yield return new WaitForSeconds(2.5f); // Delay to sync with animation if needed
+
+        if (arrowPrefab != null)
+        {
+            Vector2 shootDirection = ((Vector2)player.position - (Vector2)transform.position).normalized;
+            GameObject arrow = Instantiate(arrowPrefab, transform.position, Quaternion.identity);
+
+            Rigidbody2D arrowRb = arrow.GetComponent<Rigidbody2D>();
+            if (arrowRb != null)
+            {
+                float arrowSpeed = 10f; // Adjust as needed for gameplay
+                arrowRb.velocity = shootDirection * arrowSpeed;
+
+                // Rotate arrow to match flight direction
+                float angle = Mathf.Atan2(shootDirection.y, shootDirection.x) * Mathf.Rad2Deg;
+                arrow.transform.rotation = Quaternion.Euler(0, 0, angle);
+            }
+
+            PlayBowshot();
         }
+
+        yield return new WaitForSeconds(0.5f); // Short post-attack delay
+
+        attackCoolDown = 1.5f;
+        attacking = false;
     }
 
-    yield return new WaitForSeconds(0.5f); // Short post-attack delay
+    public void PlayBowshot()
+    {
+        Debug.Log("PlayBowshot called");
+        int randomIndex = Random.Range(0, 3);
 
-    attackCoolDown = 1.5f;
-    attacking = false;
-}
+        switch (randomIndex)
+        {
+            case 0:
+                bowshot1.Play();
+                break;
+            case 1:
+                bowshot2.Play();
+                break;
+            case 2:
+                bowshot3.Play();
+                break;
+        }
+    }
 
     private void FixedUpdate()
     {

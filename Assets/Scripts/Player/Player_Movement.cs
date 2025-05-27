@@ -30,6 +30,9 @@ public class Player_Movement : MonoBehaviour
     private int projectileLayer = 7;
     private int nonCollidableLayer = 12;
 
+    // 🎵 Walking sound
+    public AudioSource walkingAudioSource;
+
     void Start()
     {
         healthScript = GetComponent<NewBehaviourScript>();
@@ -58,6 +61,8 @@ public class Player_Movement : MonoBehaviour
             transform.rotation = Quaternion.Euler(0, 0, 0);
         else if (movement.x < 0f)
             transform.rotation = Quaternion.Euler(0, 180f, 0);
+
+        HandleWalkingSound();
     }
 
     void FixedUpdate()
@@ -106,5 +111,17 @@ public class Player_Movement : MonoBehaviour
 
         yield return new WaitForSeconds(dashcooldownbeforeotheruse);
         can_dash = true;
+    }
+
+    private void HandleWalkingSound()
+    {
+        if (movement.sqrMagnitude > 0 && !walkingAudioSource.isPlaying)
+        {
+            walkingAudioSource.Play();
+        }
+        else if (movement.sqrMagnitude == 0 && walkingAudioSource.isPlaying)
+        {
+            walkingAudioSource.Stop();
+        }
     }
 }
