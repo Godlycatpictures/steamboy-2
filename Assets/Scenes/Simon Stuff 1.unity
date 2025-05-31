@@ -833,6 +833,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4130206479724309888, guid: f3e2efb3f4ba00644978adbb5134effb, type: 3}
+      propertyPath: m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4130206479724309888, guid: f3e2efb3f4ba00644978adbb5134effb, type: 3}
+      propertyPath: m_Maskable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4130206479724309888, guid: f3e2efb3f4ba00644978adbb5134effb, type: 3}
+      propertyPath: m_PixelsPerUnitMultiplier
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5070271786936931224, guid: f3e2efb3f4ba00644978adbb5134effb, type: 3}
       propertyPath: m_Name
       value: pausmenu
