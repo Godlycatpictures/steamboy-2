@@ -168,7 +168,6 @@ MonoBehaviour:
   CorridorRoomTemplateSets: []
   DefaultIndividualRoomTemplates:
   - {fileID: 8665986835671369277, guid: 5def6361943d3084abfe4e2117412430, type: 3}
-  - {fileID: 4401683328594631290, guid: 145cbd4d9dedbd54e97b2058732a9c8a, type: 3}
   - {fileID: 230591465853827643, guid: c2c13ff55f478cd4184d402d7460a856, type: 3}
   - {fileID: 3049384095414064281, guid: c17d78bcc13920644902e52b8fccf9e6, type: 3}
   - {fileID: 3659063162871070734, guid: f11e0ebe1d5f1334596094ec990fccf2, type: 3}
