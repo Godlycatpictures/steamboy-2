@@ -49,4 +49,23 @@ public class MainMenu : MonoBehaviour
     public void QuitGame() {
         Application.Quit();
     }
+
+    public void GoreToggle(){
+        if(sceneInfo.gore) 
+        {
+            sceneInfo.gore = false;
+        }else 
+        {
+        sceneInfo.gore = true;
+        }
+    }
+    public void ScreenShakeToggle(){
+        if(sceneInfo.screenShake) 
+        {
+            sceneInfo.screenShake = false;
+        }else
+        {
+        sceneInfo.screenShake = true;
+        }
+    }
 }
